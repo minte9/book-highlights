@@ -36,6 +36,7 @@ console.log('\n'.repeat(25) + sep + '\n' + ' '.repeat(2)
     + chalk.redBright(book.title)
     + '\n' + sep
 );
+
 console.log(''
     + chalk.bgGrey.black(start)
     + chalk.bgYellowBright.black(highlighted)
