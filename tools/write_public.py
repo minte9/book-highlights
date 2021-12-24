@@ -1,4 +1,4 @@
-"""Copy public_html/
+"""Copy public_html/ to localhost www/
 """
 import pathlib, shutil
 import configparser
