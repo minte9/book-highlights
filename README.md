@@ -1,6 +1,7 @@
 # Book Highlights
 
 Add screnshots images to files_archive/screenshots
+
 Extract hightlighted text from images then run the update script.
 
 ~~~python
