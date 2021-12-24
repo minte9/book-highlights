@@ -13,7 +13,7 @@ $ python update.py
 ## Output
 
 - Run the program from console / [index.js](https://github.com/minte9/book-highlights/blob/main/index.js)
-- Run the program from browser (public_html/)
+- Run the program from browser / [index.htm](https://github.com/minte9/book-highlights/blob/main/public_html/index.htm)
 
 ~~~sh
 $ node index.js
