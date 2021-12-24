@@ -2,7 +2,7 @@
 
 - Add screnshots images to files_archive/screenshots/
 - Run the update.py script to extract hightlighted text from screenshots
-- Run the program from console (node) OR browser (public_html)
+- Run the program from console (node) or browser (public_html)
 
 ~~~python
 python update.py
