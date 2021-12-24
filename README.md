@@ -20,7 +20,7 @@ node index.js
 ## Features
 - Image to text
 - Random hightlights
-- Spaced repetition (to do)
+- Spaced repetition - to do
 
 
 See it on action on [minte9.com](https://www.minte9.com)
