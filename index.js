@@ -21,9 +21,6 @@ const author = AUTHORS.filter(x => x.name == HIGHLIGHTS[0].name)[0];
 HIGHLIGHTS = HIGHLIGHTS[0].children;
 const j = Math.floor(rand * HIGHLIGHTS.length);
 const highlight = HIGHLIGHTS[j];
-highlight.name = highlight.name.replace("\.txt", "");
-highlight.name = highlight.name.replace('_', ') ') // only first
-highlight.name = highlight.name.replace(/_/g, ' ')
 
 highlight.text = ' '.repeat(2) + highlight.text; 
 highlight.text = highlight.text.replace(/\n/g, (' '.repeat(2) + '\n') + ' '.repeat(2));
