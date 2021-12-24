@@ -1,6 +1,6 @@
 # Book Highlights
 
-Highlights archive from user's screenshots.
+Highlights archive from user's screenshots. View sample [here](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots_sample)
 
 ## Usage
 - Save the image to screenshots/ archive directory
