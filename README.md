@@ -15,6 +15,5 @@ node index.js
 
 ![02.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)
 
-![m9_01.png](https://www.minte9.com/lib/images/github/book-highlights/m9_01.png)
 
 See it on action on https://www.minte9.com
