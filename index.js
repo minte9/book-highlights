@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Get random quote image:
+ * Get random book highlight: 
  * 
  * $ node index.js
  * $ chmod +x ./index.js
