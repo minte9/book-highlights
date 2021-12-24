@@ -8,11 +8,11 @@ The program creates a .txt highlights archive from user screenshots.
 - Run the program from console
 
 ~~~js
-./update.py
+python update.py
 ~~~
 
 ~~~js
-./index.js
+node index.js
 ~~~
 
 ![02.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)
