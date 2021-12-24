@@ -1,5 +1,4 @@
 """Copy public_html/
-TODO: add git ignore
 """
 import pathlib, shutil
 import configparser
