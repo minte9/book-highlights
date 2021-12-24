@@ -4,7 +4,7 @@
 - Run the update.py script to extract hightlighted text from screenshots
 - Run the program from console.
 - Run the program from browser (public_html/index.htm)
-- 
+
 ~~~js
 python update.py
 ~~~
