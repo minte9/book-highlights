@@ -4,7 +4,7 @@ Highlights archive from user's screenshots.
 
 ## Usage
 - Save the image to screenshots/ [archive](https://github.com/minte9/book-highlights/tree/main/files_archive) directory.
-- Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script
+- Run the update script
 
 ~~~js
 $ python update.py
