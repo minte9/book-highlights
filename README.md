@@ -14,6 +14,10 @@ node index.js
 
 ![01.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_01.png)
 
+~~~javascript
+node index.js
+~~~
+
 ![02.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)
 
 
