@@ -12,7 +12,7 @@ $ python update.py
 
 ## Output
 
-- Run the program from console (index.js)
+- Run the program from console / [index.js](https://github.com/minte9/book-highlights/blob/main/index.js)
 - Run the program from browser (public_html/)
 
 ~~~sh
