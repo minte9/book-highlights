@@ -35,7 +35,7 @@ console.log('\n'.repeat(25) + sep + '\n' + ' '.repeat(2)
     + chalk.greenBright(author.name + ', ')
     + chalk.redBright(book.title)
     + '\n' + sep
-    + '\n' +
+    + '\n'
     + chalk.bgGrey.black(start)
     + chalk.bgYellowBright.black(highlighted)
     + chalk.bgGrey.black(end)
