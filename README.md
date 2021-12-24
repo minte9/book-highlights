@@ -18,6 +18,10 @@ $ node index.js
 
 ![02.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)
 
+~~~sh
+$ google-chrome public_html/index.htm 
+~~~
+
 ![04.png](https://www.minte9.com/lib/images/github/book-highlights/bh-04.png)
 
 ## Features
