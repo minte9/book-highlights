@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Jamie Zawinski",
+        "tags": "Netscape Navigator, Mozzila",
+        "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski"
+    },
+    {
+        "name": "Brad Fitzpatrick",
+        "tags": "LiveJournal, Memcached, Google",
+        "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick"
+    },
+    {
+        "name": "Chad Fowler",
+        "tags": "My Job Went to India",
+        "wiki": "https://www.linkedin.com/in/fowlerchad"
+    }
+]

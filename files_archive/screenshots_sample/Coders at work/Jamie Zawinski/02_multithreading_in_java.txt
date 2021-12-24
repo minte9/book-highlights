@@ -1,0 +1,6 @@
+where it was writing some big file. <i>We took really
+good advantage of multithreading in Java, which
+was less painful than I had expected it to be. It was
+just really pleasant to work on.</i> From the API we
+had designed we saw all these directions it could
+grow.

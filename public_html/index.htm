@@ -1,0 +1,51 @@
+<head></head>
+<script>    
+    const asset_version = "v1.4.0";
+
+    JQUERY = window.location.href.includes("file://") ?
+        './libraries/jquery.min.js' : '/lib/js/jquery.min.js'
+    ;
+    APP_DIR = window.location.href.includes("file://") ? 
+        './' : '/lib/js/minte9/book-highlights/public_html/'
+    ;
+    
+    function load(url, callback) {
+
+        let script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = url;
+
+        script.onreadystatechange = callback;
+        script.onload = callback;
+
+        let head = document.getElementsByTagName("head")[0];
+        head.appendChild(script);
+    } 
+
+    load(JQUERY, function() {
+        load(APP_DIR + 'libraries/seedrandom.min.js');
+        load(APP_DIR + 'data/highlights.js?' + asset_version);
+        load(APP_DIR + 'utils/update_gui.js?' + asset_version);
+    });
+
+</script>
+
+<style>
+    #bh-m9 { border: 1px solid #ccc; width: 430px; cursor: pointer; padding: 25px 20px 20px 20px; }
+    #bh-m9-next {color: #ffb366; font-size: 40px; float: right; line-height: 10px;}
+    #bh-m9-author { color: #333; }
+    #bh-m9-book { color: #888; }
+    #bh-m9-text { clear: both; text-align: justify; font-size: 16px; line-height: 24px; }
+    #bh-m9-text i { background-color: #FFF48B; font-style: normal;}
+</style>
+
+<div id='bh-m9'>
+    <span id='bh-m9-next' title='Next random Quote'> ➟ </span>
+    <a id='bh-m9-wiki' target='_blank'>
+        <span id='bh-m9-author'></span>
+    </a><br>
+    <a id='bh-m9-reference' target='_blank'>
+        <span id='bh-m9-book'></span>
+    </a><br><br>
+    <span id='bh-m9-text'></span>
+</div>
