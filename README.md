@@ -1,6 +1,6 @@
 # Book Highlights
 
-Add screnshots images to files_archive/screenshots
+Add screnshots images to files_archive/screenshots/
 
 Extract hightlighted text from images then run the update script.
 
@@ -14,4 +14,7 @@ Run program from console or public_html/index.html
 node index.js
 ~~~
 
-![book highlight](https://www.minte9.com/lib/images/github/book-highlights/highlight_01.png)
+
+![01.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_01.png)
+
+![02.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)
