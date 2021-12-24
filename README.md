@@ -1,6 +1,6 @@
 # Book Highlights
 
-Creates a .txt highlights archive from user's screenshots.
+Highlights archive from user's screenshots.
 
 ## Usage
 - Save the image to screenshots/ archive directory
