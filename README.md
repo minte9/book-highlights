@@ -5,7 +5,7 @@ The program creates a .txt highlights archive from user screenshots.
 ## Usage
 - Save the image to screenshots/ archive directory
 - Run the update script
-- - Run the program from console
+- Run the program from console
 
 ~~~js
 python update.py
