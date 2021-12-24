@@ -19,11 +19,11 @@ $ python update.py
 $ node index.js
 ~~~
 
+[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
+
 ~~~js
 $ google-chrome public_html/index.htm 
 ~~~
-
-[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/bh-04.png)](https://www.minte9.com)
 
