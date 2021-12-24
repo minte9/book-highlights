@@ -1,5 +1,13 @@
 # Book Highlights
 
+Add screnshots images to files_archive/screenshots
+
+~~~python
+python update.py
+~~~
+
+Run program from console or public_html/index.html
+
 ~~~javascript
 node index.js
 ~~~
