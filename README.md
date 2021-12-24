@@ -7,7 +7,7 @@ Highlights archive from user's screenshots.
 - Run the update script
 
 ~~~js
-python update.py
+$ python update.py
 ~~~
 
 ## Output
@@ -16,11 +16,11 @@ python update.py
 - Run the program from browser (public_html/)
 
 ~~~js
-node index.js
+$ node index.js
 ~~~
 
 ~~~js
-google-chrome public_html/index.htm 
+$ google-chrome public_html/index.htm 
 ~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
