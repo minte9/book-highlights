@@ -19,7 +19,7 @@ node index.js
 
 ## Features
 - Image to text
-- Random hightlights
+- Random books hightlights
 - Spaced repetition ... to do
 
 
