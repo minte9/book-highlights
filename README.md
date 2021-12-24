@@ -1,9 +1,8 @@
 # Book Highlights
 
-- Add screnshots images to files_archive/screenshots/
-- Run the update.py script (extracts hightlighted text from images)
-- Run the program from console with node
-- Run the program in browser from public_html/
+- Add screnshots images - files_archive/screenshots/
+- Run the update.py script - extracts hightlighted text from screenshots
+- Run the program from console (node) OR browser (public_html)
 
 ~~~python
 python update.py
