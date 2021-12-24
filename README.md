@@ -9,26 +9,19 @@ Highlights .txt archive from user's screenshots.
 - Run the program from browser (public_html/)
 
 ~~~js
-$ python update.py
+python update.py
 ~~~
 
 ~~~js
-$ node index.js
+node index.js
+~~~
+
+~~~js
+google-chrome public_html/index.htm 
 ~~~
 
 ![02.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)
 
-~~~sh
-$ google-chrome public_html/index.htm 
-~~~
-
 ![04.png](https://www.minte9.com/lib/images/github/book-highlights/bh-04.png)
-
-## Features
-- Image to text
-- Random books hightlights
-- Spaced repetition ... to do
-##
-
 
 See it on action on [minte9.com](https://www.minte9.com)
