@@ -17,5 +17,5 @@ try:
     shutil.copytree(DIR / SRC, DST, dirs_exist_ok=True)
     print('Done')
 except:
-    print('\nError: public_html/ not found on your local system') 
+    print('\nError: public_html/ not found on your local system')
     print('Change config.ini settings')
