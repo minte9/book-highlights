@@ -16,4 +16,4 @@ node index.js
 ![02.png](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)
 
 
-See it on action on [Book Highlights](https://www.minte9.com)
+See it on action on [minte9.com](https://www.minte9.com)
