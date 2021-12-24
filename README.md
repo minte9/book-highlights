@@ -5,12 +5,15 @@ Highlights archive from user's screenshots.
 ## Usage
 - Save the image to screenshots/ archive directory
 - Run the update script
-- Run the program from console (index.js)
-- Run the program from browser (public_html/)
 
 ~~~js
 python update.py
 ~~~
+
+## Output
+
+- Run the program from console (index.js)
+- Run the program from browser (public_html/)
 
 ~~~js
 node index.js
@@ -19,8 +22,6 @@ node index.js
 ~~~js
 google-chrome public_html/index.htm 
 ~~~
-
-## Output
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
