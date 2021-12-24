@@ -1,11 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Get random book highlight: 
- * 
- * $ node index.js
- * $ chmod +x ./index.js
- * $ ./index.js
+ * Get one random book highlight
  */
 chalk = require('chalk');
 
