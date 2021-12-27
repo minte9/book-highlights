@@ -47,7 +47,8 @@ function update_gui() {
 
 	let title = obj.highlight.name.split('.txt')[0];
 	title = title.replace(/_/g, ' ');
-	title = title.replace(/\d/g, ' ');
+	title = title.replace(/\d/g, '').trim();
+	title = title.charAt(0).toUpperCase() + title.slice(1);
 
 	$('#bh-m9-text').html(obj.highlight.text);
 	$('#bh-m9-wiki').attr({'href': obj.author.wiki, 'title': obj.author.tags});
