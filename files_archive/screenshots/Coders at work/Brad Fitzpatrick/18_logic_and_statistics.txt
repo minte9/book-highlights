@@ -1,0 +1,6 @@
+Fitzpatrick: You don't need that much math. <i>For
+most programmers, day to day, statistics is a lot
+more important.</i> If you're doing graphics stuff,
+math is a lot more important but most people
+doing Java enterprise stuff or web stuff, it's not.
+Logic helps and statistics comes up a lot.

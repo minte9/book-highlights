@@ -1,0 +1,7 @@
+having worked at Google with really strict style
+guidelines in all languages. <i>On our top six or seven
+languages, there's a really strict style guide that
+says</i>, “This is how we lay out our code. This is how
+we name variables. This is how we do spacing and
+indentation, and these patterns and conventions
+you use, and this is how you declare a static field.”

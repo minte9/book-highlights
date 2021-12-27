@@ -1,0 +1,7 @@
+only display plain text. <i>They were being extremely
+academic about their project. <i>They were trying to
+approach it from the DOM/DTD side of things. “Oh,
+well, what we need to dois add another abstraction
+layer here and have a delegate for this delegate for
+this delegate.</i> And eventually a character will show
+up on the screen.”

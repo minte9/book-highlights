@@ -1,0 +1,6 @@
+you have to cut your losses. And this always feels
+wrong to me, <i>but when you inherit code from
+someone else, sometimes it's faster to write your
+own than to reuse theirs.</i> Because it's going to take
+acertain amount of time to understand their code
+and learn how to use it and understand it well

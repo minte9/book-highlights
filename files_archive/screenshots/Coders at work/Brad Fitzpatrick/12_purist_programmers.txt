@@ -1,0 +1,7 @@
+Some are purists. <i>They would just do abstraction
+on abstraction on abstractions. <i>They would go
+really slowly and are very religious about their
+style. They're like, “I'm an artisan programmer.”</i>
+And I was like, “Your code doesn't run. It's not
+efficient and it doesn't look like any of the other
+code that you're interacting with.”

@@ -1,0 +1,9 @@
+Other people I eventually figured out what
+motivated them. One guy was really good at
+tinkering and getting a prototype working. He
+wrote sysadmin Perl. <i>He could wire stuff together,
+write shell scripts, and write really bad Perl and
+really bad C, but kind of get it working.</i> Then we
+would be like, “Holy crap, you researched all this
+stuff, you got all these components talking to each
+other?”

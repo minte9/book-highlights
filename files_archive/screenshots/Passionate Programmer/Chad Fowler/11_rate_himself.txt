@@ -1,0 +1,7 @@
+I was looking for really good Java programmers. To
+start the interview. I asked this person (and all the
+others I had interviewed that week) to rate himself
+ona scale of one to ten. He said nine. I’m expecting
+a star here. <i>If this guy rates himself so high, why
+can’t he think of a single abusive programming
+trick that would cause a JVM to crash?</i>

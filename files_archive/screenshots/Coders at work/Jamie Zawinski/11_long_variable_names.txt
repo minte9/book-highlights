@@ -1,0 +1,5 @@
+<i>Long variable names. I'm not a fan of Hungarian
+notation, but I think using actual English words
+to describe things, except for loop iterators</i>, where
+it's obvious. Just as much verbosity as possible. I
+guess.

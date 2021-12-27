@@ -1,0 +1,8 @@
+<i>A lot of programmers have the instinct of, “You've
+got to present the error message!” No you don't.
+No one cares about that.</i> That sort of stuff is
+a lot easier to manage in languages like Java
+that actually have an exception system. Where,
+at the top loop of your idle state, you just catch
+everything and you're done. No need to bother the
+user with telling them that some value was zero.
