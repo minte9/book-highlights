@@ -115,10 +115,6 @@
                         "text": "The worst feature of JavaScript, without question,\nis its dependence on a global object. <i>It doesn't have\nlinkers, it doesn't have any kind of information\nhiding between compilation units.</i> It all gets\ndumped together into a common global object. So"
                     },
                     {
-                        "name": "04_equal_access.txt",
-                        "text": ""
-                    },
-                    {
                         "name": "05_easy_hack.txt",
                         "text": "anywhere. <i>So it's really easy for an evildoer to take\nsome script and put it in a URL, put it in a piece of\nstyle and put that in some HTML</i> and put that in\nanother script, and so on."
                     },
