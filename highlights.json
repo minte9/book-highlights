@@ -111,7 +111,7 @@
                         "text": "got frozen in 1999 and then should have gone\ninto neglect and died. <i>But instead, by accident,\nAjax happened and suddenly it's the world's most\nimportant programming language.</i>"
                     },
                     {
-                        "name": "03_worst_feature.txt",
+                        "name": "03_js_worst_feature.txt",
                         "text": "The worst feature of JavaScript, without question,\nis its dependence on a global object. <i>It doesn't have\nlinkers, it doesn't have any kind of information\nhiding between compilation units.</i> It all gets\ndumped together into a common global object. So"
                     },
                     {
@@ -121,6 +121,10 @@
                     {
                         "name": "06_mashups.txt",
                         "text": "take something from Yahoo! and something from\nGoogle and something of yours and something of\nsomeone else's and put them all together and make\nan application, and it's great. And it all happens\non the browser, right in front of your eyes. <i>Except\nthat each of those components has access to the\nsame stuff. So now we are intentionally creating\nXSS exploits.</i> And the browser's security model did\nnot anticipate any of this goodness and does not"
+                    },
+                    {
+                        "name": "07_ES4_efforts.txt",
+                        "text": "It's solving the problem that people hate\nJavaScript. <i>And I can appreciate Brendan Eich's\nposition there because he did some brilliant work\nbut he rushed it and he was mismanaged and so\nbad stuff got out.</i> And he's been cursed and vilified\nfor the last dozen years about how stupid he is and"
                     }
                 ]
             },
