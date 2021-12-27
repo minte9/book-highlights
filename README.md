@@ -16,6 +16,7 @@ $ python update.py
 - Run the program from browser / [index.htm](https://github.com/minte9/book-highlights/blob/main/public_html/index.htm)
 
 ~~~sh
+$ npm install chalk
 $ node index.js
 ~~~
 
