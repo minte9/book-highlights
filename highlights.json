@@ -213,6 +213,50 @@
                     {
                         "name": "28_js_refactoring.txt",
                         "text": "That's one of the things that I discovered I really\nlike about JavaScript. <i>Refactoring in JavaScript, 1\nfind, is really easy.</i> Whereas refactoring a deep\nclass hierarchy can be really, really painful."
+                    },
+                    {
+                        "name": "29_soft_objects.txt",
+                        "text": "Crockford: I've become a really big fan of soft\nobjects. <i>In JavaScript, any object is whatever you\nsay it is. That's alarming to people who come at\nit from a classical perspective</i> because without a\nclass, then what have you got? It turns out you\njust have what you need, and that's really useful."
+                    },
+                    {
+                        "name": "30_discipline.txt",
+                        "text": "good to be scared because it is scary and it is\nreal. It requires discipline</i>. <i>In most of the classical\nlanguages, the language is the thing imposing the\ndiscipline</i>. In JavaScript you have to bring your\nown discipline</i>."
+                    },
+                    {
+                        "name": "31_js_as_java.txt",
+                        "text": "I understand why people are frustrated with the\nlanguage. <i>If you try to write in JavaScript as\nthough it is Java, it'll keep biting you. I did this.</i>\nOne of the first things I did in the language was\nto figure out how to simulate something that\nlooked sort of like a Java class, but at the edges it\ndidn't work anything like it. And I would always\neventually get pushed up against those edges and\nget hurt."
+                    },
+                    {
+                        "name": "32_js_no_classes.txt",
+                        "text": "Eventually I figured out <i>I just don't need these\nclasses at all and then the language started\nworking for me.</i> Instead of fighting it. I found I was\nbeing empowered by it."
+                    },
+                    {
+                        "name": "33_js_tools.txt",
+                        "text": "There is much less need of formal tools like you\nhave in other languages. <i>The browser just wants a\nsource file, and so you send it a source file, and the\ncompiler is built into the browser, so there's really\nnothing to do</i>. You don't have a linker. You don't\nhave a compiler. You don't have any of that stuff. It\njust all runs on the browser."
+                    },
+                    {
+                        "name": "34_worst_bugs.txt",
+                        "text": "In my experience, <i>the worst bugs are the real-\ntime bugs, which have to do with interactions\nwith multiple threads.</i> My approach to those bugs\nis to avoid making them. So I don't like threads.</i>"
+                    },
+                    {
+                        "name": "35_browser_one_thread.txt",
+                        "text": "One of the things I like about the browser model is\nthat we only get one thread. <i>Some people complain\nabout that\u2014if you lock up that thread, then the\nbrowser's locked up</i>. So you just don't do that.\nThere are constantly calls for putting threads into\nJavaScript and so far we've resisted that. I'm really\nglad we have."
+                    },
+                    {
+                        "name": "36_google_gears.txt",
+                        "text": "where it breaks down is if you have some process\nthat takes too long. <i>I really like the approach that\nGoogle has taken in Gears to solving that, where\nthey have a separate process which is completely\nisolated that you can send a program to and it'll\nrun there.</i> When it's finished, it'll tell you the result\nand the result comes back as an event. That's a\nbrilliant model."
+                    },
+                    {
+                        "name": "37_json.txt",
+                        "text": "when XML was proposed as a data-interchange\nformat, my first impression of that was, \u201c<i>My god,\nthis is way, way, way too complicated. We don't\nneed all of this stuff just to move data back and\nforth</i>.\u201d And so I proposed another way to do it,\nand it won. JSON is now the preferred way of"
+                    },
+                    {
+                        "name": "38_programming_timeline.txt",
+                        "text": "Looking at where we've come on the timeline\nof programming</i>, <i>we started with machine codes\nand then we took a leap to symbolic assembly\nlanguage and then we took a leap to high-level\nlanguages and then we took a leap to structured\nprogramming</i> and then we took a leap to object-"
+                    },
+                    {
+                        "name": "39_underappreciated_technology.txt",
+                        "text": "Crockford: Lisp and Smalltalk, you've just\nmentioned. <i>That's brilliant stuff, and we're now\nfinally seeing those ideas being factored into\nmodern languages</i>, so we're doing a lot of work"
                     }
                 ]
             },
