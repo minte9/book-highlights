@@ -26,6 +26,11 @@ let authors =
         "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick"
     },
     {
+        "name": "Douglas Crockford",
+        "tags": "JavaScript, Json, Yahoo",
+        "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford"
+    },
+    {
         "name": "Chad Fowler",
         "tags": "My Job Went to India",
         "wiki": "https://www.linkedin.com/in/fowlerchad"
@@ -132,6 +137,35 @@ let highlights =
                     {
                         "name": "21_competing.txt",
                         "text": "stop and work on fun things on my own. <i>I don't\nfeel like I'm competing with anyone right now\nand I don't really care if other people are better\nbecause I feel like there are tons of people who are\nbetter already.</i> I figure we are always in the middle\nanyway, so I'm happy to stay in the middle."
+                    }
+                ]
+            },
+            {
+                "name": "Douglas Crockford",
+                "children": [
+                    {
+                        "name": "01_language_changes.txt",
+                        "text": "have the potential costs of disruption which, as\nyou become bigger, become unacceptable. <i>When\nyou're really successful, you need to be extremely\ncautious in any changes that you make.</i> Whereas\nif you haven't made it yet, you have a lot more\nfreedom in changing it around."
+                    },
+                    {
+                        "name": "02_ajax_accident.txt",
+                        "text": "got frozen in 1999 and then should have gone\ninto neglect and died. <i>But instead, by accident,\nAjax happened and suddenly it's the world's most\nimportant programming language.</i>"
+                    },
+                    {
+                        "name": "03_worst_feature.txt",
+                        "text": "The worst feature of JavaScript, without question,\nis its dependence on a global object. <i>It doesn't have\nlinkers, it doesn't have any kind of information\nhiding between compilation units.</i> It all gets\ndumped together into a common global object. So"
+                    },
+                    {
+                        "name": "04_equal_access.txt",
+                        "text": ""
+                    },
+                    {
+                        "name": "05_easy_hack.txt",
+                        "text": "anywhere. <i>So it's really easy for an evildoer to take\nsome script and put it in a URL, put it in a piece of\nstyle and put that in some HTML</i> and put that in\nanother script, and so on."
+                    },
+                    {
+                        "name": "06_mashups.txt",
+                        "text": "take something from Yahoo! and something from\nGoogle and something of yours and something of\nsomeone else's and put them all together and make\nan application, and it's great. And it all happens\non the browser, right in front of your eyes. <i>Except\nthat each of those components has access to the\nsame stuff. So now we are intentionally creating\nXSS exploits.</i> And the browser's security model did\nnot anticipate any of this goodness and does not"
                     }
                 ]
             },

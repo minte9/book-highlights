@@ -10,6 +10,11 @@
         "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick"
     },
     {
+        "name": "Douglas Crockford",
+        "tags": "JavaScript, Json, Yahoo",
+        "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford"
+    },
+    {
         "name": "Chad Fowler",
         "tags": "My Job Went to India",
         "wiki": "https://www.linkedin.com/in/fowlerchad"
