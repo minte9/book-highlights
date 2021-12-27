@@ -40,11 +40,12 @@ function get_rand(seed=true) {
 	// console.log(highlight.text);
 	// console.log("");
 
-	return { "book": book, "author": author, "highlight": highlight };
+	return { "book": book, "author": author, "highlight": highlight, "book_highlights": data.length };
 }
 
 function update_gui() {
 
+	let number = obj.highlight.name.split('_')[0];
 	let title = obj.highlight.name.split('.txt')[0];
 	title = title.replace(/_/g, ' ');
 	title = title.replace(/\d/g, '').trim();
@@ -53,7 +54,7 @@ function update_gui() {
 	$('#bh-m9-text').html(obj.highlight.text);
 	$('#bh-m9-wiki').attr({'href': obj.author.wiki, 'title': obj.author.tags});
 	$('#bh-m9-author').text(obj.author.name);
-	$('#bh-m9-title').text(title);
+	$('#bh-m9-title').text(number + " from " + obj.book_highlights + " ... " + title);
 	$('#bh-m9-reference').attr({'href': obj.book.link, title: obj.book.subtitle});
 	$('#bh-m9-book').text(' / ' + obj.book.title);
 }
