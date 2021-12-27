@@ -25,9 +25,7 @@
     load(JQUERY, function() {
         load(APP_DIR + 'libraries/seedrandom.min.js');
         load(APP_DIR + 'data/highlights.js?' + asset_version);
-        load(books, function() {
-            load(APP_DIR + 'utils/update_gui.js?' + asset_version);
-        });
+        load(APP_DIR + 'utils/update_gui.js?' + asset_version);
     });
 
 </script>
@@ -53,10 +51,12 @@
     </span>
     <a id='bh-m9-wiki' target='_blank'>
         <span id='bh-m9-author'></span>
-    </a><span id='bh-m9-title'></span><br>
+    </a>
     <a id='bh-m9-reference' target='_blank'>
         <span id='bh-m9-book'></span>
-    </a><br><br>
+    </a><br>
+    <span id='bh-m9-title'></span>
+    <br><br>
     <span id='bh-m9-text'></span>
     
 </div>

@@ -52,8 +52,8 @@ function update_gui() {
 
 	$('#bh-m9-text').html(obj.highlight.text);
 	$('#bh-m9-wiki').attr({'href': obj.author.wiki, 'title': obj.author.tags});
-	$('#bh-m9-author').text(obj.author.name);
-	$('#bh-m9-title').text(' / ' + title);
+	$('#bh-m9-author').text(obj.author.name + ', ');
+	$('#bh-m9-title').text(title);
 	$('#bh-m9-reference').attr({'href': obj.book.link, title: obj.book.subtitle});
 	$('#bh-m9-book').text(obj.book.title);
 }
