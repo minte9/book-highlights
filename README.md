@@ -36,12 +36,8 @@ $ google-chrome public_html/index.htm
 
 ~~~sh
 $ python update.py
-~~~
-
-~~~sh
 $ node index.js
 ~~~
-
-[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_01.png)](https://www.minte9.com)
+##
 
 See it on action on [minte9.com](https://www.minte9.com)
