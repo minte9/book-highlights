@@ -244,10 +244,6 @@ let highlights =
                         "text": "that I couldn't program anymore because I just\ncouldn't keep enough stuff in my head. <i>A lot\nof programming is you keep stuff in your head\nuntil you can get it written down and structured\nproperly.</i> And I just couldn't do it."
                     },
                     {
-                        "name": "26_memory_dependant.txt",
-                        "text": ""
-                    },
-                    {
                         "name": "27_flexibility.txt",
                         "text": "You can't anticipate everything that's going to\nbe done with it <i>but you try to build in enough\nflexibility that it's likely to adapt to whatever\nyou're going to do</i>. So that's what I'm thinking.\nHow do I not write myself into a corner too much?"
                     },
