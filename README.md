@@ -10,7 +10,6 @@ Highlights archive from user's screenshots.
 $ git clone https://github.com/minte9/book-highlights.git
 $ cd book-highlights/
 $ node install chalk
-$ node index.js
 ~~~
 
 ## Usage
