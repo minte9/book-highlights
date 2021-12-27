@@ -3,7 +3,7 @@
 Highlights archive from user's screenshots.
 
 ## Usage
-- Install [chalk](https://github.com/chalk/chalk) node package
+- Install dependencies, see [package.json](https://github.com/minte9/book-highlights/blob/main/package-lock.json)
 
 ~~~sh
 $ npm install chalk
