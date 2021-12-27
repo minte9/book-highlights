@@ -23,9 +23,11 @@
     }
 
     load(JQUERY, function() {
-        load(APP_DIR + 'libraries/seedrandom.min.js');
         load(APP_DIR + 'data/highlights.js?' + asset_version);
-        load(APP_DIR + 'utils/update_gui.js?' + asset_version);
+        load(books, function() {
+            load(APP_DIR + 'libraries/seedrandom.min.js');
+            load(APP_DIR + 'utils/update_gui.js?' + asset_version);
+        }
     });
 
 </script>
