@@ -257,6 +257,22 @@
                     {
                         "name": "39_underappreciated_technology.txt",
                         "text": "Crockford: Lisp and Smalltalk, you've just\nmentioned. <i>That's brilliant stuff, and we're now\nfinally seeing those ideas being factored into\nmodern languages</i>, so we're doing a lot of work"
+                    },
+                    {
+                        "name": "40_the_next_leap.txt",
+                        "text": "I think the next leap, we don't know what the\nname of it is yet, but I think it's <i>something related\nto mash-ups where we can casually take bits of\nprogram and put them together</i> and immediately\nmake new programs. We've been talking for\ndecades about a model of programming in which"
+                    },
+                    {
+                        "name": "41_lego_mashup.txt",
+                        "text": "we snapped programs together like LEGO and\nmake stuff. <i>That hasn't happened yet. But I think\nit is starting to happen now and the place it's\nhappening is in JavaScript</i>, which is the least likely\nplace."
+                    },
+                    {
+                        "name": "42_hiring.txt",
+                        "text": "Crockford: I'm looking for quality of presentation.\n<i>I want to see what he thinks is something he's\nproud of. <i>I want to see evidence that in fact he is\nthe author of the thing that he's defending.</i> I find\nthat is much more effective than asking them to\nsolve puzzles or trivia questions. I see all that kind\nof stuff as useless. But how effectively they can\ncommunicate, that's a skill that I'm hiring for."
+                    },
+                    {
+                        "name": "43_generalists.txt",
+                        "text": "not much else you can do. I tend not to look\nfor that kind of overspecialization unless I have a\nreally specific niche. Generally. <i>I prefer generalists.\nI want someone who's capable of learning any of\nthose APIs but isn't necessarily skilled</i> in any one."
                     }
                 ]
             },
