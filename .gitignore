@@ -1,2 +1,3 @@
 node_modules/
-file_archive/screenshots/
+file_archive/screenshots/*
+file_archive/_screenshots/*
