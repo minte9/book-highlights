@@ -222,6 +222,38 @@ let highlights =
                     {
                         "name": "20_continue.txt",
                         "text": "It makes certain kinds of complicated structures\neasier to write. But I found that I can always\nimprove the structure if I can find a way to factor\nit out. <i>So as part of my personal discipline. I don't\nuse continue ever.</i> If I see a continue in my"
+                    },
+                    {
+                        "name": "21_good_code.txt",
+                        "text": "it's really difficult to write good code in a sloppy\nmanner. <i>By good code. I mean it's going to be\nreadable. At one level, it doesn't matter what it\ndoes to a machine if I can't figure out what it does</i>,\nso it might turn out that the code is amazing in\nterms of its efficiency, or its compactness, or some\nother metric which I don't care about."
+                    },
+                    {
+                        "name": "22_rewrite.txt",
+                        "text": "time. Management finds out a lot later. <i>The team is\ngetting beat up pretty regularly, making too many\nbugs; the code's too big, it's too slow; we're falling\nbehind. They know why.</i> It's not because they\nbecame stupider or lazier. It's because the code\nbase is no longer serving the purpose that it needs"
+                    },
+                    {
+                        "name": "23_second_system.txt",
+                        "text": "The fallacy is that it's going to take that amount\nof time again, though there are counterexamples.\n<i>You've got the second-system problem where\npeople who've had some success are given a blank\nslate and allowed to do whatever they want.</i>\nGenerally, they will fail because they'll be too\nambitious, they won't understand the limits. And"
+                    },
+                    {
+                        "name": "24_compatibility_problems.txt",
+                        "text": "Those sort of specification errors are really, really\nhard. And we have them in the Ajax world. <i>Most\nof our problems in the Ajax world are due to the\ndifferences at the browser level. Doing the cross-\nbrowser stuff is much harder than it should be</i>\nbecause the Web is not specified well and because\nthe implementations are so variable."
+                    },
+                    {
+                        "name": "25_all_in_your_head.txt",
+                        "text": "that I couldn't program anymore because I just\ncouldn't keep enough stuff in my head. <i>A lot\nof programming is you keep stuff in your head\nuntil you can get it written down and structured\nproperly.</i> And I just couldn't do it."
+                    },
+                    {
+                        "name": "26_memory_dependant.txt",
+                        "text": ""
+                    },
+                    {
+                        "name": "27_flexibility.txt",
+                        "text": "You can't anticipate everything that's going to\nbe done with it <i>but you try to build in enough\nflexibility that it's likely to adapt to whatever\nyou're going to do</i>. So that's what I'm thinking.\nHow do I not write myself into a corner too much?"
+                    },
+                    {
+                        "name": "28_js_refactoring.txt",
+                        "text": "That's one of the things that I discovered I really\nlike about JavaScript. <i>Refactoring in JavaScript, 1\nfind, is really easy.</i> Whereas refactoring a deep\nclass hierarchy can be really, really painful."
                     }
                 ]
             },
