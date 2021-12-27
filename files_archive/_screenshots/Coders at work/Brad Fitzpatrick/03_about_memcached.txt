@@ -1,7 +1,0 @@
-memcached until like right after college, right
-when I moved out. <i>I remember coming up with
-the idea. I was in my shower one day. The site
-was melting down and I was showering and then
-I realized we had all this free memory all over the
-place.</i> I whipped up a prototype that night, wrote
-the server in Perl and the client in Perl, and the

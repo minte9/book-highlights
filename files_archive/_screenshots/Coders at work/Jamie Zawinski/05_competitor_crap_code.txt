@@ -1,4 +1,0 @@
-Your competitor's six-month 1.0 has crap code and
-<i>they're going to have to rewrite it in two years but</i>,
-guess what: they can rewrite it because you don't
-have ajob anymore.

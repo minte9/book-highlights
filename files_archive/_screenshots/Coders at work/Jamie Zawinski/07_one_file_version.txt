@@ -1,7 +1,0 @@
-<i>When I'm just writing the first version of the
-program. I tend to put everything in one file.
-And then I start seeing structure in that file.</i>
-Like there's this block of things that are pretty
-similar. That's a thousand lines now, so why don't
-I move that into another file. And the API sort of
-builds up organically that way. The design process

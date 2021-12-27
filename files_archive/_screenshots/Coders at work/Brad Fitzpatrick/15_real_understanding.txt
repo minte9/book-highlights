@@ -1,7 +1,0 @@
-someone could teach you something and you're
-like, <i>“Yeah, yeah, sure. I understand.” You delude
-yourself but once you actually have to get down
-and do it at a real level and understand all the
-corner cases, it forces you to actually learn the
-thing.</i> But I don't know if that would work for
-everyone.

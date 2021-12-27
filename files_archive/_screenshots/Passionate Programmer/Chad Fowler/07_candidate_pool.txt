@@ -1,5 +1,0 @@
-<i>The addition of Smalltalk to the requirements list
-yielded a candidate pool that was tiny in contrast
-to our previous list.</i> These people were diamonds
-in the rough. They really understood object-
-oriented programming. They were aware that Java

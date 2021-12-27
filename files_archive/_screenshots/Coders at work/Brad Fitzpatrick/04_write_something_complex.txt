@@ -1,7 +1,0 @@
-Fitzpatrick: Oh, yeah. I definitely try to find an
-excuse to use anything, to learn it. <i>Because you
-never learn something until you have to write
-something in it, until you have to live and breathe
-it.</i> It's one thing to go learn a language for fun, but
-until you write some big, complex system in it, you
-don't really learn it.

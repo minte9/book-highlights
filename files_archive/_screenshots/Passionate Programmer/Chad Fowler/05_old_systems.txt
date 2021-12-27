@@ -1,6 +1,0 @@
-systems are replaced in stages. <i>In those stages,
-the old systems have to talk to the new systems.
-Someone has to know how to make the new speak
-to the old, and vice versa.</i> Typically, the young
-tykes don’t know (or want to know) how to make
-the old systems listen. Nor do the crusty old

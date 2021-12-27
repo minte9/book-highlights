@@ -1,8 +1,0 @@
-I think one of the most important things, for
-me anyway, <i>when building something from the
-ground up like that is, as quickly as possible,
-getting the program to a state that you, the
-programmer, can use it. Even a little bit.</i> Because
-that tells you where to go next in a really visceral
-way. Once the thing's on the screen and you've got
-the one button hooked up that does one thing, now

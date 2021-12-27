@@ -1,9 +1,0 @@
-This is the kind of specialist who will survive
-in the changing computer industry. If you're
-a .NET specialist, it’s not just an excuse for not
-knowing anything except .NET. <i>It means that if
-it has to do with .NET, you are the authority. IIS
-servers hanging and needing to be rebooted? “No
-problem.” Source control integration with Visual
-Studio .NET? “I’ll show you how.”</i> Customers
-threatening to pull the plug because of obscure

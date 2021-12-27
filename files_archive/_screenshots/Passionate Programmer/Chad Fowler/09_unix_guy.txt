@@ -1,4 +1,0 @@
-<i>Another artificial (and inexcusable) line gets
-drawn around platforms or operating systems.</i>
-Being a UNIX Guy who refuses to do Windows
-is increasingly more impractical. The same goes
