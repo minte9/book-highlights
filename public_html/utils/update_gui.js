@@ -6,8 +6,6 @@
 
 	seenHighlights = [];
 	authorHighlightsLeft = 0;
-	bookIndex = 0;
-	authorIndex = 0;
 
 	obj = get_rand();
 	update_gui();
@@ -19,18 +17,6 @@
 });
 
 function get_rand(seed=true) {
-
-	// let rand = Math.random();
-	// let book_index = Math.floor(rand * books.length);
-	//book = books[book_index];
-
-	// if (seed) { // seeded book - one per day, first page
-	// 	const date = new Date();
-	// 	const today = date.getFullYear() + "" + (date.getMonth() + 1) + "" + date.getDay();
-	// 	let myrng = new Math.seedrandom(today);
-	// 	rand = myrng.quick();
-	// 	book = books[Math.floor(rand * books.length)];
-	// }
 
 	const date = new Date();
 	const today = date.getFullYear() + "" + (date.getMonth() + 1) + "" + date.getDay();
@@ -47,7 +33,6 @@ function get_rand(seed=true) {
 
 	data = data[rand_a].children;
 	data = data.filter(x => ! seenHighlights.includes(x.name));
-	// console.log(author.name + ': ' + data.length + ' left');
 
 	if (data.length == 0 ) { // no more left
 		return; 
@@ -55,7 +40,6 @@ function get_rand(seed=true) {
 
 	let highlight_index = Math.floor(rand * data.length)
 	let highlight = data[highlight_index];
-	// console.log("index: " + highlight_index);
 
 	highlights.forEach(v => {
 		v.children.forEach(vv => {
@@ -63,19 +47,10 @@ function get_rand(seed=true) {
 				if (vvv.name ==  highlight.name) {
 					seenHighlights.push(vvv.name);
 					authorHighlightsLeft = data.length - 1;
-					// console.log(seenHighlights);
 				}
 			});
 		});
 	});
-
-	//for (const [k, v] of Object.entries(highlights)) {
-	//}
-
-	// console.log(book.title);
-	// console.log(author.name);
-	// console.log(highlight.text);
-	// console.log("");
 
 	return { "book": book, "author": author, "highlight": highlight, "book_highlights": data.length };
 }
