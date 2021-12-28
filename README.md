@@ -31,7 +31,7 @@ $ google-chrome public_html/index.htm
 
 ## Your archive
 
-- Save the image to screenshots/ [archive](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots/) directory.
+- Save the image to screenshots/ archive directory.
 - Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script
 
 ~~~sh
