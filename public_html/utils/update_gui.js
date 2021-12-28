@@ -35,11 +35,6 @@ function get_rand(seed=true) {
 	data = data[rand_a].children;
 	let highlight = data[Math.floor(rand * data.length)];
 
-	// console.log(book.title);
-	// console.log(author.name);
-	// console.log(highlight.text);
-	// console.log("");
-
 	return { "book": book, "author": author, "highlight": highlight, "book_highlights": data.length };
 }
 
