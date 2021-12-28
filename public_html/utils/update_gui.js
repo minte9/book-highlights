@@ -2,7 +2,7 @@
  * Get random highlight and ...
  * update GUI 
  */
-jQuery(function() {
+ jQuery(function() {
 
 	obj = get_rand();
 	update_gui();
