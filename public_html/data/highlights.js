@@ -16,21 +16,25 @@ let books =
 let authors = 
 [
     {
+        "title": "Coders at work",
         "name": "Jamie Zawinski",
         "tags": "Netscape Navigator, Mozzila",
         "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski"
     },
     {
+        "title": "Coders at work",
         "name": "Brad Fitzpatrick",
         "tags": "LiveJournal, Memcached, Google",
         "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick"
     },
     {
+        "title": "Coders at work",
         "name": "Douglas Crockford",
         "tags": "JavaScript, Json, Yahoo",
         "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford"
     },
     {
+        "title": "Passionate Programmer",
         "name": "Chad Fowler",
         "tags": "My Job Went to India",
         "wiki": "https://www.linkedin.com/in/fowlerchad"

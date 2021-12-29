@@ -1,16 +1,44 @@
 /**
- * Get random highlight and ...
- * update GUI 
+ * Get random highlight and update GUI 
  */
  jQuery(function() {
 
 	seenHighlights = [];
 	authorHighlightsLeft = 0;
+	book = null;
+	author = null;
+
+	books.forEach(book => {
+		authors.filter(x => x.title == book.title).forEach(author => {
+			$("#dropdown-menu-bh").append(`
+				<li><a class="dropdown-item" 
+						onClick="change_author('${book.title}', '${author.name}');">
+					${author.name} <font color='#888'> / ${book.title}</font>
+				</a></li>
+			`);
+		});
+		$("#dropdown-menu-bh").append(`
+			<li><hr class="dropdown-divider"></li>
+		`);		
+	});
+	
 
 	obj = get_rand();
 	update_gui();
 
-	$('#bh-m9').on('click', function() {
+	$('.dropdown-toggle').hover(function() {
+		$('#dropdown-menu-bh').addClass('show');
+	});
+
+	$('#dropdown-menu-bh').click(function() {
+		$('#dropdown-menu-bh').removeClass('show');
+	});
+
+	$('#dropdown-menu-bh').mouseleave(function() {
+		$('#dropdown-menu-bh').removeClass('show');
+	});
+
+	$('.text-bh, .next-bh').click(function() {
 		obj = get_rand(false);
 		update_gui();
 	});
@@ -23,15 +51,23 @@ function get_rand(seed=true) {
 	let myrng = new Math.seedrandom(today);
 	rand = myrng.quick();
 
-	let book = books[Math.floor(rand * books.length)];
+	let data = [];
 
-	let data = highlights.filter(x => x.name == book.title);
+	if (book == null) {
+		book = books[Math.floor(rand * books.length)];
+	}
+
+	data = highlights.filter(x => x.name == book.title);
 	data = data[0].children;
+	
+	if (author == null) {
+		let rand_author = Math.floor(rand * data.length);
+		author = authors.filter(x => x.name == data[rand_author].name)[0];
+	}
 
-	const rand_a = Math.floor(rand * data.length);
-	let author = authors.filter(x => x.name == data[rand_a].name)[0];
+	data = data.filter(x => x.name == author.name)[0];
+	data = data.children;
 
-	data = data[rand_a].children;
 	data = data.filter(x => ! seenHighlights.includes(x.name));
 
 	if (data.length == 0 ) { // no more left
@@ -64,11 +100,19 @@ function update_gui() {
 	title = title.replace(/\d/g, '').trim();
 	title = title.charAt(0).toUpperCase() + title.slice(1);
 
-	$('#bh-m9-text').html(obj.highlight.text);
-	$('#bh-m9-wiki').attr({'href': obj.author.wiki, 'title': obj.author.tags});
-	$('#bh-m9-author').text(obj.author.name);
-	$('#bh-m9-title').text(title + " ... ");
-	$('#bh-m9-more').text(authorHighlightsLeft);
-	$('#bh-m9-reference').attr({'href': obj.book.link, title: obj.book.subtitle});
-	$('#bh-m9-book').text(" / " + obj.book.title);
+	$('.text-bh').html(obj.highlight.text);
+	$('.wiki-bh').attr({'href': obj.author.wiki, 'title': obj.author.tags});
+	$('.author-bh').text(obj.author.name);
+	$('.title-bh').text(title + " ... ");
+	$('.more-bh').text(authorHighlightsLeft);
+	$('.reference-bh').attr({'href': obj.book.link, title: obj.book.subtitle});
+	$('.book-bh').text(" / " + obj.book.title);
+}
+
+function change_author(b, a) {
+
+	book = books.filter(x => x.title == b)[0];	
+	author = authors.filter(x => x.name == a)[0];
+	obj = get_rand(false);
+	update_gui();
 }
