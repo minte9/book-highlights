@@ -9,17 +9,17 @@
 	author = null;
 
 	books.forEach(book => {
+		$("#dropdown-menu-bh").append(`
+			<li><hr class="dropdown-divider"></li>
+		`);
 		authors.filter(x => x.title == book.title).forEach(author => {
 			$("#dropdown-menu-bh").append(`
 				<li><a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');">
-					${author.name} <font color='#888'> / ${book.title}</font>
+					${author.name}
 				</a></li>
 			`);
-		});
-		$("#dropdown-menu-bh").append(`
-			<li><hr class="dropdown-divider"></li>
-		`);		
+		});	
 	});
 	
 
