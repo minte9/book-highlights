@@ -1,6 +1,6 @@
 <head></head>
 <script>
-    const asset_version = "v1.0.5";
+    const asset_version = "v1.0.6";
 
     JQUERY = window.location.href.includes("file://") ?
         './libraries/jquery.min.js' : '/lib/js/jquery.min.js'
@@ -22,9 +22,10 @@
         head.appendChild(script);
     }
 
+    load(APP_DIR + 'data/highlights.js?' + asset_version);
+
     load(JQUERY, function() {
         load(APP_DIR + 'libraries/seedrandom.min.js');
-        load(APP_DIR + 'data/highlights.js?' + asset_version);
         load(APP_DIR + 'utils/update_gui.js?' + asset_version);
     });
 
