@@ -1,8 +1,8 @@
 <head></head>
 <script>
-    const asset_version = "v1.0.6";
+    const asset_version = "v1.0.7";
 
-    JQUERY = window.location.href.includes("file://") ?
+    JQUERY_URL = window.location.href.includes("file://") ?
         './libraries/jquery.min.js' : '/lib/js/jquery.min.js'
     ;
     APP_DIR = window.location.href.includes("file://") ?
@@ -22,10 +22,10 @@
         head.appendChild(script);
     }
 
+    load(APP_DIR + 'libraries/seedrandom.min.js');
     load(APP_DIR + 'data/highlights.js?' + asset_version);
 
-    load(JQUERY, function() {
-        load(APP_DIR + 'libraries/seedrandom.min.js');
+    load(JQUERY_URL, function() {
         load(APP_DIR + 'utils/update_gui.js?' + asset_version);
     });
 
@@ -54,7 +54,8 @@
     </a>
     <a id='bh-m9-reference' target='_blank'>
         <span id='bh-m9-book'></span>
-    </a><br>
+    </a>
+    <br>
     <span id='bh-m9-title'></span>
     <span id='bh-m9-more'></span>
     <span id='bh-m9-github'>
@@ -62,8 +63,6 @@
             <img src='https://www.minte9.com/lib/images/github/GitHub-Mark-Light-32px.png'>
         </a>
     </span>
-
     <br><br>
     <span id='bh-m9-text'></span>
-    
 </div>
