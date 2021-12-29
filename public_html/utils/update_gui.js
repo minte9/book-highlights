@@ -16,7 +16,7 @@
 			$("#dropdown-menu-bh").append(`
 				<li><a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');">
-					${author.name}
+					${author.name}<font color='#aaa'>, ${author.tags}</font>
 				</a></li>
 			`);
 		});	
