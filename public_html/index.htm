@@ -22,11 +22,10 @@
         head.appendChild(script);
     }
 
-    load(APP_DIR + 'libraries/seedrandom.min.js');
-    load(APP_DIR + 'data/highlights.js?' + asset_version);
-
+    load(APP_DIR + 'libraries/seedrandom.min.js'); // github.com/davidbau/seedrandom
+    load(APP_DIR + 'data/highlights.js?' + asset_version); // data db
     load(JQUERY_URL, function() {
-        load(APP_DIR + 'utils/update_gui.js?' + asset_version);
+        load(APP_DIR + 'utils/update_gui.js?' + asset_version); // gui display next item
     });
 
 </script>
