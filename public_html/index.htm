@@ -1,6 +1,8 @@
 <head></head>
 <script>
-    const asset_version = "v1.0.7";
+    const date = new Date();
+    const timestamp = date.getTime();
+    const asset_version = "v1.0.4_" + timestamp;
 
     JQUERY_URL = window.location.href.includes("file://") ?
         './libraries/jquery.min.js' : '/lib/js/jquery.min.js'
@@ -23,9 +25,10 @@
     }
 
     load(APP_DIR + 'libraries/seedrandom.min.js'); // github.com/davidbau/seedrandom
-    load(APP_DIR + 'data/highlights.js?' + asset_version); // data db
     load(JQUERY_URL, function() {
-        load(APP_DIR + 'utils/update_gui.js?' + asset_version); // gui display next item
+        load(APP_DIR + 'data/highlights.js?' + asset_version, function() {  // data db
+            load(APP_DIR + 'utils/update_gui.js?' + asset_version); // gui display next item
+        });
     });
 
 </script>
