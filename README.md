@@ -37,7 +37,8 @@ $ google-chrome public_html/index.htm
 
 ~~~sh
 $ python update.py
-
+~~~
+~~~sh
 $ node index.js
 $ $ google-chrome public_html/index.htm 
 ~~~
