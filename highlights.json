@@ -59,7 +59,7 @@
                     },
                     {
                         "name": "12_purist_programmers.txt",
-                        "text": "Some are purists. <i>They would just do abstraction\non abstraction on abstractions. <i>They would go\nreally slowly and are very religious about their\nstyle. They're like, \u201cI'm an artisan programmer.\u201d</i>\nAnd I was like, \u201cYour code doesn't run. It's not\nefficient and it doesn't look like any of the other\ncode that you're interacting with.\u201d"
+                        "text": "Some are purists. They would just do abstraction\non abstraction on abstractions. They would go\nreally slowly and are very religious about their\nstyle. <i>They're like, \u201cI'm an artisan programmer.\u201d\nAnd I was like, \u201cYour code doesn't run. It's not\nefficient and it doesn't look like any of the other\ncode</i> that you're interacting with.\u201d"
                     },
                     {
                         "name": "13_people_motivations.txt",
