@@ -110,12 +110,12 @@ function update_gui() {
 	$('.book-bh').text(" / " + obj.book.title);
 
 	$('.bi-person-circle').attr('data-bs-original-title', 
-		obj.author.name + ' (Author) <br>'+ obj.author.tags);
+		'Author/ <br>' + obj.author.name);
 	$('.bi-person-circle').parent().attr('href', obj.author.wiki);
 
-	$('.bi-cart2').attr('data-bs-original-title', 
-		'Buy Book/ <br>' + obj.book.title);
-	$('.bi-cart2').parent().attr('href', obj.book.link);
+	$('.bi-book').attr('data-bs-original-title', 
+		'Book/ <br>' + obj.book.title);
+	$('.bi-book').parent().attr('href', obj.book.link);
 
 	$('.bi-github').attr('data-bs-original-title', 
 		'Github/ <br>Book Highlights');
