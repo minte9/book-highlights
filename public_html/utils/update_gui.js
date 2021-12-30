@@ -11,6 +11,9 @@
 	tooltipList = null;
 	
 	books.forEach(book => {
+		$("#dropdown-menu-bh").append(`
+			<li><hr class="dropdown-divider"></li>
+		`);
 		authors.filter(x => x.title == book.title).forEach(author => {
 			$("#dropdown-menu-bh").append(`
 				<li><a class="dropdown-item" 
@@ -18,11 +21,7 @@
 					${author.name}<font color='#aaa'>, ${book.title}</font>
 				</a></li>
 			`);
-		});	
-
-		$("#dropdown-menu-bh").append(`
-			<li><hr class="dropdown-divider"></li>
-		`);
+		});			
 	});	
 	
 	enableTooltips();
