@@ -545,6 +545,58 @@ let highlights =
                     {
                         "name": "40_people_perception.txt",
                         "text": ""
+                    },
+                    {
+                        "name": "41_nontechnical.txt",
+                        "text": "perception is just practical. When you explicitly\ntake note of the factors that drive other people\u2019s\nperceptions of you, you more firmly discover how\nto make them happy customers. <i>You're not going\nto impress your nontechnical business client with\nyour object-oriented design skills.</i> You might be\na design genius, but if you can\u2019t communicate\neffectively and you don\u2019t manage to complete your\nwork on time, your customers will think you stink."
+                    },
+                    {
+                        "name": "42_perceptions_matter.txt",
+                        "text": "Perceptions really do matter. <i>They keep you\nemployed (or unemployed). They get you\npromoted or get you stuck in the same job for\nyears.</i> They give you raises or lowball you on\nsalary. The sooner you get over yourself and learn\nto manage perceptions, the sooner you'll be on the\nright track."
+                    },
+                    {
+                        "name": "43_afraid_of_you.txt",
+                        "text": "These managers and customers we're talking\nabout have a dirty little secret: <i>they are afraid\nof you. And for good reason. You're smart. You\nspeak a cryptic language they don\u2019t understand.</i>\nYou make them feel stupid with your sometimes\nsarcastic comments (which you might not have\neven intended to be sarcastic)."
+                    },
+                    {
+                        "name": "44_turn_the_table.txt",
+                        "text": "My advice is to reverse the relationship. <i>Instead\nof feeling like you are the computer genius,\ndescending from computer heaven to save your\npoor customer from purgatory, turn the tables\naround.</i> If you're, for example, working in the\ninsurance industry, think of your customer as a\nsubject matter expert in insurance from which you\nhave to learn in order to get your job done."
+                    },
+                    {
+                        "name": "45_what_benefit.txt",
+                        "text": "What would you say if your CEO asked you the\nsame question out of the blue? <i>Even given a few\nminutes to prepare, would you be able to explain\nthe business benefit of the tasks you are doing or\nthe tasks you had recently done?</i> Could you do it in\nwords that a totally nontechnical senior executive\ncould not only understand but also appreciate?"
+                    },
+                    {
+                        "name": "46_no_impact.txt",
+                        "text": "It\u2019s sad, but I don\u2019t know what most of the people\nI\u2019ve worked with in big-company IT have done.\n<i>People just don\u2019t think that way. They go to work,\ndo their assigned thing, and go home. There's\nno lasting impact</i>, other than the trail of code,\ndocuments, and e-mail they leave behind them."
+                    },
+                    {
+                        "name": "47_higher_sights.txt",
+                        "text": "Set your sights higher. <i>Don\u2019t think of yourself as\na programmer at a specific company\u2014after all, it\u2019s\nnot likely that you'll be at the same place forever\u2014\nbut as a participating member of an industry.</i> You\nare a craftsperson or an artist. You have something\nto share beyond the expense-reporting application"
+                    },
+                    {
+                        "name": "48_best_resume.txt",
+                        "text": "Companies want to hire experts. While a r\u00e9sum\u00e9\nwith a solid list of projects is a good way to\ndemonstrate experience, <i>nothing is better at a job\ninterview than for the interviewer to have already\nheard of you.</i> It\u2019s especially great if they\u2019ve heard of\nyou because they've read your articles or books or\nthey\u2019ve seen you speak at a conference. Wouldn't"
+                    },
+                    {
+                        "name": "49_viral_marketing.txt",
+                        "text": "marketing. <i>Viral marketing happens when an idea\nis remarkable enough that consumers spread it\nfrom one person to the next.</i> It spreads like a virus,\nwith each new infected consumer potentially\ninfecting many others."
+                    },
+                    {
+                        "name": "50_appreciated.txt",
+                        "text": "them. People like to be appreciated, and they like\nto talk about the topics they are passionate about.\n<i>The fact that they are the professional or the\nguru or the leader or the renowned author doesn\u2019t\nchange that they\u2019re human</i> and like to interact\nwith other humans."
+                    },
+                    {
+                        "name": "51_less_humility.txt",
+                        "text": "artists, and other craftspeople have stayed strong\nand evolved their respective artforms for years.\n<i>The gurus are the supernodes in the social and\nprofessional network.</i> All it takes to make the\nconnection is a little less humility."
+                    },
+                    {
+                        "name": "52_think_ahead.txt",
+                        "text": "probably behind on the next one. Timing being\neverything, <i>start thinking ahead with your study.\nWhat will be possible in two years that isn\u2019t\npossible now?</i> What if disk space were so cheap it\nwas practically free? What if processors were two\ntimes faster? What would we not have to worry\nabout optimizing for?"
+                    },
+                    {
+                        "name": "54_new_technologies.txt",
+                        "text": "Carve out weekly time to investigate the\nbleeding edge. <i>Make room for at least two\nhours each week in order to research new\ntechnologies</i> and to start to develop skills\nin them."
                     }
                 ]
             }
