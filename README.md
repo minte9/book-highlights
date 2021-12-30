@@ -27,7 +27,7 @@ $ node index.js
 $ google-chrome public_html/index.htm 
 ~~~
 
-[![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_02.png)](https://www.minte9.com)
+[![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_01.png)](https://www.minte9.com)
 
 ## Your archive
 
