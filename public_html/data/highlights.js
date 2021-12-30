@@ -537,6 +537,14 @@ let highlights =
                     {
                         "name": "38_never_get_done.txt",
                         "text": "The easiest way to never get anything done is\nto never commit to anything. <i>If you don\u2019t have\na deadline, you don\u2019t have any pressure or much\nincentive to finish something.</i> This is especially"
+                    },
+                    {
+                        "name": "39_nobody_knows.txt",
+                        "text": "As one manager told me recently, <i>if someone\ndoes something truly fantastic and nobody\nknows about it, in his eyes it didn\u2019t happen.\nIt may sound ruthless, but from a company\u2019s\nperspective it makes sense.</i> Pragmatically\nspeaking, managers don\u2019t have time to keep\nclose tabs on what each employee is doing every"
+                    },
+                    {
+                        "name": "40_people_perception.txt",
+                        "text": ""
                     }
                 ]
             }
