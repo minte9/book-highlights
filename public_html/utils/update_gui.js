@@ -7,21 +7,25 @@
 	authorHighlightsLeft = 0;
 	book = null;
 	author = null;
-
+	tooltipTriggerList = null;
+	tooltipList = null;
+	
 	books.forEach(book => {
-		$("#dropdown-menu-bh").append(`
-			<li><hr class="dropdown-divider"></li>
-		`);
 		authors.filter(x => x.title == book.title).forEach(author => {
 			$("#dropdown-menu-bh").append(`
 				<li><a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');">
-					${author.name}<font color='#aaa'>, ${author.tags}</font>
+					${author.name}<font color='#aaa'>, ${book.title}</font>
 				</a></li>
 			`);
 		});	
-	});
+
+		$("#dropdown-menu-bh").append(`
+			<li><hr class="dropdown-divider"></li>
+		`);
+	});	
 	
+	enableTooltips();
 
 	obj = get_rand();
 	update_gui();
@@ -101,12 +105,22 @@ function update_gui() {
 	title = title.charAt(0).toUpperCase() + title.slice(1);
 
 	$('.text-bh').html(obj.highlight.text);
-	$('.wiki-bh').attr({'href': obj.author.wiki, 'title': obj.author.tags});
 	$('.author-bh').text(obj.author.name);
 	$('.title-bh').text(title + " ... ");
 	$('.more-bh').text(authorHighlightsLeft);
-	$('.reference-bh').attr({'href': obj.book.link, title: obj.book.subtitle});
 	$('.book-bh').text(" / " + obj.book.title);
+
+	$('.bi-person-circle').attr('data-bs-original-title', 
+		obj.author.name + ' (Author) <br>'+ obj.author.tags);
+	$('.bi-person-circle').parent().attr('href', obj.author.wiki);
+
+	$('.bi-cart2').attr('data-bs-original-title', 
+		'Buy Book/ <br>' + obj.book.title);
+	$('.bi-cart2').parent().attr('href', obj.book.link);
+
+	$('.bi-github').attr('data-bs-original-title', 
+		'Github/ <br>Book Highlights');
+	$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
 }
 
 function change_author(b, a) {
@@ -115,4 +129,12 @@ function change_author(b, a) {
 	author = authors.filter(x => x.name == a)[0];
 	obj = get_rand(false);
 	update_gui();
+}
+
+function enableTooltips() { // Enable tooltips everywhere
+
+	tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		return new bootstrap.Tooltip(tooltipTriggerEl)
+	});
 }

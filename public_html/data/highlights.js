@@ -18,26 +18,26 @@ let authors =
     {
         "title": "Coders at work",
         "name": "Jamie Zawinski",
-        "tags": "Netscape, Mozilla",
+        "tags": "netscape, mozilla",
         "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski"
     },
     {
         "title": "Coders at work",
         "name": "Brad Fitzpatrick",
-        "tags": "LiveJournal, Memcached, Google",
+        "tags": "live journal, memcached, google",
         "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick"
     },
     {
         "title": "Coders at work",
         "name": "Douglas Crockford",
-        "tags": "JavaScript, Json, Yahoo",
+        "tags": "javaScript, json, yahoo",
         "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford"
     },
     {
         "title": "Passionate Programmer",
         "name": "Chad Fowler",
-        "tags": "My Job Went to India",
-        "wiki": "https://www.linkedin.com/in/fowlerchad"
+        "tags": "ruby and rails, jazz performer",
+        "wiki": "https://www.slush.org/person/chad-fowler/"
     }
 ]
 ;
