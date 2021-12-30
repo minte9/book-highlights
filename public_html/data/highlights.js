@@ -453,6 +453,66 @@ let highlights =
                     {
                         "name": "15_master_degree_notes.txt",
                         "text": "Within a few days of work, the truth started to\nsink in. <i>These people don\u2019t know what the hell they\u2019ve\ndoing! In fact, some people were watching me work\nand taking notes!</i> People with master\u2019s degrees in\ncomputer science!"
+                    },
+                    {
+                        "name": "16_try_to_teach.txt",
+                        "text": "If you want to really learn something, try teaching\nit to someone else. <i>There\u2019s no better way to\ncrystallize your understanding of something than\nto force yourself to express it to someone else</i>\nso that they can understand it. The simple act of"
+                    },
+                    {
+                        "name": "17_programming_practice.txt",
+                        "text": "Several years back. I started experimenting with\nprogramming exercises modeled after my musical\npractice sessions. <i>Rule number one was that the\nsoftware I was developing couldn't be something I\nwanted to use. I didn\u2019t want to cut corners, rushing\nto an end goal.</i> So, | wrote software that wasn\u2019t\nuseful."
+                    },
+                    {
+                        "name": "18_not_practice.txt",
+                        "text": "saxophone, if I sat down to practice and nothing\nbut pretty sounds came out. I\u2019d know I wasn\u2019t\npracticing. <i>Likewise, if I sit down to practice\ncoding and nothing but elegant code comes out,\nI\u2019m probably sitting somewhere near the center of\nmy current capabilities instead of the edges</i>, where\na good practice session should place me."
+                    },
+                    {
+                        "name": "19_powerful_libraries.txt",
+                        "text": "lists? Most modern programming languages offer\nrich and powerful libraries in all of these areas, <i>but\nsoftware developers tend to learn a small subset,\nwith which they can less efficiently write the same\ncode</i> they could have written if they had mastered\nthe full set of tools available to them."
+                    },
+                    {
+                        "name": "20_code_kata.txt",
+                        "text": "and made something...well, pragmatic out\nof it. <i>He created a series of what he\ncalls Code Kata, which are small, thought-\nprovoking exercises that programmers can do\nin the language of their choice.</i> Each kata\nemphasizes a specific technique or thought"
+                    },
+                    {
+                        "name": "21_do_it_faster.txt",
+                        "text": "Parkinson\u2019s law is an empirical observation\u2014\nnot an unescapable human mandate. <i>A sense of\nurgency, even if manufactured, is enough to easily\ndouble or triple your productivity. Try it, and you'll\nsee. You can do it faster. You can do it now.</i> You can\nget it done instead of talking about getting it done."
+                    },
+                    {
+                        "name": "22_dont_guess.txt",
+                        "text": "You might take it upon yourself to change\na feature your customers did ask for in\na way that, unexpectedly to you, makes it\nless functional or desirable to the customer.\n<i>Beware of guessing when it comes to user\ninterfaces especially.</i>"
+                    },
+                    {
+                        "name": "23_manager_role.txt",
+                        "text": "things get difficult. The role of a good manager is\nto <i>set priorities for the team, make sure the team\nhas what it needs to get the job done, and do what\nit takes to keep the team motivated and productive</i>,\nultimately getting done what needs to get done. A\njob well done by the team is a job well done by the\nmanager."
+                    },
+                    {
+                        "name": "24_frustrating_employee.txt",
+                        "text": "As a manager. <i>I can tell you that the most\nfrustrating thing to deal with is an employee\nwho's always aiming for the next rung on the\nladder</i>. You know the guy: you can\u2019t sit with\nhim for lunch without him bringing up who got\nwhat promotion. He always has some kind of\noffice gossip to spread, and he seems to cling to"
+                    },
+                    {
+                        "name": "25_leave_the_company.txt",
+                        "text": "to leave. Some even live out your daydream and\nwalk out with no notice. But in few cases do the\ncompanies they leave actually feel a significant\nimpact as a result of their departure. <i>In most cases,\neven in critical positions, the effect is surprisingly\nlow. Your presence on the job is, to the company,\nlike a pebble in a bucket of water.</i> Sure, the water\nlevel is higher as a result. You get things done. You"
+                    },
+                    {
+                        "name": "26_bad_sign.txt",
+                        "text": "Feeling irreplaceable is a bad sign, especially as\na software developer. <i>If you can\u2019t be replaced, it\nprobably means you perform tasks in such a way\nthat others can\u2019t also do them.</i> Although we'd all\nlike to claim some kind of special genius, few"
+                    },
+                    {
+                        "name": "27_unmaintainable_code.txt",
+                        "text": "I\u2019ve heard lots of programmers half-joking about\ncreating \u201cjob security\u201d with unmaintainable code.\n<i>And. I\u2019ve seen actual programmers attempt to do\nit. In every case, these people have become targets.</i>\nSure, it was scary for the company to finally let\ngo of them. Ultimately, though, fear is the worst"
+                    },
+                    {
+                        "name": "28_attempt_irreplaceable.txt",
+                        "text": "go of them. Ultimately, though, fear is the worst\nthat ever came of it. <i>Attempting to be irreplaceable\nis a defensive maneuver that creates a hostile\nrelationship with your employer</i> (and your co-\nworkers) where one may not have already existed."
+                    },
+                    {
+                        "name": "29_refactoring_code.txt",
+                        "text": "Each of these items goes on your to-do\nlist. <i>Document, automate, or refactor each\npiece of code or task so that it could be\neasily understood by anyone on your team.</i>\nDo this until you\u2019ve depleted your original\nlist. Proactively share these documents with\nyour team and your leader. Make sure the"
+                    },
+                    {
+                        "name": "30_old_systems.txt",
+                        "text": "scratch. We started with an empty building\nand were tasked with hiring and filling out an\nentire development organization. <i>In setting up\nthis development center, we faced a challenge we\nnever expected. Everyone wanted to make new\nsystems. Nobody wanted to maintain old systems.</i>\nWe wanted to create a new environment with an"
                     }
                 ]
             }
