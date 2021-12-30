@@ -39,11 +39,10 @@
 <style>
     .bh { border: 1px solid #ccc; width: 450px; cursor: pointer; padding: 25px 20px 20px 20px; 
         font-family: Arial,Verdana,Geneva,sans-serif; font-size: 14px; line-height: 18px; }
-    .next-bh {color: #ffb366; font-size: 40px; float: right; line-height: 15px; margin-left: 15px; }
+    .next-bh {color: #ffb366; font-size: 40px; float: right; line-height: 15px; margin-left: 5px; }
     .author-bh { color: #333; }
     .wiki-bh { text-decoration: none; }
-    .more-bh { color: #888; line-height: 25px; float: right; 
-        font-size: 12px; margin-right: 5px; margin-left: 10px; }
+    .more-bh { color: #888; float: right; font-size: 12px; }
     .more-bh:hover { color: #ffb366; }
     .title-bh { color: #888; font-style: italic; line-height: 25px; }
     .reference-bh { text-decoration: none; }
@@ -70,6 +69,7 @@
 <div class='bh'>
     <span class='next-bh' title='Show Next'
             data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true"> ➟ </span>
+    <span class='more-bh'></span>
     <div class="container-fluid">
         <div class="dropdown" id='dropdown-bh'>
             <button type="button" 
@@ -88,7 +88,6 @@
     </div>
     <br clear='all'>
     <span class='title-bh'></span>
-    <span class='more-bh'></span>
     <br><br>
     <span class='text-bh'></span>
     <br>
