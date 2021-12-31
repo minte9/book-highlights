@@ -112,39 +112,19 @@
                     },
                     {
                         "name": "03_js_worst_feature.txt",
-                        "text": "The worst feature of JavaScript, without question,\nis its dependence on a global object. <i>It doesn't have\nlinkers, it doesn't have any kind of information\nhiding between compilation units.</i> It all gets\ndumped together into a common global object. So"
-                    },
-                    {
-                        "name": "05_easy_hack.txt",
-                        "text": "anywhere. <i>So it's really easy for an evildoer to take\nsome script and put it in a URL, put it in a piece of\nstyle and put that in some HTML</i> and put that in\nanother script, and so on."
-                    },
-                    {
-                        "name": "06_mashups.txt",
-                        "text": "take something from Yahoo! and something from\nGoogle and something of yours and something of\nsomeone else's and put them all together and make\nan application, and it's great. And it all happens\non the browser, right in front of your eyes. <i>Except\nthat each of those components has access to the\nsame stuff. So now we are intentionally creating\nXSS exploits.</i> And the browser's security model did\nnot anticipate any of this goodness and does not"
-                    },
-                    {
-                        "name": "07_ES4_efforts.txt",
-                        "text": "It's solving the problem that people hate\nJavaScript. <i>And I can appreciate Brendan Eich's\nposition there because he did some brilliant work\nbut he rushed it and he was mismanaged and so\nbad stuff got out.</i> And he's been cursed and vilified\nfor the last dozen years about how stupid he is and"
-                    },
-                    {
-                        "name": "08_ADsafe.txt",
-                        "text": "What ADsafe does is it creates a safe subset\nof JavaScript. <i>So it disallows access to anything\nthat's global and anything that's dangerous. And\nit turns out there's still a useful language in that\nsubset.</i> Because all the lambda power is there. And\nlambdas can do a lot. So it's an unconventional"
-                    },
-                    {
-                        "name": "09_GWT_abstraction.txt",
-                        "text": "As far as GWT goes, and other transforming\nthings. I'm really pragmatic. <i>This environment is\nso hard to work in\u2014if you can find something that\nworks, then great.</i> I'm fearful of using it myself\nbecause I worry about the abstraction leakage. If"
+                        "text": "<i>The worst feature of JavaScript, without question,\nis its dependence on a global object.</i> It doesn't have\nlinkers, it doesn't have any kind of information\nhiding between compilation units. It all gets\ndumped together into a common global object."
                     },
                     {
                         "name": "10_GWT_js_ignorant.txt",
-                        "text": "because I worry about the abstraction leakage. If\n<i>there's a problem in your Java code or in GWT or\nin what it produces on the other side, you may or\nmay not have a place to stand to deal with that.</i>\nParticularly if you took the approach that you can\nafford to be completely ignorant about JavaScript\nbecause the language is hidden from you. Then"
+                        "text": "Because <i>I worry about the abstraction leakage. If\nthere's a problem in your Java code or in GWT or\nin what it produces on the other side, you may or\nmay not have a place to stand to deal with that.</i>\nParticularly if you took the approach that you can\nafford to be completely ignorant about JavaScript\nbecause the language is hidden from you."
                     },
                     {
                         "name": "11_js_smaller.txt",
-                        "text": "Crockford: I think the best way to make JavaScript\nbetter would be to make it smaller. <i>If we could\njust get it down to what it does really well and\nremove the features that add little or no value,\nit's actually a better language.</i> And I think we can"
+                        "text": "Crockford: I think the best way to make JavaScript\nbetter would be to make it smaller. <i>If we could\njust get it down to what it does really well and\nremove the features that add little or no value,\nit's actually a better language.</i> And I think we can."
                     },
                     {
                         "name": "12_ajax_libraries.txt",
-                        "text": "Where we do have a problem is that <i>there are too\nmany Ajax libraries. That was a consequence of the\nfact that JavaScript is so powerful and the need\nis so profound and that they're easy to make.</i> So\nfor a while everybody was making them. I've been"
+                        "text": "Where we do have a problem is that <i>there are too\nmany Ajax libraries. That was a consequence of the\nfact that JavaScript is so powerful and the need\nis so profound and that they're easy to make.</i> So\nfor a while everybody was making them."
                     },
                     {
                         "name": "13_jquery_selector.txt",
@@ -155,14 +135,6 @@
                         "text": "Crockford: One of the things I've been pushing is\ncode reading. <i>I think that is the most useful thing\nthat a community of programmers can do for\neach other\u2014spend time on a regular basis reading\neach other's code.</i> There's a tendency in project"
                     },
                     {
-                        "name": "15_code_review.txt",
-                        "text": "or, \u201cThis comment doesn't seem to describe the\ncode.\u201d <i>That kind of stuff can be so valuable\nbecause as a programmer you stop reading your\nown comments and you're not aware that you're\nmisdirecting the reader.</i> Having the people you\nwork with helping to keep your code clean is\na huge service\u2014you find defects that you never"
-                    },
-                    {
-                        "name": "15_strong_reader.txt",
-                        "text": "Ithink an hour of code reading is worth two weeks\nof QA. <i>It's just a really effective way of removing\nerrors. If you have someone who is strong reading,\nthen the novices around them are going to learn a\nlot</i> that they wouldn't be learning otherwise, and if"
-                    },
-                    {
                         "name": "16_code_reading_schedule.txt",
                         "text": "the end. Back in the old days, we would schedule\na code reading just as we were finishing a project\nand usually it would be canceled because we were\nlate. <i>I now believe that code reading should be\nhappening all the time throughout the life of the\nproject.</i> That's something that took me a while to"
                     },
@@ -171,28 +143,20 @@
                         "text": "I've managed projects where we're up against a\ndeadline and we had people saying, <i>\u201cYeah. I'm\nalmost done,\u201d and then you get the code, and\nthere's nothing there, or it's crap, or whatever, and\nthey're nowhere close to done.</i> In management,\nthose are the experiences you hate the most and I\nthink code reading is the best way of not getting\ntrapped like that."
                     },
                     {
-                        "name": "18_short_names.txt",
-                        "text": "I'm going back through my old code and <i>I see the\nnames are too short, if I have time. I'll change\nthem.</i> Some things, like my loop counters, will\nprobably always be i. I don't think I'll ever fix\nthat, but there are a lot of others that are just\ninexcusable."
-                    },
-                    {
                         "name": "19_plus_plus.txt",
-                        "text": "through be the default was wrong\u2014<i>they shouldn't\nhave done that. ++ has huge security problems\u2014it\nencourages you to be way too tricky, to try to do too\nmuch in one line.</i> In that compulsion to do it in one\nline, you make code which is hard to understand\nand which is likely to lead to things like buffer\noverrun errors. So most of the security problems"
+                        "text": "through be the default was wrong\u2014<i>they shouldn't\nhave done that. ++ has huge security problems\u2014it\nencourages you to be way too tricky, to try to do too\nmuch in one line.</i> In that compulsion to do it in one\nline, you make code which is hard to understand\nand which is likely to lead to things like buffer\noverrun errors."
                     },
                     {
                         "name": "20_continue.txt",
-                        "text": "It makes certain kinds of complicated structures\neasier to write. But I found that I can always\nimprove the structure if I can find a way to factor\nit out. <i>So as part of my personal discipline. I don't\nuse continue ever.</i> If I see a continue in my"
+                        "text": "It makes certain kinds of complicated structures\neasier to write. <i>But I found that I can always\nimprove the structure if I can find a way to factor\nit out. So as part of my personal discipline. I don't\nuse continue ever.</i>"
                     },
                     {
                         "name": "21_good_code.txt",
                         "text": "it's really difficult to write good code in a sloppy\nmanner. <i>By good code. I mean it's going to be\nreadable. At one level, it doesn't matter what it\ndoes to a machine if I can't figure out what it does</i>,\nso it might turn out that the code is amazing in\nterms of its efficiency, or its compactness, or some\nother metric which I don't care about."
                     },
                     {
-                        "name": "22_rewrite.txt",
-                        "text": "time. Management finds out a lot later. <i>The team is\ngetting beat up pretty regularly, making too many\nbugs; the code's too big, it's too slow; we're falling\nbehind. They know why.</i> It's not because they\nbecame stupider or lazier. It's because the code\nbase is no longer serving the purpose that it needs"
-                    },
-                    {
                         "name": "23_second_system.txt",
-                        "text": "The fallacy is that it's going to take that amount\nof time again, though there are counterexamples.\n<i>You've got the second-system problem where\npeople who've had some success are given a blank\nslate and allowed to do whatever they want.</i>\nGenerally, they will fail because they'll be too\nambitious, they won't understand the limits. And"
+                        "text": "The fallacy is that it's going to take that amount\nof time again, though there are counterexamples.\n<i>You've got the second-system problem where\npeople who've had some success are given a blank\nslate and allowed to do whatever they want.</i>\nGenerally, they will fail because they'll be too\nambitious, they won't understand the limits."
                     },
                     {
                         "name": "24_compatibility_problems.txt",
@@ -203,12 +167,8 @@
                         "text": "that I couldn't program anymore because I just\ncouldn't keep enough stuff in my head. <i>A lot\nof programming is you keep stuff in your head\nuntil you can get it written down and structured\nproperly.</i> And I just couldn't do it."
                     },
                     {
-                        "name": "27_flexibility.txt",
-                        "text": "You can't anticipate everything that's going to\nbe done with it <i>but you try to build in enough\nflexibility that it's likely to adapt to whatever\nyou're going to do</i>. So that's what I'm thinking.\nHow do I not write myself into a corner too much?"
-                    },
-                    {
                         "name": "28_js_refactoring.txt",
-                        "text": "That's one of the things that I discovered I really\nlike about JavaScript. <i>Refactoring in JavaScript, 1\nfind, is really easy.</i> Whereas refactoring a deep\nclass hierarchy can be really, really painful."
+                        "text": "<i>That's one of the things that I discovered I really\nlike about JavaScript. Refactoring in JavaScript, I \nfind, is really easy.</i> Whereas refactoring a deep\nclass hierarchy can be really, really painful."
                     },
                     {
                         "name": "29_soft_objects.txt",
@@ -216,59 +176,31 @@
                     },
                     {
                         "name": "30_discipline.txt",
-                        "text": "good to be scared because it is scary and it is\nreal. It requires discipline</i>. <i>In most of the classical\nlanguages, the language is the thing imposing the\ndiscipline</i>. In JavaScript you have to bring your\nown discipline</i>."
+                        "text": "good to be scared because it is scary and it is\nreal. It requires discipline</i>. <i>In most of the classical\nlanguages, the language is the thing imposing the\ndiscipline. In JavaScript you have to bring your\nown discipline</i>."
                     },
                     {
                         "name": "31_js_as_java.txt",
-                        "text": "I understand why people are frustrated with the\nlanguage. <i>If you try to write in JavaScript as\nthough it is Java, it'll keep biting you. I did this.</i>\nOne of the first things I did in the language was\nto figure out how to simulate something that\nlooked sort of like a Java class, but at the edges it\ndidn't work anything like it. And I would always\neventually get pushed up against those edges and\nget hurt."
-                    },
-                    {
-                        "name": "32_js_no_classes.txt",
-                        "text": "Eventually I figured out <i>I just don't need these\nclasses at all and then the language started\nworking for me.</i> Instead of fighting it. I found I was\nbeing empowered by it."
+                        "text": "<i>I understand why people are frustrated with the\nlanguage. If you try to write in JavaScript as\nthough it is Java, it'll keep biting you. I did this.</i>\nOne of the first things I did in the language was\nto figure out how to simulate something that\nlooked sort of like a Java class, but at the edges it\ndidn't work anything like it."
                     },
                     {
                         "name": "33_js_tools.txt",
                         "text": "There is much less need of formal tools like you\nhave in other languages. <i>The browser just wants a\nsource file, and so you send it a source file, and the\ncompiler is built into the browser, so there's really\nnothing to do</i>. You don't have a linker. You don't\nhave a compiler. You don't have any of that stuff. It\njust all runs on the browser."
                     },
                     {
-                        "name": "34_worst_bugs.txt",
-                        "text": "In my experience, <i>the worst bugs are the real-\ntime bugs, which have to do with interactions\nwith multiple threads.</i> My approach to those bugs\nis to avoid making them. So I don't like threads.</i>"
-                    },
-                    {
                         "name": "35_browser_one_thread.txt",
-                        "text": "One of the things I like about the browser model is\nthat we only get one thread. <i>Some people complain\nabout that\u2014if you lock up that thread, then the\nbrowser's locked up</i>. So you just don't do that.\nThere are constantly calls for putting threads into\nJavaScript and so far we've resisted that. I'm really\nglad we have."
-                    },
-                    {
-                        "name": "36_google_gears.txt",
-                        "text": "where it breaks down is if you have some process\nthat takes too long. <i>I really like the approach that\nGoogle has taken in Gears to solving that, where\nthey have a separate process which is completely\nisolated that you can send a program to and it'll\nrun there.</i> When it's finished, it'll tell you the result\nand the result comes back as an event. That's a\nbrilliant model."
+                        "text": "<i>One of the things I like about the browser model is\nthat we only get one thread. Some people complain\nabout that\u2014if you lock up that thread, then the\nbrowser's locked up</i>. So you just don't do that.\nThere are constantly calls for putting threads into\nJavaScript and so far we've resisted that. I'm really\nglad we have."
                     },
                     {
                         "name": "37_json.txt",
-                        "text": "when XML was proposed as a data-interchange\nformat, my first impression of that was, \u201c<i>My god,\nthis is way, way, way too complicated. We don't\nneed all of this stuff just to move data back and\nforth</i>.\u201d And so I proposed another way to do it,\nand it won. JSON is now the preferred way of"
-                    },
-                    {
-                        "name": "38_programming_timeline.txt",
-                        "text": "Looking at where we've come on the timeline\nof programming</i>, <i>we started with machine codes\nand then we took a leap to symbolic assembly\nlanguage and then we took a leap to high-level\nlanguages and then we took a leap to structured\nprogramming</i> and then we took a leap to object-"
-                    },
-                    {
-                        "name": "39_underappreciated_technology.txt",
-                        "text": "Crockford: Lisp and Smalltalk, you've just\nmentioned. <i>That's brilliant stuff, and we're now\nfinally seeing those ideas being factored into\nmodern languages</i>, so we're doing a lot of work"
-                    },
-                    {
-                        "name": "40_the_next_leap.txt",
-                        "text": "I think the next leap, we don't know what the\nname of it is yet, but I think it's <i>something related\nto mash-ups where we can casually take bits of\nprogram and put them together</i> and immediately\nmake new programs. We've been talking for\ndecades about a model of programming in which"
-                    },
-                    {
-                        "name": "41_lego_mashup.txt",
-                        "text": "we snapped programs together like LEGO and\nmake stuff. <i>That hasn't happened yet. But I think\nit is starting to happen now and the place it's\nhappening is in JavaScript</i>, which is the least likely\nplace."
+                        "text": "when XML was proposed as a data-interchange\nformat, my first impression of that was, \u201c<i>My god,\nthis is way, way, way too complicated. We don't\nneed all of this stuff just to move data back and\nforth</i>.\u201d And so I proposed another way to do it,\nand it won."
                     },
                     {
                         "name": "42_hiring.txt",
-                        "text": "Crockford: I'm looking for quality of presentation.\n<i>I want to see what he thinks is something he's\nproud of. <i>I want to see evidence that in fact he is\nthe author of the thing that he's defending.</i> I find\nthat is much more effective than asking them to\nsolve puzzles or trivia questions. I see all that kind\nof stuff as useless. But how effectively they can\ncommunicate, that's a skill that I'm hiring for."
+                        "text": "Crockford: I'm looking for quality of presentation.\n<i>I want to see what he thinks is something he's\nproud of. I want to see evidence that in fact he is\nthe author of the thing that he's defending.</i> I find\nthat is much more effective than asking them to\nsolve puzzles or trivia questions. I see all that kind\nof stuff as useless."
                     },
                     {
                         "name": "43_generalists.txt",
-                        "text": "not much else you can do. I tend not to look\nfor that kind of overspecialization unless I have a\nreally specific niche. Generally. <i>I prefer generalists.\nI want someone who's capable of learning any of\nthose APIs but isn't necessarily skilled</i> in any one."
+                        "text": "not much else you can do. I tend not to look\nfor that kind of overspecialization unless I have a\nreally specific niche. <i>Generally, I prefer generalists.\nI want someone who's capable of learning any of\nthose APIs but isn't necessarily skilled</i> in any one."
                     }
                 ]
             },
