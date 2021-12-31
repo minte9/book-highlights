@@ -25,7 +25,8 @@ $ google-chrome public_html/index.htm
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
 ~~~sh
-<iframe src="/book-highlights/public_html/index.htm" width=450 height=350 frameborder=0 scrolling=no>
+<iframe src="/book-highlights/public_html/index.htm" w
+  idth=450 height=350 frameborder=0 scrolling=no>
 </iframe>
 ~~~
 
