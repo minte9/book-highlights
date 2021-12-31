@@ -52,7 +52,7 @@ let highlights =
                 "children": [
                     {
                         "name": "01_maintainer_for_life.txt",
-                        "text": "I've also done a lot of testing since LiveJournal.\n<i>Once I started working with other people\nespecially. And once I realized that code I write\nnever fucking goes away and I'm going to be a\nmaintainer for life.</i> I get comments about blog\nposts that are almost 10 years old. \u201cHey. I found\nthis code. I found a bug,\u201d and I'm suddenly\nmaintaining code."
+                        "text": "<i>I've also done a lot of testing since LiveJournal.\nOnce I started working with other people\nespecially. And once I realized that code I write\nnever fucking goes away and I'm going to be a\nmaintainer for life.</i> I get comments about blog\nposts that are almost 10 years old. \u201cHey. I found\nthis code. I found a bug,\u201d and I'm suddenly\nmaintaining code."
                     },
                     {
                         "name": "02_tests_to_guard.txt",
@@ -60,7 +60,7 @@ let highlights =
                     },
                     {
                         "name": "03_about_memcached.txt",
-                        "text": "memcached until like right after college, right\nwhen I moved out. <i>I remember coming up with\nthe idea. I was in my shower one day. The site\nwas melting down and I was showering and then\nI realized we had all this free memory all over the\nplace.</i> I whipped up a prototype that night, wrote\nthe server in Perl and the client in Perl, and the"
+                        "text": "memcached until like right after college, right\nwhen I moved out. <i>I remember coming up with\nthe idea. I was in my shower one day. The site\nwas melting down and I was showering and then\nI realized we had all this free memory all over the\nplace.</i> I whipped up a prototype that night, wrote\nthe server in Perl and the client in Perl."
                     },
                     {
                         "name": "04_win_a_race.txt",
@@ -72,11 +72,11 @@ let highlights =
                     },
                     {
                         "name": "05_formal_education.txt",
-                        "text": "terminology. Prior to that. I knew programming\npretty well but I didn't have the vocabulary to\ndescribe what it was I was doing. Or <i>I would make\nup my own terminology for it and people would\nthink I didn't know what I was talking about.</i>\nFormal C.S. education helped me be able to talk\nabout it."
+                        "text": "terminology. Prior to that. I knew programming\npretty well but I didn't have the vocabulary to\ndescribe what it was I was doing. <i>Or I would make\nup my own terminology for it and people would\nthink I didn't know what I was talking about.\nFormal C.S. education helped me be able to talk\nabout it.</i>"
                     },
                     {
                         "name": "06_hard_parts_first.txt",
-                        "text": "Fitzpatrick: Sometimes. But I've started with the\nhard bits or the parts I was unsure of, and tried\nto implement those parts first. <i>I try not to put\noff anything hard or surprising to the end; I enjoy\ndoing the hard things first.</i> The projects that I\nnever finish\u2014my friends give me shit that it's a\nwhole bunch\u2014it's because I did the hard part and"
+                        "text": "Fitzpatrick: Sometimes. But I've started with the\nhard bits or the parts I was unsure of, and tried\nto implement those parts first. <i>I try not to put\noff anything hard or surprising to the end; I enjoy\ndoing the hard things first.</i> The projects that I\nnever finish\u2014my friends give me shit that it's a\nwhole bunch\u2014it's because I did the hard part."
                     },
                     {
                         "name": "07_reading_code.txt",
@@ -84,27 +84,23 @@ let highlights =
                     },
                     {
                         "name": "08_strict_style_guide.txt",
-                        "text": "having worked at Google with really strict style\nguidelines in all languages. <i>On our top six or seven\nlanguages, there's a really strict style guide that\nsays</i>, \u201cThis is how we lay out our code. This is how\nwe name variables. This is how we do spacing and\nindentation, and these patterns and conventions\nyou use, and this is how you declare a static field.\u201d"
+                        "text": "Having worked at Google with really strict style\nguidelines in all languages. <i>On our top six or seven\nlanguages, there's a really strict style guide that\nsays</i>, \u201cThis is how we lay out our code. This is how\nwe name variables. This is how we do spacing and\nindentation, and these patterns and conventions\nyou use, and this is how you declare a static field.\u201d"
                     },
                     {
                         "name": "09_fear_driven_advice.txt",
-                        "text": "Your parents would rather you be OK than have a\nremarkable career at the cost of great personal risk.\n<i>More than any other third party you might look\nto, your parents are going to give you fear-driven\nadvice. Fear-driven advice is geared toward not\nlosing.</i> Thinking about not losing is not the way to\nwin! Winners take risks. They think about where\nthey want to go\u2014not where the rest of the pack is."
-                    },
-                    {
-                        "name": "09_night_coding.txt",
-                        "text": "time. During the day, there's always something\ncoming up, like another meal is coming up, or a\nclass, or maybe you get a phone call. There's always\nsome interruption. I can't relax. <i>If I go into work\ntwo hours before some meeting, that two hours is\nless productive than if I didn't have that meeting\nthat day or if the meeting was the first thing in the\nmorning.</i> Knowing that I have nothing coming up\nto bug me. I'm so much more relaxed."
+                        "text": "Your parents would rather you be OK than have a\nremarkable career at the cost of great personal risk.\n<i>More than any other third party you might look\nto, your parents are going to give you fear-driven\nadvice. Fear-driven advice is geared toward not\nlosing.</i> Thinking about not losing is not the way to\nwin! Winners take risks."
                     },
                     {
                         "name": "10_google_deadlines.txt",
-                        "text": "like, \u201cYay! A deadline!\u201d and I get so excited that\nthe adrenaline kicks in, and I work, and I finish\nthe damn thing. <i>Nothing with Google is really a\ndeadline. With Google it's like, \u201cWhat do you think\nabout launching this? How does that feel?\u201d</i> It's rare\nthat there's some real deadline. Most of them, we\nthink it'd be nice to"
+                        "text": "\u201cYay! A deadline!\u201d and I get so excited that\nthe adrenaline kicks in, and I work, and I finish\nthe damn thing. <i>Nothing with Google is really a\ndeadline. With Google it's like, \u201cWhat do you think\nabout launching this? How does that feel?\u201d</i> It's rare\nthat there's some real deadline."
                     },
                     {
                         "name": "11_people_complacency.txt",
-                        "text": "all be self-driven like me. <i>That was a learning\nexperience in HR, that some people just do what\nthey're told and don't really have a passion\nfor excellence</i>. They're just like, \u201cDone. Next\nassignment,\u201d Or they don't tell you and just browse\nthe Web. So I had a couple of painful experiences.\nBut I think after a year or two of that. I learned that\npeople are different."
+                        "text": "all be self-driven like me. <i>That was a learning\nexperience in HR, that some people just do what\nthey're told and don't really have a passion\nfor excellence</i>. They're just like, \u201cDone. Next\nassignment,\u201d Or they don't tell you and just browse\nthe Web. So I had a couple of painful experiences.\nBut I think, after a year or two of that, I learned that\npeople are different."
                     },
                     {
                         "name": "12_purist_programmers.txt",
-                        "text": "Some are purists. They would just do abstraction\non abstraction on abstractions. They would go\nreally slowly and are very religious about their\nstyle. <i>They're like, \u201cI'm an artisan programmer.\u201d\nAnd I was like, \u201cYour code doesn't run. It's not\nefficient and it doesn't look like any of the other\ncode</i> that you're interacting with.\u201d"
+                        "text": "Some are purists. They would just do abstraction\non abstraction on abstractions. They would go\nreally slowly and are very religious about their\nstyle. <i>They're like, \u201cI'm an artisan programmer.\u201d\nAnd I was like, \u201cYour code doesn't run. It's not\nefficient and it doesn't look like any of the other\ncode that you're interacting with.\u201d</i>"
                     },
                     {
                         "name": "13_people_motivations.txt",
@@ -124,11 +120,11 @@ let highlights =
                     },
                     {
                         "name": "17_about_optimization.txt",
-                        "text": "Fitzpatrick: <i>Optimization is fun because it's not\nnecessary. If you're doing that, you've got your\nthing working and nothing else is more important</i>\nand you're either saving money or doing it\nbecause it's like a Perl golf contest\u2014how short"
+                        "text": "Fitzpatrick: <i>Optimization is fun because it's not\nnecessary. If you're doing that, you've got your\nthing working and nothing else is more important</i>\nand you're either saving money or doing it\nbecause it's like a Perl golf contest ..."
                     },
                     {
                         "name": "18_logic_and_statistics.txt",
-                        "text": "Fitzpatrick: You don't need that much math. <i>For\nmost programmers, day to day, statistics is a lot\nmore important.</i> If you're doing graphics stuff,\nmath is a lot more important but most people\ndoing Java enterprise stuff or web stuff, it's not.\nLogic helps and statistics comes up a lot."
+                        "text": "<i>You don't need that much math. For most programmers, \nday to day, statistics is a lot more important.</i> \nIf you're doing graphics stuff,\nmath is a lot more important but most people\ndoing Java enterprise stuff or web stuff, it's not.\nLogic helps and statistics comes up a lot."
                     },
                     {
                         "name": "19_social_kid.txt",
@@ -254,7 +250,7 @@ let highlights =
                 "children": [
                     {
                         "name": "01_cross_platform_releases.txt",
-                        "text": "welll port it later.\u201d Which is what many other\nfailed companies have done. If you're trying to\nship a cross-platform product, history really shows\nthat's how you don't do it. <i>If you want it to\nreally be cross-platform, you have to do them\nsimultaneously.</i> The porting thing results in a\ncrappy product on the second platform."
+                        "text": "welll port it later.\u201d Which is what many other\nfailed companies have done. <i>If you're trying to\nship a cross-platform product, history really shows\nthat's how you don't do it. If you want it to\nreally be cross-platform, you have to do them\nsimultaneously.</i> The porting thing results in a\ncrappy product on the second platform."
                     },
                     {
                         "name": "02_multithreading_in_java.txt",
@@ -262,59 +258,55 @@ let highlights =
                     },
                     {
                         "name": "03_academic_approach.txt",
-                        "text": "only display plain text. <i>They were being extremely\nacademic about their project. <i>They were trying to\napproach it from the DOM/DTD side of things. \u201cOh,\nwell, what we need to dois add another abstraction\nlayer here and have a delegate for this delegate for\nthis delegate.</i> And eventually a character will show\nup on the screen.\u201d"
+                        "text": "only display plain text. They were being extremely\nacademic about their project. They were trying to\napproach it from the DOM/DTD side of things. <i>\u201cOh,\nwell, what we need to do is add another abstraction\nlayer here and have a delegate for this delegate for\nthis delegate.</i> And eventually a character will show\nup on the screen.\u201d"
                     },
                     {
                         "name": "04_ship_the_product.txt",
-                        "text": "Zawinski: Yeah. At the end of the day, ship the\nfucking thing! <i>It's great to rewrite your code and\nmake it cleaner and by the third time it'll actually\nbe pretty. But that's not the point</i>\u2014you're not here\nto write code; you're here to ship products."
+                        "text": "Zawinski: Yeah. At the end of the day, ship the\nfucking thing! It's great to rewrite your code and\nmake it cleaner and by the third time it'll actually\nbe pretty. <i>But that's not the point \u2014 you're not here\nto write code; you're here to ship products.<i>"
                     },
                     {
                         "name": "05_competitor_crap_code.txt",
-                        "text": "Your competitor's six-month 1.0 has crap code and\n<i>they're going to have to rewrite it in two years but</i>,\nguess what: they can rewrite it because you don't\nhave ajob anymore."
+                        "text": "<i>Your competitor's six-month 1.0 has crap code and\nthey're going to have to rewrite it in two years but,\nguess what:</i> they can rewrite it because you don't\nhave ajob anymore."
                     },
                     {
                         "name": "06_inherit_code_rewrite.txt",
-                        "text": "you have to cut your losses. And this always feels\nwrong to me, <i>but when you inherit code from\nsomeone else, sometimes it's faster to write your\nown than to reuse theirs.</i> Because it's going to take\nacertain amount of time to understand their code\nand learn how to use it and understand it well"
+                        "text": "you have to cut your losses. And this always feels\nwrong to me, <i>but when you inherit code from\nsomeone else, sometimes it's faster to write your\nown than to reuse theirs.</i> Because it's going to take\nacertain amount of time to understand their code\nand learn how to use it."
                     },
                     {
                         "name": "07_one_file_version.txt",
-                        "text": "<i>When I'm just writing the first version of the\nprogram. I tend to put everything in one file.\nAnd then I start seeing structure in that file.</i>\nLike there's this block of things that are pretty\nsimilar. That's a thousand lines now, so why don't\nI move that into another file. And the API sort of\nbuilds up organically that way. The design process"
+                        "text": "<i>When I'm just writing the first version of the\nprogram. I tend to put everything in one file.\nAnd then I start seeing structure in that file.</i>\nLike there's this block of things that are pretty\nsimilar. That's a thousand lines now, so why don't\nI move that into another file. And the API sort of\nbuilds up organically that way."
                     },
                     {
                         "name": "08_quick_use.txt",
-                        "text": "I think one of the most important things, for\nme anyway, <i>when building something from the\nground up like that is, as quickly as possible,\ngetting the program to a state that you, the\nprogrammer, can use it. Even a little bit.</i> Because\nthat tells you where to go next in a really visceral\nway. Once the thing's on the screen and you've got\nthe one button hooked up that does one thing, now"
+                        "text": "I think one of the most important things, for\nme anyway, <i>when building something from the\nground up like that is, as quickly as possible,\ngetting the program to a state that you, the\nprogrammer, can use it. Even a little bit.</i> Because\nthat tells you where to go next in a really visceral\nway."
                     },
                     {
                         "name": "09_error_messages.txt",
-                        "text": "<i>A lot of programmers have the instinct of, \u201cYou've\ngot to present the error message!\u201d No you don't.\nNo one cares about that.</i> That sort of stuff is\na lot easier to manage in languages like Java\nthat actually have an exception system. Where,\nat the top loop of your idle state, you just catch\neverything and you're done. No need to bother the\nuser with telling them that some value was zero."
+                        "text": "<i>A lot of programmers have the instinct of, \u201cYou've\ngot to present the error message!\u201d No you don't.\nNo one cares about that.</i> That sort of stuff is\na lot easier to manage in languages like Java\nthat actually have an exception system. Where,\nat the top loop of your idle state, you just catch\neverything and you're done."
                     },
                     {
                         "name": "10_more_comments.txt",
                         "text": "<i>I always wish people would comment more,\nthough the thing that makes me cringe is when the\ncomment is the name of the function rephrased.</i>\nFunction's called push_stack and the comment\nsays, \u201cThis pushes to the stack.\u201d Thank you."
                     },
                     {
-                        "name": "11_long_variable_names.txt",
-                        "text": "<i>Long variable names. I'm not a fan of Hungarian\nnotation, but I think using actual English words\nto describe things, except for loop iterators</i>, where\nit's obvious. Just as much verbosity as possible. I\nguess."
-                    },
-                    {
                         "name": "12_ability_to_argue.txt",
-                        "text": "fine. <i>Certainly with the folks I've worked with,\nability to argue their point was important because\nwe all ended up being a pretty argumentative\nbunch</i>. With that environment, that helped a lot.\nThat certainly doesn't have anything to do with\nprogramming ability. That's just interpersonal-\ndynamics stuff."
+                        "text": "<i>Certainly with the folks I've worked with,\nability to argue their point was important because\nwe all ended up being a pretty argumentative\nbunch</i>. With that environment, that helped a lot.\nThat certainly doesn't have anything to do with\nprogramming ability."
                     },
                     {
                         "name": "13_ignorance_fear.txt",
-                        "text": "asking questions. I think one thing that's really\nimportant is to not be afraid of your ignorance. <i>If\nyou don't understand how something works, ask\nsomeone who does. A lot of people are skittish\nabout that. And that doesn't help anybody.</i> Not\nknowing something doesn't mean you're dumb\u2014it\njust means you don't know it yet."
+                        "text": "Asking questions. I think one thing that's really\nimportant is to not be afraid of your ignorance. <i>If\nyou don't understand how something works, ask\nsomeone who does. A lot of people are skittish\nabout that. And that doesn't help anybody.</i> Not\nknowing something doesn't mean you're dumb\u2014it\njust means you don't know it yet."
                     },
                     {
                         "name": "14_design_patterns_book.txt",
-                        "text": "Then there was <i>another book that everybody\nthought was the greatest thing ever in that same\nperiod\u2014Design Patterns\u2014which I just thought was\ncrap.</i> It was just like, programming via cut and\npaste. Rather than thinking through your task\nyou looked through the recipe book and found\nsomething that maybe, kinda, sorta felt like it, and\nthen just aped it. That's not programming; that's"
+                        "text": "Then there was <i>another book that everybody\nthought was the greatest thing ever in that same\nperiod\u2014Design Patterns\u2014which I just thought was\ncrap.</i> It was just like, programming via cut and\npaste. Rather than thinking through your task\nyou looked through the recipe book and found\nsomething that maybe, kinda, sorta felt like it, and\nthen just aped it. That's not programming."
                     },
                     {
                         "name": "15_books_terminology.txt",
-                        "text": "love it. <i>Then in meetings they'd be tossing around\nall this terminology they got out of that book.</i>\nLike, the inverse, reverse, double-back-flip pattern\n\u2014whatever. Oh, you mean a loop? OK."
+                        "text": "Then in meetings they'd be tossing around\nall this terminology they got out of that book.\n<i>Like, the inverse, reverse, double-back-flip pattern\n\u2014whatever. Oh, you mean a loop? OK.</i>"
                     },
                     {
                         "name": "16_under_the_hood.txt",
-                        "text": "Zawinski: Well, curiosity\u2014taking things apart.\nWanting to know what's going on under the hood.\n<i>I think that's really the basis of it. Without that I\ndon't think you get very far. That's your primary\nway of acquiring knowledge.</i> Taking something\napart and looking at it is how you learn to build\nyour own. At least for me. I've read very few books"
+                        "text": "Zawinski: Well, curiosity\u2014taking things apart.\n<i>Wanting to know what's going on under the hood.\nI think that's really the basis of it. Without that I\ndon't think you get very far. That's your primary\nway of acquiring knowledge.</i> Taking something\napart and looking at it is how you learn to build\nyour own. At least for me. I've read very few books"
                     }
                 ]
             }
