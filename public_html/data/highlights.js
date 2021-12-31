@@ -1,20 +1,26 @@
 let books = 
 [
     {
-        "title":    "Coders at work",
-        "subtitle": "Reflections on the Craft of Programming",
-        "link":     "https://www.amazon.com/gp/product/B00ACC2536"
-    },
-    {
         "title":    "Passionate Programmer",
         "subtitle": "Creating a Remarkable Career in Software Development",
         "link":     "https://www.amazon.com/gp/product/B00AYQNR5U"
+    },
+    {
+        "title":    "Coders at work",
+        "subtitle": "Reflections on the Craft of Programming",
+        "link":     "https://www.amazon.com/gp/product/B00ACC2536"
     }
 ]
 ;
 
 let authors = 
 [
+    {
+        "title": "Passionate Programmer",
+        "name": "Chad Fowler",
+        "tags": "ruby and rails, jazz performer",
+        "wiki": "https://www.slush.org/person/chad-fowler/"
+    },
     {
         "title": "Coders at work",
         "name": "Jamie Zawinski",
@@ -32,12 +38,6 @@ let authors =
         "name": "Douglas Crockford",
         "tags": "javaScript, json, yahoo",
         "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford"
-    },
-    {
-        "title": "Passionate Programmer",
-        "name": "Chad Fowler",
-        "tags": "ruby and rails, jazz performer",
-        "wiki": "https://www.slush.org/person/chad-fowler/"
     }
 ]
 ;

@@ -1,5 +1,11 @@
 [
     {
+        "title": "Passionate Programmer",
+        "name": "Chad Fowler",
+        "tags": "ruby and rails, jazz performer",
+        "wiki": "https://www.slush.org/person/chad-fowler/"
+    },
+    {
         "title": "Coders at work",
         "name": "Jamie Zawinski",
         "tags": "netscape, mozilla",
@@ -16,11 +22,5 @@
         "name": "Douglas Crockford",
         "tags": "javaScript, json, yahoo",
         "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford"
-    },
-    {
-        "title": "Passionate Programmer",
-        "name": "Chad Fowler",
-        "tags": "ruby and rails, jazz performer",
-        "wiki": "https://www.slush.org/person/chad-fowler/"
     }
 ]
