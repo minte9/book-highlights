@@ -275,7 +275,7 @@
                 "children": [
                     {
                         "name": "01_low_expectations.txt",
-                        "text": "our careers. <i>Most of us are content to go with the\nflow. Our expectations have been lowered for us\nby the media and by our friends, acquaintances,\nand family members</i>. So, leading a remarkable life\nis something you have to discover as even being a\nreasonable goal. It\u2019s not obvious."
+                        "text": "<i>Most of us are content to go with the\nflow. Our expectations have been lowered for us\nby the media and by our friends, acquaintances,\nand family members</i>. So, leading a remarkable life\nis something you have to discover as even being a\nreasonable goal. It\u2019s not obvious."
                     },
                     {
                         "name": "02_loving_your_work.txt",
@@ -287,15 +287,15 @@
                     },
                     {
                         "name": "04_business_purpose.txt",
-                        "text": "<i>As software developers, we are businesspeople. \nOur companies don\u2019t employ us because they love us.</i>\nThey never have, and they never will. That\u2019s not the\njob of a business. Businesses don\u2019t exist so we can \nhave a place to go every day. \nThe purpose of a business is to make"
+                        "text": "<i>As software developers, we are businesspeople. \nOur companies don\u2019t employ us because they love us.</i>\nThey never have, and they never will. That\u2019s not the\njob of a business. Businesses don\u2019t exist so we can \nhave a place to go every day."
                     },
                     {
                         "name": "05_old_systems.txt",
-                        "text": "systems are replaced in stages. <i>In those stages,\nthe old systems have to talk to the new systems.\nSomeone has to know how to make the new speak\nto the old, and vice versa.</i> Typically, the young\ntykes don\u2019t know (or want to know) how to make\nthe old systems listen. Nor do the crusty old"
+                        "text": "systems are replaced in stages. <i>In those stages,\nthe old systems have to talk to the new systems.\nSomeone has to know how to make the new speak\nto the old, and vice versa.</i> Typically, the young\ntykes don\u2019t know (or want to know) how to make\nthe old systems listen."
                     },
                     {
                         "name": "06_business_language.txt",
-                        "text": "<i>You might be \u201cjust a programmer,\u201d but being able\nto speak to your business clients in the language\nof their business domain is a critical skill.</i> Imagine\nhow much easier life would be if everyone you\nhad to work with really understood how software\ndevelopment works. You wouldn't have to explain"
+                        "text": "<i>You might be \u201cjust a programmer,\u201d but being able\nto speak to your business clients in the language\nof their business domain is a critical skill.</i> Imagine\nhow much easier life would be if everyone you\nhad to work with really understood how software\ndevelopment works."
                     },
                     {
                         "name": "07_candidate_pool.txt",
@@ -307,7 +307,7 @@
                     },
                     {
                         "name": "09_unix_guy.txt",
-                        "text": "<i>Another artificial (and inexcusable) line gets\ndrawn around platforms or operating systems.</i>\nBeing a UNIX Guy who refuses to do Windows\nis increasingly more impractical. The same goes"
+                        "text": "<i>Another artificial (and inexcusable) line gets\ndrawn around platforms or operating systems.</i>\nBeing a UNIX Guy who refuses to do Windows\nis increasingly more impractical."
                     },
                     {
                         "name": "10_developer_environment.txt",
@@ -319,7 +319,7 @@
                     },
                     {
                         "name": "12_specializing_in_something.txt",
-                        "text": "<i>Too many of us seem to believe that specializing\nin something simply means you don\u2019t know about\nother things.</i> I could, for example, call my mother\na Windows specialist, because she has never used.\nLinux or OS X. Or. I could say that my relatives out\nin the countryside in Arkansas are country music\nspecialists, because they\u2019ve never heard anything\nelse."
+                        "text": "<i>Too many of us seem to believe that specializing\nin something simply means you don\u2019t know about\nother things.</i> I could, for example, call my mother\na Windows specialist, because she has never used.\nLinux or OS X."
                     },
                     {
                         "name": "13_career_road_map.txt",
@@ -335,7 +335,7 @@
                     },
                     {
                         "name": "16_try_to_teach.txt",
-                        "text": "If you want to really learn something, try teaching\nit to someone else. <i>There\u2019s no better way to\ncrystallize your understanding of something than\nto force yourself to express it to someone else</i>\nso that they can understand it. The simple act of"
+                        "text": "If you want to really learn something, try teaching\nit to someone else. <i>There\u2019s no better way to\ncrystallize your understanding of something than\nto force yourself to express it to someone else</i>\nso that they can understand it."
                     },
                     {
                         "name": "18_not_practice.txt",
@@ -343,11 +343,11 @@
                     },
                     {
                         "name": "19_agile_career.txt",
-                        "text": "<i>software developer, you would never want to pour\nyourself into developing something your client\ndoesn\u2019t want</i>. Agile methodologies help prevent\nyou from doing so. The same is true of your career.\nSet big goals, but make constant corrections along\nthe way. Learn from the experience, and change"
+                        "text": "<i>software developer, you would never want to pour\nyourself into developing something your client\ndoesn\u2019t want</i>. Agile methodologies help prevent\nyou from doing so. The same is true of your career.\nSet big goals, but make constant corrections along\nthe way."
                     },
                     {
                         "name": "20_code_kata.txt",
-                        "text": "and made something...well, pragmatic out\nof it. <i>He created a series of what he\ncalls Code Kata, which are small, thought-\nprovoking exercises that programmers can do\nin the language of their choice.</i> Each kata\nemphasizes a specific technique or thought"
+                        "text": "and made something...well, pragmatic out\nof it. <i>He created a series of what he\ncalls Code Kata, which are small, thought-\nprovoking exercises that programmers can do\nin the language of their choice.</i> Each kata\nemphasizes a specific technique."
                     },
                     {
                         "name": "21_do_it_faster.txt",
@@ -363,19 +363,19 @@
                     },
                     {
                         "name": "24_frustrating_employee.txt",
-                        "text": "As a manager. <i>I can tell you that the most\nfrustrating thing to deal with is an employee\nwho's always aiming for the next rung on the\nladder</i>. You know the guy: you can\u2019t sit with\nhim for lunch without him bringing up who got\nwhat promotion. He always has some kind of\noffice gossip to spread, and he seems to cling to"
+                        "text": "As a manager. <i>I can tell you that the most\nfrustrating thing to deal with is an employee\nwho's always aiming for the next rung on the\nladder</i>. You know the guy: you can\u2019t sit with\nhim for lunch without him bringing up who got\nwhat promotion. He always has some kind of\noffice gossip to spread."
                     },
                     {
                         "name": "25_leave_the_company.txt",
-                        "text": "to leave. Some even live out your daydream and\nwalk out with no notice. But in few cases do the\ncompanies they leave actually feel a significant\nimpact as a result of their departure. <i>In most cases,\neven in critical positions, the effect is surprisingly\nlow. Your presence on the job is, to the company,\nlike a pebble in a bucket of water.</i> Sure, the water\nlevel is higher as a result. You get things done. You"
+                        "text": "to leave. Some even live out your daydream and\nwalk out with no notice. But in few cases do the\ncompanies they leave actually feel a significant\nimpact as a result of their departure. <i>In most cases,\neven in critical positions, the effect is surprisingly\nlow. Your presence on the job is, to the company,\nlike a pebble in a bucket of water.</i> Sure, the water\nlevel is higher as a result. You get things done."
                     },
                     {
                         "name": "26_bad_sign.txt",
-                        "text": "Feeling irreplaceable is a bad sign, especially as\na software developer. <i>If you can\u2019t be replaced, it\nprobably means you perform tasks in such a way\nthat others can\u2019t also do them.</i> Although we'd all\nlike to claim some kind of special genius, few"
+                        "text": "Feeling irreplaceable is a bad sign, especially as\na software developer. <i>If you can\u2019t be replaced, it\nprobably means you perform tasks in such a way\nthat others can\u2019t also do them.</i> Although we'd all\nlike to claim some kind of special genius."
                     },
                     {
                         "name": "27_unmaintainable_code.txt",
-                        "text": "I\u2019ve heard lots of <i>programmers half-joking about\ncreating \u201cjob security\u201d with unmaintainable code.\nAnd I\u2019ve seen actual programmers attempt to do\nit. In every case, these people have become targets.</i>\nSure, it was scary for the company to finally let\ngo of them. Ultimately, though, fear is the worst"
+                        "text": "I\u2019ve heard lots of <i>programmers half-joking about\ncreating \u201cjob security\u201d with unmaintainable code.\nAnd I\u2019ve seen actual programmers attempt to do\nit. In every case, these people have become targets.</i>\nSure, it was scary for the company to finally let\ngo of them."
                     },
                     {
                         "name": "28_attempt_irreplaceable.txt",
@@ -383,11 +383,11 @@
                     },
                     {
                         "name": "29_refactoring_code.txt",
-                        "text": "Each of these items goes on your to-do\nlist. <i>Document, automate, or refactor each\npiece of code or task so that it could be\neasily understood by anyone on your team.</i>\nDo this until you\u2019ve depleted your original\nlist. Proactively share these documents with\nyour team and your leader. Make sure the"
+                        "text": "Each of these items goes on your to-do\nlist. <i>Document, automate, or refactor each\npiece of code or task so that it could be\neasily understood by anyone on your team.</i>\nDo this until you\u2019ve depleted your original\nlist. Proactively share these documents with\nyour team and your leader."
                     },
                     {
                         "name": "30_old_systems.txt",
-                        "text": "scratch. We started with an empty building\nand were tasked with hiring and filling out an\nentire development organization. <i>In setting up\nthis development center, we faced a challenge we\nnever expected. Everyone wanted to make new\nsystems. Nobody wanted to maintain old systems.</i>\nWe wanted to create a new environment with an"
+                        "text": "scratch. We started with an empty building\nand were tasked with hiring and filling out an\nentire development organization. <i>In setting up\nthis development center, we faced a challenge we\nnever expected. Everyone wanted to make new\nsystems. Nobody wanted to maintain old systems.</i>\nWe wanted to create a new environment ..."
                     },
                     {
                         "name": "31_refactoring_old.txt",
@@ -395,11 +395,11 @@
                     },
                     {
                         "name": "32_indian_yes.txt",
-                        "text": "<i>The inability to say \u201cno\u201d happens to be a common\npart of the Indian culture. Companies that are\ninexperienced with offshore outsourcing almost\nalways run into it.</i> You learn with time to sniff out\nuncertainty and ask the right questions. Enough\n\u201cone more day until it\u2019s done\u201d conversations\nnaturally train you to probe deeper. And, it\u2019s not"
+                        "text": "<i>The inability to say \u201cno\u201d happens to be a common\npart of the Indian culture. Companies that are\ninexperienced with offshore outsourcing almost\nalways run into it.</i> You learn with time to sniff out\nuncertainty and ask the right questions. Enough\n\u201cone more day until it\u2019s done\u201d conversations\nnaturally train you to probe deeper."
                     },
                     {
                         "name": "33_say_no.txt",
-                        "text": "On the other hand, what happens when you're\nasked to do a critical task and you say that you\ncan\u2019t? <i>As a manager of both onshore and offshore\nteams. I can tell you that \u201cno\u201d has become a source\nof relief to me</i>. If I have a team member who has\nthe strength to say \u201cno\u201d when that\u2019s the truth, then\n1 know that when they say \u201cyes,\u201d they really mean"
+                        "text": "On the other hand, what happens when you're\nasked to do a critical task and you say that you\ncan\u2019t? <i>As a manager of both onshore and offshore\nteams. I can tell you that \u201cno\u201d has become a source\nof relief to me</i>. If I have a team member who has\nthe strength to say \u201cno\u201d when that\u2019s the truth, then\nI know that when they say \u201cyes,\u201d they really mean."
                     },
                     {
                         "name": "34_give_a_try.txt",
@@ -411,7 +411,7 @@
                     },
                     {
                         "name": "39_nobody_knows.txt",
-                        "text": "As one manager told me recently, <i>if someone\ndoes something truly fantastic and nobody\nknows about it, in his eyes it didn\u2019t happen.\nIt may sound ruthless, but from a company\u2019s\nperspective it makes sense.</i> Pragmatically\nspeaking, managers don\u2019t have time to keep\nclose tabs on what each employee is doing every"
+                        "text": "As one manager told me recently, <i>if someone\ndoes something truly fantastic and nobody\nknows about it, in his eyes it didn\u2019t happen.\nIt may sound ruthless, but from a company\u2019s\nperspective it makes sense.</i> Pragmatically\nspeaking, managers don\u2019t have time to keep\nclose tabs on what each employee is doing."
                     },
                     {
                         "name": "41_nontechnical.txt",
@@ -435,15 +435,15 @@
                     },
                     {
                         "name": "47_higher_sights.txt",
-                        "text": "Set your sights higher. <i>Don\u2019t think of yourself as\na programmer at a specific company\u2014after all, it\u2019s\nnot likely that you'll be at the same place forever\u2014\nbut as a participating member of an industry.</i> You\nare a craftsperson or an artist. You have something\nto share beyond the expense-reporting application"
+                        "text": "Set your sights higher. <i>Don\u2019t think of yourself as\na programmer at a specific company\u2014after all, it\u2019s\nnot likely that you'll be at the same place forever\u2014\nbut as a participating member of an industry.</i> You\nare a craftsperson or an artist. You have something\nto share beyond the expense-reporting application."
                     },
                     {
                         "name": "48_best_resume.txt",
-                        "text": "Companies want to hire experts. While a r\u00e9sum\u00e9\nwith a solid list of projects is a good way to\ndemonstrate experience, <i>nothing is better at a job\ninterview than for the interviewer to have already\nheard of you.</i> It\u2019s especially great if they\u2019ve heard of\nyou because they've read your articles or books or\nthey\u2019ve seen you speak at a conference. Wouldn't"
+                        "text": "Companies want to hire experts. While a r\u00e9sum\u00e9\nwith a solid list of projects is a good way to\ndemonstrate experience, <i>nothing is better at a job\ninterview than for the interviewer to have already\nheard of you.</i> It\u2019s especially great if they\u2019ve heard of\nyou because they've read your articles or books or\nthey\u2019ve seen you speak at a conference."
                     },
                     {
                         "name": "50_appreciated.txt",
-                        "text": "them. People like to be appreciated, and they like\nto talk about the topics they are passionate about.\n<i>The fact that they are the professional or the\nguru or the leader or the renowned author doesn\u2019t\nchange that they\u2019re human and like to interact\nwith other humans.</i>"
+                        "text": "People like to be appreciated, and they like\nto talk about the topics they are passionate about.\n<i>The fact that they are the professional or the\nguru or the leader or the renowned author doesn\u2019t\nchange that they\u2019re human and like to interact\nwith other humans.</i>"
                     },
                     {
                         "name": "51_less_humility.txt",
