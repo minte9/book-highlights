@@ -14,15 +14,19 @@ $ npm install chalk
 
 ## Usage
 
-- Run the program from console / [index.js](https://github.com/minte9/book-highlights/blob/main/index.js) or ...
-- Run the program from browser / [index.htm](https://github.com/minte9/book-highlights/blob/main/public_html/index.htm)
+- Run the program from console / [index.js](https://github.com/minte9/book-highlights/blob/main/index.js)
 
 ~~~sh
 $ node index.js
-$ google-chrome public_html/index.htm 
 ~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
+
+- Run the program from browser / [index.htm](https://github.com/minte9/book-highlights/blob/main/public_html/index.htm)
+
+~~~sh
+$ google-chrome public_html/index.htm 
+~~~
 
 ~~~sh
 <iframe src="/book-highlights/public_html/index.htm" 
