@@ -37,11 +37,11 @@
     .author-bh { color: #333; }
     .wiki-bh { text-decoration: none; }
     .more-bh { color: #888; float: right; font-size: 14px; line-height: 28px;}
-    .title-bh { color: #888; font-style: italic; line-height: 35px; padding-left: 2px; }
+    .title-bh { color: #888; padding-left: 0px; }
     .reference-bh { text-decoration: none; }
     .book-bh { color: #888; }
-    .text-bh { clear: both; text-align: justify; font-size: 16px; 
-        line-height: 24px; color: #888; display: inline-block; margin-top: 15px; }
+    .text-bh { clear: both; text-align: justify; font-size: 16px; margin-bottom: 10px; 
+        line-height: 24px; color: #888; display: inline-block; margin-top: 30px; }
     .text-bh i { background-color: #FFF48B; font-style: normal; color: #000; }
     
     #dropdownMenuButton-bh { font-size: 14px; background: #fff; color: #000; 
@@ -55,6 +55,8 @@
     .icon-bh a { color: #aaa; font-size: 20px; padding: 1px; }
     .icon-bh a:hover { color: #333; }
     .icons-bh { float: right; margin-top: 20px; background: #fff; }
+    .file-bh { float: left; margin-top: 15px; background: #fff; padding: 5px 15px 5px 10px;
+        border: 1px solid #eee; border-radius: 5px; }
 
 </style>
 
@@ -79,10 +81,14 @@
             </ul>
         </div>
     </div><br clear='all'>
-    <span class='icon-bh'><i class="bi bi-file-earmark"></i></span>
-    <span class='title-bh' 
-        data-bs-toggle="tooltip" data-bs-placement='bottom' title='Number'></span>
     <span class='text-bh'></span><br>
+
+    <div class='file-bh'>
+        <span class='icon-bh'><i class="bi bi-file-earmark"></i></span>
+            <span class='title-bh' 
+                data-bs-toggle="tooltip" data-bs-placement='bottom' title='Number'></span>
+    </div>
+    
     <div class='icons-bh'>
         <span class='icon-bh'>
             <a href='#' target='_blank'>
@@ -100,4 +106,5 @@
                     data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
         </span>
     </div>
+    
 </div>
