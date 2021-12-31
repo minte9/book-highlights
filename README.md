@@ -4,7 +4,7 @@ Highlights archive from user's [screenshots](https://github.com/minte9/book-high
 
 ## Install
 
-- Clone the project and install dependencies, see [package.json](https://github.com/minte9/book-highlights/blob/main/package-lock.json)
+Clone the project and install dependencies, see [package.json](https://github.com/minte9/book-highlights/blob/main/package-lock.json)
 
 ~~~sh
 $ git clone https://github.com/minte9/book-highlights.git
@@ -14,7 +14,7 @@ $ npm install chalk
 
 ## Usage
 
-- Run the program from console / [index.js](https://github.com/minte9/book-highlights/blob/main/index.js)
+Run the program from console / [index.js](https://github.com/minte9/book-highlights/blob/main/index.js)
 
 ~~~sh
 $ node index.js
@@ -22,7 +22,7 @@ $ node index.js
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
-- Run the program from browser / [index.htm](https://github.com/minte9/book-highlights/blob/main/public_html/index.htm)
+Run the program from browser / [index.htm](https://github.com/minte9/book-highlights/blob/main/public_html/index.htm)
 
 ~~~sh
 $ google-chrome public_html/index.htm 
