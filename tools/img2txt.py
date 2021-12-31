@@ -13,12 +13,16 @@ DIR = pathlib.Path(__file__).resolve().parent
 config = configparser.ConfigParser()
 config.read(DIR / '../config/config.ini')
 
+REWRITE         = config['FLAG']['REWRITE'] # Overwrites .txt files
 DEBUG           = config['FLAG']['DEBUG'] # Display logging messages
 FILES           = config['DATA']['FILES']
 
 logging.basicConfig(level=logging.DEBUG, 
     format='\x1b[6;30;42m' + '%(levelname)s - %(message)s' + '\x1b[0m' + '\n')
 logging.disable(logging.DEBUG) if DEBUG == 'False' else None
+
+print('\nRewrite: %s' % REWRITE)
+
 
 """Get highlighted text image:
 Yellow mask and gaussian blur
@@ -101,6 +105,10 @@ for root, dirs, files in os.walk(DIR / FILES):
 
         fileTxt = file.replace(".png", ".txt")
         pathTxt = root + '/' + fileTxt
+        
+        if REWRITE == 'False':
+            if os.path.exists(pathTxt):
+                continue
         
         with open(pathTxt, 'w') as f:
             print(fileTxt)
