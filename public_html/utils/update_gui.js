@@ -26,18 +26,6 @@
 	obj = get_rand();
 	update_gui();
 
-	$('.dropdown-toggle').hover(function() {
-		$('#dropdown-menu-bh').addClass('show');
-	});
-
-	$('#dropdown-menu-bh').click(function() {
-		$('#dropdown-menu-bh').removeClass('show');
-	});
-
-	$('#dropdown-menu-bh').mouseleave(function() {
-		$('#dropdown-menu-bh').removeClass('show');
-	});
-
 	$('.text-bh, .next-bh').click(function() {
 		obj = get_rand(false);
 		update_gui();
@@ -124,8 +112,8 @@ function change_author(b, a) {
 
 function enableTooltips() { // Enable tooltips everywhere
 
-	tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-	tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 		return new bootstrap.Tooltip(tooltipTriggerEl)
 	});
 }

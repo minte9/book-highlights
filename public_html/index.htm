@@ -3,7 +3,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 <script>
-    const asset_version = "20211230_3";
+    const asset_version = "20211231";
 
     JQUERY_URL = window.location.href.includes("file://") ?
         './libraries/jquery.min.js' : '/lib/js/jquery.min.js'
@@ -42,11 +42,11 @@
     .wiki-bh { text-decoration: none; }
     .more-bh { color: #888; float: right; font-size: 14px; line-height: 28px;}
     .more-bh:hover { color: #ffb366; }
-    /* .title-bh { color: #888; font-style: italic; line-height: 25px; } */
+    .title-bh { color: #888; font-style: italic; line-height: 35px; padding-left: 2px; }
     .reference-bh { text-decoration: none; }
     .book-bh { color: #888; }
     .text-bh { clear: both; text-align: justify; font-size: 16px; 
-        line-height: 24px; color: #888; display: inline-block; margin-top: 25px; }
+        line-height: 24px; color: #888; display: inline-block; margin-top: 15px; }
     .text-bh i { background-color: #FFF48B; font-style: normal; color: #000; }
     
     #dropdownMenuButton-bh { font-size: 14px; background: #fff; color: #000; 
@@ -65,11 +65,13 @@
 
 <div class='bh'>
     <span class='next-bh' title='Show Next'
-            data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true"> ➟ </span>
+        data-bs-toggle="tooltip" data-bs-placement="bottom"> ➟ </span>
     <span class='more-bh'></span>
     <div class="container-fluid">
+
         <div class="dropdown" id='dropdown-bh'>
-            <button type="button" class="btn dropdown-toggle" id="dropdownMenuButton-bh">
+            <button type="button" class="btn btn-secondary dropdown-toggle"  
+                    data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton-bh">
                 <a class='wiki-bh' target='_blank'>
                     <span class='author-bh'></span>
                 </a>
@@ -82,22 +84,23 @@
             </ul>
         </div>
     </div><br clear='all'>
-    <!-- <span class='title-bh'></span><br> -->
+    <i class="bi bi-file-earmark"></i>
+    <span class='title-bh'></span><br>
     <span class='text-bh'></span><br>
     <div class='icons-bh'>
         <span class='icon-bh'>
             <a href='#' target='_blank'>
-                <i class="bi bi-book"
+                <i class="bi bi-book" title='Book' 
                     data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
         </span>
         <span class='icon-bh'>
             <a href='#' target='_blank'>
-                <i class="bi bi-person-circle"
+                <i class="bi bi-person-circle" title='Author' 
                     data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
         </span>
         <span class='icon-bh'>
             <a href='#' target="_blank">
-                <i class="bi bi-github" 
+                <i class="bi bi-github" title='Githubm' 
                     data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
         </span>
     </div>
