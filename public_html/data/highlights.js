@@ -396,7 +396,7 @@ let highlights =
                     },
                     {
                         "name": "21_do_it_faster.txt",
-                        "text": "Parkinson\u2019s law is an empirical observation\u2014\nnot an unescapable human mandate. <i>A sense of\nurgency, even if manufactured, is enough to easily\ndouble or triple your productivity. Try it, and you'll\nsee. You can do it faster. You can do it now.</i> You can\nget it done instead of talking about getting it done."
+                        "text": "Parkinson\u2019s law is an empirical observation - \nnot an unescapable human mandate. <i>A sense of\nurgency, even if manufactured, is enough to easily\ndouble or triple your productivity. Try it, and you'll\nsee. You can do it faster. You can do it now.</i> You can\nget it done instead of talking about getting it done."
                     },
                     {
                         "name": "22_dont_guess.txt",
