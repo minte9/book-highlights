@@ -41,10 +41,7 @@ $ google-chrome public_html/index.htm
 ~~~sh
 $ python update.py
 ~~~
-~~~sh
-$ node index.js
-$ google-chrome public_html/index.htm 
-~~~
+
 ##
 
 See it on action on [minte9.com](https://www.minte9.com)
