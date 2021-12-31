@@ -94,6 +94,7 @@ function update_gui() {
 	$('.more-bh').text(authorHighlightsLeft);
 	$('.book-bh').text(" / " + obj.book.title);
 
+	$('.title-bh').attr('data-bs-original-title', 'No. ' + number);
 	$('.bi-person-circle').attr('data-bs-original-title', obj.author.name);
 	$('.bi-person-circle').parent().attr('href', obj.author.wiki);
 	$('.bi-book').attr('data-bs-original-title', obj.book.title);
