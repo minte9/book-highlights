@@ -7,16 +7,9 @@ Highlights archive from user's [screenshots](https://github.com/minte9/book-high
 ~~~sh
 $ git clone https://github.com/minte9/book-highlights.git
 $ cd book-highlights/
-$ npm install chalk
 ~~~
 
 ## Usage
-
-~~~sh
-$ node index.js
-~~~
-
-[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
 ~~~sh
 $ google-chrome public_html/index.htm 
@@ -29,6 +22,13 @@ $ google-chrome public_html/index.htm
 ~~~
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_06.png)](https://www.minte9.com)
+
+~~~sh
+$ npm install chalk
+$ node index.js
+~~~
+
+[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
 ## Your archive
 
