@@ -5,18 +5,15 @@
 <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" integrity="sha256-uxjsS9cYFLTjmlr8j5i+DqvOLCBugRzEeWxUMWZeYXQ=" crossorigin="anonymous">
 <script>
-
     async function fetchData() {
-        response = await fetch('./data/books.json');
-        books = await response.json();
-        response = await fetch('./data/authors.json');
-        authors = await response.json();
-        response = await fetch('./data/highlights.json');
-        highlights = await response.json();
+        let a = await fetch('./data/books.json');
+        books = await a.json();
+        let b = await fetch('./data/authors.json');
+        authors = await b.json();
+        let c = await fetch('./data/highlights.json');
+        highlights = await c.json();
     }
-
     fetchData().then(data => $.getScript('./update_gui.js'));
-
 </script>
 <style>
     .bh { border: 1px solid #ccc; width: 450px; cursor: pointer; padding: 25px 20px 30px 20px; 
