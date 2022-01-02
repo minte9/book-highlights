@@ -22,17 +22,14 @@
 	});	
 	
 	enableTooltips();
-
-	obj = get_rand();
-	update_gui();
+	update_gui(get_rand(true));
 
 	$('.text-bh, .next-bh').click(function() {
-		obj = get_rand(false);
-		update_gui();
+		update_gui(get_rand());
 	});
 });
 
-function get_rand(seed=true) {
+function get_rand(seed=false) {
 
 	const date = new Date();
 	const today = date.getFullYear() + "" + (date.getMonth() + 1) + "" + date.getDay();
@@ -79,7 +76,7 @@ function get_rand(seed=true) {
 	return { "book": book, "author": author, "highlight": highlight, "book_highlights": data.length };
 }
 
-function update_gui() {
+function update_gui(obj) {
 
 	let number = obj.highlight.name.split('_')[0];
 	let title = obj.highlight.name.split('.txt')[0];
@@ -106,14 +103,13 @@ function change_author(b, a) {
 
 	book = DATA.books.filter(x => x.title == b)[0];	
 	author = DATA.authors.filter(x => x.name == a)[0];
-	obj = get_rand(false);
-	update_gui();
+	update_gui(get_rand());
 }
 
 function enableTooltips() { // Enable tooltips everywhere
 
-	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 		return new bootstrap.Tooltip(tooltipTriggerEl)
 	});
 }
