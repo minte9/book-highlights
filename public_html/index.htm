@@ -1,35 +1,23 @@
+<head>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js" integrity="sha512-+Ru50BzEpZjlFzVnjSmJfYFPFfY2hS0Kjlu/IvqaJoux7maF5lJrRVUJWJ2LevPls7rd242GLbWEt+zAo4OVVQ==" crossorigin="anonymous"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" integrity="sha256-uxjsS9cYFLTjmlr8j5i+DqvOLCBugRzEeWxUMWZeYXQ=" crossorigin="anonymous">
-
+<link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" integrity="sha256-uxjsS9cYFLTjmlr8j5i+DqvOLCBugRzEeWxUMWZeYXQ=" crossorigin="anonymous">
 <script>
-    const asset_version = "20211231_9";
+    async function fetchData() {
+        
+        response = await fetch('./data/books.json');
+        books = await response.json();
+        response = await fetch('./data/authors.json');
+        authors = await response.json();
+        response = await fetch('./data/highlights.json');
+        highlights = await response.json();
 
-    APP_DIR = window.location.href.includes("file://") ?
-        './' : '/lib/js/minte9/book-highlights/public_html/'
-    ;
-
-    function load(url, callback) {
-
-        let script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = url;
-
-        script.onreadystatechange = callback;
-        script.onload = callback;
-
-        let head = document.getElementsByTagName("head")[0];
-        head.appendChild(script);
+        $.getScript('./utils/update_gui.js');
     }
-
-    load(APP_DIR + 'data/highlights.js?' + asset_version, function() {  // data db
-        load(APP_DIR + 'utils/update_gui.js?' + asset_version); // gui display next item
-    });
-
+    fetchData();
 </script>
-
 <style>
     .bh { border: 1px solid #ccc; width: 450px; cursor: pointer; padding: 25px 20px 30px 20px; 
         font-family: Arial,Verdana,Geneva,sans-serif; font-size: 14px; line-height: 18px; }
@@ -43,7 +31,6 @@
     .text-bh { clear: both; text-align: justify; font-size: 16px; margin-bottom: 0px; 
         line-height: 24px; color: #888; display: inline-block; margin-top: 30px; }
     .text-bh i { background-color: #FFF48B; font-style: normal; color: #000; }
-    
     #dropdownMenuButton-bh { font-size: 14px; background: #fff; color: #000; 
         font-weight: normal !important; margin-right: 20px; box-shadow: 2px 2px 6px #eee;
         border: 1px solid #eee; float: left; padding-bottom: 3px; padding-top: 3px; }
@@ -51,13 +38,12 @@
     #dropdown-menu-bh { margin-top: 30px; margin-left: -5px; padding-right: 10px; 
         font-size: 14px;  padding-bottom: 25px; padding-top: 15px; box-shadow: 0 6px 12px #eee;} 
     .dropdown-divider { border: 1px solid #ccc; }
-    
     .icon-bh a { color: #888; font-size: 20px; padding: 1px; }
     .icon-bh a:hover { color: #333; }
     .icons-bh { float: right; margin-top: 20px; background: #fff; }
-
 </style>
-
+</head>
+<body>
 <div class='bh'>
     <span class='next-bh' title='Show Next'
         data-bs-toggle="tooltip" data-bs-placement="bottom"> ➟ </span>
@@ -74,9 +60,7 @@
                     <span class='book-bh'></span>
                 </a>
             </button>
-            <ul class="dropdown-menu" id="dropdown-menu-bh" aria-labelledby="dropdownMenuButton-bh">
-                <!-- update_gui.js -->
-            </ul>
+            <ul class="dropdown-menu" id="dropdown-menu-bh" aria-labelledby="dropdownMenuButton-bh"></ul>
         </div>
     </div><br clear='all'>
     <span class='text-bh'></span><br>
@@ -103,5 +87,5 @@
                     data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
         </span>
     </div>
-    
 </div>
+</body>

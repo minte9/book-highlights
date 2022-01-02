@@ -14,10 +14,7 @@ config = configparser.ConfigParser()
 config.read(DIR / '../config/config.ini')
 
 TEXTS_DIR         = DIR / config['DATA']['FILES']
-AUTHORS_JSON      = DIR / config['CONFIG']['AUTHORS']
-BOOKS_JSON        = DIR / config['CONFIG']['BOOKS']
-HIGHLIGHTS_JSON   = DIR / config['DATA']['HIGHLIGHTS_JSON']
-HIGHLIGHTS_JS     = DIR / config['DATA']['HIGHLIGHTS_JS']
+HIGHLIGHTS_JSON   = DIR / config['DATA']['HIGHLIGHTS']
 
 def get_dict(path):
     d = {'name': os.path.basename(path)}

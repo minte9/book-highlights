@@ -12,9 +12,9 @@
  const __dirname = dirname(__filename);
  const require = createRequire(import.meta.url);
  
- let AUTHORS     = require(__dirname + '/config/authors.json');
- let BOOKS       = require(__dirname + '/config/books.json');
- let HIGHLIGHTS  = require(__dirname + '/highlights.json');
+ let AUTHORS     = require(__dirname + '/public_html/data//authors.json');
+ let BOOKS       = require(__dirname + '/public_html/data//books.json');
+ let HIGHLIGHTS  = require(__dirname + '/public_html/data/highlights.json');
  
  const rand = Math.random();
  const i = Math.floor(rand * BOOKS.length);
