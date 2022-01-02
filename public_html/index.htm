@@ -6,11 +6,13 @@
 <link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" integrity="sha256-uxjsS9cYFLTjmlr8j5i+DqvOLCBugRzEeWxUMWZeYXQ=" crossorigin="anonymous">
 <script>
     async function fetchData() {
-        
+
         response = await fetch('./data/books.json');
         books = await response.json();
+
         response = await fetch('./data/authors.json');
         authors = await response.json();
+        
         response = await fetch('./data/highlights.json');
         highlights = await response.json();
 
