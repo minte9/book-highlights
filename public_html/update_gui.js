@@ -3,12 +3,12 @@
  */
  jQuery(function() {
 
-	seenHighlights = [];
-	authorHighlightsLeft = 0;
-	book = null;
-	author = null;
-	tooltipTriggerList = null;
-	tooltipList = null;
+	curr = {
+		seenHighlights: [],
+		authorHighlightsLeft: 0,
+		book: null,
+		author: null,
+	}
 	
 	DATA.books.forEach(book => {
 		DATA.authors.filter(x => x.title == book.title).forEach(author => {
@@ -31,29 +31,28 @@
 
 function get_rand(seed=false) {
 
+	let data = {};
 	const date = new Date();
 	const today = date.getFullYear() + "" + (date.getMonth() + 1) + "" + date.getDay();
 	let myrng = new Math.seedrandom(today);
-	rand = myrng.quick();
+	let rand = myrng.quick();
 
-	let data = [];
-
-	if (book == null) {
-		book = DATA.books[Math.floor(rand * DATA.books.length)];
+	if (curr.book == null) {
+		curr.book = DATA.books[Math.floor(rand * DATA.books.length)];
 	}
 
-	data = DATA.highlights.filter(x => x.name == book.title);
+	data = DATA.highlights.filter(x => x.name == curr.book.title);
 	data = data[0].children;
 	
-	if (author == null) {
+	if (curr.author == null) {
 		let rand_author = Math.floor(rand * data.length);
-		author = DATA.authors.filter(x => x.name == data[rand_author].name)[0];
+		curr.author = DATA.authors.filter(x => x.name == data[rand_author].name)[0];
 	}
 
-	data = data.filter(x => x.name == author.name)[0];
+	data = data.filter(x => x.name == curr.author.name)[0];
 	data = data.children;
 
-	data = data.filter(x => ! seenHighlights.includes(x.name));
+	data = data.filter(x => ! curr.seenHighlights.includes(x.name));
 
 	if (data.length == 0 ) { // no more left
 		return; 
@@ -66,14 +65,14 @@ function get_rand(seed=false) {
 		v.children.forEach(vv => {
 			vv.children.forEach(vvv => {
 				if (vvv.name ==  highlight.name) {
-					seenHighlights.push(vvv.name);
-					authorHighlightsLeft = data.length - 1;
+					curr.seenHighlights.push(vvv.name);
+					curr.authorHighlightsLeft = data.length - 1;
 				}
 			});
 		});
 	});
 
-	return { "book": book, "author": author, "highlight": highlight, "book_highlights": data.length };
+	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": data.length };
 }
 
 function update_gui(obj) {
@@ -87,7 +86,7 @@ function update_gui(obj) {
 
 	$('.text-bh').html(obj.highlight.text);
 	$('.author-bh').text(obj.author.name + " / ");
-	$('.more-bh').text(authorHighlightsLeft);
+	$('.more-bh').text(curr.authorHighlightsLeft);
 	$('.book-bh').text(obj.book.title);
 
 	$('.bi-file-earmark-check').attr('data-bs-original-title', title + '<br>' + 'No. ' + number);
@@ -101,8 +100,8 @@ function update_gui(obj) {
 
 function change_author(b, a) {
 
-	book = DATA.books.filter(x => x.title == b)[0];	
-	author = DATA.authors.filter(x => x.name == a)[0];
+	curr.book = DATA.books.filter(x => x.title == b)[0];	
+	curr.author = DATA.authors.filter(x => x.name == a)[0];
 	update_gui(get_rand());
 }
 
