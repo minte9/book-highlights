@@ -89,10 +89,9 @@ function update_gui() {
 	title = title.charAt(0).toUpperCase() + title.slice(1);
 
 	$('.text-bh').html(obj.highlight.text);
-	$('.author-bh').text(obj.author.name);
-	// $('.title-bh').text(title + " ... ");
+	$('.author-bh').text(obj.author.name + " / ");
 	$('.more-bh').text(authorHighlightsLeft);
-	$('.book-bh').text(" / " + obj.book.title);
+	$('.book-bh').text(obj.book.title);
 
 	$('.bi-file-earmark-check').attr('data-bs-original-title', title + '<br>' + 'No. ' + number);
 	$('.bi-person-circle').attr('data-bs-original-title', obj.author.name);
