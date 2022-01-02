@@ -9,16 +9,15 @@
 
         response = await fetch('./data/books.json');
         books = await response.json();
-
         response = await fetch('./data/authors.json');
         authors = await response.json();
-        
         response = await fetch('./data/highlights.json');
         highlights = await response.json();
 
         $.getScript('./utils/update_gui.js');
     }
     fetchData();
+
 </script>
 <style>
     .bh { border: 1px solid #ccc; width: 450px; cursor: pointer; padding: 25px 20px 30px 20px; 
