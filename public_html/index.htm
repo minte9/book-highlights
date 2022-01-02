@@ -14,10 +14,9 @@
         response = await fetch('./data/highlights.json');
         highlights = await response.json();
 
-        $.getScript('./utils/update_gui.js');
+        $.getScript('./update_gui.js');
     }
     fetchData();
-
 </script>
 <style>
     .bh { border: 1px solid #ccc; width: 450px; cursor: pointer; padding: 25px 20px 30px 20px; 
@@ -70,12 +69,12 @@
         <span class='icon-bh'>
             <a href='#' target='_blank'>
                 <i class="bi bi-person-circle" title='Author' 
-                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
+                    data-bs-toggle="tooltip" data-bs-placement="top"></i></a>
         </span>
         <span class='icon-bh'>
             <a href='#' target='_blank'>
                 <i class="bi bi-book" title='Book' 
-                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
+                    data-bs-toggle="tooltip" data-bs-placement="top"></i></a>
         </span>
         <span class='icon-bh'>
             <a href='javascript:void(0)'>
@@ -85,7 +84,7 @@
         <span class='icon-bh'>
             <a href='#' target="_blank">
                 <i class="bi bi-github" title='Githubm' 
-                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true"></i></a>
+                    data-bs-toggle="tooltip" data-bs-placement="top"></i></a>
         </span>
     </div>
 </div>
