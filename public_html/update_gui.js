@@ -10,8 +10,8 @@
 	tooltipTriggerList = null;
 	tooltipList = null;
 	
-	books.forEach(book => {
-		authors.filter(x => x.title == book.title).forEach(author => {
+	DATA.books.forEach(book => {
+		DATA.authors.filter(x => x.title == book.title).forEach(author => {
 			$("#dropdown-menu-bh").append(`
 				<li><a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');">
@@ -42,15 +42,15 @@ function get_rand(seed=true) {
 	let data = [];
 
 	if (book == null) {
-		book = books[Math.floor(rand * books.length)];
+		book = DATA.books[Math.floor(rand * DATA.books.length)];
 	}
 
-	data = highlights.filter(x => x.name == book.title);
+	data = DATA.highlights.filter(x => x.name == book.title);
 	data = data[0].children;
 	
 	if (author == null) {
 		let rand_author = Math.floor(rand * data.length);
-		author = authors.filter(x => x.name == data[rand_author].name)[0];
+		author = DATA.authors.filter(x => x.name == data[rand_author].name)[0];
 	}
 
 	data = data.filter(x => x.name == author.name)[0];
@@ -65,7 +65,7 @@ function get_rand(seed=true) {
 	let highlight_index = Math.floor(rand * data.length)
 	let highlight = data[highlight_index];
 
-	highlights.forEach(v => {
+	DATA.highlights.forEach(v => {
 		v.children.forEach(vv => {
 			vv.children.forEach(vvv => {
 				if (vvv.name ==  highlight.name) {
@@ -104,8 +104,8 @@ function update_gui() {
 
 function change_author(b, a) {
 
-	book = books.filter(x => x.title == b)[0];	
-	author = authors.filter(x => x.name == a)[0];
+	book = DATA.books.filter(x => x.title == b)[0];	
+	author = DATA.authors.filter(x => x.name == a)[0];
 	obj = get_rand(false);
 	update_gui();
 }
