@@ -29,8 +29,9 @@ $ node index.js
 ## Your archive
 
 - Save your images to [screenshots/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots) archive directory.
-- View [screenshots_sample/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots_sample) as example.
 - Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script
+
+[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/screenshots_sample.png)](https://www.minte9.com)
 
 ~~~sh
 $ python update.py
