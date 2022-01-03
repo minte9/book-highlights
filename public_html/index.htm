@@ -9,7 +9,7 @@
 <script>
     const origin = window.location.origin;
     const accepted = ["http://refresh.local", "https://www.minte9.com", "http://127.0.0.1:5500"];
-    console.log("Iframe parent origin: " + origin);
+    console.log("Origin: " + origin);
     if (! accepted.includes(origin)) {
         throw ("Origin not allowed!");
     }
