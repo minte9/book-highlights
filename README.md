@@ -13,7 +13,7 @@ $ cd book-highlights/
 
 ~~~sh
 <iframe src="/book-highlights/public_html/index.htm" 
-  sandbox="allow-same-origin allow-scripts"
+  sandbox="allow-same-origin allow-scripts allow-popups"
     width=450 height=350 frameborder=0 scrolling=no>
 </iframe>
 ~~~
