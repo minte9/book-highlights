@@ -30,7 +30,7 @@ $ node index.js
 ## Your archive
 
 - Save your images to [screenshots/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots) archive directory.
-- Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script
+- Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
 $ python update.py
