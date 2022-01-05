@@ -37,11 +37,19 @@ def sorted_dict(data, sort_by):
         if 'children' in item:
             item['children'] = sorted_dict(item['children'], sort_by)
     return data
-
+    
 print('Write highlights.json ...')
 with open(HIGHLIGHTS_JSON, 'w') as f:
     data = get_dict(TEXTS_DIR)['children']
     data = sorted_dict(data, 'name')
+    i = 0 
+    for book in data:
+        for author in book['children']:
+            for item in author['children']:
+                i = i + 1
+                item['name'] = ' '.join(item['name'].split('_')[1:]).replace('.txt', '')
+                item['name'] = item['name'][0].upper() + item['name'][1:]
+                item['id'] = i
     json.dump(data, f, indent=4, ensure_ascii=True)
 
 print('Done', '\n')

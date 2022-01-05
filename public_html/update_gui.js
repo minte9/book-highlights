@@ -14,12 +14,12 @@
 		DATA.authors.filter(x => x.title == book.title).forEach(author => {
 			$("#dropdown-menu-bh").append(`
 				<li>
-					
 					<a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');">
-						<i class="bi bi-check-circle-fill"></i>
-					${author.name}<font color='#aaa'>, ${author.tags}</font>
-				</a></li>
+							<i class="bi bi-check-circle-fill"></i>
+								${author.name}<font color='#aaa'>, ${author.tags}</font>
+					</a>
+				</li>
 			`);
 		});			
 	});	
@@ -80,19 +80,12 @@ function get_rand(seed=false) {
 
 function update_gui(obj) {
 
-	let number = obj.highlight.name.split('_')[0];
-	let title = obj.highlight.name.split('.txt')[0];
-
-	title = title.replace(/_/g, ' ');
-	title = title.replace(/\d/g, '').trim();
-	title = title.charAt(0).toUpperCase() + title.slice(1);
-
 	$('.text-bh').html(obj.highlight.text);
 	$('.author-bh').text(obj.author.name + " / ");
 	$('.more-bh').text(curr.authorHighlightsLeft);
 	$('.book-bh').text(obj.book.title);
 
-	$('.bi-file-earmark-check').attr('data-bs-original-title', title + '<br>' + 'No. ' + number);
+	$('.bi-file-earmark-check').attr('data-bs-original-title', obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
 	$('.bi-person-circle').attr('data-bs-original-title', obj.author.name);
 	$('.bi-person-circle').parent().attr('href', obj.author.wiki);
 	$('.bi-book').attr('data-bs-original-title', obj.book.title);

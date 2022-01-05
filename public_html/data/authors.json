@@ -3,24 +3,28 @@
         "title": "Passionate Programmer",
         "name": "Chad Fowler",
         "tags": "ruby and rails, jazz performer",
-        "wiki": "https://www.slush.org/person/chad-fowler/"
+        "wiki": "https://www.slush.org/person/chad-fowler/",
+        "id": 1
     },
     {
         "title": "Coders at work",
         "name": "Jamie Zawinski",
         "tags": "netscape, mozilla",
-        "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski"
+        "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski",
+        "id": 2
     },
     {
         "title": "Coders at work",
         "name": "Brad Fitzpatrick",
         "tags": "live journal, memcached, google",
-        "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick"
+        "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick",
+        "id": 3
     },
     {
         "title": "Coders at work",
         "name": "Douglas Crockford",
         "tags": "javaScript, json, yahoo",
-        "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford"
+        "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford",
+        "id": 4
     }
 ]
