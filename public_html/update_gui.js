@@ -13,8 +13,11 @@
 	DATA.books.forEach(book => {
 		DATA.authors.filter(x => x.title == book.title).forEach(author => {
 			$("#dropdown-menu-bh").append(`
-				<li><a class="dropdown-item" 
+				<li>
+					
+					<a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');">
+						<i class="bi bi-check-circle-fill"></i>
 					${author.name}<font color='#aaa'>, ${author.tags}</font>
 				</a></li>
 			`);
