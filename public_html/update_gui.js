@@ -55,7 +55,7 @@ function get_rand(seed=false) {
 	data = data.filter(x => x.name == curr.author.name)[0];
 	data = data.children;
 
-	data = data.filter(x => ! curr.seenHighlights.includes(x.name));
+	data = data.filter(x => ! curr.seenHighlights.includes(x.id));
 
 	if (data.length == 0 ) { // no more left
 		return; 
@@ -68,7 +68,7 @@ function get_rand(seed=false) {
 		v.children.forEach(vv => {
 			vv.children.forEach(vvv => {
 				if (vvv.name ==  highlight.name) {
-					curr.seenHighlights.push(vvv.name);
+					curr.seenHighlights.push(vvv.id);
 					curr.authorHighlightsLeft = data.length - 1;
 				}
 			});
