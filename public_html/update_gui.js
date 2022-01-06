@@ -10,18 +10,20 @@
 		author: null,
 	}
 	
+	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 	DATA.books.forEach(book => {
 		DATA.authors.filter(x => x.title == book.title).forEach(author => {
 			$("#dropdown-menu-bh").append(`
 				<li>
 					<a class="dropdown-item" 
-						onClick="change_author('${book.title}', '${author.name}');">
+						onClick="change_author('${book.title}', '${author.name}');" title='${book.title} - ${author.tags}'>
 							<i class="bi bi-check-circle-fill"></i>
-								${author.name}<font color='#aaa'>, ${author.tags}</font>
+							${author.name}
 					</a>
 				</li>
 			`);
-		});			
+		});	
+		$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 	});	
 	
 	enableTooltips();
