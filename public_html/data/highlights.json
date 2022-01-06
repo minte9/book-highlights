@@ -584,6 +584,16 @@
                         "name": "No one listening",
                         "text": "Some people find this idea depressing, but it\nfills me with hope. As the French writer Andr\u00e9\nGide put it, <i>\u201cEverything that needs to be said has\nalready been said. But, since no one was listening,\neverything must be said again.\u201d</i>",
                         "id": 110
+                    },
+                    {
+                        "name": "Friendly ghosts",
+                        "text": "<i>Seeing yourself as part of a creative lineage will\nhelp you feel less alone as you start making your\nown stuff</i>. I hang pictures of my favorite artists\nin my studio. They\u2019re like friendly ghosts. I can\nalmost feel them pushing me forward as I\u2019m\nhunched over my desk.",
+                        "id": 111
+                    },
+                    {
+                        "name": "Remote masters",
+                        "text": "<i>The great thing about dead or remote masters is\nthat they can\u2019t refuse you as an apprentice.</i> You\ncan learn whatever you want from them. They left\ntheir lesson plans in their work.",
+                        "id": 112
                     }
                 ]
             }
