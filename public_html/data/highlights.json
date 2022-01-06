@@ -563,5 +563,30 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Steal Like an Artist",
+        "children": [
+            {
+                "name": "Austin Kleon",
+                "children": [
+                    {
+                        "name": "People advice",
+                        "text": "It\u2019s one of my theories that <i>when people\ngive you advice, they\u2019re really just\ntalking to themselves in the past.</i>\nThis book is me talking to a previous\nversion of myself.",
+                        "id": 108
+                    },
+                    {
+                        "name": "Unknown reference",
+                        "text": "The writer Jonathan Lethem has said that when\n<i>people call something \u201coriginal,\u201d nine out of ten\ntimes they just don\u2019t know the references</i> or the\noriginal sources involved.",
+                        "id": 109
+                    },
+                    {
+                        "name": "No one listening",
+                        "text": "Some people find this idea depressing, but it\nfills me with hope. As the French writer Andr\u00e9\nGide put it, <i>\u201cEverything that needs to be said has\nalready been said. But, since no one was listening,\neverything must be said again.\u201d</i>",
+                        "id": 110
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -26,5 +26,12 @@
         "tags": "JavaScript, Json, Yahoo",
         "wiki": "https://en.wikipedia.org/wiki/Douglas_Crockford",
         "id": 4
+    },
+    {
+        "title": "Steal Like an Artist",
+        "name": "Austin Kleon",
+        "tags": "A writer who draws",
+        "wiki": "https://austinkleon.com",
+        "id": 5
     }
 ]

@@ -16,7 +16,7 @@
 			$("#dropdown-menu-bh").append(`
 				<li>
 					<a class="dropdown-item" 
-						onClick="change_author('${book.title}', '${author.name}');" title='${book.title} - ${author.tags}'>
+						onClick="change_author('${book.title}', '${author.name}');" title='${author.tags}'>
 							<i class="bi bi-check-circle-fill"></i>
 							${author.name}
 					</a>
