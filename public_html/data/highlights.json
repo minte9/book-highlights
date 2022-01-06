@@ -594,6 +594,21 @@
                         "name": "Remote masters",
                         "text": "<i>The great thing about dead or remote masters is\nthat they can\u2019t refuse you as an apprentice.</i> You\ncan learn whatever you want from them. They left\ntheir lesson plans in their work.",
                         "id": 112
+                    },
+                    {
+                        "name": "Get your education",
+                        "text": "<i>School is one thing. Education is another. The two\ndon\u2019t always overlap.</i> Whether you're in school\nor not, it\u2019s always your job to get yourself an\neducation.",
+                        "id": 113
+                    },
+                    {
+                        "name": "Go deeper",
+                        "text": "<i>You have to be curious about the world in which\nyou live. Look things up. Chase down every\nreference.</i> Go deeper than anybody else\u2014that\u2019s\nhow you'll get ahead.",
+                        "id": 114
+                    },
+                    {
+                        "name": "Google everything",
+                        "text": "Google everything. I mean everything.\nGoogle your dreams. Google your problems.\n<i>Don\u2019t ask a question before you Google it.\nYou'll either find the answer or you'll come\nup with a better question.</i>",
+                        "id": 115
                     }
                 ]
             }
