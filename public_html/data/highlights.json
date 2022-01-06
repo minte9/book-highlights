@@ -609,6 +609,16 @@
                         "name": "Google everything",
                         "text": "Google everything. I mean everything.\nGoogle your dreams. Google your problems.\n<i>Don\u2019t ask a question before you Google it.\nYou'll either find the answer or you'll come\nup with a better question.</i>",
                         "id": 115
+                    },
+                    {
+                        "name": "Start book",
+                        "text": "Always be reading. Go to the library. There\u2019s\nmagic in being surrounded by books. Get lost\nin the stacks. Read bibliographies. <i>It\u2019s not the\nbook you start with, it\u2019s the book that book\nleads you to.</i>",
+                        "id": 116
+                    },
+                    {
+                        "name": "Unread books",
+                        "text": "Collect books, even if you don\u2019t plan on reading\nthem right away. Filmmaker John Waters has said,\n<i>\u201cNothing is more important than an unread library.\u201d</i>",
+                        "id": 117
                     }
                 ]
             }
