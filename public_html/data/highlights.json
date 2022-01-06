@@ -617,7 +617,7 @@
                     },
                     {
                         "name": "Unread books",
-                        "text": "Collect books, even if you don\u2019t plan on reading\nthem right away. Filmmaker John Waters has said,\n<i>\u201cNothing is more important than an unread library.\u201d</i>",
+                        "text": "Collect books, even if you don\u2019t plan on reading\nthem right away. <i>Filmmaker John Waters has said,\n\u201cNothing is more important than an unread library.\u201d</i>",
                         "id": 117
                     }
                 ]
