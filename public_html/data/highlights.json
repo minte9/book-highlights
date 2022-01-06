@@ -597,12 +597,12 @@
                     },
                     {
                         "name": "Get your education",
-                        "text": "<i>School is one thing. Education is another. The two\ndon\u2019t always overlap.</i> Whether you're in school\nor not, it\u2019s always your job to get yourself an\neducation.",
+                        "text": "School is one thing. Education is another. The two\ndon\u2019t always overlap. <i>Whether you're in school\nor not, it\u2019s always your job to get yourself an\neducation.</i>",
                         "id": 113
                     },
                     {
                         "name": "Go deeper",
-                        "text": "<i>You have to be curious about the world in which\nyou live. Look things up. Chase down every\nreference.</i> Go deeper than anybody else\u2014that\u2019s\nhow you'll get ahead.",
+                        "text": "You have to be curious about the world in which\nyou live. Look things up. <i>Chase down every\nreference. Go deeper than anybody else\u2014that\u2019s\nhow you'll get ahead.</i>",
                         "id": 114
                     },
                     {
