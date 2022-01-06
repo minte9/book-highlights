@@ -18,7 +18,7 @@
 					<a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');" title='${author.tags}'>
 							<i class="bi bi-check-circle-fill"></i>
-							${author.name} <font color='#888'>${book.title}</font>
+							${author.name} <span class='dropdown-book'>${book.title}</span>
 					</a>
 				</li>
 			`);
