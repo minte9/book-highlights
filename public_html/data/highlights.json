@@ -572,7 +572,7 @@
                 "children": [
                     {
                         "name": "People advice",
-                        "text": "It\u2019s one of my theories that <i>when people\ngive you advice, they\u2019re really just\ntalking to themselves in the past.</i>\nThis book is me talking to a previous\nversion of myself.",
+                        "text": "It\u2019s one of my theories that <i>when people\ngive you advice, they\u2019re really just\ntalking to themselves in the past. \nThis book is me talking to a previous\nversion of myself.</i>",
                         "id": 108
                     },
                     {
@@ -612,7 +612,7 @@
                     },
                     {
                         "name": "Start book",
-                        "text": "Always be reading. Go to the library. There\u2019s\nmagic in being surrounded by books. Get lost\nin the stacks. Read bibliographies. <i>It\u2019s not the\nbook you start with, it\u2019s the book that book\nleads you to.</i>",
+                        "text": "Always be reading. Go to the library. <i>There\u2019s\nmagic in being surrounded by books. Get lost\nin the stacks. Read bibliographies. It\u2019s not the\nbook you start with, it\u2019s the book that book\nleads you to.</i>",
                         "id": 116
                     },
                     {
