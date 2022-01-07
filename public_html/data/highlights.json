@@ -669,6 +669,36 @@
                         "name": "Lot of projects",
                         "text": "<i>I think it\u2019s good to have a lot of projects going\nat once so you can bounce between them.</i>\nWhen you get sick of one project, move over to\nanother, and when you're sick of that one, move\nback to the project you left. ",
                         "id": 127
+                    },
+                    {
+                        "name": "Get bored",
+                        "text": "<i>Creative people need time to just sit around\nand do nothing. I get some of my best ideas when\nI\u2019m bored</i>, which is why I never take my shirts\nto the cleaners. I love ironing my shirts\u2014it\u2019s so\nboring. I almost always get good ideas.",
+                        "id": 128
+                    },
+                    {
+                        "name": "Avoiding work",
+                        "text": "I almost always get good ideas. <i>If you\u2019re out\nof ideas, wash the dishes. Take a really long walk.\nStare at a spot on the wall for as long as you can.</i> As\nthe artist Maira Kalman says, \u201cAvoiding work is the\nway to focus my mind.\u201d",
+                        "id": 129
+                    },
+                    {
+                        "name": "Hobby",
+                        "text": "<i>It\u2019s so important to have a hobby. A hobby is\nsomething creative that\u2019s just for you.</i> You\ndon\u2019t try to make money or get famous off\nit, you just do it because it makes you happy.\nAhobby is something that gives but doesn\u2019t\ntake.",
+                        "id": 130
+                    },
+                    {
+                        "name": "Public image",
+                        "text": "This is actually a good thing, because you want\nattention only after you're doing really good work.\n<i>There\u2019s no pressure when you're unknown. You\ncan do what you want. Experiment. Do things just\nfor the fun of it.</i> When you\u2019re unknown, there\u2019s\nnothing to distract you from getting better. No\npublic image to manage.",
+                        "id": 131
+                    },
+                    {
+                        "name": "Stuff on internet",
+                        "text": "It\u2019s a two-step process. <i>Step one, \u201cdo good work,\u201d is\nincredibly hard. There are no shortcuts. Make stuff every\nday. Know you're going to suck for a while. Fail. Get better.</i>\nStep two, \u201cshare it with people,\u201d was really hard up until\nabout ten years ago or so. Now, it's very simple: \u201cPut your\nstuff on the Internet.\u201d",
+                        "id": 132
+                    },
+                    {
+                        "name": "Ideas incubator",
+                        "text": "<i>You don\u2019t put yourself online only because you\nhave something to say\u2014you can put yourself\nonline to find something to say.</i> The Internet can\nbe more than just a resting place to publish your\nfinished ideas\u2014it can also be an incubator for\nideas that aren't fully formed.",
+                        "id": 133
                     }
                 ]
             }

@@ -82,6 +82,9 @@ def adjust(text, highlighted):
     pattern = re.compile(r',$') # wrong , end of propostion
     highlighted = pattern.sub('', highlighted) # remove
 
+    pattern = re.compile(r"'") # apostrophe
+    highlighted = pattern.sub('’', highlighted)
+
     return text, highlighted
 
 
