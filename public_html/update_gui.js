@@ -12,13 +12,19 @@
 	
 	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 	DATA.books.forEach(book => {
-		DATA.authors.filter(x => x.title == book.title).forEach((author, k) => {
+		DATA.authors.filter(x => x.title == book.title).forEach((author) => {
+			let totals = DATA.highlights
+				.filter(x => x.name == book.title)[0].children
+				.filter(x => x.name == author.name)[0].children.length;
 			$("#dropdown-menu-bh").append(`
 				<li>
 					<a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');" title='${author.tags}'>
 							<i class="bi bi-check-circle-fill"></i>
-							${author.name} <span class='dropdown-book'>${book.title}</span>
+							${author.name} 
+							<span class='dropdown-book'>${book.title}
+								<span class='dropdown-author-totals'>${totals}</span> 
+							</span> 
 					</a>
 				</li>
 			`);
