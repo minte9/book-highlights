@@ -10,19 +10,32 @@
 		author: null,
 	}
 	
+	// Cookies.remove('ids');
+	cookieIds = Cookies.get('ids') !== undefined ? JSON.parse(Cookies.get('ids')) : [];
+	// console.log(cookieIds);
+	
 	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 	DATA.books.forEach((book, i) => {
 		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
-			let totals = DATA.highlights
+
+			let highlights = DATA.highlights
 				.filter(x => x.name == book.title)[0].children
-				.filter(x => x.name == author.name)[0].children.length;
+				.filter(x => x.name == author.name)[0].children
+				.filter(x => ! cookieIds.includes(x.id));
+			let totals = highlights.length - 1;
+
 			$("#dropdown-menu-bh").append(`
 				<li>
 					<a class="dropdown-item" 
 						onClick="change_author('${book.title}', '${author.name}');" title='${author.tags}'>
-							<i class="bi bi-check-circle-fill"></i>
+							<i class="bi bi-check-circle-fill" id='check_fill_${i}_${j}'></i>
 							${author.name} 
-							<span class='dropdown-author-totals' id='totals_${i}_${j}'>${totals}</span> 
+							<span class='dropdown-check' id='check_${i}_${j}'>
+								<i class="bi bi-check"></i>
+							</span>
+							<span class='dropdown-author-totals' id='totals_${i}_${j}'>
+								${totals} 
+							</span> 
 							<span class='dropdown-book'>${book.title}</span> 
 					</a>
 				</li>
@@ -62,7 +75,7 @@ function get_rand(seed=false) {
 	data = data.filter(x => x.name == curr.author.name)[0];
 	data = data.children;
 
-	data = data.filter(x => ! curr.seenHighlights.includes(x.id));
+	data = data.filter(x => ! cookieIds.includes(x.id));
 
 	if (data.length == 0 ) { // no more left
 		return; 
@@ -77,7 +90,6 @@ function get_rand(seed=false) {
 				if (vvv.name ==  highlight.name) {
 					curr.seenHighlights.push(vvv.id);
 					curr.authorHighlightsLeft = data.length - 1;
-					// /$('#totals_' + k + '_'+ kk).text(curr.authorHighlightsLeft);
 				}
 			});
 		});
@@ -100,6 +112,31 @@ function update_gui(obj) {
 	$('.bi-book').parent().attr('href', obj.book.link);
 	$('.bi-github').attr('data-bs-original-title', 'Github');
 	$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
+
+	if (obj.book_highlights > 1) { // don't add last to cookie
+		if(! cookieIds.includes(obj.highlight.id)) {
+			cookieIds.push(obj.highlight.id);
+		}
+		Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
+	}
+
+	// update totals
+	DATA.books.forEach((book, i) => {
+		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
+			let highlights = DATA.highlights
+				.filter(x => x.name == book.title)[0].children
+				.filter(x => x.name == author.name)[0].children;
+			let totals = highlights.length;
+			highlights = highlights.filter(x => ! cookieIds.includes(x.id));
+			let totals_cookie = highlights.length;
+			$('#totals_' + i + '_'+ j).text(totals_cookie > 1 ? totals_cookie : totals);
+			$('#check_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
+			$('#check_fill_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
+			if ($('#curr-author').text().includes(author.name)) {
+				$('#check-curr-author').css('color', totals_cookie > 1 ? '#ffb366' : 'green');
+			}
+		});
+	});
 }
 
 function change_author(b, a) {
