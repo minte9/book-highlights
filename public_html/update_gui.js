@@ -22,9 +22,8 @@
 						onClick="change_author('${book.title}', '${author.name}');" title='${author.tags}'>
 							<i class="bi bi-check-circle-fill"></i>
 							${author.name} 
-							<span class='dropdown-book'>${book.title}
-								<span class='dropdown-author-totals'>${totals}</span> 
-							</span> 
+							<span class='dropdown-author-totals'>${totals}</span> 
+							<span class='dropdown-book'>${book.title}</span> 
 					</a>
 				</li>
 			`);
