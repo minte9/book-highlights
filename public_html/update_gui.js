@@ -9,10 +9,30 @@
 		book: null,
 		author: null,
 	}
+
+	//Cookies.remove('keep_history');
+
+	keep_history = Cookies.get('keep_history') === undefined ? 1 : Cookies.get('keep_history');
+	//console.log(keep_history);
+	$('#flexSwitchCheckChecked').prop('checked', keep_history == 1);
 	
-	// Cookies.remove('ids');
-	cookieIds = Cookies.get('ids') !== undefined ? JSON.parse(Cookies.get('ids')) : [];
-	// console.log(cookieIds);
+	$('#flexSwitchCheckChecked').on('change', function (event) {
+		if (event.target.checked == false) {
+			keep_history = 0;
+			Cookies.remove('ids');
+			cookieIds = [];
+			update_gui(get_rand());
+			Cookies.set('keep_history', 0);
+		} else {
+			keep_history = 1;
+			Cookies.set('keep_history', 1);			
+		}
+	});
+
+	cookieIds = [];
+	if (keep_history && Cookies.get('ids') !== undefined) {
+		cookieIds = JSON.parse(Cookies.get('ids'));
+	}
 	
 	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 	DATA.books.forEach((book, i) => {
@@ -117,8 +137,14 @@ function update_gui(obj) {
 		if(! cookieIds.includes(obj.highlight.id)) {
 			cookieIds.push(obj.highlight.id);
 		}
-		Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
+
+		if (keep_history === 1) {
+			Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
+		}
 	}
+
+	//console.log(keep_history);
+	//console.log(cookieIds);
 
 	// update totals
 	DATA.books.forEach((book, i) => {

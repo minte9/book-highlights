@@ -23,32 +23,36 @@
     fetchData().then(result => $.getScript('./update_gui.js?v=' + version));
 </script>
 <style>
-    .bh { border: 1px solid #ccc; width: 450px; cursor: pointer; padding: 25px 20px 40px 20px; 
-        font-family: Arial,Verdana,Geneva,sans-serif; font-size: 14px; line-height: 18px; }
-    .next-bh {color: #ffb366; font-size: 40px; float: right; line-height: 25px; margin-left: 5px; }
-    .author-bh { color: #333; margin-right: 10px; }
-    .wiki-bh { text-decoration: none; }
-    .more-bh { color: #888; float: right; font-size: 14px; line-height: 28px;}
-    .title-bh { color: #888; padding-left: 0px; }
-    .reference-bh { text-decoration: none; }
-    .book-bh { color: #333; padding-right: 20px; }
-    .text-bh { clear: both; text-align: justify; font-size: 16px; margin-bottom: 0px; 
-        line-height: 24px; color: #888; display: inline-block; margin-top: 30px; }
-    .text-bh i { background-color: #FFF48B; font-style: normal; color: #000; }
-    #dropdownMenuButton-bh { font-size: 14px; background: #fff; color: #000; text-align: left; 
+    .bh {border: 1px solid #ccc; width: 450px; cursor: pointer; padding: 25px 20px 40px 20px; 
+        font-family: Arial,Verdana,Geneva,sans-serif; font-size: 14px; line-height: 18px;}
+    .next-bh {color: #ffb366; font-size: 40px; float: right; line-height: 25px; margin-left: 5px;}
+    .author-bh {color: #333; margin-right: 10px;}
+    .wiki-bh {text-decoration: none;}
+    .more-bh {color: #888; float: right; font-size: 14px; line-height: 28px;}
+    .title-bh {color: #888; padding-left: 0px;}
+    .reference-bh {text-decoration: none;}
+    .book-bh {color: #333; padding-right: 20px;}
+    .text-bh {clear: both; text-align: justify; font-size: 16px; margin-bottom: 0px; 
+        line-height: 24px; color: #888; display: inline-block; margin-top: 30px;}
+    .text-bh i {background-color: #FFF48B; font-style: normal; color: #000;}
+    #dropdownMenuButton-bh {font-size: 14px; background: #fff; color: #000; text-align: left; 
         font-weight: normal !important; margin-right: 20px; box-shadow: 2px 2px 6px #eee; 
-        border: 1px solid #eee; float: left; padding: 3px 10px 3px 16px; }
-    #dropdown-bh { font-size: 12px; margin-left: -22px; }
-    #dropdown-menu-bh { margin-top: 30px; margin-left: -5px; 
+        border: 1px solid #eee; float: left; padding: 3px 10px 3px 16px;}
+    #dropdown-bh {font-size: 12px; margin-left: -22px;}
+    #dropdown-menu-bh {margin-top: 30px; margin-left: -5px; 
         font-size: 14px;  padding-bottom: 5px; padding-top: 5px; box-shadow: 0 6px 12px #eee;} 
-    .dropdown-book { color: #888; margin-left: 5px; }
-    .dropdown-author-totals { float: right; color: #888; padding-left: 20px; font-size: 12px; }
-    .dropdown-check { float: right; font-size: 18px; color: #ffb366; }
-    .dropdown-divider { width: 350px; }
-    .icon-bh a { color: #888; font-size: 20px; padding: 1px; }
-    .icon-bh a:hover { color: #333; }
-    .icons-bh { float: right; margin-top: 30px; background: #fff; }
-    .bi-check-circle-fill { color: #888; margin-right: 5px; font-size: 15px; }
+    .dropdown-book {color: #888; margin-left: 5px;}
+    .dropdown-author-totals {float: right; color: #888; padding-left: 20px; font-size: 12px;}
+    .dropdown-check {float: right; font-size: 18px; color: #ffb366;}
+    .dropdown-divider {width: 350px;}
+    .icon-bh a {color: #888; font-size: 20px; padding: 1px;}
+    .icon-bh a:hover {color: #333;}
+    .icons-bh {float: right; margin-top: 30px; background: #fff;}
+    .bi-check-circle-fill {color: #888; margin-right: 5px; font-size: 15px;}
+    #cookie-switch {float: left; cursor: pointer;}
+    .form-check-input {cursor: pointer; }
+    .form-check-input:checked {background-color: #ffb366; border-color: #aaa;}
+    .form-check-input:focus {border-color: #aaa; outline: 0; box-shadow: 0 0 0 0 #fff;}
 </style>
 </head>
 <body>
@@ -76,6 +80,9 @@
     <span class='text-bh'></span><br>
 
     <div class='icons-bh'>
+        <span class="form-check form-switch" title='Toggle Cookie' id='cookie-switch'>
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+        </span>
         <span class='icon-bh'>
             <a href='#' target='_blank'>
                 <i class="bi bi-person-circle" title='Author' 
