@@ -11,8 +11,8 @@
 	}
 	
 	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
-	DATA.books.forEach(book => {
-		DATA.authors.filter(x => x.title == book.title).forEach((author) => {
+	DATA.books.forEach((book, i) => {
+		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
 			let totals = DATA.highlights
 				.filter(x => x.name == book.title)[0].children
 				.filter(x => x.name == author.name)[0].children.length;
@@ -22,7 +22,7 @@
 						onClick="change_author('${book.title}', '${author.name}');" title='${author.tags}'>
 							<i class="bi bi-check-circle-fill"></i>
 							${author.name} 
-							<span class='dropdown-author-totals'>${totals}</span> 
+							<span class='dropdown-author-totals' id='totals_${i}_${j}'>${totals}</span> 
 							<span class='dropdown-book'>${book.title}</span> 
 					</a>
 				</li>
@@ -71,12 +71,13 @@ function get_rand(seed=false) {
 	let highlight_index = Math.floor(rand * data.length)
 	let highlight = data[highlight_index];
 
-	DATA.highlights.forEach(v => {
-		v.children.forEach(vv => {
+	DATA.highlights.forEach((v, k) => {
+		v.children.forEach((vv, kk) => {
 			vv.children.forEach(vvv => {
 				if (vvv.name ==  highlight.name) {
 					curr.seenHighlights.push(vvv.id);
 					curr.authorHighlightsLeft = data.length - 1;
+					// /$('#totals_' + k + '_'+ kk).text(curr.authorHighlightsLeft);
 				}
 			});
 		});
