@@ -699,6 +699,31 @@
                         "name": "Ideas incubator",
                         "text": "<i>You don\u2019t put yourself online only because you\nhave something to say\u2014you can put yourself\nonline to find something to say.</i> The Internet can\nbe more than just a resting place to publish your\nfinished ideas\u2014it can also be an incubator for\nideas that aren't fully formed.",
                         "id": 133
+                    },
+                    {
+                        "name": "Travel",
+                        "text": "<i>Your brain gets too comfortable in your everyday\nsurroundings. You need to make it uncomfortable.\nYou need to spend some time in another land,</i>\namong people that do things differently than you.\nTravel makes the world look new, and when the\nworld looks new, our brains work harder.",
+                        "id": 134
+                    },
+                    {
+                        "name": "Another room",
+                        "text": "Harold Ramis, once laid out his rule for\nsuccess: \u201cFind the most talented person in the\nroom, and if it\u2019s not you, go stand next to him.\"\n<i>If you ever find that you're the most talented\nperson in the room, you need to find another room.</i>",
+                        "id": 135
+                    },
+                    {
+                        "name": "Anger",
+                        "text": "Anger is one of my favorite creative resources.\nSome mornings, when I can\u2019t wake up. I lie in bed\nand read e-mail and Twitter until my blood\nstarts boiling and I get fired up enough to spring\nout of bed. <i>But instead of wasting my anger on\ncomplaining or lashing out at people. I try to\nchannel it into my writing and my drawing.</i>",
+                        "id": 136
+                    },
+                    {
+                        "name": "To busy doing",
+                        "text": "Not everybody will get it. People will misinterpret\nyou and what you do. They might even call\nyou names. <i>So get comfortable with being\nmisunderstood, disparaged, or ignored\u2014the trick\nis to be too busy doing your work to care.</i>",
+                        "id": 137
+                    },
+                    {
+                        "name": "Validation boost",
+                        "text": "Life is a lonely business, often filled with\ndiscouragement and rejection. <i>Yes, validation is\nfor parking, but it\u2019s still a tremendous boost when\npeople say nice things about our work.</i>",
+                        "id": 138
                     }
                 ]
             }
