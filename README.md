@@ -17,7 +17,7 @@ $ cd book-highlights/
 </iframe>
 ~~~
 
-[![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_06.png)](https://www.minte9.com)
+[![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com)
 
 ~~~sh
 $ npm install chalk
