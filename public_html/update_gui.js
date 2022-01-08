@@ -10,24 +10,28 @@
 		author: null,
 	}
 
-	// Cookies.remove('keep_history');
-	keep_history = Cookies.get('keep_history') === undefined ? 1 : Cookies.get('keep_history');
-	$('#flexSwitchCheckChecked').prop('checked', keep_history == 1);
+	keep_history = Cookies.get('keep_history') === undefined ? 'on' : Cookies.get('keep_history');
+	$('#flexSwitchCheckChecked').prop('checked', keep_history == 'on');
+	Cookies.set('keep_history', keep_history, {expires: 30});
 	
 	$('#flexSwitchCheckChecked').on('change', function (event) {
 		if (event.target.checked == false) {
-			keep_history = 0;
+			keep_history = 'off';
 			Cookies.remove('ids');
 			cookieIds = [];
 		} else {
-			keep_history = 1;	
+			keep_history = 'on';	
 		}
 		update_gui();
 		Cookies.set('keep_history', keep_history, {expires: 30});
 	});
+	
+	// Cookies.remove('keep_history');
+	// console.log(Cookies.get('keep_history'));
+	// console.log(Cookies.get('ids'));
 
 	cookieIds = [];
-	if (keep_history && Cookies.get('ids') !== undefined) {
+	if (keep_history == 'on' && Cookies.get('ids') !== undefined) {
 		cookieIds = JSON.parse(Cookies.get('ids'));
 	}
 	
@@ -105,8 +109,8 @@ function get_rand(seed=false) {
 	let highlight_index = Math.floor(rand * data.length)
 	let highlight = data[highlight_index];
 
-	DATA.highlights.forEach((v, k) => {
-		v.children.forEach((vv, kk) => {
+	DATA.highlights.forEach((v) => {
+		v.children.forEach((vv) => {
 			vv.children.forEach(vvv => {
 				if (vvv.name ==  highlight.name) {
 					curr.seenHighlights.push(vvv.id);
@@ -125,12 +129,13 @@ function get_id(id) {
 		v.children.forEach((vv) => {
 			vv.children.forEach(vvv => {
 				if (vvv.id ==  id) {
+					data = vv.children.filter(x => ! cookieIds.includes(x.id));
 					curr.seenHighlights.push(id);
-					curr.authorHighlightsLeft = vv.children.length - 1;
+					curr.authorHighlightsLeft = data.length - 1;
 					curr.book = DATA.books.filter(x => x.title == v.name)[0];
 					curr.author = DATA.authors.filter(x => x.name == vv.name)[0];
 					highlight = vvv;
-					book_highlights = vv.children.length;
+					book_highlights = v.children.length;
 				}
 			});
 		});
@@ -140,6 +145,8 @@ function get_id(id) {
 }
 
 function update_gui(obj=null) {
+
+	// console.log(cookieIds);
 
 	if (obj) {
 		$('.text-bh').html(obj.highlight.text);
@@ -161,7 +168,7 @@ function update_gui(obj=null) {
 				cookieIds.push(obj.highlight.id);
 			}
 
-			if (keep_history === 1) {
+			if (keep_history === 'on') {
 				Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
 			}
 		}
