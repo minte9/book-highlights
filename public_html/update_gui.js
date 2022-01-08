@@ -25,6 +25,7 @@
 			Cookies.set('keep_history', 0, {expires: 30});
 		} else {
 			keep_history = 1;
+			update_gui(get_rand());
 			Cookies.set('keep_history', 1, {expires: 30});			
 		}
 	});
