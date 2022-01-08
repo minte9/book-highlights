@@ -10,6 +10,7 @@
 		author: null,
 	}
 
+	Cookies.remove('keep_history');
 	keep_history = Cookies.get('keep_history') === undefined ? 'on' : Cookies.get('keep_history');
 	$('#flexSwitchCheckChecked').prop('checked', keep_history == 'on');
 	Cookies.set('keep_history', keep_history, {expires: 30});
@@ -26,7 +27,6 @@
 		Cookies.set('keep_history', keep_history, {expires: 30});
 	});
 	
-	// Cookies.remove('keep_history');
 	// console.log(Cookies.get('keep_history'));
 	// console.log(Cookies.get('ids'));
 
