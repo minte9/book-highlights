@@ -10,10 +10,8 @@
 		author: null,
 	}
 
-	//Cookies.remove('keep_history');
-
+	// Cookies.remove('keep_history');
 	keep_history = Cookies.get('keep_history') === undefined ? 1 : Cookies.get('keep_history');
-	//console.log(keep_history);
 	$('#flexSwitchCheckChecked').prop('checked', keep_history == 1);
 	
 	$('#flexSwitchCheckChecked').on('change', function (event) {
@@ -64,7 +62,11 @@
 	});	
 	
 	enableTooltips();
-	update_gui(get_rand(true));
+
+	const url = new URL(window.location.href);
+    const paramId = url.searchParams.get("id");
+
+	update_gui(paramId ? get_id(paramId) : get_rand(true));
 
 	$('.text-bh, .next-bh').click(function() {
 		update_gui(get_rand());
@@ -98,7 +100,7 @@ function get_rand(seed=false) {
 
 	if (data.length == 0 ) { // no more left
 		return; 
-	} 
+	}
 
 	let highlight_index = Math.floor(rand * data.length)
 	let highlight = data[highlight_index];
@@ -117,6 +119,26 @@ function get_rand(seed=false) {
 	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": data.length };
 }
 
+function get_id(id) {
+
+	DATA.highlights.forEach((v) => {
+		v.children.forEach((vv) => {
+			vv.children.forEach(vvv => {
+				if (vvv.id ==  id) {
+					curr.seenHighlights.push(id);
+					curr.authorHighlightsLeft = vv.children.length - 1;
+					curr.book = DATA.books.filter(x => x.title == v.name)[0];
+					curr.author = DATA.authors.filter(x => x.name == vv.name)[0];
+					highlight = vvv;
+					book_highlights = vv.children.length;
+				}
+			});
+		});
+	});
+
+	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": book_highlights };
+}
+
 function update_gui(obj=null) {
 
 	if (obj) {
@@ -132,7 +154,8 @@ function update_gui(obj=null) {
 		$('.bi-book').parent().attr('href', obj.book.link);
 		$('.bi-github').attr('data-bs-original-title', 'Github');
 		$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
-
+		$('#file_highlight').parent().attr('href', '?id=' + obj.highlight.id);
+		
 		if (obj.book_highlights > 1) { // don't add last to cookie
 			if(! cookieIds.includes(obj.highlight.id)) {
 				cookieIds.push(obj.highlight.id);
@@ -143,9 +166,6 @@ function update_gui(obj=null) {
 			}
 		}
 	}
-
-	//console.log(keep_history);
-	//console.log(cookieIds);
 
 	// update totals
 	DATA.books.forEach((book, i) => {
