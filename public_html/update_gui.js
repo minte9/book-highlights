@@ -21,13 +21,11 @@
 			keep_history = 0;
 			Cookies.remove('ids');
 			cookieIds = [];
-			update_gui(get_rand());
-			Cookies.set('keep_history', 0, {expires: 30});
 		} else {
-			keep_history = 1;
-			update_gui(get_rand());
-			Cookies.set('keep_history', 1, {expires: 30});			
+			keep_history = 1;	
 		}
+		update_gui();
+		Cookies.set('keep_history', keep_history, {expires: 30});
 	});
 
 	cookieIds = [];
@@ -119,28 +117,30 @@ function get_rand(seed=false) {
 	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": data.length };
 }
 
-function update_gui(obj) {
+function update_gui(obj=null) {
 
-	$('.text-bh').html(obj.highlight.text);
-	$('.author-bh').text(obj.author.name + " / ");
-	$('.more-bh').text(curr.authorHighlightsLeft);
-	$('.book-bh').text(obj.book.title);
+	if (obj) {
+		$('.text-bh').html(obj.highlight.text);
+		$('.author-bh').text(obj.author.name + " / ");
+		$('.more-bh').text(curr.authorHighlightsLeft);
+		$('.book-bh').text(obj.book.title);
 
-	$('.bi-file-earmark-check').attr('data-bs-original-title', obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
-	$('.bi-person-circle').attr('data-bs-original-title', obj.author.name);
-	$('.bi-person-circle').parent().attr('href', obj.author.wiki);
-	$('.bi-book').attr('data-bs-original-title', obj.book.title);
-	$('.bi-book').parent().attr('href', obj.book.link);
-	$('.bi-github').attr('data-bs-original-title', 'Github');
-	$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
+		$('.bi-file-earmark-check').attr('data-bs-original-title', obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
+		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name);
+		$('.bi-person-circle').parent().attr('href', obj.author.wiki);
+		$('.bi-book').attr('data-bs-original-title', obj.book.title);
+		$('.bi-book').parent().attr('href', obj.book.link);
+		$('.bi-github').attr('data-bs-original-title', 'Github');
+		$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
 
-	if (obj.book_highlights > 1) { // don't add last to cookie
-		if(! cookieIds.includes(obj.highlight.id)) {
-			cookieIds.push(obj.highlight.id);
-		}
+		if (obj.book_highlights > 1) { // don't add last to cookie
+			if(! cookieIds.includes(obj.highlight.id)) {
+				cookieIds.push(obj.highlight.id);
+			}
 
-		if (keep_history === 1) {
-			Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
+			if (keep_history === 1) {
+				Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
+			}
 		}
 	}
 
