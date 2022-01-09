@@ -10,8 +10,12 @@
 		author: null,
 	}
 
-	// Cookies.remove('keep_history');
-	
+	colors = {
+		orange: '#ffb366',
+		green: 'green',
+		gray: '#888',
+	}
+
 	keep_history = Cookies.get('keep_history') === undefined ? 'on' : Cookies.get('keep_history');
 	$('#flexSwitchCheckChecked').prop('checked', keep_history == 'on');
 	Cookies.set('keep_history', keep_history, {expires: 30});
@@ -28,6 +32,7 @@
 		Cookies.set('keep_history', keep_history, {expires: 30});
 	});
 	
+	// Cookies.remove('keep_history');
 	// console.log(Cookies.get('keep_history'));
 	// console.log(Cookies.get('ids'));
 
@@ -185,19 +190,19 @@ function update_gui(obj=null) {
 			let totals = highlights.length;
 			highlights = highlights.filter(x => ! cookieIds.includes(x.id));
 			let totals_cookie = highlights.length;
-			
+
 			$('#totals_' + i + '_'+ j).text(totals_cookie > 1 ? totals_cookie : totals);
-			$('#check_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
-			$('#check_fill_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
+			$('#check_' + i + '_'+ j).css('color', totals_cookie > 1 ? colors.orange : colors.green);
+			$('#check_fill_' + i + '_'+ j).css('color', totals_cookie > 1 ? colors.orange  : colors.green);
 			
 			if ($('#curr-author').text().includes(author.name)) {
-				$('#check-curr-author').css('color', totals_cookie > 1 ? '#ffb366' : 'green');
+				$('#check-curr-author').css('color', totals_cookie > 1 ? colors.orange  : colors.green);
 			}
 
 			if (keep_history == 'off') {
-				$('#check_' + i + '_'+ j).css('color', '#888');
-				$('#check_fill_' + i + '_'+ j).css('color', '#888');
-				$('#check-curr-author').css('color', '#888');
+				$('#check_' + i + '_'+ j).css('color', colors.gray);
+				$('#check_fill_' + i + '_'+ j).css('color', colors.gray);
+				$('#check-curr-author').css('color', colors.gray);
 			}
 		});
 	});
