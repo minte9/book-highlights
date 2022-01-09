@@ -185,6 +185,7 @@ function update_gui(obj=null) {
 			let totals = highlights.length;
 			highlights = highlights.filter(x => ! cookieIds.includes(x.id));
 			let totals_cookie = highlights.length;
+			
 			$('#totals_' + i + '_'+ j).text(totals_cookie > 1 ? totals_cookie : totals);
 			$('#check_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
 			$('#check_fill_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
