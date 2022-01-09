@@ -178,6 +178,7 @@ function update_gui(obj=null) {
 	// update totals
 	DATA.books.forEach((book, i) => {
 		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
+
 			let highlights = DATA.highlights
 				.filter(x => x.name == book.title)[0].children
 				.filter(x => x.name == author.name)[0].children;
@@ -187,8 +188,15 @@ function update_gui(obj=null) {
 			$('#totals_' + i + '_'+ j).text(totals_cookie > 1 ? totals_cookie : totals);
 			$('#check_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
 			$('#check_fill_' + i + '_'+ j).css('color', totals_cookie > 1 ? '#ffb366' : 'green');
+			
 			if ($('#curr-author').text().includes(author.name)) {
 				$('#check-curr-author').css('color', totals_cookie > 1 ? '#ffb366' : 'green');
+			}
+
+			if (keep_history == 'off') {
+				$('#check_' + i + '_'+ j).css('color', '#888');
+				$('#check_fill_' + i + '_'+ j).css('color', '#888');
+				$('#check-curr-author').css('color', '#888');
 			}
 		});
 	});
