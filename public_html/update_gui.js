@@ -54,7 +54,7 @@
 			$("#dropdown-menu-bh").append(`
 				<li>
 					<a class="dropdown-item" 
-						onClick="change_author('${book.title}', '${author.name}');" title='${author.tags}'>
+						onClick="change_author('${book.title}', '${author.name}');">
 							<i class="bi bi-check-circle-fill" id='check_fill_${i}_${j}'></i>
 							${author.name} 
 							<span class='dropdown-check' id='check_${i}_${j}'>
@@ -161,7 +161,7 @@ function update_gui(obj=null) {
 		$('.book-bh').text(obj.book.title);
 
 		$('.bi-file-earmark-check').attr('data-bs-original-title', obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
-		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name);
+		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name + '<br>' + obj.author.tags);
 		$('.bi-person-circle').parent().attr('href', obj.author.wiki);
 		$('.bi-book').attr('data-bs-original-title', obj.book.title);
 		$('.bi-book').parent().attr('href', obj.book.link);
