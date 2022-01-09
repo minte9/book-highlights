@@ -211,12 +211,10 @@ function update_gui(obj=null) {
 		$('.more-bh').text(curr.authorHighlightsLeft);
 		$('.book-bh').text(obj.book.title);
 
-		$('.bi-file-earmark-check').attr('data-bs-original-title', 
-			obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
-		$('.bi-person-circle').attr('data-bs-original-title', 
-			obj.author.name + '<br>' + obj.author.tags);
+		$('.bi-file-earmark-check').attr('data-bs-original-title', obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
+		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name + '<br>' + obj.author.tags);
 		$('.bi-person-circle').parent().attr('href', obj.author.wiki);
-		$('.bi-book').attr('data-bs-original-title', obj.book.title);
+		$('.bi-book').attr('data-bs-original-title', obj.book.title + '<br>' + obj.book.subtitle);
 		$('.bi-book').parent().attr('href', obj.book.link + '<br>' + obj.book.subtitle);
 		$('.bi-github').attr('data-bs-original-title', 'Github');
 		$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
