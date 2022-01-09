@@ -8,14 +8,25 @@
 		authorHighlightsLeft: 0,
 		book: null,
 		author: null,
-	}
-	colors = { orange: '#ffb366', green: 'green', gray: '#888' }
+	};
+
+	colors = { 
+		orange: '#ffb366', 
+		green: 'green', 
+		gray: '#888' 
+	};
+	
 	enableTooltips();
 
+	/**
+	 * Keep history (default on) will be saved in cookie.
+	 * Highlights id will be saved in cookie (based on keep_history flag)
+	 * Bootstrap switch used to save/remove ids from cookie.
+	 */
 	keep_history = Cookies.get('keep_history') === undefined ? 'on' : Cookies.get('keep_history');
 	$('#flexSwitchCheckChecked').prop('checked', keep_history == 'on');
 	Cookies.set('keep_history', keep_history, {expires: 30});
-	
+
 	$('#flexSwitchCheckChecked').on('change', function (event) {
 		if (event.target.checked == false) {
 			keep_history = 'off';
@@ -27,16 +38,16 @@
 		update_gui();
 		Cookies.set('keep_history', keep_history, {expires: 30});
 	});
-	
-	// Cookies.remove('keep_history');
-	// console.log(Cookies.get('keep_history'));
-	// console.log(Cookies.get('ids'));
 
 	cookieIds = [];
 	if (keep_history == 'on' && Cookies.get('ids') !== undefined) {
 		cookieIds = JSON.parse(Cookies.get('ids'));
 	}
 	
+	/**
+	 * Populate book/author dropdown.
+	 * Totals filtered by cookie ids.
+	 */
 	DATA.books.forEach((book, i) => {
 		if (book.menu_divider == true) {
 			$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
@@ -69,6 +80,12 @@
 	});	
 	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 
+	/**
+	 * Get current highlight by id (if set in GET params)
+	 * Otherwise get random highlight (seeded daily by book / author)
+	 * On user click get random highlight (without seed)
+	 */
+
 	const url = new URL(window.location.href);
     const paramId = url.searchParams.get("id");
 
@@ -79,14 +96,24 @@
 	});
 });
 
-function get_rand(seed=false) {
+/**
+ * Get random highlight (seeded)
+ */
+function get_rand() {
 
+	/**
+	 * Seed random (by today date)
+	 */
 	let data = {};
 	const date = new Date();
 	const today = date.getFullYear() + "" + (date.getMonth() + 1) + "" + date.getDay();
 	let myrng = new Math.seedrandom(today);
 	let rand = myrng.quick();
 
+	/**
+	 * Get current book from random seed.
+	 * Skipped if already set (user click on next button).
+	 */
 	if (curr.book == null) {
 		curr.book = DATA.books[Math.floor(rand * DATA.books.length)];
 	}
@@ -94,6 +121,10 @@ function get_rand(seed=false) {
 	data = DATA.highlights.filter(x => x.name == curr.book.title);
 	data = data[0].children;
 	
+	/**
+	 * Get current author from current book (with random seed).
+	 * Skipped if already set (user click on next button).
+	 */
 	if (curr.author == null) {
 		let rand_author = Math.floor(rand * data.length);
 		curr.author = DATA.authors.filter(x => x.name == data[rand_author].name)[0];
@@ -102,10 +133,13 @@ function get_rand(seed=false) {
 	data = data.filter(x => x.name == curr.author.name)[0];
 	data = data.children;
 
+	/**
+	 * Filter highlights by cookie Ids
+	 * If no ids left choose one random for current book / author
+	 */
 	data = data.filter(x => ! cookieIds.includes(x.id));
 
 	if (data.length == 0 ) {
-		console.log('No more left for current book & author / Get one random');
 		data = DATA.highlights
 			.filter(x => x.name == curr.book.title)[0].children
 			.filter(x => x.name == curr.author.name)[0].children;
@@ -128,9 +162,17 @@ function get_rand(seed=false) {
 		});
 	});
 
-	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": book_highlights };
+	return { 
+		"book": curr.book, 
+		"author": curr.author, 
+		"highlight": highlight, 
+		"book_highlights": book_highlights 
+	};
 }
 
+/**
+ * Get highlight by param id
+ */
 function get_id(id) {
 
 	DATA.highlights.forEach((v) => {
@@ -149,12 +191,19 @@ function get_id(id) {
 		});
 	});
 
-	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": book_highlights };
+	return { 
+		"book": curr.book, 
+		"author": curr.author, 
+		"highlight": highlight, 
+		"book_highlights": book_highlights 
+	};
 }
 
+/**
+ * Update gui when user click on next button
+ * When cookie switch is used, highlights in not updated (obj = null)
+ */
 function update_gui(obj=null) {
-
-	// console.log(cookieIds);
 
 	if (obj) {
 		$('.text-bh').html(obj.highlight.text);
@@ -173,18 +222,21 @@ function update_gui(obj=null) {
 		$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
 		$('#file_highlight').parent().attr('href', '?id=' + obj.highlight.id);
 		
-		if (obj.book_highlights > 0) { // don't add last to cookie
-			if(! cookieIds.includes(obj.highlight.id)) {
-				cookieIds.push(obj.highlight.id);
-			}
+		if(! cookieIds.includes(obj.highlight.id)) {
+			cookieIds.push(obj.highlight.id);
+		}
 
-			if (keep_history === 'on') {
-				Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
-			}
+		if (keep_history === 'on') {
+			Cookies.set('ids', JSON.stringify(cookieIds), {expires: 30});
 		}
 	}
 
-	// update totals
+	/**
+	 * Update totals and check icons colors
+	 * If keep_history is off icons are gray
+	 * When there are no more highlights to display ...
+	 * the author's icon became green
+	 */
 	DATA.books.forEach((book, i) => {
 		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
 
@@ -199,8 +251,11 @@ function update_gui(obj=null) {
 			$('#check_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange : colors.green);
 			$('#check_fill_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
 			
-			if ($('#curr-author').text().includes(author.name)) {
-				$('#check-curr-author').css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
+			if ($('#curr-author').text().includes(author.name) 
+					&& $('.book-bh').text().includes(book.title)) {
+						$('#check-curr-author').css('color', 
+							highlightsLeft > 0 ? colors.orange  : colors.green
+						);
 			}
 
 			if (keep_history == 'off') {
@@ -212,6 +267,9 @@ function update_gui(obj=null) {
 	});
 }
 
+/**
+ * Dropdown action author change
+ */
 function change_author(b, a) {
 
 	curr.book = DATA.books.filter(x => x.title == b)[0];	
@@ -219,7 +277,10 @@ function change_author(b, a) {
 	update_gui(get_rand());
 }
 
-function enableTooltips() { // Enable tooltips everywhere
+/**
+ * Enable bootstrap tooltips everywhere
+ */
+function enableTooltips() {
 
 	let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 	let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
