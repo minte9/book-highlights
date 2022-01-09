@@ -9,12 +9,8 @@
 		book: null,
 		author: null,
 	}
-
-	colors = {
-		orange: '#ffb366',
-		green: 'green',
-		gray: '#888',
-	}
+	colors = { orange: '#ffb366', green: 'green', gray: '#888' }
+	enableTooltips();
 
 	keep_history = Cookies.get('keep_history') === undefined ? 'on' : Cookies.get('keep_history');
 	$('#flexSwitchCheckChecked').prop('checked', keep_history == 'on');
@@ -41,10 +37,12 @@
 		cookieIds = JSON.parse(Cookies.get('ids'));
 	}
 	
-	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 	DATA.books.forEach((book, i) => {
-		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
+		if (book.menu_divider == true) {
+			$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
+		}
 
+		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
 			let highlights = DATA.highlights
 				.filter(x => x.name == book.title)[0].children
 				.filter(x => x.name == author.name)[0].children
@@ -68,10 +66,8 @@
 				</li>
 			`);
 		});	
-		$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 	});	
-	
-	enableTooltips();
+	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 
 	const url = new URL(window.location.href);
     const paramId = url.searchParams.get("id");
@@ -108,8 +104,11 @@ function get_rand(seed=false) {
 
 	data = data.filter(x => ! cookieIds.includes(x.id));
 
-	if (data.length == 0 ) { // no more left
-		return; 
+	if (data.length == 0 ) {
+		console.log('No more left for today\'s book/author. \nGet one random from cookie ids');
+		id = Math.floor(Math.random() * cookieIds.length) + 1; // no ids with 0
+		console.log(id);
+		return get_id(id);
 	}
 
 	let highlight_index = Math.floor(rand * data.length)
@@ -121,12 +120,13 @@ function get_rand(seed=false) {
 				if (vvv.name ==  highlight.name) {
 					curr.seenHighlights.push(vvv.id);
 					curr.authorHighlightsLeft = data.length - 1;
+					book_highlights = data.length;
 				}
 			});
 		});
 	});
 
-	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": data.length };
+	return { "book": curr.book, "author": curr.author, "highlight": highlight, "book_highlights": book_highlights };
 }
 
 function get_id(id) {
@@ -137,7 +137,7 @@ function get_id(id) {
 				if (vvv.id ==  id) {
 					data = vv.children.filter(x => ! cookieIds.includes(x.id));
 					curr.seenHighlights.push(id);
-					curr.authorHighlightsLeft = data.length - 1;
+					curr.authorHighlightsLeft = data.length > 0 ? data.length - 1 : data.length;
 					curr.book = DATA.books.filter(x => x.title == v.name)[0];
 					curr.author = DATA.authors.filter(x => x.name == vv.name)[0];
 					highlight = vvv;
@@ -160,16 +160,18 @@ function update_gui(obj=null) {
 		$('.more-bh').text(curr.authorHighlightsLeft);
 		$('.book-bh').text(obj.book.title);
 
-		$('.bi-file-earmark-check').attr('data-bs-original-title', obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
-		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name + '<br>' + obj.author.tags);
+		$('.bi-file-earmark-check').attr('data-bs-original-title', 
+			obj.highlight.name + '<br>' + 'No. ' + obj.highlight.id);
+		$('.bi-person-circle').attr('data-bs-original-title', 
+			obj.author.name + '<br>' + obj.author.tags);
 		$('.bi-person-circle').parent().attr('href', obj.author.wiki);
 		$('.bi-book').attr('data-bs-original-title', obj.book.title);
-		$('.bi-book').parent().attr('href', obj.book.link);
+		$('.bi-book').parent().attr('href', obj.book.link + '<br>' + obj.book.subtitle);
 		$('.bi-github').attr('data-bs-original-title', 'Github');
 		$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
 		$('#file_highlight').parent().attr('href', '?id=' + obj.highlight.id);
 		
-		if (obj.book_highlights > 1) { // don't add last to cookie
+		if (obj.book_highlights > 0) { // don't add last to cookie
 			if(! cookieIds.includes(obj.highlight.id)) {
 				cookieIds.push(obj.highlight.id);
 			}
@@ -189,14 +191,14 @@ function update_gui(obj=null) {
 				.filter(x => x.name == author.name)[0].children;
 			let totals = highlights.length;
 			highlights = highlights.filter(x => ! cookieIds.includes(x.id));
-			let totals_cookie = highlights.length;
+			let highlightsLeft = highlights.length;
 
-			$('#totals_' + i + '_'+ j).text(totals_cookie > 1 ? totals_cookie : totals);
-			$('#check_' + i + '_'+ j).css('color', totals_cookie > 1 ? colors.orange : colors.green);
-			$('#check_fill_' + i + '_'+ j).css('color', totals_cookie > 1 ? colors.orange  : colors.green);
+			$('#totals_' + i + '_'+ j).text(highlightsLeft > 0 ? highlightsLeft : totals);
+			$('#check_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange : colors.green);
+			$('#check_fill_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
 			
 			if ($('#curr-author').text().includes(author.name)) {
-				$('#check-curr-author').css('color', totals_cookie > 1 ? colors.orange  : colors.green);
+				$('#check-curr-author').css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
 			}
 
 			if (keep_history == 'off') {

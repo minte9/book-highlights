@@ -565,6 +565,31 @@
         ]
     },
     {
+        "name": "Show your work",
+        "children": [
+            {
+                "name": "Austin Kleon",
+                "children": [
+                    {
+                        "name": "Self promotion",
+                        "text": "I hate talking about self-promotion. Comedian\nSteve Martin famously dodges these questions\nwith the advice, <i>\u201cBe so good they can\u2019t ignore you.\u201d\nIf you just focus on getting really good. Martin\nsays, people will come to you.</i> I happen to agree.",
+                        "id": 108
+                    },
+                    {
+                        "name": "Findable",
+                        "text": "You don\u2019t really find an audience for your work;\nthey find you. <i>But it\u2019s not enough to be good. In\norder to be found, you have to be findable.</i> I think\nthere\u2019s an easy way of putting your work out there\nand making it discoverable while you're focused on\ngetting really good.",
+                        "id": 109
+                    },
+                    {
+                        "name": "Sharing routine",
+                        "text": "<i>Almost all of the people I look up to and try to steal\nfrom today, regardless of their profession, have\nbuilt sharing into their routine.</i> These people aren\u2019t\nschmoozing at cocktail parties; they\u2019re too busy\nfor that. They\u2019re cranking away in their studios,",
+                        "id": 110
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Steal Like an Artist",
         "children": [
             {
@@ -573,157 +598,157 @@
                     {
                         "name": "People advice",
                         "text": "It\u2019s one of my theories that <i>when people\ngive you advice, they\u2019re really just\ntalking to themselves in the past. \nThis book is me talking to a previous\nversion of myself.</i>",
-                        "id": 108
+                        "id": 111
                     },
                     {
                         "name": "Unknown reference",
                         "text": "The writer Jonathan Lethem has said that when\n<i>people call something \u201coriginal,\u201d nine out of ten\ntimes they just don\u2019t know the references</i> or the\noriginal sources involved.",
-                        "id": 109
+                        "id": 112
                     },
                     {
                         "name": "No one listening",
                         "text": "Some people find this idea depressing, but it\nfills me with hope. As the French writer Andr\u00e9\nGide put it, <i>\u201cEverything that needs to be said has\nalready been said. But, since no one was listening,\neverything must be said again.\u201d</i>",
-                        "id": 110
+                        "id": 113
                     },
                     {
                         "name": "Friendly ghosts",
                         "text": "<i>Seeing yourself as part of a creative lineage will\nhelp you feel less alone as you start making your\nown stuff</i>. I hang pictures of my favorite artists\nin my studio. They\u2019re like friendly ghosts. I can\nalmost feel them pushing me forward as I\u2019m\nhunched over my desk.",
-                        "id": 111
+                        "id": 114
                     },
                     {
                         "name": "Remote masters",
                         "text": "<i>The great thing about dead or remote masters is\nthat they can\u2019t refuse you as an apprentice.</i> You\ncan learn whatever you want from them. They left\ntheir lesson plans in their work.",
-                        "id": 112
+                        "id": 115
                     },
                     {
                         "name": "Get your education",
                         "text": "School is one thing. Education is another. The two\ndon\u2019t always overlap. <i>Whether you're in school\nor not, it\u2019s always your job to get yourself an\neducation.</i>",
-                        "id": 113
+                        "id": 116
                     },
                     {
                         "name": "Go deeper",
                         "text": "You have to be curious about the world in which\nyou live. Look things up. <i>Chase down every\nreference. Go deeper than anybody else\u2014that\u2019s\nhow you'll get ahead.</i>",
-                        "id": 114
+                        "id": 117
                     },
                     {
                         "name": "Google everything",
                         "text": "Google everything. I mean everything.\nGoogle your dreams. Google your problems.\n<i>Don\u2019t ask a question before you Google it.\nYou'll either find the answer or you'll come\nup with a better question.</i>",
-                        "id": 115
+                        "id": 118
                     },
                     {
                         "name": "Start book",
                         "text": "Always be reading. Go to the library. <i>There\u2019s\nmagic in being surrounded by books. Get lost\nin the stacks. Read bibliographies. It\u2019s not the\nbook you start with, it\u2019s the book that book\nleads you to.</i>",
-                        "id": 116
+                        "id": 119
                     },
                     {
                         "name": "Unread books",
                         "text": "Collect books, even if you don\u2019t plan on reading\nthem right away. <i>Filmmaker John Waters has said,\n\u201cNothing is more important than an unread library.\u201d</i>",
-                        "id": 117
+                        "id": 120
                     },
                     {
                         "name": "Impostor syndrome",
                         "text": "About impostore syndrome. <i>The clinical definition is a \u201cpsychological\nphenomenon in which people are unable to\ninternalize their accomplishments</i>.\u201d It means that\nyou feel like a phony, like you're just winging it,\nthat you really don\u2019t have any idea what you're\ndoing.",
-                        "id": 118
+                        "id": 121
                     },
                     {
                         "name": "Not plagiarism",
                         "text": "We're talking about practice here, not plagiarism.\n<i>Plagiarism is trying to pass someone else\u2019s\nwork off as your own. Copying is about reverse-\nengineering.</i>  It\u2019s like a mechanic taking apart a car\n\u2018to see how it works.",
-                        "id": 119
+                        "id": 122
                     },
                     {
                         "name": "Research",
                         "text": "the people you want to be. The songwriter Nick\nLowe says, \u201cYou start out by rewriting your hero\u2019s\ncatalog.\u201d And you don\u2019t just steal from one of your\nheroes, you steal from all of them. <i>The writer\nWilson Mizner said if you copy from one author,\nit\u2019s plagiarism, but if you copy from many, it\u2019s\nresearch</i>.",
-                        "id": 120
+                        "id": 123
                     },
                     {
                         "name": "Emulation",
                         "text": "At some point, you'll have to move from\nimitating your heroes to emulating them.\n<i>Imitation is about copying. Emulation\nis when imitation goes one step further,\nbreaking through into your own thing.</i>",
-                        "id": 121
+                        "id": 124
                     },
                     {
                         "name": "Adapt the moves",
                         "text": "\u201cThere isn\u2019t a move that\u2019s a new move.\u201d <i>The\nbasketball star Kobe Bryant has admitted that\nall of his moves on the court were stolen from\nwatching tapes of his heroes.</i> He realized he\ncouldn\u2019t completely pull them off because he\ndidn\u2019t have the same body type as the guys he was\nthieving from. He had to adapt to make them his own.",
-                        "id": 122
+                        "id": 125
                     },
                     {
                         "name": "Adding something",
                         "text": "In the end, <i>merely imitating your heroes is not\nflattering them. Transforming their work into\nsomething of your own is how you flatter them.</i>\nAdding something to the world that only you can\nadd.",
-                        "id": 123
+                        "id": 126
                     },
                     {
                         "name": "Make stuff",
                         "text": "The manifesto is this: <i>Draw the art you want to\nsee, start the business you want to run, play the\nmusic you want to hear, write the books you want\nto read, build the products you want to use</i>\u2014do\nthe work you want to see done.",
-                        "id": 124
+                        "id": 127
                     },
                     {
                         "name": "Body work",
                         "text": "Work that only comes from the head isn\u2019t any\ngood. Watch a great musician play a show. Watch\na great leader give a speech. You'll see what I mean.\n<i>You need to find a way to bring your body into\nyour work. Our nerves aren\u2019t a one-way street.\n\u2014our bodies</i> can tell our brains as much as our\nbrains tell our bodies</i>.",
-                        "id": 125
+                        "id": 128
                     },
                     {
                         "name": "Side projects",
                         "text": "One thing I\u2019ve learned in my brief career: <i>It\u2019s the\nside projects that really take off. By side projects I\nmean the stuff that you thought was just messing\naround.</i> Stuff that\u2019s just play. That\u2019s actually the\ngood stuff. That\u2019s when the magic happens.",
-                        "id": 126
+                        "id": 129
                     },
                     {
                         "name": "Lot of projects",
                         "text": "<i>I think it\u2019s good to have a lot of projects going\nat once so you can bounce between them.</i>\nWhen you get sick of one project, move over to\nanother, and when you're sick of that one, move\nback to the project you left. ",
-                        "id": 127
+                        "id": 130
                     },
                     {
                         "name": "Get bored",
                         "text": "<i>Creative people need time to just sit around\nand do nothing. I get some of my best ideas when\nI\u2019m bored</i>, which is why I never take my shirts\nto the cleaners. I love ironing my shirts\u2014it\u2019s so\nboring. I almost always get good ideas.",
-                        "id": 128
+                        "id": 131
                     },
                     {
                         "name": "Avoiding work",
                         "text": "I almost always get good ideas. <i>If you\u2019re out\nof ideas, wash the dishes. Take a really long walk.\nStare at a spot on the wall for as long as you can.</i> As\nthe artist Maira Kalman says, \u201cAvoiding work is the\nway to focus my mind.\u201d",
-                        "id": 129
+                        "id": 132
                     },
                     {
                         "name": "Hobby",
                         "text": "<i>It\u2019s so important to have a hobby. A hobby is\nsomething creative that\u2019s just for you.</i> You\ndon\u2019t try to make money or get famous off\nit, you just do it because it makes you happy.\nAhobby is something that gives but doesn\u2019t\ntake.",
-                        "id": 130
+                        "id": 133
                     },
                     {
                         "name": "Public image",
                         "text": "This is actually a good thing, because you want\nattention only after you're doing really good work.\n<i>There\u2019s no pressure when you're unknown. You\ncan do what you want. Experiment. Do things just\nfor the fun of it.</i> When you\u2019re unknown, there\u2019s\nnothing to distract you from getting better. No\npublic image to manage.",
-                        "id": 131
+                        "id": 134
                     },
                     {
                         "name": "Stuff on internet",
                         "text": "It\u2019s a two-step process. <i>Step one, \u201cdo good work,\u201d is\nincredibly hard. There are no shortcuts. Make stuff every\nday. Know you're going to suck for a while. Fail. Get better.</i>\nStep two, \u201cshare it with people,\u201d was really hard up until\nabout ten years ago or so. Now, it's very simple: \u201cPut your\nstuff on the Internet.\u201d",
-                        "id": 132
+                        "id": 135
                     },
                     {
                         "name": "Ideas incubator",
                         "text": "<i>You don\u2019t put yourself online only because you\nhave something to say\u2014you can put yourself\nonline to find something to say.</i> The Internet can\nbe more than just a resting place to publish your\nfinished ideas\u2014it can also be an incubator for\nideas that aren't fully formed.",
-                        "id": 133
+                        "id": 136
                     },
                     {
                         "name": "Travel",
                         "text": "<i>Your brain gets too comfortable in your everyday\nsurroundings. You need to make it uncomfortable.\nYou need to spend some time in another land,</i>\namong people that do things differently than you.\nTravel makes the world look new, and when the\nworld looks new, our brains work harder.",
-                        "id": 134
+                        "id": 137
                     },
                     {
                         "name": "Another room",
                         "text": "Harold Ramis, once laid out his rule for\nsuccess: \u201cFind the most talented person in the\nroom, and if it\u2019s not you, go stand next to him.\"\n<i>If you ever find that you're the most talented\nperson in the room, you need to find another room.</i>",
-                        "id": 135
+                        "id": 138
                     },
                     {
                         "name": "Anger",
                         "text": "Anger is one of my favorite creative resources.\nSome mornings, when I can\u2019t wake up. I lie in bed\nand read e-mail and Twitter until my blood\nstarts boiling and I get fired up enough to spring\nout of bed. <i>But instead of wasting my anger on\ncomplaining or lashing out at people. I try to\nchannel it into my writing and my drawing.</i>",
-                        "id": 136
+                        "id": 139
                     },
                     {
                         "name": "To busy doing",
                         "text": "Not everybody will get it. People will misinterpret\nyou and what you do. They might even call\nyou names. <i>So get comfortable with being\nmisunderstood, disparaged, or ignored\u2014the trick\nis to be too busy doing your work to care.</i>",
-                        "id": 137
+                        "id": 140
                     },
                     {
                         "name": "Validation boost",
                         "text": "Life is a lonely business, often filled with\ndiscouragement and rejection. <i>Yes, validation is\nfor parking, but it\u2019s still a tremendous boost when\npeople say nice things about our work.</i>",
-                        "id": 138
+                        "id": 141
                     }
                 ]
             }
