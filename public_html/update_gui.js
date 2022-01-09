@@ -105,10 +105,12 @@ function get_rand(seed=false) {
 	data = data.filter(x => ! cookieIds.includes(x.id));
 
 	if (data.length == 0 ) {
-		console.log('No more left for today\'s book/author. \nGet one random from cookie ids');
-		id = Math.floor(Math.random() * cookieIds.length) + 1; // no ids with 0
-		console.log(id);
-		return get_id(id);
+		console.log('No more left for current book & author / Get one random');
+		data = DATA.highlights
+			.filter(x => x.name == curr.book.title)[0].children
+			.filter(x => x.name == curr.author.name)[0].children;
+		index = Math.floor(Math.random() * data.length);
+		return get_id(data[index].id);
 	}
 
 	let highlight_index = Math.floor(rand * data.length)
