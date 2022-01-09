@@ -39,4 +39,4 @@ $ python update.py
 
 ##
 
-See it on action on [minte9.com](https://www.minte9.com)
+See it in action on [minte9.com](https://www.minte9.com)
