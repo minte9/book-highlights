@@ -28,7 +28,6 @@
 	if (curr.catg) {
 		DATA.books = DATA.books.filter(x => x.catg.includes(curr.catg));
 	}
-
 	
 	enableTooltips();
 
@@ -70,7 +69,7 @@
 				.filter(x => x.name == book.title)[0].children
 				.filter(x => x.name == author.name)[0].children
 				.filter(x => ! cookieIds.includes(x.id));
-			let totals = highlights.length - 1;
+			let totals = highlights.length;
 
 			$("#dropdown-menu-bh").append(`
 				<li>
@@ -101,8 +100,6 @@
 	} else {
 		update_gui(get_rand(true));
 	}
-
-	update_gui(curr.paramId ? get_id(curr.paramId) : get_rand(true));
 
 	$('.text-bh, .next-bh').click(function() {
 		update_gui(get_rand());
@@ -258,15 +255,17 @@ function update_gui(obj=null) {
 			highlights = highlights.filter(x => ! cookieIds.includes(x.id));
 			let highlightsLeft = highlights.length;
 
-			$('#totals_' + i + '_'+ j).text(highlightsLeft > 0 ? highlightsLeft : totals);
-			$('#check_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange : colors.green);
-			$('#check_fill_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
-			
-			if ($('#curr-author').text().includes(author.name) 
-					&& $('.book-bh').text().includes(book.title)) {
-						$('#check-curr-author').css('color', 
-							highlightsLeft > 0 ? colors.orange  : colors.green
-						);
+			if (keep_history === 'on') {
+				$('#totals_' + i + '_'+ j).text(highlightsLeft > 0 ? highlightsLeft : totals);
+				$('#check_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange : colors.green);
+				$('#check_fill_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
+				
+				if ($('#curr-author').text().includes(author.name) 
+						&& $('.book-bh').text().includes(book.title)) {
+							$('#check-curr-author').css('color', 
+								highlightsLeft > 0 ? colors.orange  : colors.green
+							);
+				}
 			}
 
 			if (keep_history == 'off') {
