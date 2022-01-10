@@ -8,11 +8,12 @@
 <link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" integrity="sha256-uxjsS9cYFLTjmlr8j5i+DqvOLCBugRzEeWxUMWZeYXQ=" crossorigin="anonymous">
 <script>
     var asset_version = '0122_9';
+    var folder = 'data'; //folder = 'data_sample';
 
     async function fetchData() {
-        let res1 = await fetch('./data/books.json?asset_version=' + asset_version);
-        let res2 = await fetch('./data/authors.json?asset_version=' + asset_version);
-        let res3 = await fetch('./data/highlights.json?asset_version=' + asset_version);
+        let res1 = await fetch('./' + folder + '/books.json?asset_version=' + asset_version);
+        let res2 = await fetch('./' + folder + '/authors.json?asset_version=' + asset_version);
+        let res3 = await fetch('./' + folder + '/highlights.json?asset_version=' + asset_version);
         DATA = { 
             'books': await res1.json(), 
             'authors': await res2.json(),

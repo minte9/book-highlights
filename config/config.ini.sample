@@ -3,11 +3,11 @@ REWRITE = False
 DEBUG   = False
 
 [DATA]
-FILES       = ../files_archive/screenshots/
-AUTHORS     = ../public_html/data/authors.json
-BOOKS       = ../public_html/data/books.json
-HIGHLIGHTS  = ../public_html/data/highlights.json
+FILES       = ../files_archive/screenshots_sample/
+AUTHORS     = ../public_html/data_sample/authors.json
+BOOKS       = ../public_html/data_sample/books.json
+HIGHLIGHTS  = ../public_html/data_sample/highlights.json
 
 [PUBLIC]
 SRC = ../public_html
-DST = /your_path/public_html/
+DST = /var/www/refresh.local/refresh.ro/html/lib/js/minte9/book-highlights/public_html/
