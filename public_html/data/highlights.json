@@ -903,5 +903,25 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "The Modern Javascript",
+        "children": [
+            {
+                "name": "Ilya Kantor",
+                "children": [
+                    {
+                        "name": "Live script",
+                        "text": "<i>When JavaScript was created, it initially had another name: \u201cLiveScript\u201d.</i> \nBut Java was very popular at that time, so it was decided that positioning \na new language as a \u201cyounger brother\u201d of Java would help.",
+                        "id": 172
+                    },
+                    {
+                        "name": "Js engine",
+                        "text": "<i>Today, JavaScript can execute not only in the browser, \nbut also on the server, or actually on any device \nthat has a special program called the JavaScript engine.</i> \nThe browser has an embedded engine sometimes called a JavaScript virtual machine.",
+                        "id": 173
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -3,11 +3,20 @@
  */
  jQuery(function() {
 
+	/**
+	 * Get current highlight by id (if set in GET params)
+	 */
+	const url = new URL(window.location.href);
+	const paramId = url.searchParams.get("id");
+	const paramCatg = url.searchParams.get("catg");
+
 	curr = {
 		seenHighlights: [],
 		authorHighlightsLeft: 0,
 		book: null,
 		author: null,
+		paramId: paramId,
+		catg: paramCatg ? paramCatg : 'programming',
 	};
 
 	colors = { 
@@ -15,6 +24,11 @@
 		green: 'green', 
 		gray: '#888' 
 	};
+
+	if (curr.catg) {
+		DATA.books = DATA.books.filter(x => x.catg.includes(curr.catg));
+	}
+
 	
 	enableTooltips();
 
@@ -49,9 +63,7 @@
 	 * Totals filtered by cookie ids.
 	 */
 	DATA.books.forEach((book, i) => {
-		if (book.menu_divider == true) {
-			$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
-		}
+		$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 
 		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
 			let highlights = DATA.highlights
@@ -81,15 +93,16 @@
 	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 
 	/**
-	 * Get current highlight by id (if set in GET params)
-	 * Otherwise get random highlight (seeded daily by book / author)
-	 * On user click get random highlight (without seed)
+	 * Update gui (by paramId or random)
+	 * User 
 	 */
+	if (curr.paramId) {
+		update_gui(get_id(curr.paramId));
+	} else {
+		update_gui(get_rand(true));
+	}
 
-	const url = new URL(window.location.href);
-    const paramId = url.searchParams.get("id");
-
-	update_gui(paramId ? get_id(paramId) : get_rand(true));
+	update_gui(curr.paramId ? get_id(curr.paramId) : get_rand(true));
 
 	$('.text-bh, .next-bh').click(function() {
 		update_gui(get_rand());
@@ -215,10 +228,10 @@ function update_gui(obj=null) {
 		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name + ' /<br>' + obj.author.tags);
 		$('.bi-person-circle').parent().attr('href', obj.author.wiki);
 		$('.bi-book').attr('data-bs-original-title', obj.book.title + ' /<br>' + obj.book.subtitle);
-		$('.bi-book').parent().attr('href', obj.book.link + '<br>' + obj.book.subtitle);
+		$('.bi-book').parent().attr('href', obj.book.link);
 		$('.bi-github').attr('data-bs-original-title', 'Github');
 		$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
-		$('#file_highlight').parent().attr('href', '?id=' + obj.highlight.id);
+		$('#file_highlight').parent().attr('href', '?catg=' + curr.catg + '&id=' + obj.highlight.id);
 		
 		if(! cookieIds.includes(obj.highlight.id)) {
 			cookieIds.push(obj.highlight.id);

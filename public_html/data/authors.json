@@ -40,5 +40,12 @@
         "tags": "A writer who draws",
         "wiki": "https://austinkleon.com",
         "id": 6
+    },
+    {
+        "title": "The Modern Javascript",
+        "name": "Ilya Kantor",
+        "tags": "Javascript ninja",
+        "wiki": "https://github.com/iliakan",
+        "id": 7
     }
 ]

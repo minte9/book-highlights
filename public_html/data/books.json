@@ -3,28 +3,35 @@
         "title": "Passionate Programmer",
         "subtitle": "Creating a Remarkable Career in Software Development",
         "link": "https://www.amazon.com/gp/product/B00AYQNR5U",
-        "menu_divider": true,
+        "catg": "programming",
         "id": 1
     },
     {
         "title": "Coders at work",
         "subtitle": "Reflections on the Craft of Programming",
         "link": "https://www.amazon.com/gp/product/B00ACC2536",
-        "menu_divider": true,
+        "catg": "programming",
         "id": 2
     },
     {
         "title": "Steal Like an Artist",
         "subtitle": "Things Nobody Told You About Being Creative",
         "link": "https://www.amazon.com/gp/product/B0074QGGK6",
-        "menu_divider": true,
+        "catg": "general",
         "id": 3
     },
     {
         "title": "Show your work",
         "subtitle": "Ways to Share Your Creativity and Get Discovered",
         "link": "https://www.amazon.com/gp/product/B00GU2RGGI",
-        "menu_divider": false,
+        "catg": "general+programming",
         "id": 4
+    },
+    {
+        "title": "The Modern Javascript",
+        "subtitle": "Javascript language tutorial",
+        "link": "https://javascript.info/",
+        "catg": "javascript",
+        "id": 5
     }
 ]
