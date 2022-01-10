@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Coders at work",
+        "children": [
+            {
+                "name": "Brad Fitzpatrick",
+                "children": [
+                    {
+                        "name": "Maintainer for life",
+                        "text": "<i>I've also done a lot of testing since LiveJournal.\nOnce I started working with other people\nespecially. And once I realized that code I write\nnever fucking goes away and I'm going to be a\nmaintainer for life.</i> I get comments about blog\nposts that are almost 10 years old. \u201cHey. I found\nthis code. I found a bug,\u201d and I'm suddenly\nmaintaining code.",
+                        "id": 1
+                    },
+                    {
+                        "name": "Tests to guard",
+                        "text": "to tell them that they messed up. <i>I had to force\na lot of people to write tests, mostly people who\nwere working for me. I would write tests to guard\nagainst my own code breaking, and then once they\nwrote code. I was like, \u201cAre you even sure that\nworks? Write a test. Prove it to me.\u201d</i> At a certain\npoint, people realize, \u201cHoly crap, it does pay off,\u201d\nespecially maintenance costs later.",
+                        "id": 2
+                    },
+                    {
+                        "name": "About memcached",
+                        "text": "memcached until like right after college, right\nwhen I moved out. <i>I remember coming up with\nthe idea. I was in my shower one day. The site\nwas melting down and I was showering and then\nI realized we had all this free memory all over the\nplace.</i> I whipped up a prototype that night, wrote\nthe server in Perl and the client in Perl.",
+                        "id": 3
+                    },
+                    {
+                        "name": "Win a race",
+                        "text": "mediocrity required not to get fired. It\u2019s about\nbeing awesome. It\u2019s about winning. <i>You don\u2019t win a\nrace by trying not to lose. And you don\u2019t win at life\nby trying not to suck</i>. Fortunately, the content of\nthe book has never been about trying not to suck</i>. I\ncan\u2019t think that way, and neither should you.",
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "name": "Jamie Zawinski",
+                "children": [
+                    {
+                        "name": "Cross platform releases",
+                        "text": "welll port it later.\u201d Which is what many other\nfailed companies have done. <i>If you're trying to\nship a cross-platform product, history really shows\nthat's how you don't do it. If you want it to\nreally be cross-platform, you have to do them\nsimultaneously.</i> The porting thing results in a\ncrappy product on the second platform.",
+                        "id": 48
+                    },
+                    {
+                        "name": "Multithreading in java",
+                        "text": "where it was writing some big file. <i>We took really\ngood advantage of multithreading in Java, which\nwas less painful than I had expected it to be. It was\njust really pleasant to work on.</i> From the API we\nhad designed we saw all these directions it could\ngrow.",
+                        "id": 49
+                    },
+                    {
+                        "name": "Academic approach",
+                        "text": "only display plain text. They were being extremely\nacademic about their project. They were trying to\napproach it from the DOM/DTD side of things. <i>\u201cOh,\nwell, what we need to do is add another abstraction\nlayer here and have a delegate for this delegate for\nthis delegate.</i> And eventually a character will show\nup on the screen.\u201d",
+                        "id": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Passionate Programmer",
+        "children": [
+            {
+                "name": "Chad Fowler",
+                "children": [
+                    {
+                        "name": "Low expectations",
+                        "text": "<i>Most of us are content to go with the\nflow. Our expectations have been lowered for us\nby the media and by our friends, acquaintances,\nand family members</i>. So, leading a remarkable life\nis something you have to discover as even being a\nreasonable goal. It\u2019s not obvious.",
+                        "id": 63
+                    },
+                    {
+                        "name": "Loving your work",
+                        "text": "<i>If your life is primarily consumed by your work,\nthen loving your work is one of the most\nimportant keys to loving your life.</i> Challenging,\nmotivating, rewarding work is more likely to make\nyou want to get up in the morning than dull,\naverage tasks. Doing your job well means that the\nactivity you do for 50 percent of your available\ntime is something you're good at.",
+                        "id": 64
+                    },
+                    {
+                        "name": "Higher salary",
+                        "text": "take to achieve that goal. A higher salary might\nactually be desirable and lead toward happiness.</i>\n<i>But if you take your eyes off the primary goal,\nyou can find yourself driving toward a higher\nsalary at the expense of your happiness.</i> It sounds\nridiculous, but I\u2019ve done it. And so have you. Think\nabout it.",
+                        "id": 65
+                    }
+                ]
+            }
+        ]
+    }
+]

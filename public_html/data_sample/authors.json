@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Passionate Programmer",
+        "name": "Chad Fowler",
+        "tags": "Ruby and Rails, Jazz performer",
+        "wiki": "https://www.slush.org/person/chad-fowler/",
+        "id": 1
+    },
+    {
+        "title": "Coders at work",
+        "name": "Jamie Zawinski",
+        "tags": "Netscape, Mozilla",
+        "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski",
+        "id": 2
+    }
+]

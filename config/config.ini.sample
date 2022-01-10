@@ -10,6 +10,4 @@ HIGHLIGHTS  = ../public_html/data/highlights.json
 
 [PUBLIC]
 SRC = ../public_html
-DST = /var/www/refresh.local/refresh.ro/html/lib/js/minte9/book-highlights/public_html/
-    # Change here with local path
-    # Example: /var/www/html/lib/js/book-highlights/public_html
+DST = /your_path/public_html/
