@@ -157,8 +157,8 @@ function get_rand() {
 		return get_id(data[index].id);
 	}
 
-	let highlight_index = Math.floor(rand * data.length)
-	let highlight = data[highlight_index];
+	// let highlight_index = Math.floor(rand * data.length);
+	let highlight = data[0]; // no random - get in order
 
 	DATA.highlights.forEach((v) => {
 		v.children.forEach((vv) => {
