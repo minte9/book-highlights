@@ -26,7 +26,7 @@
 	};
 
 	if (curr.catg) {
-		DATA.books = DATA.books.filter(x => x.catg.includes(curr.catg));
+		DATA.authors = DATA.authors.filter(x => x.catg.includes(curr.catg));
 	}
 	
 	enableTooltips();
@@ -62,8 +62,6 @@
 	 * Totals filtered by cookie ids.
 	 */
 	DATA.books.forEach((book, i) => {
-		$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
-
 		DATA.authors.filter(x => x.title == book.title).forEach((author, j) => {
 			let highlights = DATA.highlights
 				.filter(x => x.name == book.title)[0].children
@@ -71,6 +69,9 @@
 				.filter(x => ! cookieIds.includes(x.id));
 			let totals = highlights.length;
 
+			if (j == 0) {
+				$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
+			}
 			$("#dropdown-menu-bh").append(`
 				<li>
 					<a class="dropdown-item" 
