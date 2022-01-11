@@ -27,6 +27,8 @@
 
 	if (curr.catg) {
 		DATA.authors = DATA.authors.filter(x => x.catg.includes(curr.catg));
+		DATA.bookIds = DATA.authors.map(x => { return x.bookId } );
+		DATA.books = DATA.books.filter(x => DATA.bookIds.includes(x.id));
 	}
 	
 	enableTooltips();
