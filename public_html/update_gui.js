@@ -139,8 +139,8 @@ function get_rand() {
 	 * Skipped if already set (user click on next button).
 	 */
 	if (curr.author == null) {
-		let rand_author = Math.floor(rand * data.length);
-		curr.author = DATA.authors.filter(x => x.name == data[rand_author].name)[0];
+		let rand_author = Math.floor(rand * DATA.authors.length);
+		curr.author = DATA.authors.filter(x => x.name == DATA.authors[rand_author].name)[0];
 	}
 
 	data = data.filter(x => x.name == curr.author.name)[0];
