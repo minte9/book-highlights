@@ -27,10 +27,8 @@
 
 	if (curr.catg) {
 		DATA.authors = DATA.authors.filter(x => x.catg.includes(curr.catg));
-		let bookIds = DATA.authors.map(x => { return x.bookId } );
-
-		DATA.books = DATA.books.filter(x => bookIds.includes(x.id));
-		DATA.authors = DATA.authors.filter(x => bookIds.includes(x.bookId));
+		DATA.bookIds = DATA.authors.map(x => { return x.bookId } );
+		DATA.books = DATA.books.filter(x => DATA.bookIds.includes(x.id));
 	}
 	
 	enableTooltips();
@@ -131,7 +129,7 @@ function get_rand() {
 	 */
 	if (curr.book == null) {
 		curr.book = DATA.books[Math.floor(rand * DATA.books.length)];
-		DATA.authors = DATA.authors.filter(x => x.bookId == curr.book.id);
+		// DATA.authors = DATA.authors.filter(x => x.bookId == curr.book.id);
 	}
 
 	data = DATA.highlights.filter(x => x.name == curr.book.title);
@@ -142,7 +140,7 @@ function get_rand() {
 	 * Skipped if already set (user clicked on next button).
 	 */
 	if (curr.author == null) {
-		let rand_author = Math.floor(rand * DATA.authors.length);
+		let rand_author = Math.floor(rand * data.length);
 		curr.author = DATA.authors.filter(x => x.name == DATA.authors[rand_author].name)[0];
 	}
 
