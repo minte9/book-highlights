@@ -129,7 +129,6 @@ function get_rand() {
 	 */
 	if (curr.book == null) {
 		curr.book = DATA.books[Math.floor(rand * DATA.books.length)];
-		// DATA.authors = DATA.authors.filter(x => x.bookId == curr.book.id);
 	}
 
 	data = DATA.highlights.filter(x => x.name == curr.book.title);
@@ -140,7 +139,8 @@ function get_rand() {
 	 * Skipped if already set (user clicked on next button).
 	 */
 	if (curr.author == null) {
-		let rand_author = Math.floor(rand * data.length);
+		let accepted_autors = DATA.authors.filter(x => x.bookId == curr.book.id);
+		let rand_author = Math.floor(rand * accepted_autors.length);
 		curr.author = DATA.authors.filter(x => x.name == DATA.authors[rand_author].name)[0];
 	}
 
