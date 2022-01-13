@@ -16,7 +16,7 @@
 		book: null,
 		author: null,
 		paramId: paramId,
-		catg: paramCatg ? paramCatg : 'programming',
+		catg: paramCatg ? paramCatg : 'main',
 	};
 
 	colors = { 
@@ -141,11 +141,13 @@ function get_rand() {
 	if (curr.author == null) {
 		let rand_author = Math.floor(rand * data.length);
 		curr.author = data.filter(x => x.name == data[rand_author].name)[0];
-		//let rand_author = Math.floor(rand * DATA.authors.length);
-		//curr.author = DATA.authors.filter(x => x.name == DATA.authors[rand_author].name)[0];
-		//console.log(curr.author);
+
+		if(curr.catg != 'main') { // catg page
+			let rand_author = Math.floor(rand * DATA.authors.length);
+			curr.author = DATA.authors.filter(x => x.name == DATA.authors[rand_author].name)[0];
+		}
 	}
-	
+
 	data = data.filter(x => x.name == curr.author.name)[0];
 	data = data.children;
 
