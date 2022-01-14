@@ -12,9 +12,14 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const require = createRequire(import.meta.url);
 
-let AUTHORS     = require(__dirname + '/public_html/data//authors.json');
-let BOOKS       = require(__dirname + '/public_html/data//books.json');
-let HIGHLIGHTS  = require(__dirname + '/public_html/data/highlights.json');
+try {
+    let AUTHORS     = require(__dirname + '/public_html/data//authors.json');
+    let BOOKS       = require(__dirname + '/public_html/data//books.json');
+    let HIGHLIGHTS  = require(__dirname + '/public_html/data/highlights.json');
+} catch (error) {
+    console.log('Empty data/ folder. \nPlease rename data_sample -> data');
+    process.exit(1);
+}
 
 const rand = Math.random();
 const i = Math.floor(rand * BOOKS.length);
