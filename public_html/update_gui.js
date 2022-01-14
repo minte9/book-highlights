@@ -114,21 +114,24 @@
  */
 function get_rand() {
 
-	/**
-	 * Seed random (by today date)
-	 */
 	let data = {};
-	const date = new Date();
-	const today = date.getFullYear() + "" + (date.getMonth() + 1) + "" + date.getDay();
-	let myrng = new Math.seedrandom(today);
-	let rand = myrng.quick();
 
 	/**
 	 * Get current book from random seed.
 	 * Skipped if already set (user click on next button).
+	 * Seeded random (by today date)
 	 */
 	if (curr.book == null) {
-		curr.book = DATA.books[Math.floor(rand * DATA.books.length)];
+		const date = new Date();
+		const today = date.getFullYear() + "" + (date.getMonth()) + "" + date.getDay();
+		let myrng = new Math.seedrandom(today);
+		let rand_seed = myrng.quick();
+		let rand_book = Math.floor(rand_seed * DATA.books.length);
+		curr.book = DATA.books[rand_book];
+		// console.log(today);
+		// console.log(rand_seed);
+		// console.log(rand_book);
+		// rand_book = 0;
 	}
 
 	data = DATA.highlights.filter(x => x.name == curr.book.title);
@@ -140,8 +143,12 @@ function get_rand() {
 	 */
 	if (curr.author == null) {
 		let accepted_autors = DATA.authors.filter(x => x.bookId == curr.book.id);
-		let rand_author = Math.floor(rand * accepted_autors.length);
-		curr.author = DATA.authors.filter(x => x.name == DATA.authors[rand_author].name)[0];
+		let rand_author = Math.floor(Math.random() * accepted_autors.length);
+		curr.author = accepted_autors.filter(x => x.name == accepted_autors[rand_author].name)[0];
+		// console.log(rand_author);
+		// console.log(accepted_autors);
+		// console.log(curr.book.title);
+		// console.log(curr.author.name);
 	}
 
 	data = data.filter(x => x.name == curr.author.name)[0];
