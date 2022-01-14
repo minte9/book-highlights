@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Get one random book highlight
+ * Get one random book highlight 
  */
 import chalk from 'chalk';
 import { fileURLToPath } from 'url';
