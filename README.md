@@ -35,8 +35,6 @@ $ node index.js
 $ python update.py
 ~~~
 
-[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/screenshots_sample.png)](https://www.minte9.com)
-
 ##
 
 See it in action on [minte9.com](https://www.minte9.com)
