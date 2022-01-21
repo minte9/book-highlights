@@ -25,15 +25,15 @@
 </script>
 <style>
     body {background: none;}
-    .bh {border: 1px solid #ddd; width: 450px; cursor: pointer; padding: 25px 20px 40px 20px; 
+    .bh {
+        box-shadow: 3px 3px 3px #eee;
+        border: 1px solid #ddd; width: 450px; cursor: pointer; padding: 25px 20px 40px 20px; 
         font-family: Arial,Verdana,Geneva,sans-serif; font-size: 14px; line-height: 18px; border-radius: 5px;}
     .next-bh {color: #ffb366; font-size: 40px; float: right; line-height: 25px; margin-left: 5px;}
     .author-bh {color: #333; margin-right: 10px;}
     .wiki-bh {text-decoration: none;}
     .more-bh {color: #888; float: right; font-size: 14px; line-height: 28px;}
     .title-bh {color: #888; padding-left: 0px;}
-    /* .reference-bh {text-decoration: none;}
-    .book-bh {color: #333; padding-right: 20px;} */
     .text-bh {clear: both; text-align: justify; font-size: 16px; margin-bottom: 0px; 
         line-height: 24px; color: #888; display: inline-block; margin-top: 30px;}
     .text-bh i {background-color: #FFF48B; font-style: normal; color: #000;}
@@ -73,9 +73,6 @@
                     <i class="bi bi-check-circle-fill" id='check-curr-author'></i>
                     <span class='author-bh' id='curr-author'></span>
                 </a>
-                <!--a class='reference-bh' target='_blank'>
-                    <span class='book-bh'></span>
-                </a-->
             </button>
             <ul class="dropdown-menu" id="dropdown-menu-bh" aria-labelledby="dropdownMenuButton-bh"></ul>
         </div>
