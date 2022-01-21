@@ -228,9 +228,9 @@ function update_gui(obj=null) {
 
 	if (obj) {
 		$('.text-bh').html(obj.highlight.text);
-		$('.author-bh').text(obj.author.name + " / ");
+		$('.author-bh').text(obj.author.name);
 		$('.more-bh').text(curr.authorHighlightsLeft);
-		$('.book-bh').text(obj.book.title);
+		//$('.book-bh').text(obj.book.title);
 		
 		$('.bi-file-earmark-check').attr('data-bs-original-title', 'No. ' + obj.highlight.id + '<br>' + obj.highlight.name);
 		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name + ' /<br>' + obj.author.tags);
