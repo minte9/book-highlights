@@ -22,7 +22,7 @@ node index.js
 ##
 
 - Save your images to [screenshots_my/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots_my) archive directory.
-- Uncomment your paths in [tools/config.py](https://github.com/minte9/book-highlights/tree/main/tools/config.py) and [index.js](https://github.com/minte9/book-highlights/tree/main/index.js) 
+- Uncomment your paths in tools/[config.py](https://github.com/minte9/book-highlights/tree/main/tools/config.py) and [index.js](https://github.com/minte9/book-highlights/tree/main/index.js) 
 - Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
