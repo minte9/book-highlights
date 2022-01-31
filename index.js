@@ -13,31 +13,33 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const require = createRequire(import.meta.url);
 
-let AUTHORS;
-let BOOKS;
-let HIGHLIGHTS;
-try {
-    AUTHORS     = require(__dirname + '/public_html/data//authors.json');
-    BOOKS       = require(__dirname + '/public_html/data//books.json');
-    HIGHLIGHTS  = require(__dirname + '/public_html/data/highlights.json');
-} catch (error) {
-    console.log('Empty data/ folder. \nRename data_sample -> data');
-    process.exit(1);
-}
+/**
+ * Archive data folder
+ */
+const FOLDER = __dirname + '/public_html/data_m9_books/';
+const AUTHORS     = require(FOLDER + 'authors.json');
+const BOOKS       = require(FOLDER + 'books.json');
+const HIGHLIGHTS  = require(FOLDER + 'highlights.json');
 
+/**
+ *  Command line arguments
+ */
 const myArgs = process.argv.slice(2);
 switch(myArgs[0]) {
     case '-h':
         help();
         break;
     case '-l':
-        list_books();
+        books_list();
         break;
     default:
         keypress_listener();
         show_rand(myArgs[0]);  
 }
 
+/**
+ * Shorcuts listener
+ */
 function keypress_listener() {
     let readline = require('readline');
     readline.emitKeypressEvents(process.stdin);
@@ -62,17 +64,20 @@ function keypress_listener() {
     process.stdin.resume();
 }
 
+/**
+ * Action: Help
+ */
 function help() {
     console.log();
-    console.log(chalk.redBright('Run:'));
+    console.log(chalk.redBright('Run'));
     console.log('./index.js ');
     console.log();
-    console.log(chalk.redBright('Options:'));
+    console.log(chalk.redBright('Options'));
     console.log("-l \t |show books list");
     console.log("no \t |show book by ID (number)");
     console.log("-h \t |help");
     console.log();
-    console.log(chalk.redBright('Shortcuts:'));
+    console.log(chalk.redBright('Shortcuts'));
     console.log("Ctrl+C \t |stop the program (Esc)");
     console.log("Space \t |continue to next (Return)");
     console.log("F1 \t |help");
@@ -81,8 +86,12 @@ function help() {
     process.exit(0);
 }
 
+/**
+ * Action: Show book lists
+ */
 function books_list() {
-    console.log("Books list:");
+    console.log();
+    console.log(chalk.redBright("Books"));
     BOOKS.forEach( book => {
         console.log(`(${book.id}) ` + book.title);
     });
@@ -90,12 +99,16 @@ function books_list() {
     process.exit(0);
 }
 
-function show_rand(ID) {
-
+/**
+ * Action: Show random highlight
+ * 
+ * param: book id
+ */
+function show_rand(book_id) {
     const rand = Math.random();
 
-    let i = ID ? ID-1 : Math.floor(rand * BOOKS.length);
-    let book = BOOKS[i];
+    let index = book_id ? book_id-1 : Math.floor(rand * BOOKS.length);
+    let book = BOOKS[index];
 
     let H = HIGHLIGHTS.filter(x => x.name == book.title);
     H = H[0].children;
