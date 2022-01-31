@@ -18,7 +18,7 @@ $ node index.js
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
-## Update
+##
 
 - Save your images to [screenshots/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots) archive directory.
 - Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script 
@@ -26,6 +26,8 @@ $ node index.js
 ~~~sh
 $ python update.py
 ~~~
+
+##
 
 ## Browser
 
