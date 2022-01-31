@@ -21,7 +21,7 @@ node index.js
 
 ##
 
-- Save your images to [screenshots/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots) archive directory.
+- Save your images to [screenshots_my/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots_my) archive directory.
 - Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
