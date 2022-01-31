@@ -7,16 +7,17 @@ import chalk from 'chalk';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { createRequire } from "module";
-import { symlinkSync } from 'fs';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-const require = createRequire(import.meta.url);
 
 /**
  * Archive data folder
  */
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 const FOLDER = __dirname + '/public_html/data_m9_books/';
+    // FOLDER = __dirname + '/public_html/data_my_books/';
+
+const require = createRequire(import.meta.url);
 const AUTHORS     = require(FOLDER + 'authors.json');
 const BOOKS       = require(FOLDER + 'books.json');
 const HIGHLIGHTS  = require(FOLDER + 'highlights.json');
