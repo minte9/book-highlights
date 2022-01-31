@@ -26,7 +26,6 @@ node index.js
 
 ~~~sh
 python update.py
-
 node index.js
 ~~~
 
