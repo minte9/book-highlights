@@ -269,9 +269,9 @@ function update_gui(obj=null) {
 				$('#totals_' + i + '_'+ j).text(highlightsLeft > 0 ? highlightsLeft : totals);
 				$('#check_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange : colors.green);
 				$('#check_fill_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
-				
+	
 				if ($('#curr-author').text().includes(author.name) 
-						&& $('.book-bh').text().includes(book.title)) {
+						&& curr.book.title == book.title) {
 							$('#check-curr-author').css('color', 
 								highlightsLeft > 0 ? colors.orange  : colors.green
 							);
