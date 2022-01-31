@@ -7,6 +7,7 @@ Highlights archive from user's [screenshots](https://github.com/minte9/book-high
 ~~~sh
 $ git clone https://github.com/minte9/book-highlights.git
 $ cd book-highlights/
+$ npm install chalk
 ~~~
 
 ## Usage
@@ -20,7 +21,6 @@ $ cd book-highlights/
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com)
 
 ~~~sh
-$ npm install chalk
 $ node index.js
 ~~~
 
