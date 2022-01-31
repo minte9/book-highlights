@@ -112,15 +112,16 @@ function show_rand(ID) {
 
     console.log('\n'.repeat(25) + sep + '\n' + ' '.repeat(2)
         + chalk.greenBright(author.name + ', ')
-        + chalk.redBright(book.title)
+        + chalk.redBright(book.title + ', ')
+        + chalk.grey("Space / Ctrl+C / F1 / F2")
         + '\n' + sep
     );
-    console.log(''
+    console.table(''
         + chalk.bgGrey.black(start)
         + chalk.bgYellowBright.black(highlighted)
         + chalk.bgGrey.black(end)
         + '\n' + sep 
-        + '\n' + chalk.grey("Space / Ctrl+C / F1 / F2\n")
         + '\n'.repeat(2)
     );
 }
+
