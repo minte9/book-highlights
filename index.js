@@ -42,14 +42,17 @@ function keypress_listener() {
     let readline = require('readline');
     readline.emitKeypressEvents(process.stdin);
     process.stdin.on('keypress', (ch, key) => {
-        //console.log('keypress', ch, key);
+            // console.log('keypress', ch, key);
         switch(key.name) {
             case 'space':
+            case 'return':
                 show_rand(myArgs[0]); break;
             case 'f1':
                 help(); break;
-            case 'f1':
+            case 'f2':
                 books_list(); break;
+            case 'escape':
+                process.exit(0);
             case 'c':
                 if (key.ctrl) process.exit(0);
             default:
@@ -65,8 +68,8 @@ function help() {
     console.log("./index.js id \t |show book by ID (number)");
     console.log("./index.js -h \t |help\n");
     console.log('Shortcuts:');
-    console.log("Ctrl+C \t\t |stop the program");
-    console.log("Space \t\t |continue to next");
+    console.log("Ctrl+C \t\t |stop the program (Esc)");
+    console.log("Space \t\t |continue to next (Return)");
     console.log("F1 \t\t |help");
     console.log("F2 \t\t |books list");
     console.log();
@@ -74,9 +77,11 @@ function help() {
 }
 
 function books_list() {
+    console.log("Books list:");
     BOOKS.forEach( book => {
         console.log(`(${book.id}) ` + book.title);
     });
+    console.log();
     process.exit(0);
 }
 
