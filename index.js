@@ -63,15 +63,20 @@ function keypress_listener() {
 }
 
 function help() {
-    console.log('\nOptions:');
-    console.log("./index.js -l \t |show books list");
-    console.log("./index.js id \t |show book by ID (number)");
-    console.log("./index.js -h \t |help\n");
-    console.log('Shortcuts:');
-    console.log("Ctrl+C \t\t |stop the program (Esc)");
-    console.log("Space \t\t |continue to next (Return)");
-    console.log("F1 \t\t |help");
-    console.log("F2 \t\t |books list");
+    console.log();
+    console.log(chalk.redBright('Run:'));
+    console.log('./index.js ');
+    console.log();
+    console.log(chalk.redBright('Options:'));
+    console.log("-l \t |show books list");
+    console.log("no \t |show book by ID (number)");
+    console.log("-h \t |help");
+    console.log();
+    console.log(chalk.redBright('Shortcuts:'));
+    console.log("Ctrl+C \t |stop the program (Esc)");
+    console.log("Space \t |continue to next (Return)");
+    console.log("F1 \t |help");
+    console.log("F2 \t |books list");
     console.log();
     process.exit(0);
 }
