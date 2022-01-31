@@ -21,7 +21,7 @@ try {
     BOOKS       = require(__dirname + '/public_html/data//books.json');
     HIGHLIGHTS  = require(__dirname + '/public_html/data/highlights.json');
 } catch (error) {
-    console.log('Empty data/ folder. \nPlease rename data_sample -> data');
+    console.log('Empty data/ folder. \nRename data_sample -> data');
     process.exit(1);
 }
 
