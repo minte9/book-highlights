@@ -1,21 +1,16 @@
 """Write highligts texts:
 Read from images directory, convert image to text, write text files.
 """
-import os, pathlib, sys, time
+import os, pathlib
 import cv2, pytesseract, numpy as np
 import logging
 import re
-import configparser
-import subprocess, shutil
+from tools import config
 
-DIR = pathlib.Path(__file__).resolve().parent
-
-config = configparser.ConfigParser()
-config.read(DIR / '../config/config.ini')
-
-REWRITE         = config['FLAG']['REWRITE'] # Overwrites .txt files
-DEBUG           = config['FLAG']['DEBUG'] # Display logging messages
-FILES           = config['DATA']['FILES']
+DIR             = pathlib.Path(__file__).resolve().parent
+REWRITE         = config.cfp['FLAG']['REWRITE'] # Overwrites .txt files
+DEBUG           = config.cfp['FLAG']['DEBUG'] # Display logging messages
+FILES           = config.cfp['DATA']['FILES']
 
 logging.basicConfig(level=logging.DEBUG, 
     format='\x1b[6;30;42m' + '%(levelname)s - %(message)s' + '\x1b[0m' + '\n')

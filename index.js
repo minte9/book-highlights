@@ -14,8 +14,9 @@ import { createRequire } from "module";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const FOLDER = __dirname + '/public_html/data_m9_books/';
-    // FOLDER = __dirname + '/public_html/data_my_books/';
+let FOLDER;
+FOLDER = __dirname + '/public_html/data_m9_books/';
+FOLDER = __dirname + '/public_html/data_my_books/';
 
 const require = createRequire(import.meta.url);
 const AUTHORS     = require(FOLDER + 'authors.json');

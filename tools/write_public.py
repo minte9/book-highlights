@@ -1,20 +1,17 @@
 """Copy public_html/ to localhost www/
 """
 import pathlib, shutil
-import configparser
+from tools import config
 
 DIR = pathlib.Path(__file__).resolve().parent
-
-config = configparser.ConfigParser()
-config.read(DIR / '../config/config.ini')
-
-SRC = DIR / config['PUBLIC']['SRC']
-DST = DIR / config['PUBLIC']['DST']
+SRC = DIR / config.cfp['PUBLIC']['SRC']
+DST = DIR / config.cfp['PUBLIC']['DST']
 
 print('Copy public_html/')
 try:
     shutil.copytree(DIR / SRC, DST, dirs_exist_ok=True)
     print('Done')
 except:
-    print('\nError: public_html/ not found on your local system') 
-    print('Change config.ini settings')
+    print('\nError: DST folder not found on your local system')
+    print('\t %s \n' % DST) 
+    print('Change config/config_my.ini DST')

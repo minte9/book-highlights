@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Passionate Programmer",
+        "name": "Chad Fowler",
+        "tags": "Ruby and Rails, Jazz performer",
+        "wiki": "https://www.slush.org/person/chad-fowler/",
+        "catg": "programming|",
+        "bookId": 1,
+        "id": 1
+    },
+    {
+        "title": "Coders at work",
+        "name": "Jamie Zawinski",
+        "tags": "Netscape, Mozilla",
+        "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski",
+        "catg": "programming|java|",
+        "bookId": 2,
+        "id": 2
+    },
+    {
+        "title": "Coders at work",
+        "name": "Brad Fitzpatrick",
+        "tags": "LiveJournal, Memcached, Google",
+        "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick",
+        "catg": "programming|",
+        "bookId": 2,
+        "id": 3
+    }
+]

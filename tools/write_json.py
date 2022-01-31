@@ -4,17 +4,13 @@ Write data/highlights.js
 - write .json + .js files
 - Run image2text.py first when new screenshots where added
 """
-import pathlib, sys
-import configparser
+import pathlib
 import os, json
+from tools import config
 
-DIR = pathlib.Path(__file__).resolve().parent
-
-config = configparser.ConfigParser()
-config.read(DIR / '../config/config.ini')
-
-TEXTS_DIR         = DIR / config['DATA']['FILES']
-HIGHLIGHTS_JSON   = DIR / config['DATA']['HIGHLIGHTS']
+DIR                 = pathlib.Path(__file__).resolve().parent
+TEXTS_DIR           = DIR / config.cfp['DATA']['FILES']
+HIGHLIGHTS_JSON     = DIR / config.cfp['DATA']['HIGHLIGHTS']
 
 def get_dict(path):
     d = {'name': os.path.basename(path)}
