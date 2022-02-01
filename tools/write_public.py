@@ -5,16 +5,17 @@ import shutil
 import sys
 sys.dont_write_bytecode = True
 
-"""Config ini called in update.py (or directly)
+"""Config ini called in update.py
+The script can run directly
 """
 try:
-    from tools import config as config
+    from tools import config
 except:
-    import config as config
+    import config
 
 DIR = pathlib.Path(__file__).resolve().parent
-SRC = DIR / config.cfp['PUBLIC']['SRC']
-DST = DIR / config.cfp['PUBLIC']['DST']
+SRC = DIR / config.ini['PUBLIC']['SRC']
+DST = DIR / config.ini['PUBLIC']['DST']
 
 print('Copy public_html/')
 try:

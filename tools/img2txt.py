@@ -7,17 +7,18 @@ import logging
 import re
 sys.dont_write_bytecode = True
 
-"""Config ini called in update.py (or directly)
+"""Config ini called in update.py
+The script can run directly
 """
 try:
-    from tools import config as config
+    from tools import config
 except:
-    import config as config
+    import config
 
 DIR             = pathlib.Path(__file__).resolve().parent
-REWRITE         = config.cfp['FLAG']['REWRITE'] # Overwrites .txt files
-DEBUG           = config.cfp['FLAG']['DEBUG'] # Display logging messages
-FILES           = config.cfp['DATA']['FILES']
+REWRITE         = config.ini['FLAG']['REWRITE'] # Overwrites .txt files
+DEBUG           = config.ini['FLAG']['DEBUG'] # Display logging messages
+FILES           = config.ini['DATA']['FILES']
 
 logging.basicConfig(level=logging.DEBUG, 
     format='\x1b[6;30;42m' + '%(levelname)s - %(message)s' + '\x1b[0m' + '\n')

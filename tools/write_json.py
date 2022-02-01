@@ -9,16 +9,17 @@ import os, json
 import sys
 sys.dont_write_bytecode = True
 
-"""Config ini called in update.py (or directly)
+"""Config ini called in update.py
+The script can run directly
 """
 try:
-    from tools import config as config
+    from tools import config
 except:
-    import config as config
+    import config
 
 DIR                 = pathlib.Path(__file__).resolve().parent
-TEXTS_DIR           = DIR / config.cfp['DATA']['FILES']
-HIGHLIGHTS_JSON     = DIR / config.cfp['DATA']['HIGHLIGHTS']
+TEXTS_DIR           = DIR / config.ini['DATA']['FILES']
+HIGHLIGHTS_JSON     = DIR / config.ini['DATA']['HIGHLIGHTS']
 
 def get_dict(path):
     d = {'name': os.path.basename(path)}

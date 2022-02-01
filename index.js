@@ -9,8 +9,7 @@ import { dirname } from 'path';
 import { createRequire } from "module";
 import * as fs from "fs";
 
-const INI = parseINIString(fs.readFileSync('config/config.ini', 'utf8'));
-const CONFIG = parseINIString(fs.readFileSync(INI['CURRENT']['FILE'], 'utf8'));
+const CONFIG = parseINIString(fs.readFileSync('config/config.ini', 'utf8'));
 
 const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
