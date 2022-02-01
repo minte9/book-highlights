@@ -22,7 +22,7 @@ node index.js
 ## Custom
 
 - Switch to *my_books* branch
-- Save your images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory.
+- Save your texts screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory.
 - Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
