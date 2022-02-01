@@ -9,6 +9,7 @@ git clone https://github.com/minte9/book-highlights.git
 
 cd book-highlights/
 npm install chalk
+git commit -a -m 'chalk installed'
 ~~~
 
 ## Usage
