@@ -1,6 +1,6 @@
 # Book Highlights
 
-Highlights archive from user's [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/)
+Highlights archive from user's books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/)
 
 ## Install
 
