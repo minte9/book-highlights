@@ -26,7 +26,7 @@ node index.js
 - Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
-git checkout -b my_books
+git checkout my_books
 
 python update.py
 node index.js
