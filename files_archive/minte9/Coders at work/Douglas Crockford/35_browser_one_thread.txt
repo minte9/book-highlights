@@ -1,0 +1,7 @@
+<i>One of the things I like about the browser model is
+that we only get one thread. Some people complain
+about that—if you lock up that thread, then the
+browser's locked up</i>. So you just don't do that.
+There are constantly calls for putting threads into
+JavaScript and so far we've resisted that. I'm really
+glad we have.

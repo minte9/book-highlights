@@ -1,0 +1,2 @@
+<i>In-browser JavaScript can do everything related to webpage manipulation,</i> 
+interaction with the user, add new HTML to the page, change the existing content, modify styles.

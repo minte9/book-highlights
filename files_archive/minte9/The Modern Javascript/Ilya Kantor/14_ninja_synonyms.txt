@@ -1,0 +1,6 @@
+<i>Using similar names for same things makes 
+life more interesting and shows your creativity to the public.</i>
+Insinuate that there’s a subtle difference between 
+such functions, while there is none. For two functions 
+with important differences - use the same prefix! 
+(ninja code :)

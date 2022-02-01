@@ -1,0 +1,6 @@
+<i>A short variable disappears in the code like 
+a real ninja in the forest. No one will be able 
+to find it using “search” of the editor.</i> 
+And even if someone does, they won’t be able 
+to “decipher” what the name a or b means. 
+(ninja code :)

@@ -1,0 +1,7 @@
+Because <i>I worry about the abstraction leakage. If
+there's a problem in your Java code or in GWT or
+in what it produces on the other side, you may or
+may not have a place to stand to deal with that.</i>
+Particularly if you took the approach that you can
+afford to be completely ignorant about JavaScript
+because the language is hidden from you.

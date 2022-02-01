@@ -1,0 +1,7 @@
+In Javascript there is much less need of formal tools like you
+have in other languages. <i>The browser just wants a
+source file, and so you send it a source file, and the
+compiler is built into the browser, so there's really
+nothing to do</i>. You don't have a linker. You don't
+have a compiler. You don't have any of that stuff. It
+just all runs on the browser.

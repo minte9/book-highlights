@@ -1,0 +1,5 @@
+<i>I always wish people would comment more,
+though the thing that makes me cringe is when the
+comment is the name of the function rephrased.</i>
+Function's called push_stack and the comment
+says, “This pushes to the stack.” Thank you.

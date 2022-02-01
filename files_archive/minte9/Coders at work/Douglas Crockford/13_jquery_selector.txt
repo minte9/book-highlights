@@ -1,0 +1,7 @@
+One thing that we're seeing now is that the Ajax
+libraries are converging. <i>jQuery came up with
+a notation for using CSS selectors for getting a
+list of objects from the DOM and then providing
+methods for manipulating the objects en masse.</i>
+And that turns out to be a really good idea and
+it's something that JavaScript does very effectively.

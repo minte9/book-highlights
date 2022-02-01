@@ -1,0 +1,4 @@
+The language got frozen in 1999 and then should have gone
+into neglect and died. <i>But instead, by accident,
+Ajax happened and suddenly it's the world's most
+important programming language.</i>

@@ -1,0 +1,3 @@
+<i>Engines are complicated. But the basics are easy.
+The engine parses the script then it compiles to the machine language.</i>
+The engine applies optimizations and runs the code.

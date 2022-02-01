@@ -1,0 +1,7 @@
+<i>I understand why people are frustrated with the
+language. If you try to write in JavaScript as
+though it is Java, it'll keep biting you. I did this.</i>
+One of the first things I did in the language was
+to figure out how to simulate something that
+looked sort of like a Java class, but at the edges it
+didn't work anything like it.

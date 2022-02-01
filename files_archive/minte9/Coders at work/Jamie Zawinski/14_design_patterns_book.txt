@@ -1,0 +1,8 @@
+Then there was <i>another book that everybody
+thought was the greatest thing ever in that same
+period—Design Patterns—which I just thought was
+crap.</i> It was just like, programming via cut and
+paste. Rather than thinking through your task
+you looked through the recipe book and found
+something that maybe, kinda, sorta felt like it, and
+then just aped it. That's not programming.

@@ -1,0 +1,5 @@
+Where we do have a problem is that <i>there are too
+many Ajax libraries. That was a consequence of the
+fact that JavaScript is so powerful and the need
+is so profound and that they're easy to make.</i> So
+for a while everybody was making them.

@@ -1,0 +1,6 @@
+<i>If the team rules forbid the use of one-letter 
+and vague names - shorten them, make abbreviations.
+Only the one with truly good intuition will be able 
+to understand such names.</i> Try to shorten everything. 
+Only a worthy person should be able to uphold the development of your code. 
+(ninja code :)

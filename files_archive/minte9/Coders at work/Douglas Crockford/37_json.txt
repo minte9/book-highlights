@@ -1,0 +1,6 @@
+When XML was proposed as a data-interchange
+format, my first impression of that was, “<i>My god,
+this is way, way, way too complicated. We don't
+need all of this stuff just to move data back and
+forth</i>.” And so I proposed another way to do it, json, 
+and it won.

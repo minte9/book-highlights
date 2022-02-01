@@ -1,0 +1,8 @@
+I've also done a lot of testing since LiveJournal.
+<i>Once I started working with other people
+especially. And once I realized that code I write
+never fucking goes away and I'm going to be a
+maintainer for life.</i> I get comments about blog
+posts that are almost 10 years old. “Hey. I found
+this code. I found a bug,” and I'm suddenly
+maintaining code.

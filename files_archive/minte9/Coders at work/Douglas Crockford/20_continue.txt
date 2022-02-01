@@ -1,0 +1,5 @@
+It makes certain kinds of complicated structures
+easier to write. <i>But I found that I can always
+improve the structure if I can find a way to factor
+it out. So as part of my personal discipline. I don't
+use continue ever.</i>

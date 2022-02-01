@@ -1,0 +1,7 @@
+Those sort of specification errors are really, really
+hard. And we have them in the Ajax world. <i>Most
+of our problems in the Ajax world are due to the
+differences at the browser level. Doing the cross-
+browser stuff is much harder than it should be</i>
+because the Web is not specified well and because
+the implementations are so variable.

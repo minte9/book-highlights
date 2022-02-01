@@ -1,0 +1,8 @@
+I've managed projects where we're up against a
+deadline and we had people saying, <i>“Yeah. I'm
+almost done,” and then you get the code, and
+there's nothing there, or it's crap, or whatever, and
+they're nowhere close to done.</i> In management,
+those are the experiences you hate the most and I
+think code reading is the best way of not getting
+trapped like that.

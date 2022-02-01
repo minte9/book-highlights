@@ -1,0 +1,7 @@
+<i>Brevity is the soul of wit.
+Make the code as short as possible. 
+Show how smart you are. If you write like that, 
+a developer who tries to understand is going to have a merry time.</i> 
+Then come to you, seeking for an answer. Tell them 
+that shorter is always better. Initiate them into the paths of ninja.
+(ninja code :)

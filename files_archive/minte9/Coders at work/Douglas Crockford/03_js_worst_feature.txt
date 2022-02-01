@@ -1,0 +1,5 @@
+<i>The worst feature of JavaScript, without question,
+is its dependence on a global object.</i> It doesn't have
+linkers, it doesn't have any kind of information
+hiding between compilation units. It all gets
+dumped together into a common global object.

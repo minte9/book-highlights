@@ -1,0 +1,6 @@
+I've become a really big fan of soft
+objects. <i>In JavaScript, any object is whatever you
+say it is. That's alarming to people who come at
+it from a classical perspective</i> because without a
+class, then what have you got? It turns out you
+just have what you need, and that's really useful.
