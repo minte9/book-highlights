@@ -5,8 +5,9 @@ Highlights archive from user's books [screenshots](https://github.com/minte9/boo
 ## Install
 
 ~~~sh
-git clone https://github.com/minte9/book-highlights.git \
-cd book-highlights/ \
+git clone https://github.com/minte9/book-highlights.git
+
+cd book-highlights/
 npm install chalk
 ~~~
 
@@ -25,8 +26,9 @@ node index.js
 - Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
-git checkout -b my_books \
-python update.py \
+git checkout -b my_books
+
+python update.py
 node index.js
 ~~~
 
