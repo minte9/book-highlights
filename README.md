@@ -22,7 +22,7 @@ node index.js
 ##
 
 - Save your images to [screenshots_my/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots_my) archive directory.
-- Change with your path in [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini)
+- Update your path in [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini)
 - Run the [update](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
