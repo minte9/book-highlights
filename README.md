@@ -30,8 +30,6 @@ python update.py
 node index.js
 ~~~
 
-##
-
 ## Browser
 
 ~~~sh
