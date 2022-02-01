@@ -27,6 +27,8 @@ node index.js
 
 ~~~sh
 git checkout -b my_books
+node index.js
+
 python update.py
 node index.js
 ~~~
