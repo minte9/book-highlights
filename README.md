@@ -21,8 +21,8 @@ node index.js
 
 ## Custom
 
-- Switch to my_books branch, [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini) updated.
-- Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory.
+- Switch to my_books branch, [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini) updated
+- Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory
 - Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
