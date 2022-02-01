@@ -1,8 +1,10 @@
-import pathlib
+import os
 import configparser
 
-DIR = pathlib.Path(__file__).resolve().parent
+DIR = os.path.dirname(os.path.realpath(__file__))
+
+ini = configparser.ConfigParser()
+ini.read(DIR + '/../config/config.ini')
 
 cfp = configparser.ConfigParser()
-cfp.read(DIR / '../config/config_m9.ini') 
-    # cfp.read(DIR / '../config/config_my.ini') # LOOK HERE
+cfp.read(DIR + '/../' + ini['CURRENT']['FILE'])

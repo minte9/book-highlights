@@ -7,21 +7,18 @@ import chalk from 'chalk';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { createRequire } from "module";
+import * as fs from "fs";
 
-/**
- * Archive data folder
- */
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-let FOLDER;
-FOLDER = __dirname + '/public_html/data_m9_books/';
-    // FOLDER = __dirname + '/public_html/data_my_books/'; // LOOK HERE
+const INI = parseINIString(fs.readFileSync('config/config.ini', 'utf8'));
+const CONFIG = parseINIString(fs.readFileSync(INI['CURRENT']['FILE'], 'utf8'));
 
 const require = createRequire(import.meta.url);
-const AUTHORS     = require(FOLDER + 'authors.json');
-const BOOKS       = require(FOLDER + 'books.json');
-const HIGHLIGHTS  = require(FOLDER + 'highlights.json');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename) + "/";
+
+const AUTHORS       = require(CONFIG['DATA']['AUTHORS'].replace("../", __dirname));
+const BOOKS         = require(CONFIG['DATA']['BOOKS'].replace("../", __dirname));
+const HIGHLIGHTS    = require(CONFIG['DATA']['HIGHLIGHTS'].replace("../", __dirname));
 
 /**
  *  Command line arguments
@@ -145,3 +142,35 @@ function show_rand(book_id) {
     );
 }
 
+/**
+ * Config ini file parser
+ */
+function parseINIString(data){
+    const regex = {
+        section: /^\s*\[\s*([^\]]*)\s*\]\s*$/,
+        param: /^\s*([^=]+?)\s*=\s*(.*?)\s*$/,
+        comment: /^\s*;.*$/
+    };
+    let value = {};
+    const lines = data.split(/[\r\n]+/);
+    var section = null;
+    lines.forEach(function(line) {
+        if(regex.comment.test(line)) {
+            return;
+        } else if(regex.param.test(line)) {
+            let match = line.match(regex.param);
+            if(section) {
+                value[section][match[1]] = match[2];
+            } else {
+                value[match[1]] = match[2];
+            }
+        } else if(regex.section.test(line)) {
+            let match = line.match(regex.section);
+            value[match[1]] = {};
+            section = match[1];
+        } else if(line.length == 0 && section) {
+            section = null;
+        };
+    });
+    return value;
+}

@@ -1,11 +1,18 @@
 """Write highligts texts:
 Read from images directory, convert image to text, write text files.
 """
-import os, pathlib
+import sys, os, pathlib
 import cv2, pytesseract, numpy as np
 import logging
 import re
-from tools import config
+sys.dont_write_bytecode = True
+
+"""Config ini called in update.py (or directly)
+"""
+try:
+    from tools import config as config
+except:
+    import config as config
 
 DIR             = pathlib.Path(__file__).resolve().parent
 REWRITE         = config.cfp['FLAG']['REWRITE'] # Overwrites .txt files

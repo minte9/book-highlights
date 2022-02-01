@@ -1,7 +1,16 @@
 """Copy public_html/ to localhost www/
 """
-import pathlib, shutil
-from tools import config
+import pathlib
+import shutil
+import sys
+sys.dont_write_bytecode = True
+
+"""Config ini called in update.py (or directly)
+"""
+try:
+    from tools import config as config
+except:
+    import config as config
 
 DIR = pathlib.Path(__file__).resolve().parent
 SRC = DIR / config.cfp['PUBLIC']['SRC']

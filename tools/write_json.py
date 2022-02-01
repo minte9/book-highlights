@@ -6,7 +6,15 @@ Write data/highlights.js
 """
 import pathlib
 import os, json
-from tools import config
+import sys
+sys.dont_write_bytecode = True
+
+"""Config ini called in update.py (or directly)
+"""
+try:
+    from tools import config as config
+except:
+    import config as config
 
 DIR                 = pathlib.Path(__file__).resolve().parent
 TEXTS_DIR           = DIR / config.cfp['DATA']['FILES']
