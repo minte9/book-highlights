@@ -8,6 +8,7 @@ Highlights archive from user's books [screenshots](https://github.com/minte9/boo
 git clone https://github.com/minte9/book-highlights.git
 
 cd book-highlights/
+
 npm install chalk
 ~~~
 
@@ -22,17 +23,14 @@ node index.js
 ## Custom
 
 - Switch to 'my_books' branch
-
-~~~sh
-git checkout -b my_books
-node index.js
-~~~
-
 - Save your images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory.
 - Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
+git checkout -b my_books
+
 python update.py
+
 node index.js
 ~~~
 
