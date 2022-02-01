@@ -21,8 +21,14 @@ node index.js
 
 ## Custom
 
+- Switch to 'my_books' branch
+
+~~~sh
+git checkout -b my_books
+node index.js
+~~~
+
 - Save your images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory.
-- Update your path in [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini)
 - Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
 
 ~~~sh
