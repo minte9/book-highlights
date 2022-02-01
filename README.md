@@ -19,7 +19,7 @@ node index.js
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
-##
+## Custom
 
 - Save your images to [screenshots_my/](https://github.com/minte9/book-highlights/tree/main/files_archive/screenshots_my) archive directory.
 - Update your path in [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini)
