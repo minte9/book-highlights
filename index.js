@@ -9,11 +9,11 @@ import { dirname } from 'path';
 import { createRequire } from "module";
 import * as fs from "fs";
 
-const CONFIG = parseINIString(fs.readFileSync('config/config.ini', 'utf8'));
-
 const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename) + "/";
+
+const CONFIG = parseINIString(fs.readFileSync(__dirname + '/config/config.ini', 'utf8'));
 
 const AUTHORS       = require(CONFIG['DATA']['AUTHORS'].replace("../", __dirname));
 const BOOKS         = require(CONFIG['DATA']['BOOKS'].replace("../", __dirname));

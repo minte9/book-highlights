@@ -1,6 +1,16 @@
 {
+  "name": "book-highlights",
+  "version": "2.2.2",
+  "description": "",
+  "main": "bin/index.js",
+  "keywords": [],
+  "author": "Catalin Prescure (https://www.minte9.com)",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "bin": {
+    "book-highlights": "./index.js"
+  }
 }
