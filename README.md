@@ -4,7 +4,7 @@ Highlights archive from user's books [screenshots](https://github.com/minte9/boo
 
 ## Install
 
-Clone this repository and install chalk package.
+Clone this repository and install [chalk](https://github.com/chalk/chalk) package.
 
 ~~~sh
 git clone https://github.com/minte9/book-highlights.git
