@@ -1,4 +1,4 @@
-deploy their applications. <i>It’s rare, and refreshing,
+<i>It’s rare, and refreshing,
 to find a developer who truly understands
 the platform on which he or she is working.</i>
 Applications are better and work gets done faster

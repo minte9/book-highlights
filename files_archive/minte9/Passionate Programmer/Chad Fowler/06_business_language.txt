@@ -3,4 +3,4 @@ to speak to your business clients in the language
 of their business domain is a critical skill.</i> Imagine
 how much easier life would be if everyone you
 had to work with really understood how software
-development works. You wouldn't have to explain
+development works.

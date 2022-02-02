@@ -337,67 +337,67 @@
                 "children": [
                     {
                         "name": "Low expectations",
-                        "text": "our careers. Most of us are content to go with the\nflow. <i>Our expectations have been lowered for us\nby the media and by our friends, acquaintances,\nand family members</i>. So, leading a remarkable life\nis something you have to discover as even being a\nreasonable goal. It\u2019s not obvious.",
+                        "text": "<i>Most of us are content to go with the\nflow. Our expectations have been lowered for us\nby the media and by our friends, acquaintances,\nand family members</i>. So, leading a remarkable life\nis something you have to discover as even being a\nreasonable goal. It\u2019s not obvious.",
                         "id": 63
                     },
                     {
                         "name": "Loving your work",
-                        "text": "<i>If your life is primarily consumed by your work,\nthen loving your work is one of the most\nimportant keys to loving your life.</i> Challenging,\nmotivating, rewarding work is more likely to make\nyou want to get up in the morning than dull,\naverage tasks. Doing your job well means that the\nactivity you do for 50 percent of your available\ntime is something you're good at. Conversely, if you",
+                        "text": "<i>If your life is primarily consumed by your work,\nthen loving your work is one of the most\nimportant keys to loving your life.</i> Challenging,\nmotivating, rewarding work is more likely to make\nyou want to get up in the morning than dull,\naverage tasks. Doing your job well means that the\nactivity you do for 50 percent of your available\ntime is something you're good at.",
                         "id": 64
                     },
                     {
                         "name": "Higher salary",
-                        "text": "take to achieve that goal. A higher salary might\nactually be desirable and lead toward happiness.</i>\n<i>But if you take your eyes off the primary goal,\nyou can find yourself driving toward a higher\nsalary at the expense of your happiness.</i> It sounds\nridiculous, but I\u2019ve done it. And so have you. Think\nabout it.",
+                        "text": "A higher salary might\nactually be desirable and lead toward happiness.</i>\n<i>But if you take your eyes off the primary goal,\nyou can find yourself driving toward a higher\nsalary at the expense of your happiness.</i> It sounds\nridiculous, but I\u2019ve done it. And so have you.",
                         "id": 65
                     },
                     {
                         "name": "Business purpose",
-                        "text": "is a business. <i>As software developers, we are\nbusinesspeople. Our companies don\u2019t employ us\nbecause they love us.</i> They never have, and they\nnever will. That\u2019s not the job of a business.\nBusinesses don\u2019t exist so we can have a place to go\nevery day. The purpose of a business is to make",
+                        "text": "<i>As software developers, we are\nbusinesspeople. Our companies don\u2019t employ us\nbecause they love us.</i> They never have, and they\nnever will. That\u2019s not the job of a business.\nBusinesses don\u2019t exist so we can have a place to go\nevery day.",
                         "id": 66
                     },
                     {
                         "name": "Old systems",
-                        "text": "systems are replaced in stages. <i>In those stages,\nthe old systems have to talk to the new systems.\nSomeone has to know how to make the new speak\nto the old, and vice versa.</i> Typically, the young\ntykes don\u2019t know (or want to know) how to make\nthe old systems listen. Nor do the crusty old",
+                        "text": "<i>In those stages, the old systems have to talk to the new systems.\nSomeone has to know how to make the new speak\nto the old, and vice versa.</i> Typically, the young\ntykes don\u2019t know (or want to know) how to make\nthe old systems listen.",
                         "id": 67
                     },
                     {
                         "name": "Business language",
-                        "text": "<i>You might be \u201cjust a programmer,\u201d but being able\nto speak to your business clients in the language\nof their business domain is a critical skill.</i> Imagine\nhow much easier life would be if everyone you\nhad to work with really understood how software\ndevelopment works. You wouldn't have to explain",
+                        "text": "<i>You might be \u201cjust a programmer,\u201d but being able\nto speak to your business clients in the language\nof their business domain is a critical skill.</i> Imagine\nhow much easier life would be if everyone you\nhad to work with really understood how software\ndevelopment works.",
                         "id": 68
                     },
                     {
                         "name": "Candidate pool",
-                        "text": "<i>The addition of Smalltalk to the requirements list\nyielded a candidate pool that was tiny in contrast\nto our previous list.</i> These people were diamonds\nin the rough. They really understood object-\noriented programming. They were aware that Java",
+                        "text": "<i>The addition of Smalltalk to the requirements list\nyielded a candidate pool that was tiny in contrast\nto our previous list.</i> These people were diamonds\nin the rough. They really understood object-oriented programming.",
                         "id": 69
                     },
                     {
                         "name": "Take opportunity",
-                        "text": "It drives me crazy to ask people whether\nthey've seen or used certain not-quite-mainstream\ntechnologies only to hear, <i>\u201cI haven't been given the\nopportunity to work on that\u201d in return. Given the\nopportunity? Neither was I!</i> I took the opportunity\nto learn.",
+                        "text": "It drives me crazy to ask people whether\nthey've seen or used certain not-quite-mainstream\ntechnologies only to hear, <i>\u201cI haven't been given the\nopportunity to work on that\u201d in return. Given the\nopportunity? Neither was I! I took the opportunity\nto learn.</i>",
                         "id": 70
                     },
                     {
                         "name": "Unix guy",
-                        "text": "<i>Another artificial (and inexcusable) line gets\ndrawn around platforms or operating systems.</i>\nBeing a UNIX Guy who refuses to do Windows\nis increasingly more impractical. The same goes",
+                        "text": "<i>Another artificial (and inexcusable) line gets\ndrawn around platforms or operating systems.</i>\nBeing a UNIX Guy who refuses to do Windows\nis increasingly more impractical.",
                         "id": 71
                     },
                     {
                         "name": "Developer environment",
-                        "text": "deploy their applications. <i>It\u2019s rare, and refreshing,\nto find a developer who truly understands\nthe platform on which he or she is working.</i>\nApplications are better and work gets done faster\nas aresult.",
+                        "text": "<i>It\u2019s rare, and refreshing,\nto find a developer who truly understands\nthe platform on which he or she is working.</i>\nApplications are better and work gets done faster\nas aresult.",
                         "id": 72
                     },
                     {
                         "name": "Rate himself",
-                        "text": "I was looking for really good Java programmers. To\nstart the interview. I asked this person (and all the\nothers I had interviewed that week) to rate himself\nona scale of one to ten. He said nine. I\u2019m expecting\na star here. <i>If this guy rates himself so high, why\ncan\u2019t he think of a single abusive programming\ntrick that would cause a JVM to crash?</i>",
+                        "text": "I asked this person (and all the\nothers I had interviewed that week) to rate himself\nona scale of one to ten. He said nine. I\u2019m expecting\na star here. <i>If this guy rates himself so high, why\ncan\u2019t he think of a single abusive programming\ntrick that would cause a JVM to crash?</i>",
                         "id": 73
                     },
                     {
                         "name": "Specializing in something",
-                        "text": "<i>Too many of us seem to believe that specializing\nin something simply means you don\u2019t know about\nother things.</i> I could, for example, call my mother\na Windows specialist, because she has never used.\nLinux or OS X. Or. I could say that my relatives out\nin the countryside in Arkansas are country music\nspecialists, because they\u2019ve never heard anything\nelse.",
+                        "text": "<i>Too many of us seem to believe that specializing\nin something simply means you don\u2019t know about\nother things.</i> I could, for example, call my mother\na Windows specialist, because she has never used \nLinux.",
                         "id": 74
                     },
                     {
                         "name": "Changing computer industry",
-                        "text": "This is the kind of specialist who will survive\nin the changing computer industry. If you're\na .NET specialist, it\u2019s not just an excuse for not\nknowing anything except .NET. <i>It means that if\nit has to do with .NET, you are the authority. IIS\nservers hanging and needing to be rebooted? \u201cNo\nproblem.\u201d Source control integration with Visual\nStudio .NET? \u201cI\u2019ll show you how.\u201d</i> Customers\nthreatening to pull the plug because of obscure",
+                        "text": "This is the kind of specialist who will survive\nin the changing computer industry. If you're\na .NET specialist, it\u2019s not just an excuse for not\nknowing anything except .NET. <i>It means that if\nit has to do with .NET, you are the authority. IIS\nservers hanging and needing to be rebooted? \u201cNo\nproblem.\u201d Source control integration with Visual\nStudio .NET? \u201cI\u2019ll show you how.\u201d</i>",
                         "id": 75
                     },
                     {

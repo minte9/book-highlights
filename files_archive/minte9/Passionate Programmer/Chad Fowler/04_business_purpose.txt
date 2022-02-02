@@ -1,6 +1,6 @@
-is a business. <i>As software developers, we are
+<i>As software developers, we are
 businesspeople. Our companies don’t employ us
 because they love us.</i> They never have, and they
 never will. That’s not the job of a business.
 Businesses don’t exist so we can have a place to go
-every day. The purpose of a business is to make
+every day.

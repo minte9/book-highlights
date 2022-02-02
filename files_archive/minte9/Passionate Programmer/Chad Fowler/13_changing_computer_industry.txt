@@ -5,5 +5,4 @@ knowing anything except .NET. <i>It means that if
 it has to do with .NET, you are the authority. IIS
 servers hanging and needing to be rebooted? “No
 problem.” Source control integration with Visual
-Studio .NET? “I’ll show you how.”</i> Customers
-threatening to pull the plug because of obscure
+Studio .NET? “I’ll show you how.”</i>
