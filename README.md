@@ -24,6 +24,10 @@ npm install -g .
 # run from anywhere
 book-hightlights
 ~~~
+~~~sh
+# uninstall the script
+npm uninstall -g book-hightlights
+~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
