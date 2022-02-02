@@ -5,14 +5,16 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 ## Install
 
 ~~~sh
-# clone this repo
+# clone
 git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
-
-# install dependencies
+~~~
+~~~sh
+# dependencies
 npm install chalk 
-
-# run the application 
+~~~
+~~~sh
+# run 
 node .
 ~~~
 ~~~sh
