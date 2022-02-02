@@ -4,17 +4,16 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 
 ## Install
 
-Clone this repository and install [chalk](https://github.com/chalk/chalk) package.  
-Use index.js to run from console and [public_html](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=25) for browsers.
-
 ~~~sh
+# clone this repo
 git clone https://github.com/minte9/book-highlights.git
-
 cd book-highlights/
+
+# install dependencies
 npm install chalk 
 
-# run the script 
-node index.js
+# run the application 
+node .
 
 # install as command line application
 npm install -g .
@@ -29,6 +28,7 @@ book-hightlights
 
 Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
 Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) and run update script.  
+Use index.js to run from console and [public_html](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=25) for browsers.  
 
 ~~~sh
 python update.py
