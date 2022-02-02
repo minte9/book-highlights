@@ -1,6 +1,6 @@
 # Book Highlights
 
-Highlights archive from user's books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/)
+Highlights archive from user's books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books/book1/author1) images.
 
 ## Install
 
@@ -23,7 +23,7 @@ node index.js
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
-## User Books
+## Custom
 
 - Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini)
 - Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory
@@ -35,11 +35,12 @@ python update.py
 
 ## Browser
 
-- To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder.
-- See it in action on [minte9.com](https://www.minte9.com)
+To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder.
 
 ~~~sh
 <iframe src="/book-highlights/public_html/index.htm" 
     width=450 height=350 frameborder=0 scrolling=no>
 </iframe>
 ~~~
+
+See it in action on [minte9.com](https://www.minte9.com)
