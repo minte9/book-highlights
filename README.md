@@ -15,7 +15,7 @@ npm install chalk
 ~~~
 ~~~sh
 # run 
-node .
+node index.js
 ~~~
 ~~~sh
 # install as command line application
