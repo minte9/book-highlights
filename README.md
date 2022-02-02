@@ -8,24 +8,27 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 # clone
 git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
-~~~
-~~~sh
+
 # dependencies
 npm install chalk 
 ~~~
+
+## Run
+
 ~~~sh
-# run 
+# run the application
 node index.js
 ~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
+## Command
+
 ~~~sh
 # install as command line application
 cd book-highlights/
 npm install -g .
-~~~
-~~~sh
+
 # run from anywhere
 book-hightlights
 ~~~
