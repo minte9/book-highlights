@@ -32,11 +32,10 @@ python update.py
 ## Browser
 
 - To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder.
+- See it in action on [minte9.com](https://www.minte9.com)
 
 ~~~sh
 <iframe src="/book-highlights/public_html/index.htm" 
     width=450 height=350 frameborder=0 scrolling=no>
 </iframe>
 ~~~
-
-See it in action on [minte9.com](https://www.minte9.com)
