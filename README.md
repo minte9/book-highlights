@@ -23,7 +23,8 @@ node index.js
 ~~~sh
 # install as command line application
 npm install -g .
-
+~~~
+~~~sh
 # run from anywhere
 book-hightlights
 ~~~
