@@ -15,6 +15,8 @@ npm install chalk
 
 ## Usage
 
+Use node.js to run from console.
+
 ~~~sh
 node index.js
 ~~~
