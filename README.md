@@ -19,16 +19,19 @@ node index.js
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
-## Custom
+## User Books
 
 - Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini)
 - Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory
 - Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
-- To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder and an iframe.
 
 ~~~sh
 python update.py
 ~~~
+
+## Browser
+
+- To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder and an iframe.
 
 ~~~sh
 <iframe src="/book-highlights/public_html/index.htm" 
