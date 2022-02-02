@@ -31,7 +31,7 @@ python update.py
 
 ## Browser
 
-- To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder and an iframe.
+- To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder.
 
 ~~~sh
 <iframe src="/book-highlights/public_html/index.htm" 
