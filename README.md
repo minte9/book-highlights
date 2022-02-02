@@ -14,7 +14,8 @@ npm install chalk
 
 # run the application 
 node .
-
+~~~
+~~~sh
 # install as command line application
 npm install -g .
 
