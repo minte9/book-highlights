@@ -5,7 +5,7 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 ## Install
 
 Clone this repository and install [chalk](https://github.com/chalk/chalk) package.  
-Use [index.js](https://github.com/minte9/book-highlights/tree/main/index.js) to run from console and [public_html](https://github.com/minte9/book-highlights/tree/main/public_html) for browsers.
+Use [index.js](https://github.com/minte9/book-highlights/tree/main/index.js) to run from console and [public_html](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=25) for browsers.
 
 ~~~sh
 git clone https://github.com/minte9/book-highlights.git
