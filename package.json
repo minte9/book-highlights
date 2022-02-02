@@ -2,7 +2,7 @@
   "name": "book-highlights",
   "version": "2.2.2",
   "description": "",
-  "main": "bin/index.js",
+  "main": "index.js",
   "keywords": [],
   "author": "Catalin Prescure (https://www.minte9.com)",
   "license": "MIT",
