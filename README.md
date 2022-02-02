@@ -13,7 +13,14 @@ git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
 npm install chalk 
 
+# run the script 
 node index.js
+
+# install as command line application
+npm install -g .
+
+# run from anywhere
+book-hightlights
 ~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
