@@ -4,20 +4,15 @@ Highlights archive from user's books [screenshots](https://github.com/minte9/boo
 
 ## Install
 
-Clone this repository and install [chalk](https://github.com/chalk/chalk) package.
+Clone this repository and install [chalk](https://github.com/chalk/chalk) package.  
+Use node.js to run from console.
 
 ~~~sh
 git clone https://github.com/minte9/book-highlights.git
 
 cd book-highlights/
-npm install chalk
-~~~
+npm install chalk 
 
-## Usage
-
-Use node.js to run from console.
-
-~~~sh
 node index.js
 ~~~
 
@@ -25,22 +20,13 @@ node index.js
 
 ## Custom
 
-Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to [config.ini](https://github.com/minte9/book-highlights/tree/main/config/config.ini)   
-Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) archive directory  
-Run [update.py](https://github.com/minte9/book-highlights/blob/main/update.py) script 
+Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
+Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) and run update script.  
+To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder and iframe.  
 
 ~~~sh
 python update.py
-~~~
-
-## Browser
-
-To run in browser use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html) folder.
-
-~~~sh
-<iframe src="/book-highlights/public_html/index.htm" 
-    width=450 height=350 frameborder=0 scrolling=no>
-</iframe>
+node index.js
 ~~~
 
 See it in action on [minte9.com](https://www.minte9.com)
