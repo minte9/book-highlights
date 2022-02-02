@@ -17,6 +17,9 @@ npm install chalk
 # run 
 node index.js
 ~~~
+
+[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
+
 ~~~sh
 # install as command line application
 npm install -g .
@@ -24,8 +27,6 @@ npm install -g .
 # run from anywhere
 book-hightlights
 ~~~
-
-[![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
 ## Custom
 
