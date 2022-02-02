@@ -128,10 +128,6 @@ function get_rand() {
 		let rand_seed = myrng.quick();
 		let rand_book = Math.floor(rand_seed * DATA.books.length);
 		curr.book = DATA.books[rand_book];
-		// console.log(today);
-		// console.log(rand_seed);
-		// console.log(rand_book);
-		// rand_book = 0;
 	}
 
 	data = DATA.highlights.filter(x => x.name == curr.book.title);
@@ -145,10 +141,6 @@ function get_rand() {
 		let accepted_autors = DATA.authors.filter(x => x.bookId == curr.book.id);
 		let rand_author = Math.floor(Math.random() * accepted_autors.length);
 		curr.author = accepted_autors.filter(x => x.name == accepted_autors[rand_author].name)[0];
-		// console.log(rand_author);
-		// console.log(accepted_autors);
-		// console.log(curr.book.title);
-		// console.log(curr.author.name);
 	}
 
 	data = data.filter(x => x.name == curr.author.name)[0];
