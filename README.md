@@ -22,6 +22,7 @@ node index.js
 
 ~~~sh
 # install as command line application
+cd book-highlights/
 npm install -g .
 ~~~
 ~~~sh
