@@ -32,7 +32,6 @@ switch(myArgs[0]) {
         break;
     default:
         keypress_listener();
-        books_list();
         show_rand(myArgs[0]);  
         
 }
@@ -48,11 +47,12 @@ function keypress_listener() {
         switch(key.name) {
             case 'space':
             case 'return':
-                books_list();
                 show_rand(myArgs[0]); 
                 break;
             case 'f1':
                 help(); break;
+            case 'f2':
+                books_list(); break;
             case 'escape':
                 process.exit(0);
             case 'c':
@@ -82,17 +82,16 @@ function help() {
     console.log("Space \t |continue to next (Return)");
     console.log("F1 \t |help");
     console.log();
-    process.exit(0);
+    //process.exit(0);
 }
 
 /**
  * Action: Show book lists
  */
 function books_list() {
-    console.log('\n'.repeat(10));
-    console.log(chalk.redBright("Books"));
+    console.log(chalk.redBright(' '.repeat(2) + "Books"));
     BOOKS.forEach( book => {
-        console.log(`(${book.id}) ` + book.title);
+        console.log(' '.repeat(2) + `(${book.id}) ` + book.title);
     });
     console.log();
     //process.exit(0);
@@ -125,21 +124,28 @@ function show_rand(book_id) {
     const start = splits[0];
     const highlighted = ' ' + splits[1] + ' ';
     const end = splits[2];
-    const sep = chalk.grey('-'.repeat(60));
+    const sep = chalk.gray('-'.repeat(70));
 
-    console.log(sep + '\n' + ' '.repeat(2)
+    const msg = ' '.repeat(2)
         + chalk.greenBright(author.name + ', ')
-        + chalk.redBright(book.title + ', ')
-        + chalk.grey("Space / Ctrl+C / F1")
-        + '\n' + sep
-    );
-    console.table(''
+        + chalk.redBright(book.title + '')
+        + '\n\n'
         + chalk.bgGrey.black(start)
         + chalk.bgYellowBright.black(highlighted)
         + chalk.bgGrey.black(end)
-        + '\n' + sep 
-        + '\n'.repeat(2)
-    );
+        + '\n\n'
+        + sep + '\n\n'
+        + ' '.repeat(2)
+        + chalk.gray("Enter") + ' '.repeat(2)
+        + chalk.gray("Esc") + ' '.repeat(2)
+        + chalk.gray("F1") + ' '.repeat(2)
+        + chalk.gray("F2") + ' '.repeat(2)
+    ;
+
+    console.log('\n'.repeat(15));  
+    console.log(sep + '\n');
+    console.table(msg);
+    console.log('\n'.repeat(2));
 }
 
 /**
