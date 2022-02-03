@@ -41,12 +41,12 @@ python update.py
 
 ## Command
 
+Install as command line application and run from anywhere.
+
 ~~~sh
-# install as command line application
 cd book-highlights/
 npm install -g .
 
-# run from anywhere
 book-hightlights
 ~~~
 
