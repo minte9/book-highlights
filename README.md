@@ -19,8 +19,6 @@ node index.js
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
-## Command
-
 ~~~sh
 # install as command line application
 cd book-highlights/
