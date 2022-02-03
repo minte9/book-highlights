@@ -5,18 +5,15 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 ## Install
 
 ~~~sh
-# clone
 git clone https://github.com/minte9/book-highlights.git
-cd book-highlights/
 
-# dependencies
+cd book-highlights/
 npm install chalk 
 ~~~
 
 ## Run
 
 ~~~sh
-# run the application
 node index.js
 ~~~
 
