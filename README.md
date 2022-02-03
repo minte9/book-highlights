@@ -19,21 +19,10 @@ node index.js
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
 
-~~~sh
-# install as command line application
-cd book-highlights/
-npm install -g .
-
-# run from anywhere
-book-hightlights
-~~~
 
 ## Browser
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com)
-
-Use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html/) to run in browser.  
-See it in action on [minte9.com](https://www.minte9.com)
 
 ~~~sh
 <iframe src="/book-highlights/public_html/index.htm" 
@@ -49,3 +38,19 @@ Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/t
 ~~~sh
 python update.py
 ~~~
+
+## Command
+
+~~~sh
+# install as command line application
+cd book-highlights/
+npm install -g .
+
+# run from anywhere
+book-hightlights
+~~~
+
+##
+
+See it in action on [minte9.com](https://www.minte9.com)
+
