@@ -28,16 +28,9 @@ npm install -g .
 book-hightlights
 ~~~
 
-## Custom
-
-Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
-Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) and run update script.  
-
-~~~sh
-python update.py
-~~~
-
 ## Browser
+
+[![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com)
 
 Use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html/) to run in browser.  
 See it in action on [minte9.com](https://www.minte9.com)
@@ -46,4 +39,13 @@ See it in action on [minte9.com](https://www.minte9.com)
 <iframe src="/book-highlights/public_html/index.htm" 
   width=450 height=350 frameborder=0 scrolling=no>
 </iframe>
+~~~
+
+## Custom
+
+Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
+Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) and run update script.  
+
+~~~sh
+python update.py
 ~~~
