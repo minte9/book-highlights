@@ -41,7 +41,7 @@ python update.py
 
 ## Browser
 
-Use [public_html](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=25) to run in browser.  
+Use [public_html/](https://github.com/minte9/book-highlights/tree/main/public_html/) to run in browser.  
 See it in action on [minte9.com](https://www.minte9.com)
 
 ~~~sh
