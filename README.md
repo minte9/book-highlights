@@ -34,10 +34,12 @@ book-hightlights
 
 Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
 Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) and run update script.  
-Use index.js to run from console and [public_html](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=25) for browsers.  
 
 ~~~sh
 python update.py
 ~~~
 
+## Browser
+
+Use [public_html](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=25) to run in browser.  
 See it in action on [minte9.com](https://www.minte9.com)
