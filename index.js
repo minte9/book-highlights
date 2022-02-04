@@ -20,6 +20,8 @@ const AUTHORS       = require(CONFIG['DATA']['AUTHORS'].replace("../", __dirname
 const BOOKS         = require(CONFIG['DATA']['BOOKS'].replace("../", __dirname));
 const HIGHLIGHTS    = require(CONFIG['DATA']['HIGHLIGHTS'].replace("../", __dirname));
 
+var curr_catg = 'programming';
+
 /**
  *  Command line arguments
  */
@@ -30,6 +32,12 @@ switch(myArgs[0]) {
         break;
     case '-l':
         books_list();
+        break;
+    case '-c':
+        curr_catg = myArgs[1] ?? curr_catg;
+        keypress_listener();
+        show_rand();
+        delete myArgs[0];
         break;
     default:
         keypress_listener();
@@ -74,14 +82,16 @@ function help() {
     console.log('./index.js ');
     console.log();
     console.log(chalk.redBright('Options'));
-    console.log("-l \t |show books list");
-    console.log("no \t |show book by ID (number)");
-    console.log("-h \t |help");
+    console.log("-l         |show books list");
+    console.log("id         |show book by ID (number)");
+    console.log("-c catg    |only highlights from category");
+    console.log("-h         |help");
     console.log();
     console.log(chalk.redBright('Shortcuts'));
     console.log("Ctrl+C \t |stop the program (Esc)");
     console.log("Space \t |continue to next (Return)");
     console.log("F1 \t |help");
+    console.log("F2 \t |books list");
     console.log();
     //process.exit(0);
 }
@@ -105,14 +115,25 @@ function books_list() {
  */
 function show_rand(book_id) {
     const rand = Math.random();
+    
+    let book;
+    let author;
 
-    let index = book_id ? book_id-1 : Math.floor(rand * BOOKS.length);
-    let book = BOOKS[index];
+    if (book_id) {
+        book = BOOKS.filter(x => x.id == book_id)[0];
+        author = AUTHORS.filter(x => x.bookId == book_id)[0];
+    } else {
+        const catgAuthors = AUTHORS.filter(x => x.catg.includes(curr_catg + "|"));
+        const bookIds = catgAuthors.map(x => { return x.bookId } );
+        const catgBooks = BOOKS.filter(x => bookIds.includes(x.id));
+        const index = book_id ? book_id-1 : Math.floor(rand * catgBooks.length);
+
+        book = catgBooks[index];
+        author = catgAuthors.filter(x => x.bookId == book.id)[0];
+    }
 
     let H = HIGHLIGHTS.filter(x => x.name == book.title);
     H = H[0].children;
-
-    const author = AUTHORS.filter(x => x.name == H[0].name)[0];
 
     H = H[0].children;
     const j = Math.floor(rand * H.length);
