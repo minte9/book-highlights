@@ -15,7 +15,7 @@ npm install chalk boxen
 ## Run
 
 ~~~sh
-node index.js
+node .
 ~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
