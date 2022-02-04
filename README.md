@@ -6,9 +6,8 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 
 ~~~sh
 git clone https://github.com/minte9/book-highlights.git
-cd book-highlights/
 
-# dependencies
+cd book-highlights/
 npm install chalk boxen
 ~~~
 
