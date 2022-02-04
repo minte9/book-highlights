@@ -1,7 +1,6 @@
 # Book Highlights
 
 Highlights archive from books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books/book1/author1) images.   
-You can use [Gnome Screenshot](https://www.linuxlinks.com/gnome-screenshot/) utility to select the area of the picture.
 
 ## Install
 
@@ -58,10 +57,13 @@ npm install -g .
 book-hightlights
 ~~~
 
-## Custom
+#  
 
-Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
-Save your screenshots images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books).  
+# Your Highlights
+
+Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.   
+Save your screenshots images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) 
+(you can use [Gnome Screenshot](https://www.linuxlinks.com/gnome-screenshot/) utility to select the area of the picture).    
 Install cv2 and [tesseract](https://towardsdatascience.com/read-text-from-image-with-one-line-of-python-code-c22ede074cac), then run update.py script.  
 
 ~~~sh
