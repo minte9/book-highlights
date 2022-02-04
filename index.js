@@ -58,12 +58,8 @@ function keypress_listener() {
             case 'return':
                 show_rand(myArgs[0]); 
                 break;
-            case 'f1':
-                help(); break;
-            case 'f2':
-                books_list(); break;
             case 'escape':
-                process.exit(0);
+                help(); break;
             case 'c':
                 if (key.ctrl) process.exit(0);
             default:
@@ -82,17 +78,18 @@ function help() {
     console.log('./index.js ');
     console.log();
     console.log(chalk.redBright('Options'));
+    console.log("-h         |help");
     console.log("-l         |show books list");
     console.log("id         |show book by ID (number)");
-    console.log("-c catg    |only highlights from category");
-    console.log("-h         |help");
+    console.log("-c catg    |show highlights from category");
     console.log();
     console.log(chalk.redBright('Shortcuts'));
-    console.log("Ctrl+C \t |stop the program (Esc)");
+    console.log("Ctrl+C \t |stop the program");
     console.log("Space \t |continue to next (Return)");
-    console.log("F1 \t |help");
-    console.log("F2 \t |books list");
+    console.log("Escape \t |help");
     console.log();
+
+    books_list();
     //process.exit(0);
 }
 
@@ -100,10 +97,12 @@ function help() {
  * Action: Show book lists
  */
 function books_list() {
-    console.log(chalk.redBright(' '.repeat(2) + "Books"));
+    console.log(chalk.redBright("Books"));
     BOOKS.forEach( book => {
-        console.log(' '.repeat(2) + `(${book.id}) ` + book.title);
+        console.log(`(${book.id}) ` + book.title);
     });
+    console.log();
+    
     console.log();
     //process.exit(0);
 }
@@ -175,8 +174,7 @@ function show_rand(book_id) {
         + ' '.repeat(7)
         + chalk.gray("Enter") + ' '.repeat(2)
         + chalk.gray("Esc") + ' '.repeat(2)
-        + chalk.gray("F1") + ' '.repeat(2)
-        + chalk.gray("F2") + ' '.repeat(2)
+        + chalk.gray("Ctrl+C") + ' '.repeat(2)
     );
     console.log('\n'.repeat(2));
 }
