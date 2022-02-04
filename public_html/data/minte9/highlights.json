@@ -252,22 +252,22 @@
                 "children": [
                     {
                         "name": "Cross platform releases",
-                        "text": "welll port it later.\u201d Which is what many other\nfailed companies have done. <i>If you're trying to\nship a cross-platform product, history really shows\nthat's how you don't do it. If you want it to\nreally be cross-platform, you have to do them\nsimultaneously.</i> The porting thing results in a\ncrappy product on the second platform.",
+                        "text": "<i>If you're trying to ship a cross-platform product, \nhistory really shows that's how you don't do it. \nIf you want it to really be cross-platform, \nyou have to do them simultaneously.</i> \nThe porting thing results in a\ncrappy product on the second platform.",
                         "id": 48
                     },
                     {
                         "name": "Multithreading in java",
-                        "text": "where it was writing some big file. <i>We took really\ngood advantage of multithreading in Java, which\nwas less painful than I had expected it to be. It was\njust really pleasant to work on.</i> From the API we\nhad designed we saw all these directions it could\ngrow.",
+                        "text": "<i>We took really good advantage of multithreading in Java, \nwhich was less painful than I had expected it to be. \nIt was just really pleasant to work on.</i> \nFrom the API we had designed \nwe saw all these directions it could grow.",
                         "id": 49
                     },
                     {
                         "name": "Academic approach",
-                        "text": "only display plain text. They were being extremely\nacademic about their project. They were trying to\napproach it from the DOM/DTD side of things. <i>\u201cOh,\nwell, what we need to do is add another abstraction\nlayer here and have a delegate for this delegate for\nthis delegate.\" And eventually a character will show\nup on the screen.</i>",
+                        "text": "They were being extremely academic about their project. \nThey were trying to approach it from the DOM/DTD side of things. \n<i>\u201cOh, well, what we need to do is add another abstraction\nlayer here and have a delegate for this delegate for\nthis delegate.\"</i> And eventually a character will show\nup on the screen.",
                         "id": 50
                     },
                     {
                         "name": "Ship the product",
-                        "text": "Zawinski: Yeah. At the end of the day, ship the\nfucking thing! It's great to rewrite your code and\nmake it cleaner and by the third time it'll actually\nbe pretty. <i>But that's not the point \u2014 you're not here\nto write code; you're here to ship products.<i>",
+                        "text": "At the end of the day, ship the fucking thing! \nIt's great to rewrite your code and\nmake it cleaner and by the third time it'll actually\nbe pretty. <i>But that's not the point \u2014 you're not here\nto write code; you're here to ship products.<i>",
                         "id": 51
                     },
                     {
@@ -277,7 +277,7 @@
                     },
                     {
                         "name": "Inherit code rewrite",
-                        "text": "you have to cut your losses. And this always feels\nwrong to me, <i>but when you inherit code from\nsomeone else, sometimes it's faster to write your\nown than to reuse theirs.</i> Because it's going to take\na certain amount of time to understand their code\nand learn how to use it.",
+                        "text": "<i>When you inherit code from someone else, \nsometimes it's faster to write your\nown than to reuse theirs.</i> Because it's going to take\na certain amount of time to understand their code\nand learn how to use it.",
                         "id": 53
                     },
                     {
@@ -292,7 +292,7 @@
                     },
                     {
                         "name": "Error messages",
-                        "text": "<i>A lot of programmers have the instinct of, \u201cYou've\ngot to present the error message!\u201d No you don't.\nNo one cares about that.</i> That sort of stuff is\na lot easier to manage in languages like Java\nthat actually have an exception system. Where,\nat the top loop of your idle state, you just catch\neverything and you're done.",
+                        "text": "<i>A lot of programmers have the instinct of, \u201cYou've\ngot to present the error message!\u201d No you don't.\nNo one cares about that.</i> That sort of stuff is\na lot easier to manage in languages like Java\nthat actually have an exception system.",
                         "id": 56
                     },
                     {
@@ -307,12 +307,12 @@
                     },
                     {
                         "name": "Ignorance fear",
-                        "text": "Asking questions. I think one thing that's really\nimportant is to not be afraid of your ignorance. <i>If\nyou don't understand how something works, ask\nsomeone who does. A lot of people are skittish\nabout that. And that doesn't help anybody.</i> Not\nknowing something doesn't mean you're dumb\u2014it\njust means you don't know it yet.",
+                        "text": "I think one thing that's really\nimportant is to not be afraid of your ignorance. \n<i>If you don't understand how something works, ask\nsomeone who does. A lot of people are skittish\nabout that. And that doesn't help anybody.</i> Not\nknowing something doesn't mean you're dumb-it\njust means you don't know it yet.",
                         "id": 59
                     },
                     {
                         "name": "Design patterns book",
-                        "text": "Then there was <i>another book that everybody\nthought was the greatest thing ever in that same\nperiod\u2014Design Patterns\u2014which I just thought was\ncrap.</i> It was just like, programming via cut and\npaste. Rather than thinking through your task\nyou looked through the recipe book and found\nsomething that maybe, kinda, sorta felt like it, and\nthen just aped it. That's not programming.",
+                        "text": "<i>Then there was another book that everybody\nthought was the greatest thing ever in that same\nperiod\u2014Design Patterns\u2014which I just thought was\ncrap.</i> It was just like, programming via cut and\npaste. Rather than thinking through your task\nyou looked through the recipe book and found\nsomething that maybe, kinda, sorta felt like it, and\nthen just aped it. That's not programming.",
                         "id": 60
                     },
                     {
@@ -322,7 +322,7 @@
                     },
                     {
                         "name": "Under the hood",
-                        "text": "Zawinski: Well, curiosity\u2014taking things apart.\n<i>Wanting to know what's going on under the hood.\nI think that's really the basis of it. Without that I\ndon't think you get very far. That's your primary\nway of acquiring knowledge.</i> Taking something\napart and looking at it is how you learn to build\nyour own. At least for me. I've read very few books",
+                        "text": "<i>Wanting to know what's going on under the hood.\nI think that's really the basis of it. Without that I\ndon't think you get very far. That's your primary\nway of acquiring knowledge.</i> Taking something\napart and looking at it is how you learn to build\nyour own. At least for me. I've read very few books",
                         "id": 62
                     }
                 ]

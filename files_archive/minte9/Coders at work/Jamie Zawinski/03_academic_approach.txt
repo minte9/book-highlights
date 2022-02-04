@@ -1,7 +1,6 @@
-only display plain text. They were being extremely
-academic about their project. They were trying to
-approach it from the DOM/DTD side of things. <i>“Oh,
-well, what we need to do is add another abstraction
+They were being extremely academic about their project. 
+They were trying to approach it from the DOM/DTD side of things. 
+<i>“Oh, well, what we need to do is add another abstraction
 layer here and have a delegate for this delegate for
-this delegate." And eventually a character will show
-up on the screen.</i>
+this delegate."</i> And eventually a character will show
+up on the screen.

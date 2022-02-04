@@ -1,4 +1,4 @@
-Then there was <i>another book that everybody
+<i>Then there was another book that everybody
 thought was the greatest thing ever in that same
 period—Design Patterns—which I just thought was
 crap.</i> It was just like, programming via cut and

@@ -1,7 +1,6 @@
-welll port it later.” Which is what many other
-failed companies have done. <i>If you're trying to
-ship a cross-platform product, history really shows
-that's how you don't do it. If you want it to
-really be cross-platform, you have to do them
-simultaneously.</i> The porting thing results in a
+<i>If you're trying to ship a cross-platform product, 
+history really shows that's how you don't do it. 
+If you want it to really be cross-platform, 
+you have to do them simultaneously.</i> 
+The porting thing results in a
 crappy product on the second platform.
