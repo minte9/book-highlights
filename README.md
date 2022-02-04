@@ -15,6 +15,8 @@ npm install chalk boxen
 ## Run
 
 ~~~sh
+
+# run index.js
 node .
 ~~~
 
