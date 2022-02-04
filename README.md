@@ -62,8 +62,8 @@ book-hightlights
 # Your Highlights
 
  - Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
- - Use [Screenshot](https://www.linuxlinks.com/gnome-screenshot/) utility to grab highlighted paragraphs from your [Kindle](https://read.amazon.com/kindle-library)   
- - Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books)  
+ - Use a [Screenshot](https://www.linuxlinks.com/gnome-screenshot/) utility to grab highlighted paragraphs from your [Kindle](https://read.amazon.com/kindle-library), for example.  
+ - Save your screenshots in .png format to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) folder.  
  - Install cv2 and [tesseract](https://towardsdatascience.com/read-text-from-image-with-one-line-of-python-code-c22ede074cac)
  - Run update.py script 
 
