@@ -1,7 +1,7 @@
 # Book Highlights
 
 Highlights archive from books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books/book1/author1) images.   
-You can use [Gnome Screenshot](https://www.wikihow.com/Take-a-Screenshot-in-Linux) utility to select the area of the picture.
+You can use [Gnome Screenshot](https://www.linuxlinks.com/gnome-screenshot/) utility to select the area of the picture.
 
 ## Install
 
