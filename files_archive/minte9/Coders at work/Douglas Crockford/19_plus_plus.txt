@@ -1,5 +1,5 @@
-through be the default was wrong—<i>they shouldn't
-have done that. ++ has huge security problems—it
+<i>They shouldn't have done that. 
+++ has huge security problems—it
 encourages you to be way too tricky, to try to do too
 much in one line.</i> In that compulsion to do it in one
 line, you make code which is hard to understand

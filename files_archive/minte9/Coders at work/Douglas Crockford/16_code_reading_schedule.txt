@@ -1,6 +1,0 @@
-the end. Back in the old days, we would schedule
-a code reading just as we were finishing a project
-and usually it would be canceled because we were
-late. <i>I now believe that code reading should be
-happening all the time throughout the life of the
-project.</i>

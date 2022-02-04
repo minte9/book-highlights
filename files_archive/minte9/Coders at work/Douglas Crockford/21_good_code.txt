@@ -1,4 +1,4 @@
-it's really difficult to write good code in a sloppy
+It's really difficult to write good code in a sloppy
 manner. <i>By good code. I mean it's going to be
 readable. At one level, it doesn't matter what it
 does to a machine if I can't figure out what it does</i>,

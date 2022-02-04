@@ -1,4 +1,4 @@
-Because <i>I worry about the abstraction leakage. If
+<i>Because I worry about the abstraction leakage. If
 there's a problem in your Java code or in GWT or
 in what it produces on the other side, you may or
 may not have a place to stand to deal with that.</i>
