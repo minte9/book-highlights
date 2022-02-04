@@ -141,6 +141,8 @@ function show_rand(book_id) {
     msg = msg.replace(/—/g, "-");
     msg = msg.replace(/‘/g, "-");
 
+    msg = msg.replace("(ninja code :)", chalk.bgBlack.gray(" ninja code :)"));
+
     console.log('\n'.repeat(15));  
     console.table(boxen(msg, {
         margin: 1,
