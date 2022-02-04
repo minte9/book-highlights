@@ -63,7 +63,7 @@ book-hightlights
 
 Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.   
 Save your screenshots images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) 
-(you can use [Gnome Screenshot](https://www.linuxlinks.com/gnome-screenshot/) utility to select the area of the picture).    
+(you can use [Gnome Screenshot](https://www.linuxlinks.com/gnome-screenshot/) utility to select the area).    
 Install cv2 and [tesseract](https://towardsdatascience.com/read-text-from-image-with-one-line-of-python-code-c22ede074cac), then run update.py script.  
 
 ~~~sh
@@ -80,6 +80,6 @@ pip install pytesseract
 pip show pytesseract
 
 python update.py
-node index.js
+node .
 ~~~
 
