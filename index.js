@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { createRequire } from "module";
 import * as fs from "fs";
+import boxen from 'boxen';
 
 const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
@@ -117,34 +118,43 @@ function show_rand(book_id) {
     const j = Math.floor(rand * H.length);
     const highlight = H[j];
 
-    highlight.text = ' '.repeat(2) + highlight.text; 
-    highlight.text = highlight.text.replace(/\n/g, (' '.repeat(2) + '\n') + ' '.repeat(2));
-
     const splits = highlight.text.split(/<\/?i>/);
-    const start = splits[0];
-    const highlighted = ' ' + splits[1] + ' ';
-    const end = splits[2];
-    const sep = chalk.gray('-'.repeat(70));
+    let start = ' '.repeat(2) + splits[0];
+    let highlighted = ' ' + splits[1] + ' ';
+    let end = splits[2];
 
-    const msg = ' '.repeat(2)
+    start = start.replace(/\n/g, (' '.repeat(2) + '\n') + ' '.repeat(2));
+    highlighted = highlighted.replace(/\n/g, (' '.repeat(2) + '\n') + ' '.repeat(2));
+    end = end.replace(/\n/g, (' ' + '\n' + ' '));
+
+    let msg = ''
         + chalk.greenBright(author.name + ', ')
         + chalk.redBright(book.title + '')
         + '\n\n'
         + chalk.bgGrey.black(start)
         + chalk.bgYellowBright.black(highlighted)
         + chalk.bgGrey.black(end)
-        + '\n\n'
-        + sep + '\n\n'
-        + ' '.repeat(2)
+    ;
+    msg = msg.replace(/’/g, "'"); // some chars breaks boxen with
+    msg = msg.replace(/”/g, "\"");
+    msg = msg.replace(/“/g, "\"");
+    msg = msg.replace(/—/g, "-");
+    msg = msg.replace(/‘/g, "-");
+
+    console.log('\n'.repeat(15));  
+    console.table(boxen(msg, {
+        margin: 1,
+        padding: 1,
+        borderStyle: 'round',
+        borderColor: 'black',
+    }));
+    console.log(''
+        + ' '.repeat(7)
         + chalk.gray("Enter") + ' '.repeat(2)
         + chalk.gray("Esc") + ' '.repeat(2)
         + chalk.gray("F1") + ' '.repeat(2)
         + chalk.gray("F2") + ' '.repeat(2)
-    ;
-
-    console.log('\n'.repeat(15));  
-    console.log(sep + '\n');
-    console.table(msg);
+    );
     console.log('\n'.repeat(2));
 }
 

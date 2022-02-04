@@ -7,6 +7,7 @@
   "author": "Catalin Prescure (https://www.minte9.com)",
   "license": "MIT",
   "dependencies": {
+    "boxen": "^6.2.1",
     "chalk": "^5.0.0"
   },
   "type": "module",
