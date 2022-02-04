@@ -33,7 +33,7 @@ node index.js
 ## Custom
 
 Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
-Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books).
+Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books).  
 Install cv2 and tesseract, then run update.py script.  
 
 ~~~sh
