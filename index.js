@@ -30,9 +30,6 @@ switch(myArgs[0]) {
     case '-h':
         help();
         break;
-    case '-l':
-        books_list();
-        break;
     case '-c':
         curr_catg = myArgs[1] ?? curr_catg;
         keypress_listener();
@@ -79,14 +76,13 @@ function help() {
     console.log();
     console.log(chalk.redBright('Options'));
     console.log("-h         |help");
-    console.log("-l         |show books list");
     console.log("id         |show book by ID (number)");
     console.log("-c catg    |show highlights from category");
     console.log();
     console.log(chalk.redBright('Shortcuts'));
-    console.log("Ctrl+C \t |stop the program");
-    console.log("Space \t |continue to next (Return)");
+    console.log("Space \t |continue to next (Enter)");
     console.log("Escape \t |help");
+    console.log("Ctrl+C \t |stop the program");
     console.log();
 
     books_list();
