@@ -72,6 +72,6 @@ pip install pytesseract
 pip show pytesseract
 
 python update.py
-node .
+node index.js
 ~~~
 
