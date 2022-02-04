@@ -30,6 +30,8 @@ node index.js
 </iframe>
 ~~~
 
+See it in action on [minte9.com](https://www.minte9.com)
+
 ## Custom
 
 Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
@@ -67,8 +69,4 @@ book-hightlights
 cd book-highlights/
 git pull origin main
 ~~~
-
-##
-
-See it in action on [minte9.com](https://www.minte9.com)
 
