@@ -1,3 +1,4 @@
 <i>Modern JavaScript is a safe programming language. 
 It does not provide low-level access to memory or CPU,</i> 
-because it was initially created for browsers</i> which do not require it.
+because it was initially created for browsers</i> 
+which do not require it.

@@ -1,5 +1,7 @@
-<i>In Javascript the result of typeof null is object. That’s an officially 
-recognized error in typeof, coming from very early days 
-of JavaScript and kept for compatibility.</i> It is not a reference to a 
-non-existing object or a null pointer like in some other languages. 
+<i>In Javascript the result of typeof null is object. 
+That’s an officially recognized error in typeof, 
+coming from very early days of JavaScript 
+and kept for compatibility.</i> It is not a 
+reference to a non-existing object or a null pointer 
+like in some other languages. 
 It’s just a special type which represents nothing.

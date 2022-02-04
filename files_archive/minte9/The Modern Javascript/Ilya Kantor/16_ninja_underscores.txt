@@ -1,6 +1,6 @@
 <i>Put underscores _ and __ before variable names. 
 It would be great if only you knew their meaning.</i>
 A smart ninja puts underscores at one spot of code 
-and evades them at other places. That makes the code 
-even more fragile and increases the probability of future errors. 
-(ninja code :)
+and evades them at other places. That makes 
+the code even more fragile and increases 
+the probability of future errors. (ninja code :)

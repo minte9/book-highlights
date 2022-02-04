@@ -1,3 +1,5 @@
-<i>When JavaScript was created, it initially had another name: “LiveScript”.</i> 
-But Java was very popular at that time, so it was decided that positioning 
+<i>When JavaScript was created, it initially 
+had another name: “LiveScript”.</i> 
+But Java was very popular at that time, 
+so it was decided that positioning 
 a new language as a “younger brother” of Java would help.

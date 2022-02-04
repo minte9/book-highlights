@@ -1,5 +1,4 @@
 <i>Add a new variable only when absolutely necessary.
 Instead, reuse existing names. Just write new values 
 into them.</i> The purpose is to develop the intuition 
-and memory of a person reading the code. 
-(ninja code :)
+and memory of a person reading the code. (ninja code :)

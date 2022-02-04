@@ -1,4 +1,4 @@
 <i>While choosing a name try to use the most abstract word. 
 Like obj, data, value, item, elem and so on.</i>
-The ideal name for a variable is data. Use it everywhere you can. 
-(ninja code :)
+The ideal name for a variable is data. 
+Use it everywhere you can. (ninja code :)

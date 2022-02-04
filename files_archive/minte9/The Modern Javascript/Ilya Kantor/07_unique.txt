@@ -1,4 +1,6 @@
 <i>What makes JavaScript unique?
 It has full integration with HTML/CSS, 
-it is supported by all major browsers and it is enabled by default.</i>
-That’s why it’s the most widespread tool for creating browser interfaces.
+it is supported by all major browsers 
+and it is enabled by default.</i>
+That’s why it’s the most widespread tool 
+for creating browser interfaces.

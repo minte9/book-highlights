@@ -1,3 +1,5 @@
-<i>JavaScript’s capabilities greatly depend on the environment it’s running in.</i>
-For instance, Node.js supports functions that allow JavaScript to read/write arbitrary files, 
+<i>JavaScript’s capabilities greatly depend 
+on the environment it’s running in.</i>
+For instance, Node.js supports functions that 
+allow JavaScript to read/write arbitrary files, 
 perform network requests, etc.

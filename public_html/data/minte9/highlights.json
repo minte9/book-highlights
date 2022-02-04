@@ -757,82 +757,82 @@
                 "children": [
                     {
                         "name": "Live script",
-                        "text": "<i>When JavaScript was created, it initially had another name: \u201cLiveScript\u201d.</i> \nBut Java was very popular at that time, so it was decided that positioning \na new language as a \u201cyounger brother\u201d of Java would help.",
+                        "text": "<i>When JavaScript was created, it initially \nhad another name: \u201cLiveScript\u201d.</i> \nBut Java was very popular at that time, \nso it was decided that positioning \na new language as a \u201cyounger brother\u201d of Java would help.",
                         "id": 141
                     },
                     {
                         "name": "Js engine",
-                        "text": "<i>Today, JavaScript can execute not only in the browser, \nbut also on the server, or actually on any device \nthat has a special program called the JavaScript engine.</i> \nThe browser has an embedded engine sometimes called a JavaScript virtual machine.",
+                        "text": "<i>Today, JavaScript can execute \nnot only in the browser, but also on the server, \nor actually on any device that has a special \nprogram called the JavaScript engine.</i> \nThe browser has an embedded engine sometimes \ncalled a JavaScript virtual machine.",
                         "id": 142
                     },
                     {
                         "name": "Machine language",
-                        "text": "<i>Engines are complicated. But the basics are easy.\nThe engine parses the script then it compiles to the machine language.</i>\nThe engine applies optimizations and runs the code.",
+                        "text": "<i>Engines are complicated. \nBut the basics are easy.\nThe engine parses the script then it \ncompiles to the machine language.</i>\nThe engine applies optimizations and runs the code.",
                         "id": 143
                     },
                     {
                         "name": "Safe language",
-                        "text": "<i>Modern JavaScript is a safe programming language. \nIt does not provide low-level access to memory or CPU,</i> \nbecause it was initially created for browsers</i> which do not require it.",
+                        "text": "<i>Modern JavaScript is a safe programming language. \nIt does not provide low-level access to memory or CPU,</i> \nbecause it was initially created for browsers</i> \nwhich do not require it.",
                         "id": 144
                     },
                     {
                         "name": "Environment",
-                        "text": "<i>JavaScript\u2019s capabilities greatly depend on the environment it\u2019s running in.</i>\nFor instance, Node.js supports functions that allow JavaScript to read/write arbitrary files, \nperform network requests, etc.",
+                        "text": "<i>JavaScript\u2019s capabilities greatly depend \non the environment it\u2019s running in.</i>\nFor instance, Node.js supports functions that \nallow JavaScript to read/write arbitrary files, \nperform network requests, etc.",
                         "id": 145
                     },
                     {
                         "name": "In browser js",
-                        "text": "<i>In-browser JavaScript can do everything related to webpage manipulation,</i> \ninteraction with the user, add new HTML to the page, change the existing content, modify styles.",
+                        "text": "<i>In-browser JavaScript can do everything \nrelated to webpage manipulation,</i> \ninteraction with the user, add new HTML to the page, \nchange the existing content, modify styles.",
                         "id": 146
                     },
                     {
                         "name": "Unique",
-                        "text": "<i>What makes JavaScript unique?\nIt has full integration with HTML/CSS, \nit is supported by all major browsers and it is enabled by default.</i>\nThat\u2019s why it\u2019s the most widespread tool for creating browser interfaces.",
+                        "text": "<i>What makes JavaScript unique?\nIt has full integration with HTML/CSS, \nit is supported by all major browsers \nand it is enabled by default.</i>\nThat\u2019s why it\u2019s the most widespread tool \nfor creating browser interfaces.",
                         "id": 147
                     },
                     {
                         "name": "Use strict",
-                        "text": "For a long time, JavaScript evolved without compatibility issues. \nNew features were added to the language while old functionality didn\u2019t change.\n<i>That had the benefit of never breaking existing code. \nBut the downside was that any mistake or an imperfect decision \nmade by JavaScript\u2019s creators got stuck in the language forever.</i>",
+                        "text": "For a long time, JavaScript evolved \nwithout compatibility issues. \nNew features were added to the language \nwhile old functionality didn\u2019t change.\n<i>That had the benefit of never breaking \nexisting code. But the downside was that \nany mistake or an imperfect decision \nmade by JavaScript\u2019s creators \ngot stuck in the language forever.</i>",
                         "id": 148
                     },
                     {
                         "name": "Null",
-                        "text": "<i>In Javascript the result of typeof null is object. That\u2019s an officially \nrecognized error in typeof, coming from very early days \nof JavaScript and kept for compatibility.</i> It is not a reference to a \nnon-existing object or a null pointer like in some other languages. \nIt\u2019s just a special type which represents nothing.",
+                        "text": "<i>In Javascript the result of typeof null is object. \nThat\u2019s an officially recognized error in typeof, \ncoming from very early days of JavaScript \nand kept for compatibility.</i> It is not a \nreference to a non-existing object or a null pointer \nlike in some other languages. \nIt\u2019s just a special type which represents nothing.",
                         "id": 149
                     },
                     {
                         "name": "Ninja short",
-                        "text": "<i>Brevity is the soul of wit.\nMake the code as short as possible. \nShow how smart you are. If you write like that, \na developer who tries to understand is going to have a merry time.</i> \nThen come to you, seeking for an answer. Tell them \nthat shorter is always better. Initiate them into the paths of ninja.\n(ninja code :)",
+                        "text": "<i>Brevity is the soul of wit.\nMake the code as short as possible. \nShow how smart you are. If you write like that, \na developer who tries to understand is going to have a merry time.</i> \nThen come to you, seeking for an answer. Tell them \nthat shorter is always better. \nInitiate them into the paths of ninja. (ninja code :)",
                         "id": 150
                     },
                     {
                         "name": "Ninja one letter",
-                        "text": "<i>A short variable disappears in the code like \na real ninja in the forest. No one will be able \nto find it using \u201csearch\u201d of the editor.</i> \nAnd even if someone does, they won\u2019t be able \nto \u201cdecipher\u201d what the name a or b means. \n(ninja code :)",
+                        "text": "<i>A short variable disappears in the code like \na real ninja in the forest. No one will be able \nto find it using \u201csearch\u201d of the editor.</i> \nAnd even if someone does, they won\u2019t be able \nto \u201cdecipher\u201d what the name a or b means. (ninja code :)",
                         "id": 151
                     },
                     {
                         "name": "Ninja abbreviations",
-                        "text": "<i>If the team rules forbid the use of one-letter \nand vague names - shorten them, make abbreviations.\nOnly the one with truly good intuition will be able \nto understand such names.</i> Try to shorten everything. \nOnly a worthy person should be able to uphold the development of your code. \n(ninja code :)",
+                        "text": "<i>If the team rules forbid the use of one-letter \nand vague names - shorten them, make abbreviations.\nOnly the one with truly good intuition will be able \nto understand such names.</i> Try to shorten everything. \nOnly a worthy person should be able to \nuphold the development of your code. (ninja code :)",
                         "id": 152
                     },
                     {
                         "name": "Ninja names",
-                        "text": "<i>While choosing a name try to use the most abstract word. \nLike obj, data, value, item, elem and so on.</i>\nThe ideal name for a variable is data. Use it everywhere you can. \n(ninja code :)",
+                        "text": "<i>While choosing a name try to use the most abstract word. \nLike obj, data, value, item, elem and so on.</i>\nThe ideal name for a variable is data. \nUse it everywhere you can. (ninja code :)",
                         "id": 153
                     },
                     {
                         "name": "Ninja synonyms",
-                        "text": "<i>Using similar names for same things makes \nlife more interesting and shows your creativity to the public.</i>\nInsinuate that there\u2019s a subtle difference between \nsuch functions, while there is none. For two functions \nwith important differences - use the same prefix! \n(ninja code :)",
+                        "text": "<i>Using similar names for same things makes \nlife more interesting and shows \nyour creativity to the public.</i>\nInsinuate that there\u2019s a subtle difference between \nsuch functions, while there is none. \nFor two functions with important differences - \nuse the same prefix! (ninja code :)",
                         "id": 154
                     },
                     {
                         "name": "Ninja reuse",
-                        "text": "<i>Add a new variable only when absolutely necessary.\nInstead, reuse existing names. Just write new values \ninto them.</i> The purpose is to develop the intuition \nand memory of a person reading the code. \n(ninja code :)",
+                        "text": "<i>Add a new variable only when absolutely necessary.\nInstead, reuse existing names. Just write new values \ninto them.</i> The purpose is to develop the intuition \nand memory of a person reading the code. (ninja code :)",
                         "id": 155
                     },
                     {
                         "name": "Ninja underscores",
-                        "text": "<i>Put underscores _ and __ before variable names. \nIt would be great if only you knew their meaning.</i>\nA smart ninja puts underscores at one spot of code \nand evades them at other places. That makes the code \neven more fragile and increases the probability of future errors. \n(ninja code :)",
+                        "text": "<i>Put underscores _ and __ before variable names. \nIt would be great if only you knew their meaning.</i>\nA smart ninja puts underscores at one spot of code \nand evades them at other places. That makes \nthe code even more fragile and increases \nthe probability of future errors. (ninja code :)",
                         "id": 156
                     }
                 ]

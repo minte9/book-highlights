@@ -1,4 +1,6 @@
-<i>Today, JavaScript can execute not only in the browser, 
-but also on the server, or actually on any device 
-that has a special program called the JavaScript engine.</i> 
-The browser has an embedded engine sometimes called a JavaScript virtual machine.
+<i>Today, JavaScript can execute 
+not only in the browser, but also on the server, 
+or actually on any device that has a special 
+program called the JavaScript engine.</i> 
+The browser has an embedded engine sometimes 
+called a JavaScript virtual machine.
