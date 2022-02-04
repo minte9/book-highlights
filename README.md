@@ -33,9 +33,20 @@ node index.js
 ## Custom
 
 Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
-Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books) and run update script.  
+Save your screenshots to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books).
+Install cv2 and tesseract, then run update.py script.  
 
 ~~~sh
+pip install --user opencv-python
+pip show opencv-python
+
+sudo apt-get update
+sudo apt-get install tesseract-ocr
+sudo apt-get install libtesseract-dev
+
+pip install pytesseract
+pip show pytesseract
+
 python update.py
 ~~~
 
