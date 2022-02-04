@@ -12,32 +12,32 @@
                     },
                     {
                         "name": "Tests to guard",
-                        "text": "to tell them that they messed up. <i>I had to force\na lot of people to write tests, mostly people who\nwere working for me. I would write tests to guard\nagainst my own code breaking, and then once they\nwrote code. I was like, \u201cAre you even sure that\nworks? Write a test. Prove it to me.\u201d</i> At a certain\npoint, people realize, \u201cHoly crap, it does pay off,\u201d\nespecially maintenance costs later.",
+                        "text": "<i>I had to force a lot of people to write tests, \nmostly people who were working for me. \nI would write tests to guard against my own code breaking, \nand then once they wrote code. I was like, \u201cAre you even sure that\nworks? Write a test. Prove it to me.\u201d</i> At a certain\npoint, people realize, \u201cHoly crap, it does pay off,\u201d\nespecially maintenance costs later.",
                         "id": 2
                     },
                     {
                         "name": "About memcached",
-                        "text": "memcached until like right after college, right\nwhen I moved out. <i>I remember coming up with\nthe idea. I was in my shower one day. The site\nwas melting down and I was showering and then\nI realized we had all this free memory all over the\nplace.</i> I whipped up a prototype that night, wrote\nthe server in Perl and the client in Perl.",
+                        "text": "<i>I remember coming up with the idea. \nI was in my shower one day. The site\nwas melting down and I was showering and then\nI realized we had all this free memory all over the\nplace.</i> I whipped up a prototype that night, wrote\nthe server in Perl and the client in Perl.",
                         "id": 3
                     },
                     {
                         "name": "Win a race",
-                        "text": "mediocrity required not to get fired. It\u2019s about\nbeing awesome. It\u2019s about winning. <i>You don\u2019t win a\nrace by trying not to lose. And you don\u2019t win at life\nby trying not to suck</i>. Fortunately, the content of\nthe book has never been about trying not to suck</i>. I\ncan\u2019t think that way, and neither should you.",
+                        "text": "It\u2019s about being awesome. It\u2019s about winning. \n<i>You don\u2019t win a race by trying not to lose. \nAnd you don\u2019t win at life by trying not to suck</i>. \nFortunately, the content of\nthe book has never been about trying not to suck. \nI can\u2019t think that way, and neither should you.",
                         "id": 4
                     },
                     {
                         "name": "Write something complex",
-                        "text": "Fitzpatrick: Oh, yeah. I definitely try to find an\nexcuse to use anything, to learn it. <i>Because you\nnever learn something until you have to write\nsomething in it, until you have to live and breathe\nit.</i> It's one thing to go learn a language for fun, but\nuntil you write some big, complex system in it, you\ndon't really learn it.",
+                        "text": "Oh, yeah. I definitely try to find an\nexcuse to use anything, to learn it. <i>Because you\nnever learn something until you have to write\nsomething in it, until you have to live and breathe\nit.</i> It's one thing to go learn a language for fun, but\nuntil you write some big, complex system in it, you\ndon't really learn it.",
                         "id": 5
                     },
                     {
                         "name": "Formal education",
-                        "text": "terminology. Prior to that. I knew programming\npretty well but I didn't have the vocabulary to\ndescribe what it was I was doing. <i>Or I would make\nup my own terminology for it and people would\nthink I didn't know what I was talking about.\nFormal C.S. education helped me be able to talk\nabout it.</i>",
+                        "text": "I knew programming pretty well but I didn't have \nthe vocabulary to describe what it was I was doing. \n<i>Or I would make up my own terminology for it \nand people would think I didn't know what I was talking about.\nFormal C.S. education helped me be able to talk about it.</i>",
                         "id": 6
                     },
                     {
                         "name": "Hard parts first",
-                        "text": "Fitzpatrick: Sometimes. But I've started with the\nhard bits or the parts I was unsure of, and tried\nto implement those parts first. <i>I try not to put\noff anything hard or surprising to the end; I enjoy\ndoing the hard things first.</i> The projects that I\nnever finish\u2014my friends give me shit that it's a\nwhole bunch\u2014it's because I did the hard part.",
+                        "text": "Sometimes. But I've started with the\nhard bits or the parts I was unsure of, and tried\nto implement those parts first. <i>I try not to put\noff anything hard or surprising to the end; I enjoy\ndoing the hard things first.</i> The projects that I\nnever finish\u2014my friends give me shit that it's a\nwhole bunch\u2014it's because I did the hard part.",
                         "id": 7
                     },
                     {
@@ -62,7 +62,7 @@
                     },
                     {
                         "name": "People complacency",
-                        "text": "all be self-driven like me. <i>That was a learning\nexperience in HR, that some people just do what\nthey're told and don't really have a passion\nfor excellence</i>. They're just like, \u201cDone. Next\nassignment,\u201d Or they don't tell you and just browse\nthe Web. So I had a couple of painful experiences.\nBut I think, after a year or two of that, I learned that\npeople are different.",
+                        "text": "<i>That was a learning\nexperience in HR, that some people just do what\nthey're told and don't really have a passion\nfor excellence</i>. They're just like, \u201cDone. Next\nassignment,\u201d Or they don't tell you and just browse\nthe Web. So I had a couple of painful experiences.\nBut I think, after a year or two of that, I learned that\npeople are different.",
                         "id": 12
                     },
                     {
@@ -77,12 +77,12 @@
                     },
                     {
                         "name": "Side projects",
-                        "text": "Fitzpatrick: I often look for people that have done,\nlike, a lot of stuff on their own that wasn't asked\nof them. <i>Not just their school project or just what\ntheir previous employer had them do. Somebody\nwho was passionate about something and had\nsome side project.</i> How did they maintain it and\nhow serious did they get with it? Or do they do a lot\nof quick hacks and abandon them?",
+                        "text": "I often look for people that have done,\nlike, a lot of stuff on their own that wasn't asked\nof them. <i>Not just their school project or just what\ntheir previous employer had them do. Somebody\nwho was passionate about something and had\nsome side project.</i> How did they maintain it and\nhow serious did they get with it? Or do they do a lot\nof quick hacks and abandon them?",
                         "id": 15
                     },
                     {
                         "name": "Real understanding",
-                        "text": "someone could teach you something and you're\nlike, <i>\u201cYeah, yeah, sure. I understand.\u201d You delude\nyourself but once you actually have to get down\nand do it at a real level and understand all the\ncorner cases, it forces you to actually learn the\nthing.</i> But I don't know if that would work for\neveryone.",
+                        "text": "<i>\u201cYeah, yeah, sure. I understand.\u201d You delude\nyourself but once you actually have to get down\nand do it at a real level and understand all the\ncorner cases, it forces you to actually learn the\nthing.</i> But I don't know if that would work for\neveryone.",
                         "id": 16
                     },
                     {
@@ -92,7 +92,7 @@
                     },
                     {
                         "name": "About optimization",
-                        "text": "Fitzpatrick: <i>Optimization is fun because it's not\nnecessary. If you're doing that, you've got your\nthing working and nothing else is more important</i>\nand you're either saving money or doing it\nbecause it's like a Perl golf contest ...",
+                        "text": "<i>Optimization is fun because it's not\nnecessary. If you're doing that, you've got your\nthing working and nothing else is more important</i>\nand you're either saving money or doing it\nbecause it's like a Perl golf contest ...",
                         "id": 18
                     },
                     {
@@ -102,7 +102,7 @@
                     },
                     {
                         "name": "Social kid",
-                        "text": "a general life thing, right? <i>There was some study\nabout who was successful after high school. Was it\nthe smart kids or the social kids?</i> It turned out that\nit was the social kids who ended up making all the\nmoney in life, not the people with the good grades.\nI thought that was interesting.",
+                        "text": "<i>There was some study\nabout who was successful after high school. Was it\nthe smart kids or the social kids?</i> It turned out that\nit was the social kids who ended up making all the\nmoney in life, not the people with the good grades.\nI thought that was interesting.",
                         "id": 20
                     },
                     {
@@ -112,7 +112,7 @@
                     },
                     {
                         "name": "Competing",
-                        "text": "stop and work on fun things on my own. <i>I don't\nfeel like I'm competing with anyone right now\nand I don't really care if other people are better\nbecause I feel like there are tons of people who are\nbetter already.</i> I figure we are always in the middle\nanyway, so I'm happy to stay in the middle.",
+                        "text": "<i>I don't feel like I'm competing with anyone right now\nand I don't really care if other people are better\nbecause I feel like there are tons of people who are\nbetter already.</i> I figure we are always in the middle\nanyway, so I'm happy to stay in the middle.",
                         "id": 22
                     }
                 ]

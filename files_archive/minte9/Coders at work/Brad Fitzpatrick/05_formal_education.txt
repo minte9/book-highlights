@@ -1,7 +1,5 @@
-terminology. Prior to that. I knew programming
-pretty well but I didn't have the vocabulary to
-describe what it was I was doing. <i>Or I would make
-up my own terminology for it and people would
-think I didn't know what I was talking about.
-Formal C.S. education helped me be able to talk
-about it.</i>
+I knew programming pretty well but I didn't have 
+the vocabulary to describe what it was I was doing. 
+<i>Or I would make up my own terminology for it 
+and people would think I didn't know what I was talking about.
+Formal C.S. education helped me be able to talk about it.</i>

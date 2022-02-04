@@ -1,4 +1,4 @@
-Fitzpatrick: <i>Optimization is fun because it's not
+<i>Optimization is fun because it's not
 necessary. If you're doing that, you've got your
 thing working and nothing else is more important</i>
 and you're either saving money or doing it

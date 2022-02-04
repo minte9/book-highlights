@@ -1,8 +1,7 @@
-to tell them that they messed up. <i>I had to force
-a lot of people to write tests, mostly people who
-were working for me. I would write tests to guard
-against my own code breaking, and then once they
-wrote code. I was like, “Are you even sure that
+<i>I had to force a lot of people to write tests, 
+mostly people who were working for me. 
+I would write tests to guard against my own code breaking, 
+and then once they wrote code. I was like, “Are you even sure that
 works? Write a test. Prove it to me.”</i> At a certain
 point, people realize, “Holy crap, it does pay off,”
 especially maintenance costs later.
