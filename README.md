@@ -61,6 +61,13 @@ npm install -g .
 book-hightlights
 ~~~
 
+## Updates
+
+~~~sh
+cd book-highlights/
+git pull origin main
+~~~
+
 ##
 
 See it in action on [minte9.com](https://www.minte9.com)
