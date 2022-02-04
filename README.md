@@ -32,24 +32,13 @@ node index.js
 
 See it in action on [minte9.com](https://www.minte9.com)
 
-## Custom
+##
 
-Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
-Save your screenshots images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books).  
-Install cv2 and [tesseract](https://towardsdatascience.com/read-text-from-image-with-one-line-of-python-code-c22ede074cac), then run update.py script.  
+## Updates
 
 ~~~sh
-pip install --user opencv-python
-pip show opencv-python
-
-sudo apt-get update
-sudo apt-get install tesseract-ocr
-sudo apt-get install libtesseract-dev
-
-pip install pytesseract
-pip show pytesseract
-
-python update.py
+cd book-highlights/
+git pull origin main
 ~~~
 
 ## Command
@@ -63,10 +52,26 @@ npm install -g .
 book-hightlights
 ~~~
 
-## Updates
+## Custom
+
+Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file.  
+Save your screenshots images to [my_books/](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books).  
+Install cv2 and [tesseract](https://towardsdatascience.com/read-text-from-image-with-one-line-of-python-code-c22ede074cac), then run update.py script.  
 
 ~~~sh
 cd book-highlights/
-git pull origin main
+
+pip install --user opencv-python
+pip show opencv-python
+
+sudo apt-get update
+sudo apt-get install tesseract-ocr
+sudo apt-get install libtesseract-dev
+
+pip install pytesseract
+pip show pytesseract
+
+python update.py
+node .
 ~~~
 
