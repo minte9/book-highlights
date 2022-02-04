@@ -9,8 +9,7 @@ git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
 
 # dependencies
-npm install chalk 
-npm install boxen
+npm install chalk boxen
 ~~~
 
 ## Run
