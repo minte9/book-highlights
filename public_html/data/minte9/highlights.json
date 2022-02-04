@@ -417,7 +417,7 @@
                 "children": [
                     {
                         "name": "Self promotion",
-                        "text": "I hate talking about self-promotion. Comedian\nSteve Martin famously dodges these questions\nwith the advice, <i>\u201cBe so good they can\u2019t ignore you.\u201d\nIf you just focus on getting really good. Martin\nsays, people will come to you.</i> I happen to agree.",
+                        "text": "<i>I hate talking about self-promotion. Comedian\nSteve Martin famously dodges these questions\nwith the advice, \u201cBe so good they can\u2019t ignore you.\u201d\nIf you just focus on getting really good. Martin\nsays, people will come to you.</i> I happen to agree.",
                         "id": 77
                     },
                     {
@@ -427,7 +427,7 @@
                     },
                     {
                         "name": "Sharing routine",
-                        "text": "<i>Almost all of the people I look up to and try to steal\nfrom today, regardless of their profession, have\nbuilt sharing into their routine.</i> These people aren\u2019t\nschmoozing at cocktail parties; they\u2019re too busy\nfor that. They\u2019re cranking away in their studios,",
+                        "text": "<i>Almost all of the people I look up to and try to steal\nfrom today, regardless of their profession, have\nbuilt sharing into their routine.</i> These people aren\u2019t\nschmoozing at cocktail parties; they\u2019re too busy\nfor that.",
                         "id": 79
                     },
                     {
@@ -442,12 +442,12 @@
                     },
                     {
                         "name": "Amateurs",
-                        "text": "<i>We're all terrified of being revealed as amateurs, \nbut in fact, today it is the amateur\u2014the enthusiast\nwho pursues her work in the spirit of love</i>, regardless of the\npotential for fame, money, or career\u2014who often\nhas the advantage over the professional.",
+                        "text": "<i>We're all terrified of being revealed as amateurs, \nbut in fact, today it is the amateur\u2014the enthusiast\nwho pursues her work in the spirit of love</i>, \nregardless of the potential for fame, money, \nor career\u2014who often has the \nadvantage over the professional.",
                         "id": 82
                     },
                     {
                         "name": "Doing nothing",
-                        "text": "creative work, the difference between the mediocre\nand the good is vast. <i>Mediocrity is, however, still\non the spectrum; you can move from mediocre\nto good in increments. The real gap is between\ndoing nothing and doing something</i>.\u201d Amateurs\nknow that contributing something</i> is better than\ncontributing nothing.",
+                        "text": "<i>Mediocrity is, however, still\non the spectrum; you can move from mediocre\nto good in increments. The real gap is between\ndoing nothing and doing something</i>.\u201d \nAmateurs know that contributing something \nis better than contributing nothing.",
                         "id": 83
                     },
                     {
@@ -462,7 +462,7 @@
                     },
                     {
                         "name": "Fellow pupil",
-                        "text": "<i>The fellow-pupil can help more than the master because\nhe knows less. The difficulty we want him\nto explain is one he has recently met.</i> The\nexpert met it so long ago he has forgotten.\u201d\nWatching amateurs at work can also inspire\nus to attempt the work ourselves.",
+                        "text": "<i>The fellow-pupil can help more than the master because\nhe knows less. The difficulty we want him\nto explain is one he has recently met.</i> \nThe expert met it so long ago he has forgotten.\u201d\nWatching amateurs at work can also inspire\nus to attempt the work ourselves.",
                         "id": 86
                     },
                     {
@@ -472,7 +472,7 @@
                     },
                     {
                         "name": "Use your voice",
-                        "text": "We're always being told find your voice. <i>When\nI was younger. I never really knew what this\nmeant. I used to worry a lot about voice,\nwondering if I had my own. But now I realize\nthat the only way to find your voice is to use\nit.</i> It\u2019s hardwired, built into you. Talk about\nthe things you love. Your voice will follow.",
+                        "text": "We're always being told find your voice. \nWhen I was younger, I never really knew what this\nmeant. <i>I used to worry a lot about voice,\nwondering if I had my own. But now I realize\nthat the only way to find your voice is to use\nit.</i> It\u2019s hardwired, built into you. Talk about\nthe things you love. Your voice will follow.",
                         "id": 88
                     },
                     {
@@ -482,7 +482,7 @@
                     },
                     {
                         "name": "Make stuff",
-                        "text": "other people can see. <i>\u201cYou have to make\nstuff,\u201d said journalist David Carr when he\nwas asked if he had any advice for students.\n\u201cNo one is going to give a damn about your\nr\u00e9sum\u00e9;</i> they want to see what you have\nmade with your own little fingers.\u201d",
+                        "text": "<i>\u201cYou have to make stuff,\u201d said journalist David Carr\nwhen he was asked if he had any advice for students.\n\u201cNo one is going to give a damn about your\nr\u00e9sum\u00e9;</i> they want to see what you have\nmade with your own little fingers.\u201d",
                         "id": 90
                     },
                     {
@@ -502,12 +502,12 @@
                     },
                     {
                         "name": "Stock and flow",
-                        "text": "\u201cStock and flow\u201d is an economic concept\nthat writer Robin Sloan has adapted into a\nmetaphor for media: \u201c<i>Flow is the feed. It\u2019s the\nposts and the tweets. It\u2019s the stream of daily\nand sub-daily updates that remind people\nyou exist. Stock is the durable stuff.</i> It\u2019s the\ncontent you produce that\u2019s as interesting in\ntwo months (or two years) as it is today. It\u2019s\nwhat people discover via search.",
+                        "text": "\u201cStock and flow\u201d is an economic concept\nthat writer Robin Sloan has adapted into a\nmetaphor for media: \u201c<i>Flow is the feed. It\u2019s the\nposts and the tweets. It\u2019s the stream of daily\nand sub-daily updates that remind people\nyou exist. Stock is the durable stuff.</i>",
                         "id": 94
                     },
                     {
                         "name": "Invention machine",
-                        "text": "<i>Don\u2019t think of your website as a self-promotion machine,\nthink of it as a self-invention machine.</i> Online, \nyou can become the person you really want to be. Fill your website \nwith your work and your ideas and the stuff you care about.",
+                        "text": "<i>Don\u2019t think of your website as a \nself-promotion machine, think of it as a \nself-invention machine.</i> Online, you can \nbecome the person you really want to be. \nFill your website with your work and your \nideas and the stuff you care about.",
                         "id": 95
                     },
                     {
@@ -517,7 +517,7 @@
                     },
                     {
                         "name": "Proper credit",
-                        "text": "Crediting work in our copy-and-paste age of reblogs and retweets can\nseem like a futile effort, but it\u2019s worth it, and\nit\u2019s the right thing to do. <i>You should always\nshare the work of others as if it were your\nown, treating it with respect and care.</i>",
+                        "text": "Crediting work in our copy-and-paste \nage of reblogs and retweets can seem like \na futile effort, but it\u2019s worth it, and\nit\u2019s the right thing to do. <i>You should always\nshare the work of others as if it were your\nown, treating it with respect and care.</i>",
                         "id": 97
                     },
                     {
@@ -527,7 +527,7 @@
                     },
                     {
                         "name": "Nonfiction",
-                        "text": "<i>Just because you're trying to tell a good\nstory about yourself doesn\u2019t mean you're\ninventing fiction. Stick to nonfiction.</i> Tell the\ntruth and tell it with dignity and self-respect.\nIf you're a student, say you're a student. If\nyou work a day job, say you work a day.",
+                        "text": "<i>Just because you're trying to tell a good\nstory about yourself doesn\u2019t mean you're\ninventing fiction. Stick to nonfiction.</i> \nTell the truth and tell it with dignity \nand self-respect. If you're a student, \nsay you're a student. If you work a day job, \nsay you work a day.",
                         "id": 99
                     },
                     {
@@ -552,22 +552,22 @@
                     },
                     {
                         "name": "Criticism",
-                        "text": "Designer Mike Monteiro says that the most\nvaluable skill he picked up in art school was\nlearning how to take a punch. <i>He and his\nfellow classmates were absolutely brutal during\ncritiques. \u201cWe were basically trying to see if we\ncould get each other to drop out of school.\u201d</i> Those\nvicious critiques taught him not to take criticism\npersonally.",
+                        "text": "Designer Mike Monteiro says that the most\nvaluable skill he picked up in art school was\nlearning how to take a punch. <i>He and his\nfellow classmates were absolutely brutal during\ncritiques. \u201cWe were basically trying to see if we\ncould get each other to drop out of school.\u201d</i> \nThose vicious critiques taught him \nnot to take criticism personally.",
                         "id": 104
                     },
                     {
                         "name": "Fear imagination",
-                        "text": "The trouble with imaginative people is that we\u2019re good at picturing\nthe worst that could happen to us. Fear is often just the imagination taking a wrong\nturn. <i>Bad criticism is not the end of the world. As far as I know, no one has ever\ndied from a bad review.</i> Take a deep breath and accept whatever comes.",
+                        "text": "The trouble with imaginative people is \nthat we\u2019re good at picturing the worst that \ncould happen to us. Fear is often just the imagination\ntaking a wrong turn. <i>Bad criticism is not \nthe end of the world. As far as I know, \nno one has ever died from a bad review.</i> \nTake a deep breath and accept whatever comes.",
                         "id": 105
                     },
                     {
                         "name": "Hated work",
-                        "text": "You can\u2019t control what sort of criticism you receive, \nbut you can control how you react to it. \n<i>Sometimes when people hate something about your work, it\u2019s fun\nto push that element even further. To make something they\u2019d hate even more.</i>\nHaving your work hated by certain people is a badge of honor.",
+                        "text": "You can\u2019t control what sort of criticism you receive, \nbut you can control how you react to it. \n<i>Sometimes when people hate something about your work, \nit\u2019s fun to push that element even further. \nTo make something they\u2019d hate even more.</i>\nHaving your work hated by certain people is a badge of honor.",
                         "id": 106
                     },
                     {
                         "name": "Keep your balance",
-                        "text": "You have to remember\nthat your work is something you do, not who\nyou are. This is especially hard for artists\nto accept, as so much of what they do is\npersonal. <i>Keep close to your family, friends,\nand the people who love you for you, not just\nthe work.</i>",
+                        "text": "You have to remember that your work is something you do, \nnot who you are. This is especially hard for artists\nto accept, as so much of what they do is\npersonal. <i>Keep close to your family, friends,\nand the people who love you for you, not just\nthe work.</i>",
                         "id": 107
                     },
                     {

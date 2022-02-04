@@ -1,6 +1,5 @@
-other people can see. <i>“You have to make
-stuff,” said journalist David Carr when he
-was asked if he had any advice for students.
+<i>“You have to make stuff,” said journalist David Carr
+when he was asked if he had any advice for students.
 “No one is going to give a damn about your
 résumé;</i> they want to see what you have
 made with your own little fingers.”
