@@ -115,7 +115,7 @@ function books_list() {
  */
 function show_rand(book_id) {
     const rand = Math.random();
-    
+
     let book;
     let author;
 
