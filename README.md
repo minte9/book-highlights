@@ -2,10 +2,6 @@
 
 Highlights archive from books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books/book1/author1) images. 
 
-To run in terminal [node](https://nodejs.org/en/) and npm are required.  
-To run in browser a web server is required.  
-To generate your own highlights [python](https://www.python.org/downloads/) and pip are required.  
-
 ## Install
 
 ~~~sh
