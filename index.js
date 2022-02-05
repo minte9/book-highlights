@@ -56,9 +56,12 @@ function keypress_listener() {
                 show_rand(myArgs[0]); 
                 break;
             case 'escape':
-                help(); break;
+                help(); 
+                books_list();
+                break;
             case 'c':
-                if (key.ctrl) process.exit(0);
+                if (key.ctrl)
+                    process.exit(0);
             default:
         }
     });
@@ -70,22 +73,22 @@ function keypress_listener() {
  * Action: Help
  */
 function help() {
-    console.log();
-    console.log(chalk.redBright('Run'));
-    console.log('./index.js ');
-    console.log();
-    console.log(chalk.redBright('Options'));
-    console.log("-h         |help");
-    console.log("id         |show book by ID (number)");
-    console.log("-c catg    |show highlights from category");
-    console.log();
-    console.log(chalk.redBright('Shortcuts'));
-    console.log("Space \t |continue to next (Enter)");
-    console.log("Escape \t |help");
-    console.log("Ctrl+C \t |stop the program");
-    console.log();
-
-    books_list();
+    const msg = ''
+        + '\n' + chalk.redBright('Run')
+        + '\n' + './index.js '
+        + '\n'
+        + '\n' + chalk.redBright('Options')
+        + '\n' + "-h         |help"
+        + '\n' + "id         |show book by ID (number)"
+        + '\n' + "-c catg    |show highlights from category"
+        + '\n'
+        + '\n' + chalk.redBright('Shortcuts')
+        + '\n' + "Space \t |continue to next (Enter)"
+        + '\n' + "Escape \t |help"
+        + '\n' + "Ctrl+C \t |stop the program"
+        + '\n'
+    ;
+    console.log(msg);
     //process.exit(0);
 }
 
@@ -160,7 +163,7 @@ function show_rand(book_id) {
     msg = msg.replace("(ninja code :)", chalk.bgBlack.gray(" ninja code :)"));
 
     console.log('\n'.repeat(15));  
-    console.table(boxen(msg, {
+    console.log(boxen(msg, {
         margin: 1,
         padding: 1,
         borderStyle: 'round',
