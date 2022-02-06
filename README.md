@@ -30,24 +30,6 @@ node index.js
 
 ##
 
-## Updates
-
-~~~sh
-cd book-highlights/
-git pull origin main
-~~~
-
-## Command
-
-Install as command line application and run from anywhere, bin defined in [package.json](https://github.com/minte9/book-highlights/blob/main/package.json) 
-
-~~~sh
-cd book-highlights/
-npm install -g .
-
-book-hightlights
-~~~
-
 ## Your Highlights
 
 Follow instructions in [update.py](https://github.com/minte9/book-highlights/blob/main/update.py)
