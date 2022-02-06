@@ -23,10 +23,7 @@ git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
 
 npm install boxen
-node .
-
-# node index.js
-# ./index.js
+node index.js
 ~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
