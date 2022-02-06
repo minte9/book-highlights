@@ -10,6 +10,9 @@ cd book-highlights/public_html/
 
 php -S localhost:8000
 http://localhost:8000/
+
+python -m http.server 8000
+http://localhost:8000/
 ~~~
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com)
