@@ -58,7 +58,7 @@ book-hightlights
 
 ## Your Highlights
 
-Copy [config.sample.ini](https://github.com/minte9/book-highlights/tree/main/config/config.sample.ini) content to config.ini file and run update script.
+Follow instructions in [update.py](https://github.com/minte9/book-highlights/blob/main/update.py)
 
 ~~~sh
 cd book-highlights/
