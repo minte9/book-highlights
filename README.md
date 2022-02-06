@@ -2,18 +2,13 @@
 
 Highlights archive from books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books/book1/author1) images. 
 
-## Install
+## Console
 
 ~~~sh
 git clone https://github.com/minte9/book-highlights.git
-~~~
-
-## Run
-
-~~~sh
 cd book-highlights/
-npm install boxen
 
+npm install boxen
 node .
 
 # node index.js
@@ -26,6 +21,7 @@ node .
 ## Browser
 
 ~~~sh
+git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/public_html/
 
 php -S localhost:8000
@@ -33,12 +29,6 @@ http://localhost:8000/
 ~~~
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com)
-
-~~~sh
-<iframe src="/book-highlights/public_html/index.htm" 
-  width=450 height=350 frameborder=0 scrolling=no>
-</iframe>
-~~~
 
 See it in action on [minte9.com](https://www.minte9.com)
 
