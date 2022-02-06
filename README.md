@@ -25,8 +25,15 @@ See it in action on [minte9.com](https://www.minte9.com)
 git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
 
+# dependencies
 npm install boxen
-node index.js
+
+# run from directory
+node .
+
+# run from anywhere (bin in package.json)
+npm install -g .
+book-hightlights
 ~~~
 
 [![Terminal](https://www.minte9.com/lib/images/github/book-highlights/highlight_02.png)](https://www.minte9.com)
