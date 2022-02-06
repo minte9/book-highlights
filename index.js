@@ -1,8 +1,24 @@
 #!/usr/bin/env node
 
 /**
- * Get one random book highlight 
+ * To run this in console:
+ * 
+ *      cd book-highlights/
+ *      npm install boxen
+ *      node index.js
+ * 
+ * To run from anywhere, see bin in package.json
+ * 
+ *      cd book-highlights/
+ *      npm install -g .
+ *      book-hightlights
+ * 
+ * Updates:
+ *      
+ *      cd book-highlights/
+ *      git pull origin main
  */
+
 import chalk from 'chalk';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
