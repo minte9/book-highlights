@@ -11,7 +11,7 @@ cd book-highlights/public_html/
 php -S localhost:8000
 http://localhost:8000/
 
-python -m http.server 8000
+python3 -m http.server 8000
 http://localhost:8000/
 ~~~
 
