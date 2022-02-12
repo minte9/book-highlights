@@ -42,7 +42,7 @@ book-hightlights
 
 ## Your Highlights
 
-Follow instructions in [update.py](https://github.com/minte9/book-highlights/blob/main/update.py)
+Follow the instructions in [update.py](https://github.com/minte9/book-highlights/blob/main/update.py)
 
 ~~~sh
 cd book-highlights/
