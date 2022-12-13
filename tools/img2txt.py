@@ -48,7 +48,7 @@ def highlighted_replaced(img, img2):
     highlighted = pytesseract.image_to_string(img2).strip()
     text, highlighted = adjust(text, highlighted)
 
-    # use traineddata (language)
+    # traineddata (language)
     # pytesseract.image_to_string(img2, lang='ron')
 
     start = highlighted[0:10].strip() # start of highlighted text
