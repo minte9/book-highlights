@@ -8,7 +8,18 @@ body {
     box-shadow: 3px 3px 6px #eee;  border-radius: 5px;
     border: 1px solid #ddd; width: 450px; cursor: pointer; padding: 25px 20px 40px 20px; 
     font-family: Arial,Verdana,Geneva,sans-serif; font-size: 14px; line-height: 18px;
+    margin: 25px; margin-left: 130px; margin-top: 0px; background: #fff;
 }
+
+#book_image{width: 80px; margin: 15px; margin-top: 25px; filter: grayscale(100%); 
+    border-radius: 5px; position: absolute;
+    margin-left: 25px; top: -10px;
+}
+
+.bh-header{background: #222; width: 100%; margin: 0px auto; color: #ffb366; 
+    font-size: 12px; padding: 10px 0px 10px 486px; 
+}
+
 .next-bh {
     color: #ffb366; font-size: 40px; float: right; line-height: 25px; margin-left: 5px;
 }

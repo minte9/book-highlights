@@ -3,30 +3,35 @@
         "title": "Passionate Programmer",
         "subtitle": "Creating a Remarkable Career in Software Development",
         "link": "https://www.amazon.com/gp/product/B00AYQNR5U",
+        "img": "https://www.minte9.com/lib/images/references/book_passionate_programmer.jpg",
         "id": 1
     },
     {
         "title": "Coders at work",
         "subtitle": "Reflections on the Craft of Programming",
         "link": "https://www.amazon.com/gp/product/B00ACC2536",
+        "img": "https://www.minte9.com/lib/images/references/book_coders_at_work.jpg",
         "id": 2
     },
     {
         "title": "Steal Like an Artist",
         "subtitle": "Things Nobody Told You About Being Creative",
         "link": "https://www.amazon.com/gp/product/B0074QGGK6",
+        "img": "https://www.minte9.com/lib/images/references/book_steel_like_an_artist.jpg",
         "id": 3
     },
     {
         "title": "Show your work",
         "subtitle": "Ways to Share Your Creativity and Get Discovered",
         "link": "https://www.amazon.com/gp/product/B00GU2RGGI",
+        "img": "https://www.minte9.com/lib/images/references/book_show_your_work.jpg",
         "id": 4
     },
     {
         "title": "The Modern Javascript",
         "subtitle": "Javascript language tutorial",
         "link": "https://javascript.info/",
+        "img": "https://www.minte9.com/lib/images/references/book_modernjavascript.png",
         "id": 5
     }
 ]

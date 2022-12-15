@@ -52,6 +52,7 @@ with open(HIGHLIGHTS_JSON, 'w') as f:
         for author in book['children']:
             for item in author['children']:
                 i = i + 1
+                item['page'] = item['name'].split('_')[:1][0]
                 item['name'] = ' '.join(item['name'].split('_')[1:]).replace('.txt', '')
                 item['name'] = item['name'][0].upper() + item['name'][1:]
                 item['id'] = i
