@@ -24,10 +24,7 @@
             }
         }
         let DATA = {};
-        let CATG = 'programming';
-        fetchData().then(result => $.getScript('./update_gui.js?asset_version=' + asset_version +
-            '&catg=' + CATG
-        ));
+        fetchData().then(result => $.getScript('./update_gui.js?asset_version=' + asset_version));
     </script>
     
 </head>

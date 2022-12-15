@@ -8,7 +8,7 @@
 	 */
 	const url = new URL(window.location.href);
 	const paramId = url.searchParams.get("id");
-	const paramCatg = url.searchParams.get("catg");
+	const paramCatg = url.searchParams.get("catg") ?? 'programming';
 
 	curr = {
 		seenHighlights: [],
@@ -16,7 +16,7 @@
 		book: null,
 		author: null,
 		paramId: paramId,
-		catg: paramCatg, // ? paramCatg : 'programming',
+		catg: paramCatg,
 	};
 
 	colors = { 
