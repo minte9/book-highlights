@@ -16,7 +16,7 @@
 		book: null,
 		author: null,
 		paramId: paramId,
-		catg: paramCatg ? paramCatg : 'programming',
+		catg: paramCatg, // ? paramCatg : 'programming',
 	};
 
 	colors = { 
