@@ -244,10 +244,8 @@ function update_gui(obj=null) {
 		$('#book_image').parent().attr('href', obj.book.link);
 
 		if (IS_IFRAME) {
-			$('.text-bh').parent().attr('target', '_blank');
 			$('.text-bh').parent().attr('href', '?catg=' + curr.catg + '&id=' + obj.highlight.id);
 		} else {
-			$('.text-bh').parent().attr('target', '');
 			$('.text-bh').parent().attr('href', '#');
 		}
 
