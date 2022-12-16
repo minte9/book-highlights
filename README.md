@@ -7,10 +7,11 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 ~~~sh
 git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
-python startweb.py # OR
 
-php -S localhost:8000 # OR
-python3 -m http.server 8000
+# start web server
+python startweb.py        # OR
+php -S localhost:8000     # OR
+python3 -m http.server 8000 
 ~~~
 
 [http://localhost:8000/public_html](http://localhost:8000/public_html)
