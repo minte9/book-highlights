@@ -9,8 +9,7 @@ git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
 
 python startweb.py
-
-# http://localhost:8000/public_html
+  # http://localhost:8000/public_html
 ~~~
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=5)
