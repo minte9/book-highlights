@@ -1,8 +1,15 @@
 """
-Start server / Open URL
-Run from console / python startweb.py 
-Interrupt / Ctrl + C to kill process
+Start server & Open URL
+
+python startweb.py
+    # Ctrl+C to kill the process
+
+Alternatives
+    php -S localhost:8000
+    python3 -m http.server 8000 
+    http://localhost:8000/public_html
 """
+
 import sys, time, threading, webbrowser
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
