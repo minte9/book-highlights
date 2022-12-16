@@ -13,7 +13,7 @@ body {
 
 #book_image{width: 80px; margin: 15px; margin-top: 25px; filter: grayscale(100%); 
     border-radius: 0px; position: absolute;
-    margin-left: 25px; top: -25px;
+    margin-left: 25px; top: -10px;
 }
 
 .bh-header{background: #222; width: 100%; margin: 0px auto; color: #ffb366; 
