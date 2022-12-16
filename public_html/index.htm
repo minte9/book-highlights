@@ -13,6 +13,11 @@
         var folder = 'data/minte9/';
         //folder = 'data/my_books/';
 
+        fetch('./' + folder + 'books.json?asset_version=' + asset_version)
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.log(error));
+
         async function fetchData() {
             let res1 = await fetch('./' + folder + 'books.json?asset_version=' + asset_version);
             let res2 = await fetch('./' + folder + 'authors.json?asset_version=' + asset_version);
