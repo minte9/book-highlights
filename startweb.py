@@ -10,8 +10,12 @@ Alternatives
     http://localhost:8000/public_html
 """
 
-import sys, time, threading, webbrowser
+import os, sys, time, pathlib
+import threading, webbrowser
 from http.server import HTTPServer, SimpleHTTPRequestHandler
+
+DIR = pathlib.Path(__file__).resolve().parent
+os.chdir(DIR)
 
 def start_server():
     httpd = HTTPServer(('127.0.0.1', 8000), SimpleHTTPRequestHandler)
