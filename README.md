@@ -8,12 +8,12 @@ Highlights archive from books [screenshots](https://github.com/minte9/book-highl
 git clone https://github.com/minte9/book-highlights.git
 cd book-highlights/
 
-php -S localhost:8000
-# http://localhost:8000/public_html
-
+php -S localhost:8000 OR
 python3 -m http.server 8000
-[![Browser](http://localhost:8000/public_html)](http://localhost:8000/public_html)
+
 ~~~
+
+[http://localhost:8000/public_html](http://localhost:8000/public_html)
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=5)
 
