@@ -9,7 +9,6 @@
 	const url = new URL(window.location.href);
 	const paramId = url.searchParams.get("id");
 	const paramCatg = url.searchParams.get("catg") ?? 'programming';
-	IS_IFRAME = ! url.searchParams.get("catg");
 
 	curr = {
 		seenHighlights: [],
@@ -105,9 +104,7 @@
 		update_gui(get_rand(true));
 	}
 
-	let el = IS_IFRAME ? $('.next-bh') : $('.text-bh, .next-bh');
-
-	el.click(function() {
+	$('.text-bh, .next-bh').click(function() {
 		update_gui(get_rand());
 	});
 
@@ -236,20 +233,12 @@ function update_gui(obj=null) {
 		$('.bi-person-circle').parent().attr('href', obj.author.wiki);
 		$('.bi-book').attr('data-bs-original-title', obj.book.title + ' /<br>' + obj.book.subtitle);
 		$('.bi-book').parent().attr('href', obj.book.link);
-		$('.bi-github').attr('data-bs-original-title', 'Github');
+		//$('.bi-github').attr('data-bs-original-title', 'Github');
 		$('.bi-github').parent().attr('href', 'https://github.com/minte9/book-highlights');
 		$('#file_highlight').parent().attr('href', '?catg=' + curr.catg + '&id=' + obj.highlight.id);
 		$('#book_image').attr('src', curr.book.img);
 		$('#book_image').css('filter', 'grayscale(0%)');
 		$('#book_image').parent().attr('href', obj.book.link);
-
-		if (IS_IFRAME) {
-			$('.text-bh').parent().attr('target', '_blank');
-			$('.text-bh').parent().attr('href', '?catg=' + curr.catg + '&id=' + obj.highlight.id);
-		} else {
-			$('.text-bh').parent().attr('target', '');
-			$('.text-bh').parent().attr('href', '#');
-		}
 
 		if(! cookieIds.includes(obj.highlight.id)) {
 			cookieIds.push(obj.highlight.id);
