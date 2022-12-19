@@ -6,19 +6,27 @@ body {
 
 .bh {
     box-shadow: 3px 3px 6px #eee;  border-radius: 5px;
-    border: 1px solid #ddd; width: 450px; cursor: pointer; padding: 25px 20px 40px 20px; 
+    border: 1px solid #ddd; width: 450px; cursor: pointer; padding: 25px 20px 40px 20px;
     font-family: Arial,Verdana,Geneva,sans-serif; font-size: 14px; line-height: 18px;
     margin: 25px; margin-left: 130px; margin-top: 0px; background: none;
 }
 
-#book_image{width: 80px; margin: 15px; margin-top: 25px; filter: grayscale(100%); 
+#book_image{width: 80px; margin: 15px; margin-top: 25px; filter: grayscale(100%);
     border-radius: 0px; position: absolute;
     margin-left: 25px; top: -10px;
 }
 
-.bh-header{background: #222; width: 100%; margin: 0px auto; color: #ffb366; 
-    font-size: 12px; padding: 10px 0px 10px 486px; 
+.bh-header{background: #222; width: 100%; margin: 0px auto; color: #ffb366;
+    font-size: 12px; padding: 10px 0px 10px 468px;
 }
+
+div.bh-logo {
+    background: #fff; font-size: 12px; color: #222;
+    border-radius: 2px;
+    border: 0px solid #ddd; width: 140px; text-align: center;
+    margin-top: -15px; padding-top: 2px; margin-left: 125px;
+}
+a.bh-logo {text-decoration: none;}
 
 .next-bh {
     color: #ffb366; font-size: 40px; float: right; line-height: 25px; margin-left: 5px;
@@ -36,7 +44,7 @@ body {
     color: #888; padding-left: 0px;
 }
 .text-bh {
-    clear: both; text-align: justify; font-size: 16px; margin-bottom: 0px; 
+    clear: both; text-align: justify; font-size: 16px; margin-bottom: 0px;
     line-height: 24px; color: #888; display: inline-block; margin-top: 30px;
 }
 .text-bh i {
@@ -46,17 +54,17 @@ body {
 /* Drop down menu */
 
 #dropdownMenuButton-bh {
-    font-size: 14px; background: #fff; color: #000; text-align: left; 
-    font-weight: normal !important; margin-right: 20px; box-shadow: 2px 2px 6px #eee; 
+    font-size: 14px; background: #fff; color: #000; text-align: left;
+    font-weight: normal !important; margin-right: 20px; box-shadow: 2px 2px 6px #eee;
     border: 1px solid #eee; float: left; padding: 3px 10px 3px 16px; width: 250px;
 }
 #dropdown-bh {
     font-size: 12px; margin-left: -22px;
 }
 #dropdown-menu-bh {
-    margin-top: 30px; margin-left: -5px; 
+    margin-top: 30px; margin-left: -5px;
     font-size: 14px; padding-bottom: 5px; padding-top: 5px; box-shadow: 3px 3px 3px #eee;
-} 
+}
 .dropdown-toggle::after {
     float: right; margin-top: 10px;
 }
@@ -82,7 +90,7 @@ body {
     color: #333;
 }
 .icons-bh {
-    float: right; margin-top: 26px; background: #fff; 
+    float: right; margin-top: 26px; background: #fff;
     border-radius: 50%; border: 5px solid #fff;
 }
 .bi-check-circle-fill {
@@ -95,7 +103,7 @@ body {
     float: left; cursor: pointer;
 }
 .form-check-input {
-    cursor: pointer; 
+    cursor: pointer;
 }
 .form-check-input:checked {
     background-color: #ffb366; border-color: #ffb366;
