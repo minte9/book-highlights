@@ -14,7 +14,7 @@ python startweb.py
 
 [![Browser](https://www.minte9.com/lib/images/github/book-highlights/m9_08.png)](https://www.minte9.com/lib/js/minte9/book-highlights/public_html/index.htm?catg=programming&id=5)
 
-See it in action [bh.minte9.com](https://bh.minte9.com)
+See it in action [BH.minte9.com](https://bh.minte9.com)
 
 ## Console Usage
 
