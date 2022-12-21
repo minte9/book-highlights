@@ -49,7 +49,7 @@
         "name": "Austin Kleon",
         "tags": "A writer who draws",
         "wiki": "https://austinkleon.com",
-        "catg": "general|programming|",
+        "catg": "general|",
         "bookId": 4,
         "id": 6
     },
@@ -61,5 +61,14 @@
         "catg": "javascript|programming|",
         "bookId": 5,
         "id": 7
+    },
+    {
+        "title": "Pro Git",
+        "name": "Scott Chacon",
+        "tags": "Git evangelist and Ruby developer working on GitHub.com",
+        "wiki": "https://scottchacon.com/about.html",
+        "catg": "programming|",
+        "bookId": 6,
+        "id": 8
     }
 ]

@@ -1,0 +1,5 @@
+<i>Everything in Git is check-summed before it is stored and is
+then referred to by that checksum. This means it’s impossible to
+change the contents of any file or directory without Git knowing
+about it.</i> This functionality is built in to Git at the lowest levels
+and is integral to its philosophy.

@@ -1,0 +1,4 @@
+<i>The staging area is a file, generally contained in your Git
+directory, that stores information about what will go into your
+next commit.</i> It’s sometimes referred to as the “index”, but it’s
+also common to refer to it as the staging area.

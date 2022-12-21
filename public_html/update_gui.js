@@ -29,6 +29,11 @@
 		DATA.authors = DATA.authors.filter(x => x.catg.includes(curr.catg + "|"));
 		DATA.bookIds = DATA.authors.map(x => { return x.bookId } );
 		DATA.books = DATA.books.filter(x => DATA.bookIds.includes(x.id));
+		DATA.authors.sort((a, b) => {
+			if (a.name < b.name) return -1
+			if (a.name > b.name) return 1
+			return 0;
+		});
 	}
 	
 	enableTooltips();

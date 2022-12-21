@@ -1,0 +1,3 @@
+<i>You can get a Git project using two main approaches. The first
+takes an existing project or directory and imports it into Git.</i> The
+second clones an existing Git repository from another server.

@@ -33,5 +33,12 @@
         "link": "https://javascript.info/",
         "img": "https://www.minte9.com/lib/images/references/book_modernjavascript.png",
         "id": 5
+    },
+    {
+        "title": "Pro Git",
+        "subtitle": "Everything you need to know about Git",
+        "link": "https://git-scm.com/book/en/v2",
+        "img": "https://www.minte9.com/lib/images/references/git.png",
+        "id": 6
     }
 ]
