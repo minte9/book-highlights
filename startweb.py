@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 Start server & Open URL
 
@@ -18,11 +20,11 @@ DIR = pathlib.Path(__file__).resolve().parent
 os.chdir(DIR)
 
 def start_server():
-    httpd = HTTPServer(('127.0.0.1', 8000), SimpleHTTPRequestHandler)
+    httpd = HTTPServer(('127.0.0.1', 8080), SimpleHTTPRequestHandler)
     httpd.serve_forever()
 
 threading.Thread(target=start_server).start()
-webbrowser.open_new('http://127.0.0.1:8000/public_html/')
+webbrowser.open_new('http://127.0.0.1:8080/public_html/')
 
 while True:
     try:
