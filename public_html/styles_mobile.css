@@ -8,6 +8,9 @@ body {
     background: none;
 }
 
+.next-bh {display: none;}
+.more-bh {display: none;}
+
 /* Book highlights */
 
 .bh {
@@ -17,9 +20,8 @@ body {
     margin: 10px; margin-left: 10px; margin-top: 10px; background: none;
 }
 
-#book_image{width: 80px; margin: 15px; margin-top: 25px; filter: grayscale(100%);
-    border-radius: 0px; position: relative;
-    margin-left: 25px; top: -15px;
+#book_image {width: 200px; filter: grayscale(100%); margin: 20px;  margin-top: 35px;
+    border-radius: 0px; position: relative; float: right; top: -30px; display: none;
 }
 
 .bh-header{background: #000; width: 100%; margin: 0px auto; color: #ffb366;
@@ -60,12 +62,12 @@ a.bh-logo {text-decoration: none;}
 /* Drop down menu */
 
 #dropdownMenuButton-bh {
-    font-size: 14px; background: #fff; color: #000; text-align: left;
-    font-weight: normal !important; margin-right: 20px; box-shadow: 2px 2px 6px #eee;
-    border: 1px solid #eee; float: left; padding: 3px 10px 3px 16px; width: 210px;
+    font-size: 15px; background: #fff; color: #000; text-align: left;
+    font-weight: normal !important; margin: 0px auto; box-shadow: 2px 2px 6px #eee;
+    border: 1px solid #eee; padding: 3px 10px 3px 16px; width: 100%;
 }
 #dropdown-bh {
-    font-size: 12px; margin-left: -22px;
+    font-size: 12px;
 }
 #dropdown-menu-bh {
     margin-top: 30px; margin-left: -5px;
@@ -96,7 +98,7 @@ a.bh-logo {text-decoration: none;}
     color: #333;
 }
 .icons-bh {
-    float: right; margin-top: 26px; background: #fff;
+    float: left; margin-top: 26px; background: #fff;
     border-radius: 50%; border: 5px solid #fff;
 }
 .bi-check-circle-fill {
@@ -106,10 +108,10 @@ a.bh-logo {text-decoration: none;}
 /* Cookie form */
 
 #cookie-switch {
-    float: left; cursor: pointer;
+    float: left; cursor: pointer; margin-left: 10px;
 }
 .form-check-input {
-    cursor: pointer;
+    cursor: pointer; font-size: 20px; margin-top: 0px;
 }
 .form-check-input:checked {
     background-color: #ffb366; border-color: #ffb366;
