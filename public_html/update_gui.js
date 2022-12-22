@@ -1,5 +1,5 @@
 /**
- * Get random highlight and update GUI 
+ * Get random highlight and update GUI
  */
  jQuery(function() {
 
@@ -19,10 +19,10 @@
 		catg: paramCatg,
 	};
 
-	colors = { 
-		orange: '#ffb366', 
-		green: 'green', 
-		gray: '#888' 
+	colors = {
+		orange: '#ffb366',
+		green: 'green',
+		gray: '#888'
 	};
 
 	if (curr.catg) {
@@ -35,7 +35,7 @@
 			return 0;
 		});
 	}
-	
+
 	enableTooltips();
 
 	/**
@@ -53,7 +53,7 @@
 			Cookies.remove('ids');
 			cookieIds = [];
 		} else {
-			keep_history = 'on';	
+			keep_history = 'on';
 		}
 		update_gui();
 		Cookies.set('keep_history', keep_history, {expires: 30});
@@ -63,7 +63,7 @@
 	if (keep_history == 'on' && Cookies.get('ids') !== undefined) {
 		cookieIds = JSON.parse(Cookies.get('ids'));
 	}
-	
+
 	/**
 	 * Populate book/author dropdown.
 	 * Totals filtered by cookie ids.
@@ -81,27 +81,27 @@
 			}
 			$("#dropdown-menu-bh").append(`
 				<li>
-					<a class="dropdown-item" 
+					<a class="dropdown-item"
 						onClick="change_author('${book.title}', '${author.name}');">
 							<i class="bi bi-check-circle-fill" id='check_fill_${i}_${j}'></i>
-							${author.name} 
+							${author.name}
 							<span class='dropdown-check' id='check_${i}_${j}'>
 								<i class="bi bi-check"></i>
 							</span>
 							<span class='dropdown-author-totals' id='totals_${i}_${j}'>
-								${totals} 
-							</span> 
-							<span class='dropdown-book'>${book.title}</span> 
+								${totals}
+							</span>
+							<span class='dropdown-book'>${book.title}</span>
 					</a>
 				</li>
 			`);
-		});	
-	});	
+		});
+	});
 	$("#dropdown-menu-bh").append('<li class="dropdown-divider"></li>');
 
 	/**
 	 * Update gui (by paramId or random)
-	 * User 
+	 * User
 	 */
 	if (curr.paramId) {
 		update_gui(get_id(curr.paramId));
@@ -113,7 +113,19 @@
 		update_gui(get_rand());
 	});
 
-	//$('.text-bh, .next-bh').click(function() {
+    let touchstartX = 0
+    let touchendX = 0
+    document.addEventListener('touchstart', e => {
+      touchstartX = e.changedTouches[0].screenX
+    })
+    document.addEventListener('touchend', e => {
+      touchendX = e.changedTouches[0].screenX
+      if (touchendX < touchstartX) {
+          $('.text-bh').fadeOut();
+          update_gui(get_rand());
+          $('.text-bh').fadeIn();
+      }
+    })
 });
 
 /**
@@ -139,7 +151,7 @@ function get_rand() {
 
 	data = DATA.highlights.filter(x => x.name == curr.book.title);
 	data = data[0].children;
-	
+
 	/**
 	 * Get current author from current book (with random seed).
 	 * Skipped if already set (user clicked on next button).
@@ -182,11 +194,11 @@ function get_rand() {
 		});
 	});
 
-	return { 
-		"book": curr.book, 
-		"author": curr.author, 
-		"highlight": highlight, 
-		"book_highlights": book_highlights 
+	return {
+		"book": curr.book,
+		"author": curr.author,
+		"highlight": highlight,
+		"book_highlights": book_highlights
 	};
 }
 
@@ -211,11 +223,11 @@ function get_id(id) {
 		});
 	});
 
-	return { 
-		"book": curr.book, 
-		"author": curr.author, 
-		"highlight": highlight, 
-		"book_highlights": book_highlights 
+	return {
+		"book": curr.book,
+		"author": curr.author,
+		"highlight": highlight,
+		"book_highlights": book_highlights
 	};
 }
 
@@ -229,9 +241,9 @@ function update_gui(obj=null) {
 		$('.text-bh').html(obj.highlight.text);
 		$('.author-bh').text(obj.author.name);
 		$('.more-bh').text(curr.authorHighlightsLeft);
-		
-		$('.bi-file-earmark-check').attr('data-bs-original-title', 'No. ' + obj.highlight.id + 
-			'<br>' + obj.highlight.name + 
+
+		$('.bi-file-earmark-check').attr('data-bs-original-title', 'No. ' + obj.highlight.id +
+			'<br>' + obj.highlight.name +
 			(obj.highlight.page ? '<br>Pag. ' + obj.highlight.page : '')
 		);
 		$('.bi-person-circle').attr('data-bs-original-title', obj.author.name + ' /<br>' + obj.author.tags);
@@ -274,10 +286,10 @@ function update_gui(obj=null) {
 				$('#totals_' + i + '_'+ j).text(highlightsLeft > 0 ? highlightsLeft : totals);
 				$('#check_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange : colors.green);
 				$('#check_fill_' + i + '_'+ j).css('color', highlightsLeft > 0 ? colors.orange  : colors.green);
-	
-				if ($('#curr-author').text().includes(author.name) 
+
+				if ($('#curr-author').text().includes(author.name)
 						&& curr.book.title == book.title) {
-							$('#check-curr-author').css('color', 
+							$('#check-curr-author').css('color',
 								highlightsLeft > 0 ? colors.orange  : colors.green
 							);
 				}
@@ -297,7 +309,7 @@ function update_gui(obj=null) {
  */
 function change_author(b, a) {
 
-	curr.book = DATA.books.filter(x => x.title == b)[0];	
+	curr.book = DATA.books.filter(x => x.title == b)[0];
 	curr.author = DATA.authors.filter(x => x.name == a)[0];
 	update_gui(get_rand());
 }
