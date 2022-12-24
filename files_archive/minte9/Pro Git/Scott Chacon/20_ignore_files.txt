@@ -1,0 +1,3 @@
+<i>Often, you'll have a class of files that you don’t want Git to
+automatically add or even show you as being untracked.</i> In such cases, you can
+create a file listing patterns to match them named . gitignore
