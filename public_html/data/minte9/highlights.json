@@ -393,7 +393,7 @@
                 "children": [
                     {
                         "name": "Supervised ml",
-                        "text": "<i>The goal of supervised ML is to make\npredictions about unknown quantities given known\nquantities, such as predicting a house's sale price based\non its location and square footage</i>, or predicting a fruit\ncategory given the fruit\u2019s width and height.",
+                        "text": "<i>The goal of supervised ML is to make\npredictions about unknown quantities given known\nquantities,</i> such as predicting a house's sale price based\non its location and square footage, or predicting a fruit\ncategory given the fruit\u2019s width and height.",
                         "page": "11",
                         "id": 62
                     },
