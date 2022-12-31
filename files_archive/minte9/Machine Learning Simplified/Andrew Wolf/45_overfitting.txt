@@ -1,0 +1,5 @@
+Although you got a very low error on the
+training set (0% wrong) you got a higher error on the test
+set (60% wrong). <i>This problem, where the error is low on
+the training set, but much higher on an unseen test set, is a
+central problem in ML known as overfitting.</i>

@@ -1,0 +1,7 @@
+Broadly speaking, <i>the goal of supervised ML is to make
+predictions about unknown quantities given known
+quantities, such as predicting a house's sale price based
+on its location and square footage</i>, or predicting a fruit
+category given the fruit’s width and height. Supervised
+ML does this by learning from, or discovering patterns
+in, past data, such as past house sale prices.

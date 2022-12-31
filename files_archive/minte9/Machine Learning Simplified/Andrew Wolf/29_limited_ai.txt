@@ -1,0 +1,5 @@
+Usually a human being must provide these labels
+that the machine learns from. <i>Machine Learning is
+the main and most well-known example of Limited
+AI, and the email spam detector is an example of
+supervised ML.</i>

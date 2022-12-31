@@ -40,5 +40,12 @@
         "link": "https://git-scm.com/book/en/v2",
         "img": "https://www.minte9.com/lib/images/references/git.png",
         "id": 6
+    },
+    {
+        "title": "Machine Learning Simplified",
+        "subtitle": "A Gentle Introduction to Supervised Learning",
+        "link": "https://www.amazon.com/gp/product/B0B216KMM4",
+        "img": "https://www.minte9.com/lib/images/references/book-ml-simplified.png",
+        "id": 7
     }
 ]

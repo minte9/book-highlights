@@ -70,5 +70,14 @@
         "catg": "programming|",
         "bookId": 6,
         "id": 8
+    },
+    {
+        "title": "Machine Learning Simplified",
+        "name": "Andrew Wolf",
+        "tags": "Andrew Wolf breaks down the most complex processes into simple steps",
+        "wiki": "https://www.awolf.io",
+        "catg": "programming|",
+        "bookId": 7,
+        "id": 9
     }
 ]

@@ -1,0 +1,6 @@
+<i>The goal in Machine Learning is to find a generic model 
+that optimally balances the overfitting and underfitting
+of data</i>. Model complexity is defined with the hyperparameters
+of the model itself. Each model has its own set of
+hyperparameters. The complexity of a KNN classifier is defined
+by the hyper-parameter k.

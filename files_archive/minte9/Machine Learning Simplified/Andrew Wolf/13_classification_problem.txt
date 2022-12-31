@@ -1,0 +1,5 @@
+<i>In a classification problem we try to predict an
+unknown category, called a class label based on a set
+of known, or observed, variables.</i> There is an endless
+number of classification problems: as long as a target
+variable is categorical, a set of classes could be anything.
