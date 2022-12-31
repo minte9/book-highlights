@@ -1,8 +1,4 @@
-Many real-world problems have the following structure:
-given an object with a set of known, or observed,
-measurements, predict the value of an unknown, or target
-variable. <i>Simply put, supervised machine learning
-models try to predict either a categorical target variable
-(predicting a fruit category based on its weight and height), 
+<i>Supervised machine learning models try to predict either 
+a categorical target variable (predicting a fruit category based on its weight and height),</i> 
 or a numerical target variable (predicting the price of an apartment, 
 based on its area and location).</i>

@@ -1,5 +1,5 @@
 Formally, supervised ML seeks to learn a prediction function f
 that maps each joint setting of the input variables features to
-a value of the target variable, X -> Y. <i>In our fruit classification
+a value of the target variable, X -> y. <i>In our fruit classification
 example, we must learn a function that maps any combination
 of height and width of a fruit to a (predicted) fruit type</i>.

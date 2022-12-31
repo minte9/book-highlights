@@ -393,13 +393,13 @@
                 "children": [
                     {
                         "name": "Supervised ml",
-                        "text": "Broadly speaking, <i>the goal of supervised ML is to make\npredictions about unknown quantities given known\nquantities, such as predicting a house's sale price based\non its location and square footage</i>, or predicting a fruit\ncategory given the fruit\u2019s width and height. Supervised\nML does this by learning from, or discovering patterns\nin, past data, such as past house sale prices.",
+                        "text": "<i>The goal of supervised ML is to make\npredictions about unknown quantities given known\nquantities, such as predicting a house's sale price based\non its location and square footage</i>, or predicting a fruit\ncategory given the fruit\u2019s width and height.",
                         "page": "11",
                         "id": 62
                     },
                     {
                         "name": "Categorical and numerical",
-                        "text": "Many real-world problems have the following structure:\ngiven an object with a set of known, or observed,\nmeasurements, predict the value of an unknown, or target\nvariable. <i>Simply put, supervised machine learning\nmodels try to predict either a categorical target variable\n(predicting a fruit category based on its weight and height), \nor a numerical target variable (predicting the price of an apartment, \nbased on its area and location).</i>",
+                        "text": "<i>Supervised machine learning models try to predict either \na categorical target variable (predicting a fruit category based on its weight and height),</i> \nor a numerical target variable (predicting the price of an apartment, \nbased on its area and location).</i>",
                         "page": "12",
                         "id": 63
                     },
@@ -423,7 +423,7 @@
                     },
                     {
                         "name": "Prediction function",
-                        "text": "Formally, supervised ML seeks to learn a prediction function f\nthat maps each joint setting of the input variables features to\na value of the target variable, X -> Y. <i>In our fruit classification\nexample, we must learn a function that maps any combination\nof height and width of a fruit to a (predicted) fruit type</i>.",
+                        "text": "Formally, supervised ML seeks to learn a prediction function f\nthat maps each joint setting of the input variables features to\na value of the target variable, X -> y. <i>In our fruit classification\nexample, we must learn a function that maps any combination\nof height and width of a fruit to a (predicted) fruit type</i>.",
                         "page": "36",
                         "id": 67
                     },
