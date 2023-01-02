@@ -1,0 +1,6 @@
+<i>Supervised ML learns
+the relationships between different measurements and
+the label. After the model is learned (or trained), we
+can then use it to predict the label of a new</i> (unseen)
+data point from its known measurements (but totally
+unknown label).
