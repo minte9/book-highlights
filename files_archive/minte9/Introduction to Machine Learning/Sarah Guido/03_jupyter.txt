@@ -1,0 +1,4 @@
+<i>The Jupyter Notebook is an interactive environment for running
+code in the browser.</i> It is a great tool for exploratory 
+data analysis and is widely used by data scientists. 
+Jupyter Notebook supports many programming languages

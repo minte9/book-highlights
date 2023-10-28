@@ -1,0 +1,5 @@
+<i>A linked list is a data structure where every element contains both
+data and a pointer to the next element in the list</i>. A pointer to a linked
+list is simply a pointer to the first element, or head, of the list. 
+Finding a specified element requires starting at the head and walking
+through the list. 

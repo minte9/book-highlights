@@ -1,0 +1,4 @@
+<i>Stacks are ideal for processing any data that should be handled last
+in, first out.</i> The undo function in a word processor, for example, is
+a great use case for a stack. As the user types, we keep track of each
+keystroke by pushing the keystroke onto the stack.

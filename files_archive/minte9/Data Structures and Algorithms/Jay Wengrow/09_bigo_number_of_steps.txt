@@ -1,0 +1,4 @@
+<i>Big O achieves consistency by focusing on the number of steps an
+algorithm takes, but in a specific way.</i> Big O doesn't want to simply 
+tell you how many steps an algorithm takes! It wants to tell you the story 
+of how the number of steps increase as the data changes.

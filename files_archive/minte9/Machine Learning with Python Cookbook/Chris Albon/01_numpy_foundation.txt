@@ -1,0 +1,5 @@
+<i>NumPy is the foundation of the Python machine learning stack.</i>
+NumPy allows for efficient operations on the data structures often
+used in machine learning: vectors, matrices, and tensors.
+        
+

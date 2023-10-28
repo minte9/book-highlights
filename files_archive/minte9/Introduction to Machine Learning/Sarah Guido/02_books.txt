@@ -1,0 +1,5 @@
+<i>There are many books on machine learning and AI. However, all of
+them are meant for graduate students or PhD students in computer
+science, and they're full of advanced mathematics.</i> This is in stark
+contrast with how machine learning is being used, as acommodity
+tool in research and commercial applications.

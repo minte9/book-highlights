@@ -1,0 +1,4 @@
+<i>Tokenization, especially word tokenization, is a common task
+after cleaning text data because it is the first step in the process
+of turning the text into data</i> we will use to construct useful
+features.

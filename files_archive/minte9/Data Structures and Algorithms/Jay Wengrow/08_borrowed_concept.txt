@@ -1,0 +1,4 @@
+<i>Computer scientists have borrowed a concept from the world of mathematics
+to describe the efficiency of data structures and algorithms.</i> 
+Known as Big 0 Notation, this allows us to easily categorize the efficiency 
+of a given algorithm and convey it to others.

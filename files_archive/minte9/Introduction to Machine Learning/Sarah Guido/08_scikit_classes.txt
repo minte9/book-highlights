@@ -1,0 +1,4 @@
+<i>All machine learning models in scikit-1earn are implemented
+in their own classes, which are called Estimator classes.</i> 
+The k-nearest neighbors classification algorithm is implemented in the
+KNeighborsClassifier class in the neighbors module.

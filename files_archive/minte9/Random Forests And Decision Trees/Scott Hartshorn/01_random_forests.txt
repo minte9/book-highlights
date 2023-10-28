@@ -1,0 +1,5 @@
+<i>Random Forests are simply a collection of Decision Trees that have
+been generated using a random subset of data</i>. The name “Random
+Forest” comes from combining the randomness that is used to pick
+the subset of data</i> with having a bunch of decision trees, hence a
+forest.

@@ -1,0 +1,4 @@
+<i>Recursion can produce elaborate fractal art using surprisingly 
+few lines of code. Fractals are shapes that repeat themselves.</i> 
+Fractals include many natural and artificial shapes. In nature, 
+you might see them in the shapes of trees, leaves, snowflakes.

@@ -1,6 +1,5 @@
-Git thinks of its data more like a set of snapshots of a miniature
-filesystem. <i>Every time you commit, or save the state of your
-project in Git, it basically takes a picture of what all your files
+<i>Git thinks of its data more like a set of snapshots of a miniature
+filesystem. Every time you commit, it basically takes a picture of what all your files
 look like at that moment and stores a reference to that snapshot.</i>
 To be efficient, if files have not changed, Git doesn’t store the
 file again, just a link to the previous identical file it has already

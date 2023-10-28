@@ -1,0 +1,4 @@
+<i>Overfitting occurs when you fit amodel too closely to the particularities 
+of the training set and obtain a model that works well on the training set 
+but is not able to generalize to new data.<i> On the other hand, if your model is too
+simple.

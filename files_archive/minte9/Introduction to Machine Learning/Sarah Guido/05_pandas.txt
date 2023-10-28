@@ -1,0 +1,5 @@
+<i>>In contrast to NumPy, which requires that all entries in an array 
+be of the same type, pandas allows each column to have a separate type 
+(for example, integers, dates, floating-point numbers, and strings).</i>  
+Another valuable tool provided by pandas is its ability to ingest from 
+a great variety of file formats and databases, like SQL, Excel files, CSV files.

@@ -1,0 +1,6 @@
+ <i>A common example of using a stack is checking for balanced braces.
+We can read in a string and, every time a left brace is encountered, we push
+it on the stack. Every time a right brace is encountered, we pop a left
+brace off the stack.</i> If we ever try to pop a brace from the stack and
+find it empty, then there is a right brace without a matching left brace
+preceding it.

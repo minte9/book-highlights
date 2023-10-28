@@ -1,0 +1,5 @@
+<i>The way that Random Forest deals with that is to not let the trees
+look at all of the features.</i> At any given branch in the decision tree,
+only a subset of the features are available for it to classify on. Other
+branches, even higher or lower branches on the same tree, will have
+different features that they can classify on.

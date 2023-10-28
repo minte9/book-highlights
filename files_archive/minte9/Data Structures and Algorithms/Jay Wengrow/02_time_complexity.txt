@@ -1,0 +1,3 @@
+<i>Measuring the speed of an operation is also known as measuring
+its time complexity.</i> Efficiency, performance, and runtime are used 
+interchangeably. They all refer to the number of steps a given operation takes.

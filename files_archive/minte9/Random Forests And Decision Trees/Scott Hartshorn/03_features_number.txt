@@ -1,0 +1,6 @@
+<i>In many implementations of the Random Forest algorithm, it will
+use the square root of the number of features as the maximum
+features that it will look on any given branch.</i> Using fewer than all
+of the available features is another way to add randomness to the
+results (and avoid overfitting) as well as reduce the time required to
+create the trees.

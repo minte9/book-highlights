@@ -1,0 +1,5 @@
+<i>To understand recursion, you need to become familiar with a
+less obvious data structure, called the call stack, that controls the
+program's flow of execution.</i> Most programming beginners don’t
+know about stacks, because programming tutorials often don’t even
+mention them when discussing function calls. 

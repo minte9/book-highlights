@@ -1,0 +1,4 @@
+<i>A frequent situation in machine learning is having a huge amount
+of data. However, most of the elements in the data are zeros.</i> 
+Sparse matrices only store nonzero elements and assume all other
+values will be zero, leading to significant computational savings.

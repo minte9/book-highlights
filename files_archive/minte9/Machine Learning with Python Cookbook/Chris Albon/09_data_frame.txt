@@ -1,0 +1,4 @@
+<i>The most common data structure used to “wrangle” data is the
+data frame, which can be both intuitive and incredibly versatile.</i>
+Data frames are tabular, meaning that they are based on rows and
+columns like you would see in a spreadsheet.

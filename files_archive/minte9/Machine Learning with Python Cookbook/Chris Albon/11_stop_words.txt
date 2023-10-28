@@ -1,0 +1,6 @@
+<i>While “stop words” can refer to any set of words we want
+to remove before processing, frequently the term refers to
+extremely common words that themselves contain little
+information value</i>. NLTK has a list of common stop words that
+we can use to find and remove stop words in our tokenized
+words.

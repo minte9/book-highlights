@@ -1,0 +1,4 @@
+<i>So, while the k-nearest neighbors algorithm is easy to understand,
+it is not often used in practice, due to prediction being slow and its
+inability to handle many features.</i> The other methods we discuss has
+neither of these drawbacks.

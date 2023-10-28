@@ -1,0 +1,6 @@
+<i>When a problem is solved by solving smaller versions of the same
+problem, the smaller problem is called a subproblem. 
+Dynamic programming is the process of optimizing recursive problems that 
+have overlapping subproblems.</i> In the case of the Fibonacci sequence, we
+compute each number by first computing the smaller numbers in
+the sequence.

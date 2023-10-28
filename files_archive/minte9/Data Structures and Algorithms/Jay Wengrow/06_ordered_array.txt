@@ -1,0 +1,4 @@
+<i>The big advantage of an ordered array over a classic array is that
+an ordered array allows for an alternative searching algorithm.</i> This
+algorithm is known as binary search, and it is a much, much faster
+algorithm than linear search.

@@ -5,7 +5,7 @@
         "tags": "Ruby and Rails, Jazz performer",
         "wiki": "https://www.slush.org/person/chad-fowler/",
         "catg": "programming|",
-        "bookId": 1, 
+        "bookId": 1,
         "id": 1
     },
     {
@@ -79,59 +79,5 @@
         "catg": "programming|mlearning|",
         "bookId": 7,
         "id": 9
-    },
-    {
-        "title": "The Recursive Book of Recursion",
-        "name": "Al Sweigart",
-        "tags": "Al Sweigart software developer UI designer tech book author",
-        "wiki": "https://alsweigart.com/",
-        "catg": "programming|algorithms|",
-        "bookId": 8,
-        "id": 10
-    },
-    {
-        "title": "Data Structures and Algorithms",
-        "name": "Jay Wengrow",
-        "tags": "Jay Wengrow tech book author",
-        "wiki": "https://www.linkedin.com/in/jaywengrow/",
-        "catg": "programming|algorithms|",
-        "bookId": 9,
-        "id": 11
-    },
-    {
-        "title": "Programmer Guide to Computer Science",
-        "name": "William Springer",
-        "tags": "William Springer tech book author",
-        "wiki": "https://www.linkedin.com/in/jaywengrow/",
-        "catg": "programming|algorithms|",
-        "bookId": 10,
-        "id": 12
-    },
-    {
-        "title": "Machine Learning with Python Cookbook",
-        "name": "Chris Albon",
-        "tags": "Chris Albon tech book author",
-        "wiki": "https://chrisalbon.com/Home",
-        "catg": "programming|mlearning|",
-        "bookId": 11,
-        "id": 13
-    },
-    {
-        "title": "Introduction to Machine Learning",
-        "name": "Sarah Guido",
-        "tags": "Sarah Guido tech book author",
-        "wiki": "https://www.linkedin.com/in/sarahguido/",
-        "catg": "programming|mlearning|",
-        "bookId": 12,
-        "id": 14
-    },
-    {
-        "title": "Random Forests And Decision Trees",
-        "name": "Scott Hartshorn",
-        "tags": "Scott Hartshorn tech book author",
-        "wiki": "https://www.linkedin.com/in/scott-hartshorn-9b619061/",
-        "catg": "programming|mlearning|",
-        "bookId": 13,
-        "id": 15
     }
 ]

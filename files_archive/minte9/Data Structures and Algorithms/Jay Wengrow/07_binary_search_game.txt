@@ -1,0 +1,4 @@
+You may know intuitively how to play the game of guessing a number between 1 and 100.
+<i>You wouldn’t begin by guessing number 1. Instead, you'd probably start with 50, which
+is smack in the middle.</i> By selecting 50, you've automatically eliminated 
+half the possible numbers!

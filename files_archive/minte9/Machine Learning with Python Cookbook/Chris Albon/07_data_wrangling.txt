@@ -1,0 +1,4 @@
+<i>Data wrangling is a broad term used, often informally, to describe
+the process of transforming raw data to a clean and organized
+format ready for use.</i> For us, data wrangling is only one step in
+preprocessing our data, but itis an important step.

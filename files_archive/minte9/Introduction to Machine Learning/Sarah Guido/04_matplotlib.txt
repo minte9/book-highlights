@@ -1,0 +1,5 @@
+<i>When working inside the Jupyter Notebook, you can
+show figures directly in the browser by using the %matplot1ib
+notebook and %matplotlib inline commands.</i> We
+recommend using %matplotlib notebook, which provides
+an interactive environment.

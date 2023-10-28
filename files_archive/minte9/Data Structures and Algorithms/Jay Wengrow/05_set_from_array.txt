@@ -1,0 +1,3 @@
+An array based set is just like an array - it is a simple list of
+values. <i>The only difference between this set and a classic array is that
+the set never allows duplicate values to be inserted into it.</i>

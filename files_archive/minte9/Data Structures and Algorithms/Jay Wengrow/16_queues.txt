@@ -1,0 +1,5 @@
+<i>You can think of a queue as a line of people at the movie theater.
+The first one in the line is the first one to leave the line and enter
+the theater.</i> With queues, the first item added to the queue is the
+first item to be removed. That's why computer scientists apply the
+acronym FIFO to queues: First In. First Out.

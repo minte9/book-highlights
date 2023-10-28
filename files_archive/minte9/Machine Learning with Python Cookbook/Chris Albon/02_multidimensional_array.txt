@@ -1,0 +1,4 @@
+<i>NumPy’s main data structure is the multidimensional array. To
+create a vector, we simply create a one-dimensional array.</i> Just like
+vectors, these arrays can be represented horizontally (rows) or
+vertically (columns).

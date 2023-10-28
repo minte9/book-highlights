@@ -1,0 +1,7 @@
+<i>In scikit-1earn, data is usually denoted with a capital X,
+while labels are denoted by a lowercase y. This is inspired by the
+standard formulation f(x)=y in mathematics, where x is the input
+toa function and y is the output.</i> Following more conventions
+from mathematics, we use a capital X because the data is a two-
+dimensional array (a matrix) and a lowercase y because the target is
+a one-dimensional array (a vector).

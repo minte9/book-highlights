@@ -1,0 +1,4 @@
+<i>NumPy’s vectorize class converts a function into a function
+that can apply to all elements in an array or slice of an array.</i> 
+It’s worth noting that vectorize is essentially a for loop over the
+elements and does not increase performance.

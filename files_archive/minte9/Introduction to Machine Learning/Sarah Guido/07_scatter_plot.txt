@@ -1,0 +1,7 @@
+<i>One of the best ways to inspect data is to visualize it. One way to
+do this is by using a scatter plot. A scatter plot of the data puts one
+feature along the x-axis and another along the y-axis, and draws
+a dot for each data point.</i> Unfortunately, computer screens have
+only two dimensions. It is difficult to plot datasets with more
+than three features this way. One way around this problem is to do
+a pair plot, which looks at all possible pairs of features.

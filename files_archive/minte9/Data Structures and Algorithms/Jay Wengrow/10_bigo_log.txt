@@ -1,0 +1,5 @@
+<i>O(log N) is describing an algorithm that increases 
+one step each time the data is doubled.</i> 
+Said simply: O(log N) means the algorithm takes as many steps 
+as it takes to keep halving the data elements until we remain with 1. 
+As you learned, binary search does just that.

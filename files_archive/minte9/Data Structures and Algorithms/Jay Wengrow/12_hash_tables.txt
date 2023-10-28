@@ -1,0 +1,4 @@
+<i>Most programming languages include a data structure called a hash
+table, and it has an amazing superpower: fast reading, O(1).</i>
+Hash tables are called by different names in various programming
+languages: hashes, maps, hash maps, dictionaries, and associative arrays.

@@ -1,0 +1,4 @@
+<i>Log is shorthand for logarithm. It have nothing to do with algorithms, 
+even though the two words look and sound so similar.</i>
+Logarithms are the inverse of exponents. For example log2(8) means: 
+how many times do you have to multipy 2 by itself ot get 8.

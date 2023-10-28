@@ -1,0 +1,6 @@
+<i>Often we do not want to go through the work of loading,
+transforming, and cleaning a real-world dataset before we can
+explore some machine learning algorithm or method.</i> 
+Scikit-learn comes with some common datasets we can quickly load. 
+These datasets are often called “toy” datasets because they are far smaller
+and cleaner than a dataset we would see in the real world.

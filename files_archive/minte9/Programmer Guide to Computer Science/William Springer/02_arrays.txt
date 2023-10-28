@@ -1,0 +1,6 @@
+<i>An array is a collection of elements indexed by a key. 
+The key represents an offset from the starting location in memory, 
+so that we can calculate the location of any element given its key.</i> 
+This is why array indices generally start with zero; the first
+element of an array is zero elements away from the start, the next
+is one element away from the start, and so on.

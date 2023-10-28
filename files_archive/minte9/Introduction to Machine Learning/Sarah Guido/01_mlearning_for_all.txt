@@ -1,0 +1,4 @@
+<i>Many people think that machine learning can only be
+applied by large companies with extensive research teams.</i>  
+We want to show you how easy it can be to build machine
+learning solutions yourself, and how to best go about it.

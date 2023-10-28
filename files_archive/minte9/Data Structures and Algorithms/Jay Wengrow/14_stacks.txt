@@ -1,0 +1,4 @@
+<i>You can think of a stack as an actual stack of dishes; you can't look at
+the face of any dish other than the one at the top.</i> 
+In fact, most computer science literature refers to the end of the stack as its top, 
+and the beginning of the stack as its bottom.

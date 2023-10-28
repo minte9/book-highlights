@@ -1,0 +1,5 @@
+<i>Stemming reduces a word to its stem by identifying and removing
+affixes (gerunds) while keeping the root meaning of the word.
+For example, both “tradition” and “traditional” have “tradit” as their
+stem</i>, indicating that while they are different words they represent
+the same general concept.

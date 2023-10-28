@@ -1,0 +1,6 @@
+<i>This is a technique known as Cross Validation and it is extremely useful.
+Once you make a machine learning model, you set aside a
+portion, say 10%, of your training data before you train on it.</i> 
+After fitting your machine learning algorithm to your training data, you
+can run the 10% set aside through your classifier and find out if those
+predictions match the actual values.

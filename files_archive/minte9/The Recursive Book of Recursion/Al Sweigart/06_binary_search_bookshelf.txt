@@ -1,0 +1,5 @@
+<i>Binary search is a technique for locating a target item in a sorted list
+by repeatedly determining which half of the list the item is in.</i> 
+The most impartial way to search the bookshelf is to start with a book in
+the middle, and then ascertain if the target book you're looking for is
+in the left half or the right half.

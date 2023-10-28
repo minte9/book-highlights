@@ -1,0 +1,5 @@
+<i>The program's call stack is a stack of frame objects.
+Frame objects contain information about a single function call, 
+including which line of code called the function.</i>
+Frame objects are created and pushed onto the stack when a function is called. 
+When the function returns, that frame object is popped off the stack.

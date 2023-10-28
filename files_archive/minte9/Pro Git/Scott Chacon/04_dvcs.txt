@@ -1,4 +1,4 @@
-<i>In a Distributed Version Control Systems (such as Git, Mercurial or Bazaar), 
+<i>In a Distributed Version Control Systems (such as Git), 
 clients don't just check out the latest snapshot of the files, they fully
 mirror the repository.</i> Thus if any server dies, any of the client repositories can be
 copied back up to the server to restore it. Every checkout is really

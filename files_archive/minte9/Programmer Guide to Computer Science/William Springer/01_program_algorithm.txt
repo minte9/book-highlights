@@ -1,0 +1,4 @@
+This is a program: you define every step that the computer needs to
+take and specify all the information the computer requires to execute
+each step. <i>This is an algorithm: a process to follow to reach the desired
+outcome. The algorithm is much more abstract than a program.</a>

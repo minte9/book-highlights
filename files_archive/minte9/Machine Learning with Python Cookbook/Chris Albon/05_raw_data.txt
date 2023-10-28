@@ -1,0 +1,4 @@
+<i>The first step in any machine learning endeavor is to get the raw
+data into our system. The raw data might be a logfile, dataset file,
+or database.</i> Furthermore, often we will want to retrieve data from
+multiple sources.

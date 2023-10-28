@@ -1,0 +1,4 @@
+<i>A computer can read from an array in just one step. 
+A computer's memory can be viewed as a giant collection of cells.</i> 
+When a program declares an array, it allocates a contiguous set of
+empty cells for use in the program.

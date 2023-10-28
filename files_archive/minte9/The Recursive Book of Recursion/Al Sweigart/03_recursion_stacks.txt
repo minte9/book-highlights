@@ -1,0 +1,4 @@
+<i>To really understand recursion, you must first understand stacks.
+A stack is one of the simplest data structures in computer science.</i>
+It stores multiple values like a list does. But, unlike lists, it limits you
+to adding to or removing values from the “top” of the stack only.

@@ -1,0 +1,4 @@
+<i>A recursive thing is something whose definition includes itself. 
+In a programming context, a recursive function is a function that
+calls itself.</i> Programmers tend to take function calls for granted, 
+but even experienced programmers will find it worthwhile to review functions.
