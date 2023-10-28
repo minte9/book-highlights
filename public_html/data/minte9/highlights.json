@@ -1,7 +1,7 @@
 [
     {
         "name": "Coders at work",
-        "children": [
+        "children": [ 
             {
                 "name": "Brad Fitzpatrick",
                 "children": [
