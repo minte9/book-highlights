@@ -1518,6 +1518,18 @@
                         "text": "<i>Formal languages are more dense than natural languages, so\nit takes longer to read them. Also, the structure is important,\nso it is not always best to read from top to bottom, left to right.</i>\nInstead, learn to parse the program in your head, identifying\nthe tokens and interpreting the structure. Finally, the details\nmatter. Small errors in spelling and punctuation, can make a big difference.",
                         "page": "07",
                         "id": 229
+                    },
+                    {
+                        "name": "Make mistakes",
+                        "text": "<i>Whenever you are experimenting with a new feature, you\nshould try to make mistakes.</i> For example, in the \u201cHello, world!\u201d\nprogram, what happens if you leave out one of the quotation\nmarks? What if you leave out both? What if you spell print\nwrong?",
+                        "page": "08",
+                        "id": 230
+                    },
+                    {
+                        "name": "Mistakes help",
+                        "text": "<i>Making mistakes on purpuse helps you remember what you read; it\nalso helps when you are programming, because you get to know\nwhat the error messages mean.</i> It is better to make mistakes\nnow and on purpose than later and accidentally.",
+                        "page": "09",
+                        "id": 231
                     }
                 ]
             }

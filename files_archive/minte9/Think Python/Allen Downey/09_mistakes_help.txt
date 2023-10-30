@@ -1,0 +1,4 @@
+<i>Making mistakes on purpuse helps you remember what you read; it
+also helps when you are programming, because you get to know
+what the error messages mean.</i> It is better to make mistakes
+now and on purpose than later and accidentally.
