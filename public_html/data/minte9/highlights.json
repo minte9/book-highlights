@@ -1500,6 +1500,12 @@
                         "text": "<i>I released the book under the GNU Free Documentation License,\nwhich allows users to copy, modify, and distribute the book.\nWhat happened next is the cool part.</i> Jeff Elkner, a high school\nteacher in Virginia, adopted my book and translated it into\nPython. He sent me a copy of his translation, and I had the\nunusual experience of learning Python by reading my own\nbook.",
                         "page": "04",
                         "id": 226
+                    },
+                    {
+                        "name": "Teaching python",
+                        "text": "<i>In 2003 I started teaching at Olin College and I got to teach\nPython for the first time. The contrast with Java was striking.</i>\nStudents struggled less, learned more, worked on more\ninteresting projects, and generally had a lot more fun.",
+                        "page": "05",
+                        "id": 227
                     }
                 ]
             }

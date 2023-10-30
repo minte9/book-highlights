@@ -1,0 +1,4 @@
+<i>In 2003 I started teaching at Olin College and I got to teach
+Python for the first time. The contrast with Java was striking.</i>
+Students struggled less, learned more, worked on more
+interesting projects, and generally had a lot more fun.
