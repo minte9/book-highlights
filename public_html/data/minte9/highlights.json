@@ -1530,6 +1530,42 @@
                         "text": "<i>Making mistakes on purpuse helps you remember what you read; it\nalso helps when you are programming, because you get to know\nwhat the error messages mean.</i> It is better to make mistakes\nnow and on purpose than later and accidentally.",
                         "page": "09",
                         "id": 231
+                    },
+                    {
+                        "name": "Variable state",
+                        "text": "<i>Acommon way to represent variables on paper is to write the\nname with an arrow pointing to its value.</i> This kind of figure\nis called a state diagram because it shows what state each of\nthe variables is in (think of it as the variable\u2019s state of mind).",
+                        "page": "10",
+                        "id": 232
+                    },
+                    {
+                        "name": "Comments",
+                        "text": "<i>Comments are most useful when they document non-obvious\nfeatures of the code.</i> It is reasonable to assume that the reader\ncan figure out what the code does; it is more useful to explain\nwhy.",
+                        "page": "11",
+                        "id": 233
+                    },
+                    {
+                        "name": "Function sequence",
+                        "text": "<i>In the context of programming, a function is a named sequence\nof statements that performs a computation.</i> When you define a\nfunction, you specify the name and the sequence of statements.\nLater, you can \u201ccall\u201d the function by name.",
+                        "page": "12",
+                        "id": 234
+                    },
+                    {
+                        "name": "Flow execution",
+                        "text": "<i>To ensure that a function is defined before its first use, you have\nto know the order statements run in, which is called the flow of\nexecution.</i>\nExecution always begins at the first statement of the program.\nStatements are run one at a time, in order from top to bottom.",
+                        "page": "13",
+                        "id": 235
+                    },
+                    {
+                        "name": "Function call",
+                        "text": "<i>A function call is like a detour in the flow of execution. Instead\nof going to the next statement</i>, the flow jumps to the body of the\nfunction, runs the statements there, and then comes back to pick up\nwhere it left off.",
+                        "page": "14",
+                        "id": 236
+                    },
+                    {
+                        "name": "Incremental development",
+                        "text": "<i>To deal with increasingly complex programs, you might want to try\na process called incremental development.</i> The goal of incremental\ndevelopment is to avoid long debugging sessions by adding and\ntesting only a small amount of code at a time.",
+                        "page": "15",
+                        "id": 237
                     }
                 ]
             }

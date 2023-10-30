@@ -1,0 +1,4 @@
+<i>To deal with increasingly complex programs, you might want to try
+a process called incremental development.</i> The goal of incremental
+development is to avoid long debugging sessions by adding and
+testing only a small amount of code at a time.

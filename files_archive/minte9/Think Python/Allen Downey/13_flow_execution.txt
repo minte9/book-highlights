@@ -1,0 +1,5 @@
+<i>To ensure that a function is defined before its first use, you have
+to know the order statements run in, which is called the flow of
+execution.</i>
+Execution always begins at the first statement of the program.
+Statements are run one at a time, in order from top to bottom.

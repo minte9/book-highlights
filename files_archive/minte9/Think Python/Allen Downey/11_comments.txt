@@ -1,0 +1,4 @@
+<i>Comments are most useful when they document non-obvious
+features of the code.</i> It is reasonable to assume that the reader
+can figure out what the code does; it is more useful to explain
+why.

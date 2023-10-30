@@ -1,0 +1,4 @@
+<i>A function call is like a detour in the flow of execution. Instead
+of going to the next statement</i>, the flow jumps to the body of the
+function, runs the statements there, and then comes back to pick up
+where it left off.

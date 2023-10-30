@@ -1,0 +1,4 @@
+<i>Acommon way to represent variables on paper is to write the
+name with an arrow pointing to its value.</i> This kind of figure
+is called a state diagram because it shows what state each of
+the variables is in (think of it as the variable’s state of mind).
