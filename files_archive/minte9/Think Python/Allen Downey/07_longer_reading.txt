@@ -3,6 +3,4 @@ it takes longer to read them. Also, the structure is important,
 so it is not always best to read from top to bottom, left to right.</i>
 Instead, learn to parse the program in your head, identifying
 the tokens and interpreting the structure. Finally, the details
-matter. Small errors in spelling and punctuation, which you can
-get away with in natural languages, can make a big difference in
-a formal language.
+matter. Small errors in spelling and punctuation, can make a big difference.
