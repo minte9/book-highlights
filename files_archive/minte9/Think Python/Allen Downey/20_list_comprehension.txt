@@ -1,0 +1,3 @@
+<i>The syntax of a list comprehension is a little awkward because the
+loop variable, s in this example, appears in the expression before we
+get to the definition.</i> List comprehensions can also be used for filtering.

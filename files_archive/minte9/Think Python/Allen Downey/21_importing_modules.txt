@@ -1,0 +1,5 @@
+<i>If you are using import to read a module, remember that you have
+to restart the interpreter or use reload to read a modified file.</i> 
+If you are writing a module and using import, make sure you
+don’t give your module the same name as one of the standard
+Python modules.

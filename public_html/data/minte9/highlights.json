@@ -1590,6 +1590,18 @@
                         "text": "<i>A pure function does not modify any of the objects passed to it as\narguments and it has no effect,</i> like displaying a value or getting user\ninput, other than returning a value.",
                         "page": "19",
                         "id": 241
+                    },
+                    {
+                        "name": "List comprehension",
+                        "text": "<i>The syntax of a list comprehension is a little awkward because the\nloop variable, s in this example, appears in the expression before we\nget to the definition.</i> List comprehensions can also be used for filtering.",
+                        "page": "20",
+                        "id": 242
+                    },
+                    {
+                        "name": "Importing modules",
+                        "text": "<i>If you are using import to read a module, remember that you have\nto restart the interpreter or use reload to read a modified file.</i> \nIf you are writing a module and using import, make sure you\ndon\u2019t give your module the same name as one of the standard\nPython modules.",
+                        "page": "21",
+                        "id": 243
                     }
                 ]
             }
