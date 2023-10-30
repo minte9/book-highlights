@@ -1479,25 +1479,25 @@
                 "children": [
                     {
                         "name": "Teaching java",
-                        "text": "<i>In January 1999 I was preparing to teach an introductory\nprogramming class in Java, had taught it three times and I was\ngetting frustrated</i>. The failure rate in the class was too high and,\neven for students who succeeded, the overall level of achievement\n\u2018was too low.",
+                        "text": "<i>In January 1999 I was preparing to teach an introductory\nprogramming class in Java, had taught it three times and I was\ngetting frustrated</i>. The failure rate in the class was too high and,\neven for students who succeeded, the overall level of achievement was too low.",
                         "page": "01",
                         "id": 223
                     },
                     {
                         "name": "Books problem",
-                        "text": "<i>One of the problems I saw was the books. They were too big, with\ntoo much unnecessary detail about Java, and not enough high-level\nguidance about how to program.</i> And they all suffered from the\ntrapdoor effect: they would start out easy, proceed gradually, and\nthen somewhere around Chapter 5 the bottom would fall out. The",
+                        "text": "<i>One of the problems I saw was the books. They were too big, with\ntoo much unnecessary detail about Java, and not enough high-level\nguidance about how to program.</i> And they all suffered from the\ntrapdoor effect: they would start out easy, proceed gradually, and\nthen somewhere around Chapter 5 the bottom would fall out.",
                         "page": "02",
                         "id": 224
                     },
                     {
                         "name": "Book title",
-                        "text": "",
+                        "text": "<i>I decided to write my own book. Ineeded a title, \nso on a whim I chose How to Think Like a Computer Scientist.</i>\nMy first version was rough, but it worked. Students did the reading,\nand they understood enough that I could spend class time on the\nhard topics, the interesting topics.\n",
                         "page": "03",
                         "id": 225
                     },
                     {
                         "name": "Gnu ptyhon",
-                        "text": "I<i>released the book under the GNU Free Documentation License,\nwhich allows users to copy, modify, and distribute the book.\nWhat happened next is the cool part. Jeff Elkner, a high school\nteacher in Virginia, adopted my book and translated it into\nPython. He sent me a copy of his translation, and [had the\nunusual experience of learning Python by reading my own\nbook.</i> As Green Tea Press. I published the first Python version in\n2001.",
+                        "text": "<i>I released the book under the GNU Free Documentation License,\nwhich allows users to copy, modify, and distribute the book.\nWhat happened next is the cool part.</i> Jeff Elkner, a high school\nteacher in Virginia, adopted my book and translated it into\nPython. He sent me a copy of his translation, and I had the\nunusual experience of learning Python by reading my own\nbook.",
                         "page": "04",
                         "id": 226
                     }
