@@ -1,0 +1,8 @@
+<i>Natural languages are the languages people speak, such as
+English. Spanish, and French. They were not designed by people
+(although people try to impose some order on them); they
+evolved naturally.
+Formal languages are languages that are designed by people
+for specific applications.</i> For example, the notation that
+mathematicians use is a formal language that is particularly
+good at denoting relationships among numbers and symbols.

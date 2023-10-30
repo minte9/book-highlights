@@ -1506,6 +1506,18 @@
                         "text": "<i>In 2003 I started teaching at Olin College and I got to teach\nPython for the first time. The contrast with Java was striking.</i>\nStudents struggled less, learned more, worked on more\ninteresting projects, and generally had a lot more fun.",
                         "page": "05",
                         "id": 227
+                    },
+                    {
+                        "name": "Formal languages",
+                        "text": "<i>Natural languages are the languages people speak, such as\nEnglish. Spanish, and French. They were not designed by people\n(although people try to impose some order on them); they\nevolved naturally.\nFormal languages are languages that are designed by people\nfor specific applications.</i> For example, the notation that\nmathematicians use is a formal language that is particularly\ngood at denoting relationships among numbers and symbols.",
+                        "page": "06",
+                        "id": 228
+                    },
+                    {
+                        "name": "Longer reading",
+                        "text": "<i>Formal languages are more dense than natural languages, so\nit takes longer to read them. Also, the structure is important,\nso it is not always best to read from top to bottom, left to right.</i>\nInstead, learn to parse the program in your head, identifying\nthe tokens and interpreting the structure. Finally, the details\nmatter. Small errors in spelling and punctuation, which you can\nget away with in natural languages, can make a big difference in\na formal language.",
+                        "page": "07",
+                        "id": 229
                     }
                 ]
             }
