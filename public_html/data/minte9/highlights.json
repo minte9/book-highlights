@@ -1566,6 +1566,30 @@
                         "text": "<i>To deal with increasingly complex programs, you might want to try\na process called incremental development.</i> The goal of incremental\ndevelopment is to avoid long debugging sessions by adding and\ntesting only a small amount of code at a time.",
                         "page": "15",
                         "id": 237
+                    },
+                    {
+                        "name": "Hashing",
+                        "text": "<i>A hash is a function that takes a value (of any kind) and returns an\ninteger.</i> Dictionaries use these integers, called hash values, to store\nand look up key-value pairs.",
+                        "page": "16",
+                        "id": 238
+                    },
+                    {
+                        "name": "Tuples dictionary",
+                        "text": "<i>It is common to use tuples as keys in dictionaries (primarily because\nyou can\u2019t use lists).</i> For example, a telephone directory might map\nfrom last-name, first-name pairs to telephone numbers.",
+                        "page": "17",
+                        "id": 239
+                    },
+                    {
+                        "name": "Database file",
+                        "text": "<i>A database is a file that is organized for storing data. Many databases\nare organized like a dictionary in the sense that they map from keys\nto values.</i> The biggest difference between a database and a dictionary\nis that the database is on disk (or other permanent storage), so it\npersists after the program ends.",
+                        "page": "18",
+                        "id": 240
+                    },
+                    {
+                        "name": "Pure functions",
+                        "text": "<i>A pure function does not modify any of the objects passed to it as\narguments and it has no effect,</i> like displaying a value or getting user\ninput, other than returning a value.",
+                        "page": "19",
+                        "id": 241
                     }
                 ]
             }

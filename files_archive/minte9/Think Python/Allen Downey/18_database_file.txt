@@ -1,0 +1,5 @@
+<i>A database is a file that is organized for storing data. Many databases
+are organized like a dictionary in the sense that they map from keys
+to values.</i> The biggest difference between a database and a dictionary
+is that the database is on disk (or other permanent storage), so it
+persists after the program ends.

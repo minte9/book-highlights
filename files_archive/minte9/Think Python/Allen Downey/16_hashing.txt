@@ -1,0 +1,3 @@
+<i>A hash is a function that takes a value (of any kind) and returns an
+integer.</i> Dictionaries use these integers, called hash values, to store
+and look up key-value pairs.

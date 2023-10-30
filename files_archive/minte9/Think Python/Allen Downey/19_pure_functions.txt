@@ -1,0 +1,3 @@
+<i>A pure function does not modify any of the objects passed to it as
+arguments and it has no effect,</i> like displaying a value or getting user
+input, other than returning a value.
