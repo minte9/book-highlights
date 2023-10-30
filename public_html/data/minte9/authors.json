@@ -133,5 +133,14 @@
         "catg": "programming|mlearning|",
         "bookId": 13,
         "id": 15  
+    },
+    {
+        "title": "Think Python",
+        "name": "Allen Downey",
+        "tags": "Allen Downey tech book author",
+        "wiki": "https://www.allendowney.com/wp",
+        "catg": "programming|python|",
+        "bookId": 14,
+        "id": 16  
     }
 ]

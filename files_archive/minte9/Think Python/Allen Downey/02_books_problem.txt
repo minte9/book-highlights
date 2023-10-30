@@ -1,0 +1,5 @@
+<i>One of the problems I saw was the books. They were too big, with
+too much unnecessary detail about Java, and not enough high-level
+guidance about how to program.</i> And they all suffered from the
+trapdoor effect: they would start out easy, proceed gradually, and
+then somewhere around Chapter 5 the bottom would fall out.

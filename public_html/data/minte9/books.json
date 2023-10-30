@@ -89,5 +89,12 @@
         "link": "https://www.amazon.com/gp/product/B01JBL8YVK",
         "img": "http://refresh.local/lib/images/references/book_ml_random_forests.png",
         "id": 13
+    },
+    {
+        "title": "Think Python",
+        "subtitle": "How to Think Like a Computer Scientist",
+        "link": "https://www.amazon.com/gp/product/B018UXJ9EQ",
+        "img": "https://www.minte9.com/lib/images/references/book_think_python.jpg",
+        "id": 14
     }
 ]

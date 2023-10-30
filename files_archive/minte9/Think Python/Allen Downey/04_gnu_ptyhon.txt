@@ -1,0 +1,7 @@
+<i>I released the book under the GNU Free Documentation License,
+which allows users to copy, modify, and distribute the book.
+What happened next is the cool part.</i> Jeff Elkner, a high school
+teacher in Virginia, adopted my book and translated it into
+Python. He sent me a copy of his translation, and I had the
+unusual experience of learning Python by reading my own
+book.

@@ -1,0 +1,4 @@
+<i>In January 1999 I was preparing to teach an introductory
+programming class in Java, had taught it three times and I was
+getting frustrated</i>. The failure rate in the class was too high and,
+even for students who succeeded, the overall level of achievement was too low.

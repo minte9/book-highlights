@@ -1470,5 +1470,39 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Think Python",
+        "children": [
+            {
+                "name": "Allen Downey",
+                "children": [
+                    {
+                        "name": "Teaching java",
+                        "text": "<i>In January 1999 I was preparing to teach an introductory\nprogramming class in Java, had taught it three times and I was\ngetting frustrated</i>. The failure rate in the class was too high and,\neven for students who succeeded, the overall level of achievement\n\u2018was too low.",
+                        "page": "01",
+                        "id": 223
+                    },
+                    {
+                        "name": "Books problem",
+                        "text": "<i>One of the problems I saw was the books. They were too big, with\ntoo much unnecessary detail about Java, and not enough high-level\nguidance about how to program.</i> And they all suffered from the\ntrapdoor effect: they would start out easy, proceed gradually, and\nthen somewhere around Chapter 5 the bottom would fall out. The",
+                        "page": "02",
+                        "id": 224
+                    },
+                    {
+                        "name": "Book title",
+                        "text": "",
+                        "page": "03",
+                        "id": 225
+                    },
+                    {
+                        "name": "Gnu ptyhon",
+                        "text": "I<i>released the book under the GNU Free Documentation License,\nwhich allows users to copy, modify, and distribute the book.\nWhat happened next is the cool part. Jeff Elkner, a high school\nteacher in Virginia, adopted my book and translated it into\nPython. He sent me a copy of his translation, and [had the\nunusual experience of learning Python by reading my own\nbook.</i> As Green Tea Press. I published the first Python version in\n2001.",
+                        "page": "04",
+                        "id": 226
+                    }
+                ]
+            }
+        ]
     }
 ]
