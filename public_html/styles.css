@@ -41,14 +41,14 @@ a.bh-logo {text-decoration: none;}
     color: #888; float: right; font-size: 14px; line-height: 28px;
 }
 .title-bh {
-    color: #888; padding-left: 0px;
+    color: #888; padding-left: 0px; 
 }
 .text-bh {
     clear: both; text-align: justify; font-size: 16px; margin-bottom: 0px;
     line-height: 24px; color: #888; display: inline-block; margin-top: 30px;
 }
 .text-bh i {
-    background-color: #FFF48B; font-style: normal; color: #000;
+    background-color: #ffe8ab; font-style: normal; color: #000;
 }
 
 /* Drop down menu */
