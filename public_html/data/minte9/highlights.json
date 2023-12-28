@@ -590,6 +590,12 @@
                         "text": "<i>Anecdotal evidence is a story told by individuals. It comes in many forms that can range from product\ntestimonials to word of mouth.</i> Typically, anecdotal evidence focuses on individual results, is driven by emotion, \nand presented by individuals who are not subject area experts.",
                         "page": "01",
                         "id": 91
+                    },
+                    {
+                        "name": "Anectodal evidence",
+                        "text": "T'm sure you've heard that you can't trust anecdotal evidence. However, we still ask our friends for\nrecommendations about restaurants, travel destinations, auto mechanics, and so on. <i>The tricky thing\nabout anecdotal evidence is that even when an individual story is true, it can still be entirely misleading</i>.\nHow does that work?",
+                        "page": "02",
+                        "id": 92
                     }
                 ]
             }
@@ -605,55 +611,55 @@
                         "name": "Supervised ml",
                         "text": "<i>The goal of supervised ML is to make\npredictions about unknown quantities given known\nquantities,</i> such as predicting a house's sale price based\non its location and square footage, or predicting a fruit\ncategory given the fruit\u2019s width and height.",
                         "page": "11",
-                        "id": 92
+                        "id": 93
                     },
                     {
                         "name": "Categorical and numerical",
                         "text": "<i>Supervised machine learning models try to predict either \na categorical target variable (predicting a fruit category based on its weight and height),</i> \nor a numerical target variable (predicting the price of an apartment, \nbased on its area and location).</i>",
                         "page": "12",
-                        "id": 93
+                        "id": 94
                     },
                     {
                         "name": "Classification problem",
                         "text": "<i>In a classification problem we try to predict an\nunknown category, called a class label based on a set\nof known, or observed, variables.</i> There is an endless\nnumber of classification problems: as long as a target\nvariable is categorical, a set of classes could be anything.",
                         "page": "13",
-                        "id": 94
+                        "id": 95
                     },
                     {
                         "name": "Supervise ml learning",
                         "text": "<i>Supervised ML learns\nthe relationships between different measurements and\nthe label. After the model is learned (or trained), we\ncan then use it to predict the label of a new</i> (unseen)\ndata point from its known measurements (but totally\nunknown label).",
                         "page": "16",
-                        "id": 95
+                        "id": 96
                     },
                     {
                         "name": "Limited ai",
                         "text": "Usually a human being must provide these labels\nthat the machine learns from. <i>Machine Learning is\nthe main and most well-known example of Limited\nAI, and the email spam detector is an example of\nsupervised ML.</i>",
                         "page": "29",
-                        "id": 96
+                        "id": 97
                     },
                     {
                         "name": "Advanced ai",
                         "text": "<i>Advanced AI systems will possess the\nintelligence of human beings. They will be able to,\nfor example, drive your car, recognize your face</i>, have\nconversations with other human beings, understand\ntheir emotions, and perform any task that an\nintelligent human could do.",
                         "page": "30",
-                        "id": 97
+                        "id": 98
                     },
                     {
                         "name": "Prediction function",
                         "text": "Formally, supervised ML seeks to learn a prediction function f\nthat maps each joint setting of the input variables features to\na value of the target variable, X -> y. <i>In our fruit classification\nexample, we must learn a function that maps any combination\nof height and width of a fruit to a (predicted) fruit type</i>.",
                         "page": "36",
-                        "id": 98
+                        "id": 99
                     },
                     {
                         "name": "Overfitting",
                         "text": "Although you got a very low error on the\ntraining set (0% wrong) you got a higher error on the test\nset (60% wrong). <i>This problem, where the error is low on\nthe training set, but much higher on an unseen test set, is a\ncentral problem in ML known as overfitting.</i>",
                         "page": "45",
-                        "id": 99
+                        "id": 100
                     },
                     {
                         "name": "Optimal balances",
                         "text": "<i>The goal in Machine Learning is to find a generic model \nthat optimally balances the overfitting and underfitting\nof data</i>. Model complexity is defined with the hyperparameters\nof the model itself. Each model has its own set of\nhyperparameters. The complexity of a KNN classifier is defined\nby the hyper-parameter k.",
                         "page": "49",
-                        "id": 100
+                        "id": 101
                     }
                 ]
             }
@@ -669,67 +675,67 @@
                         "name": "Numpy foundation",
                         "text": "<i>NumPy is the foundation of the Python machine learning stack.</i>\nNumPy allows for efficient operations on the data structures often\nused in machine learning: vectors, matrices, and tensors.\n        \n\n",
                         "page": "01",
-                        "id": 101
+                        "id": 102
                     },
                     {
                         "name": "Multidimensional array",
                         "text": "<i>NumPy\u2019s main data structure is the multidimensional array. To\ncreate a vector, we simply create a one-dimensional array.</i> Just like\nvectors, these arrays can be represented horizontally (rows) or\nvertically (columns).",
                         "page": "02",
-                        "id": 102
+                        "id": 103
                     },
                     {
                         "name": "Sparse matrices",
                         "text": "<i>A frequent situation in machine learning is having a huge amount\nof data. However, most of the elements in the data are zeros.</i> \nSparse matrices only store nonzero elements and assume all other\nvalues will be zero, leading to significant computational savings.",
                         "page": "03",
-                        "id": 103
+                        "id": 104
                     },
                     {
                         "name": "Vectorize",
                         "text": "<i>NumPy\u2019s vectorize class converts a function into a function\nthat can apply to all elements in an array or slice of an array.</i> \nIt\u2019s worth noting that vectorize is essentially a for loop over the\nelements and does not increase performance.",
                         "page": "04",
-                        "id": 104
+                        "id": 105
                     },
                     {
                         "name": "Raw data",
                         "text": "<i>The first step in any machine learning endeavor is to get the raw\ndata into our system. The raw data might be a logfile, dataset file,\nor database.</i> Furthermore, often we will want to retrieve data from\nmultiple sources.",
                         "page": "05",
-                        "id": 105
+                        "id": 106
                     },
                     {
                         "name": "Toy datasets",
                         "text": "<i>Often we do not want to go through the work of loading,\ntransforming, and cleaning a real-world dataset before we can\nexplore some machine learning algorithm or method.</i> \nScikit-learn comes with some common datasets we can quickly load. \nThese datasets are often called \u201ctoy\u201d datasets because they are far smaller\nand cleaner than a dataset we would see in the real world.",
                         "page": "06",
-                        "id": 106
+                        "id": 107
                     },
                     {
                         "name": "Data wrangling",
                         "text": "<i>Data wrangling is a broad term used, often informally, to describe\nthe process of transforming raw data to a clean and organized\nformat ready for use.</i> For us, data wrangling is only one step in\npreprocessing our data, but itis an important step.",
                         "page": "07",
-                        "id": 107
+                        "id": 108
                     },
                     {
                         "name": "Data frame",
                         "text": "<i>The most common data structure used to \u201cwrangle\u201d data is the\ndata frame, which can be both intuitive and incredibly versatile.</i>\nData frames are tabular, meaning that they are based on rows and\ncolumns like you would see in a spreadsheet.",
                         "page": "09",
-                        "id": 108
+                        "id": 109
                     },
                     {
                         "name": "Tokenization",
                         "text": "<i>Tokenization, especially word tokenization, is a common task\nafter cleaning text data because it is the first step in the process\nof turning the text into data</i> we will use to construct useful\nfeatures.",
                         "page": "10",
-                        "id": 109
+                        "id": 110
                     },
                     {
                         "name": "Stop words",
                         "text": "<i>While \u201cstop words\u201d can refer to any set of words we want\nto remove before processing, frequently the term refers to\nextremely common words that themselves contain little\ninformation value</i>. NLTK has a list of common stop words that\nwe can use to find and remove stop words in our tokenized\nwords.",
                         "page": "11",
-                        "id": 110
+                        "id": 111
                     },
                     {
                         "name": "Stemming",
                         "text": "<i>Stemming reduces a word to its stem by identifying and removing\naffixes (gerunds) while keeping the root meaning of the word.\nFor example, both \u201ctradition\u201d and \u201ctraditional\u201d have \u201ctradit\u201d as their\nstem</i>, indicating that while they are different words they represent\nthe same general concept.",
                         "page": "12",
-                        "id": 111
+                        "id": 112
                     }
                 ]
             }
@@ -745,91 +751,91 @@
                         "name": "Low expectations",
                         "text": "<i>Most of us are content to go with the\nflow. Our expectations have been lowered for us\nby the media and by our friends, acquaintances,\nand family members</i>. So, leading a remarkable life\nis something you have to discover as even being a\nreasonable goal. It\u2019s not obvious.",
                         "page": "01",
-                        "id": 112
+                        "id": 113
                     },
                     {
                         "name": "Loving your work",
                         "text": "<i>If your life is primarily consumed by your work,\nthen loving your work is one of the most\nimportant keys to loving your life.</i> Challenging,\nmotivating, rewarding work is more likely to make\nyou want to get up in the morning than dull,\naverage tasks. Doing your job well means that the\nactivity you do for 50 percent of your available\ntime is something you're good at.",
                         "page": "02",
-                        "id": 113
+                        "id": 114
                     },
                     {
                         "name": "Higher salary",
                         "text": "A higher salary might\nactually be desirable and lead toward happiness.\n<i>But if you take your eyes off the primary goal,\nyou can find yourself driving toward a higher\nsalary at the expense of your happiness.</i> It sounds\nridiculous, but I\u2019ve done it. And so have you.",
                         "page": "03",
-                        "id": 114
+                        "id": 115
                     },
                     {
                         "name": "Business purpose",
                         "text": "<i>As software developers, we are\nbusinesspeople. Our companies don\u2019t employ us\nbecause they love us.</i> They never have, and they\nnever will. That\u2019s not the job of a business.\nBusinesses don\u2019t exist so we can have a place to go\nevery day.",
                         "page": "04",
-                        "id": 115
+                        "id": 116
                     },
                     {
                         "name": "Old systems",
                         "text": "<i>In those stages, the old systems have to talk to the new systems.\nSomeone has to know how to make the new speak\nto the old, and vice versa.</i> Typically, the young\ntykes don\u2019t know (or want to know) how to make\nthe old systems listen.",
                         "page": "05",
-                        "id": 116
+                        "id": 117
                     },
                     {
                         "name": "Business language",
                         "text": "<i>You might be \u201cjust a programmer,\u201d but being able\nto speak to your business clients in the language\nof their business domain is a critical skill.</i> Imagine\nhow much easier life would be if everyone you\nhad to work with really understood how software\ndevelopment works.",
                         "page": "06",
-                        "id": 117
+                        "id": 118
                     },
                     {
                         "name": "Candidate pool",
                         "text": "<i>The addition of Smalltalk to the requirements list\nyielded a candidate pool that was tiny in contrast\nto our previous list.</i> These people were diamonds\nin the rough. They really understood object-oriented programming.",
                         "page": "07",
-                        "id": 118
+                        "id": 119
                     },
                     {
                         "name": "Take opportunity",
                         "text": "It drives me crazy to ask people whether\nthey've seen or used certain not-quite-mainstream\ntechnologies only to hear, <i>\u201cI haven't been given the\nopportunity to work on that\u201d in return. Given the\nopportunity? Neither was I! I took the opportunity\nto learn.</i>",
                         "page": "08",
-                        "id": 119
+                        "id": 120
                     },
                     {
                         "name": "Unix guy",
                         "text": "<i>Another artificial (and inexcusable) line gets\ndrawn around platforms or operating systems.</i>\nBeing a UNIX Guy who refuses to do Windows\nis increasingly more impractical.",
                         "page": "09",
-                        "id": 120
+                        "id": 121
                     },
                     {
                         "name": "Developer environment",
                         "text": "<i>It\u2019s rare, and refreshing,\nto find a developer who truly understands\nthe platform on which he or she is working.</i>\nApplications are better and work gets done faster\nas a result.",
                         "page": "10",
-                        "id": 121
+                        "id": 122
                     },
                     {
                         "name": "Rate himself",
                         "text": "I asked this person (and all the\nothers I had interviewed that week) to rate himself\nona scale of one to ten. He said nine. I\u2019m expecting\na star here. <i>If this guy rates himself so high, why\ncan\u2019t he think of a single abusive programming\ntrick that would cause a JVM to crash?</i>",
                         "page": "11",
-                        "id": 122
+                        "id": 123
                     },
                     {
                         "name": "Specializing in something",
                         "text": "<i>Too many of us seem to believe that specializing\nin something simply means you don\u2019t know about\nother things.</i> I could, for example, call my mother\na Windows specialist, because she has never used \nLinux.",
                         "page": "12",
-                        "id": 123
+                        "id": 124
                     },
                     {
                         "name": "Changing computer industry",
                         "text": "This is the kind of specialist who will survive\nin the changing computer industry. If you're\na .NET specialist, it\u2019s not just an excuse for not\nknowing anything except .NET. <i>It means that if\nit has to do with .NET, you are the authority. IIS\nservers hanging and needing to be rebooted? \u201cNo\nproblem.\u201d Source control integration with Visual\nStudio .NET? \u201cI\u2019ll show you how.\u201d</i>",
                         "page": "13",
-                        "id": 124
+                        "id": 125
                     },
                     {
                         "name": "Impostor syndrome",
                         "text": "<i>When I showed up on the job. I was paranoid\nI would be discovered as the charlatan I really\nwas. What is this saxophone player doing here with\nus trained professionals?</i> After all. I was working\nwith people who had advanced computer science\ndegrees. And, here I was with only part of a music\ndegree trying to fit in as if I knew something.",
                         "page": "14",
-                        "id": 125
+                        "id": 126
                     },
                     {
                         "name": "Master degree notes",
                         "text": "Within a few days of work, the truth started to\nsink in. <i>These people don\u2019t know what the hell they\u2019ve\ndoing! In fact, some people were watching me work\nand taking notes!</i> People with master\u2019s degrees in\ncomputer science!",
                         "page": "15",
-                        "id": 126
+                        "id": 127
                     }
                 ]
             }
@@ -845,55 +851,55 @@
                         "name": "Version control",
                         "text": "What is \u201cversion control,\u201d and why should you care? <i>Version\ncontrol is a system that records changes to a file or set of files\nover time so that you can recall specific versions later.</i> You can do this\nwith nearly any type of file on a computer.",
                         "page": "01",
-                        "id": 127
+                        "id": 128
                     },
                     {
                         "name": "Dvcs",
                         "text": "<i>In a Distributed Version Control Systems (such as Git), \nclients don't just check out the latest snapshot of the files, they fully\nmirror the repository.</i> Thus if any server dies, any of the client repositories can be\ncopied back up to the server to restore it. Every checkout is really\na full backup of all the data.",
                         "page": "04",
-                        "id": 128
+                        "id": 129
                     },
                     {
                         "name": "Git creator",
                         "text": "In 2005, the relationship between the community that\ndeveloped the Linux kernel and the commercial company that\ndeveloped BitKeeper broke down. <i>This prompted the Linux development\ncommunity (and in particular Linus Torvalds, the creator of\nLinux) to develop their own tool based on some of the lessons\nthey learned while using BitKeeper.</i>",
                         "page": "05",
-                        "id": 129
+                        "id": 130
                     },
                     {
                         "name": "Snapshots",
                         "text": "<i>Git thinks of its data more like a set of snapshots of a miniature\nfilesystem. Every time you commit, it basically takes a picture of what all your files\nlook like at that moment and stores a reference to that snapshot.</i>\nTo be efficient, if files have not changed, Git doesn\u2019t store the\nfile again, just a link to the previous identical file it has already\nstored.",
                         "page": "06",
-                        "id": 130
+                        "id": 131
                     },
                     {
                         "name": "Check summed",
                         "text": "<i>Everything in Git is check-summed before it is stored and is\nthen referred to by that checksum. This means it\u2019s impossible to\nchange the contents of any file or directory without Git knowing\nabout it.</i> This functionality is built in to Git at the lowest levels\nand is integral to its philosophy.",
                         "page": "07",
-                        "id": 131
+                        "id": 132
                     },
                     {
                         "name": "Tree states",
                         "text": "<i>Git has three main states that your files can reside\nin: committed, modified, and staged. Committed means that the\ndata is safely stored in your local database.</i> Modified means that\nyou have changed the file but have not committed it to your\ndatabase yet. Staged means that you have marked a modified file\nin its current version to go into your next commit snapshot.",
                         "page": "08",
-                        "id": 132
+                        "id": 133
                     },
                     {
                         "name": "Staging area",
                         "text": "<i>The staging area is a file, generally contained in your Git\ndirectory, that stores information about what will go into your\nnext commit.</i> It\u2019s sometimes referred to as the \u201cindex\u201d, but it\u2019s\nalso common to refer to it as the staging area.",
                         "page": "09",
-                        "id": 133
+                        "id": 134
                     },
                     {
                         "name": "Git repository",
                         "text": "<i>You can get a Git project using two main approaches. The first\ntakes an existing project or directory and imports it into Git.</i> The\nsecond clones an existing Git repository from another server.",
                         "page": "15",
-                        "id": 134
+                        "id": 135
                     },
                     {
                         "name": "Ignore files",
                         "text": "<i>Often, you'll have a class of files that you don\u2019t want Git to\nautomatically add or even show you as being untracked.</i> In such cases, you can\ncreate a file listing patterns to match them named . gitignore",
                         "page": "20",
-                        "id": 135
+                        "id": 136
                     }
                 ]
             }
@@ -909,25 +915,25 @@
                         "name": "Program algorithm",
                         "text": "This is a program: you define every step that the computer needs to\ntake and specify all the information the computer requires to execute\neach step. <i>This is an algorithm: a process to follow to reach the desired\noutcome. The algorithm is much more abstract than a program.</a>",
                         "page": "01",
-                        "id": 136
+                        "id": 137
                     },
                     {
                         "name": "Arrays",
                         "text": "<i>An array is a collection of elements indexed by a key. \nThe key represents an offset from the starting location in memory, \nso that we can calculate the location of any element given its key.</i> \nThis is why array indices generally start with zero; the first\nelement of an array is zero elements away from the start, the next\nis one element away from the start, and so on.",
                         "page": "02",
-                        "id": 137
+                        "id": 138
                     },
                     {
                         "name": "Linked lists",
                         "text": "<i>A linked list is a data structure where every element contains both\ndata and a pointer to the next element in the list</i>. A pointer to a linked\nlist is simply a pointer to the first element, or head, of the list. \nFinding a specified element requires starting at the head and walking\nthrough the list. ",
                         "page": "03",
-                        "id": 138
+                        "id": 139
                     },
                     {
                         "name": "Stack braces",
                         "text": " <i>A common example of using a stack is checking for balanced braces.\nWe can read in a string and, every time a left brace is encountered, we push\nit on the stack. Every time a right brace is encountered, we pop a left\nbrace off the stack.</i> If we ever try to pop a brace from the stack and\nfind it empty, then there is a right brace without a matching left brace\npreceding it.\n",
                         "page": "03",
-                        "id": 139
+                        "id": 140
                     }
                 ]
             }
@@ -943,25 +949,25 @@
                         "name": "Random forests",
                         "text": "<i>Random Forests are simply a collection of Decision Trees that have\nbeen generated using a random subset of data</i>. The name \u201cRandom\nForest\u201d comes from combining the randomness that is used to pick\nthe subset of data</i> with having a bunch of decision trees, hence a\nforest.",
                         "page": "01",
-                        "id": 140
+                        "id": 141
                     },
                     {
                         "name": "Branches",
                         "text": "<i>The way that Random Forest deals with that is to not let the trees\nlook at all of the features.</i> At any given branch in the decision tree,\nonly a subset of the features are available for it to classify on. Other\nbranches, even higher or lower branches on the same tree, will have\ndifferent features that they can classify on.",
                         "page": "02",
-                        "id": 141
+                        "id": 142
                     },
                     {
                         "name": "Features number",
                         "text": "<i>In many implementations of the Random Forest algorithm, it will\nuse the square root of the number of features as the maximum\nfeatures that it will look on any given branch.</i> Using fewer than all\nof the available features is another way to add randomness to the\nresults (and avoid overfitting) as well as reduce the time required to\ncreate the trees.",
                         "page": "03",
-                        "id": 142
+                        "id": 143
                     },
                     {
                         "name": "Cross validation",
                         "text": "<i>This is a technique known as Cross Validation and it is extremely useful.\nOnce you make a machine learning model, you set aside a\nportion, say 10%, of your training data before you train on it.</i> \nAfter fitting your machine learning algorithm to your training data, you\ncan run the 10% set aside through your classifier and find out if those\npredictions match the actual values.",
                         "page": "04",
-                        "id": 143
+                        "id": 144
                     }
                 ]
             }
@@ -977,199 +983,199 @@
                         "name": "Self promotion",
                         "text": "<i>I hate talking about self-promotion. Comedian\nSteve Martin famously dodges these questions\nwith the advice, \u201cBe so good they can\u2019t ignore you.\u201d\nIf you just focus on getting really good. Martin\nsays, people will come to you.</i> I happen to agree.",
                         "page": "01",
-                        "id": 144
+                        "id": 145
                     },
                     {
                         "name": "Findable",
                         "text": "You don\u2019t really find an audience for your work;\nthey find you. <i>But it\u2019s not enough to be good. In\norder to be found, you have to be findable.</i> I think\nthere\u2019s an easy way of putting your work out there\nand making it discoverable while you're focused on\ngetting really good.",
                         "page": "02",
-                        "id": 145
+                        "id": 146
                     },
                     {
                         "name": "Sharing routine",
                         "text": "<i>Almost all of the people I look up to and try to steal\nfrom today, regardless of their profession, have\nbuilt sharing into their routine.</i> These people aren\u2019t\nschmoozing at cocktail parties; they\u2019re too busy\nfor that.",
                         "page": "03",
-                        "id": 146
+                        "id": 147
                     },
                     {
                         "name": "No resume",
                         "text": "<i>Imagine if your next boss didn\u2019t have to read\nyour r\u00e9sum\u00e9 because he already reads your blog.</i>\nImagine being a student and getting your first\ngig based on a school project you posted online.",
                         "page": "04",
-                        "id": 147
+                        "id": 148
                     },
                     {
                         "name": "Support",
                         "text": "Imagine losing your job but having a social\nnetwork of people familiar with your work and\nready to help you find a new one. <i>Imagine turning\na side project or a hobby into your profession\nbecause you had a following that could support you.</i>",
                         "page": "05",
-                        "id": 148
+                        "id": 149
                     },
                     {
                         "name": "Amateurs",
                         "text": "<i>We're all terrified of being revealed as amateurs, \nbut in fact, today it is the amateur\u2014the enthusiast\nwho pursues her work in the spirit of love</i>, \nregardless of the potential for fame, money, \nor career\u2014who often has the \nadvantage over the professional.",
                         "page": "07",
-                        "id": 149
+                        "id": 150
                     },
                     {
                         "name": "Doing nothing",
                         "text": "<i>Mediocrity is, however, still\non the spectrum; you can move from mediocre\nto good in increments. The real gap is between\ndoing nothing and doing something</i>.\u201d \nAmateurs know that contributing something \nis better than contributing nothing.",
                         "page": "09",
-                        "id": 150
+                        "id": 151
                     },
                     {
                         "name": "Lifelong learners",
                         "text": "<i>Amateurs might lack formal training, but\nthey\u2019re all lifelong learners, and they make a\npoint of learning in the open</i>, so that others\ncan learn from their failures and successes.",
                         "page": "10",
-                        "id": 151
+                        "id": 152
                     },
                     {
                         "name": "Amateur help",
                         "text": "Sometimes, amateurs have more to teach\nus than experts. <i>\u201cIt often happens that two\nschoolboys can solve difficulties in their\nwork for one another better than the master\ncan,\u201d</i> wrote author C. S. Lewis.",
                         "page": "11",
-                        "id": 152
+                        "id": 153
                     },
                     {
                         "name": "Fellow pupil",
                         "text": "<i>The fellow-pupil can help more than the master because\nhe knows less. The difficulty we want him\nto explain is one he has recently met.</i> \nThe expert met it so long ago he has forgotten.\u201d\nWatching amateurs at work can also inspire\nus to attempt the work ourselves.",
                         "page": "12",
-                        "id": 153
+                        "id": 154
                     },
                     {
                         "name": "Changing rate",
                         "text": "<i>The world is changing at such a rapid\nrate that it\u2019s turning us all into amateurs.</i>\nEven for professionals, the best way to\nflourish is to retain an amateur\u2019s spirit\nand embrace uncertainty and the unknown.",
                         "page": "13",
-                        "id": 154
+                        "id": 155
                     },
                     {
                         "name": "Use your voice",
                         "text": "We're always being told find your voice. \nWhen I was younger, I never really knew what this\nmeant. <i>I used to worry a lot about voice,\nwondering if I had my own. But now I realize\nthat the only way to find your voice is to use\nit.</i> It\u2019s hardwired, built into you. Talk about\nthe things you love. Your voice will follow.",
                         "page": "14",
-                        "id": 155
+                        "id": 156
                     },
                     {
                         "name": "Not all artists",
                         "text": "Now, let\u2019s face it: We\u2019re not all artists or\nastronauts. A lot of us go about our work\nand feel like we have nothing to show for\nit at the end of the day.<i> But whatever the\nnature of your work, there is an art to what\nyou do, and there are people who would be\ninterested in that art.</i>",
                         "page": "15",
-                        "id": 156
+                        "id": 157
                     },
                     {
                         "name": "Make stuff",
                         "text": "<i>\u201cYou have to make stuff,\u201d said journalist David Carr\nwhen he was asked if he had any advice for students.\n\u201cNo one is going to give a damn about your\nr\u00e9sum\u00e9;</i> they want to see what you have\nmade with your own little fingers.\u201d",
                         "page": "16",
-                        "id": 157
+                        "id": 158
                     },
                     {
                         "name": "Documenting",
                         "text": "<i>Whether you share it or not, documenting and\nrecording your process as you go along has its own\nrewards:</i> You'll start to see the work you're doing\nmore clearly and feel like you\u2019re making progress.\nAnd when you're ready to share, you'll have a\nsurplus of material to choose from.",
                         "page": "17",
-                        "id": 158
+                        "id": 159
                     },
                     {
                         "name": "90 crap",
                         "text": "Don\u2019t worry about everything you post being perfect. \n<i>Science fiction writer Theodore Sturgeon once said \nthat 90 percent of everything is crap. The same is true \nof our own work.</i> The trouble is, we don\u2019t always know \nwhat\u2019s good and what sucks. That\u2019s why it\u2019s important \nto get things in front of others and see how they react.",
                         "page": "19",
-                        "id": 159
+                        "id": 160
                     },
                     {
                         "name": "Next day",
                         "text": "Don\u2019t overthink it; just go with your gut.\nIf you\u2019re unsure about whether to share\nsomething, let it sit for 24 hours. Put it in a\ndrawer and walk out the door. <i>The next day,\ntake it out and look at it with fresh eyes. Ask\nyourself, \u201cIs this helpful? Is it entertaining?\nIs it something I'd be comfortable with my\nboss or my mother seeing?\u201d</i>",
                         "page": "20",
-                        "id": 160
+                        "id": 161
                     },
                     {
                         "name": "Stock and flow",
                         "text": "\u201cStock and flow\u201d is an economic concept\nthat writer Robin Sloan has adapted into a\nmetaphor for media: \u201c<i>Flow is the feed. It\u2019s the\nposts and the tweets. It\u2019s the stream of daily\nand sub-daily updates that remind people\nyou exist. Stock is the durable stuff.</i>",
                         "page": "21",
-                        "id": 161
+                        "id": 162
                     },
                     {
                         "name": "Invention machine",
                         "text": "<i>Don\u2019t think of your website as a \nself-promotion machine, think of it as a \nself-invention machine.</i> Online, you can \nbecome the person you really want to be. \nFill your website with your work and your \nideas and the stuff you care about.",
                         "page": "22",
-                        "id": 162
+                        "id": 163
                     },
                     {
                         "name": "Loving your garbage",
                         "text": "<i>We all love things that other people think are\ngarbage. You have to have the courage to keep\nloving your garbage, because what makes us\nunique is the diversity and breath of our\ninfluences</i>, the unique ways in which we mix\nup the parts of culture others have deemed\n\u201chigh\u201d and the \u201clow.\u201d",
                         "page": "23",
-                        "id": 163
+                        "id": 164
                     },
                     {
                         "name": "Proper credit",
                         "text": "Crediting work in our copy-and-paste \nage of reblogs and retweets can seem like \na futile effort, but it\u2019s worth it, and\nit\u2019s the right thing to do. <i>You should always\nshare the work of others as if it were your\nown, treating it with respect and care.</i>",
                         "page": "25",
-                        "id": 164
+                        "id": 165
                     },
                     {
                         "name": "About stories",
                         "text": "John Gardner said the basic plot of nearly all\nstories is this: <i>\u201cA character wants something,\ngoes after it despite opposition (perhaps\nincluding his own doubts), and so arrives at\na win, lose, or draw.\u201d</i> I like Gardner's plot\nformula because it\u2019s also the shape of most\ncreative work.",
                         "page": "26",
-                        "id": 165
+                        "id": 166
                     },
                     {
                         "name": "Nonfiction",
                         "text": "<i>Just because you're trying to tell a good\nstory about yourself doesn\u2019t mean you're\ninventing fiction. Stick to nonfiction.</i> \nTell the truth and tell it with dignity \nand self-respect. If you're a student, \nsay you're a student. If you work a day job, \nsay you work a day.",
                         "page": "27",
-                        "id": 166
+                        "id": 167
                     },
                     {
                         "name": "Something disgraceful",
                         "text": "Maybe you're in the wrong line of work,\nor maybe you're not doing the work you're\nsupposed to be doing. \n<i>Remember what the author George Orwell\nwrote: \u201cAutobiography is only to be trusted\nwhen it reveals something disgraceful.\u201d</i>",
                         "page": "28",
-                        "id": 167
+                        "id": 168
                     },
                     {
                         "name": "Human spam",
                         "text": "<i>I call these people human spam. They\u2019re\neverywhere, and they exist in every\nprofession.</i> They don\u2019t want to pay their\ndues, they want their piece right here, right\nnow. They don\u2019t want to listen to your ideas.",
                         "page": "31",
-                        "id": 168
+                        "id": 169
                     },
                     {
                         "name": "Good citizen",
                         "text": "If you want fans, you have to be a fan first.\n<i>If you want to be accepted by a community,\nyou have to first be a good citizen of that\ncommunity.</i> If you\u2019re only pointing to your\nown stuff online, you're doing it wrong.",
                         "page": "32",
-                        "id": 169
+                        "id": 170
                     },
                     {
                         "name": "Real peers",
                         "text": "These are your real peers - <i>the people who\nshare your obsessions, the people who share\na similar mission to your own, the people\nwith whom you share a mutual respect.</i>\nThere will only be a handful or so of them,\nbut they\u2019re so, so important.",
                         "page": "35",
-                        "id": 170
+                        "id": 171
                     },
                     {
                         "name": "Criticism",
                         "text": "Designer Mike Monteiro says that the most\nvaluable skill he picked up in art school was\nlearning how to take a punch. <i>He and his\nfellow classmates were absolutely brutal during\ncritiques. \u201cWe were basically trying to see if we\ncould get each other to drop out of school.\u201d</i> \nThose vicious critiques taught him \nnot to take criticism personally.",
                         "page": "36",
-                        "id": 171
+                        "id": 172
                     },
                     {
                         "name": "Fear imagination",
                         "text": "The trouble with imaginative people is \nthat we\u2019re good at picturing the worst that \ncould happen to us. Fear is often just the imagination\ntaking a wrong turn. <i>Bad criticism is not \nthe end of the world. As far as I know, \nno one has ever died from a bad review.</i> \nTake a deep breath and accept whatever comes.",
                         "page": "37",
-                        "id": 172
+                        "id": 173
                     },
                     {
                         "name": "Hated work",
                         "text": "You can\u2019t control what sort of criticism you receive, \nbut you can control how you react to it. \n<i>Sometimes when people hate something about your work, \nit\u2019s fun to push that element even further. \nTo make something they\u2019d hate even more.</i>\nHaving your work hated by certain people is a badge of honor.",
                         "page": "38",
-                        "id": 173
+                        "id": 174
                     },
                     {
                         "name": "Keep your balance",
                         "text": "You have to remember that your work is something you do, \nnot who you are. This is especially hard for artists\nto accept, as so much of what they do is\npersonal. <i>Keep close to your family, friends,\nand the people who love you for you, not just\nthe work.</i>",
                         "page": "39",
-                        "id": 174
+                        "id": 175
                     },
                     {
                         "name": "Troll",
                         "text": "<i>A troll is a person who isn\u2019t interested in\nimproving your work, only provoking you\nwith hateful, aggressive, or upsetting talk.</i>\nYou will gain nothing by engaging with these\npeople. Don\u2019t feed them, and they'll usually\ngo away.",
                         "page": "40",
-                        "id": 175
+                        "id": 176
                     },
                     {
                         "name": "Nasty comments",
                         "text": "Do you have a troll problem? Use the block\nbutton on social media sites. <i>Delete nasty\ncomments. My wife is fond of saying, \u201cIf\nsomeone took a dump in your living room,\nyou wouldn't let it sit there, would you?\u201d</i>\nNasty comments are the same-they should\nbe scooped up and thrown in the trash.",
                         "page": "41",
-                        "id": 176
+                        "id": 177
                     }
                 ]
             }
@@ -1185,187 +1191,187 @@
                         "name": "People advice",
                         "text": "It\u2019s one of my theories that <i>when people\ngive you advice, they\u2019re really just\ntalking to themselves in the past. \nThis book is me talking to a previous\nversion of myself.</i>",
                         "page": "01",
-                        "id": 177
+                        "id": 178
                     },
                     {
                         "name": "Unknown reference",
                         "text": "The writer Jonathan Lethem has said that when\n<i>people call something \u201coriginal,\u201d nine out of ten\ntimes they just don\u2019t know the references</i> or the\noriginal sources involved.",
                         "page": "02",
-                        "id": 178
+                        "id": 179
                     },
                     {
                         "name": "No one listening",
                         "text": "Some people find this idea depressing, but it\nfills me with hope. As the French writer Andr\u00e9\nGide put it, <i>\u201cEverything that needs to be said has\nalready been said. But, since no one was listening,\neverything must be said again.\u201d</i>",
                         "page": "03",
-                        "id": 179
+                        "id": 180
                     },
                     {
                         "name": "Friendly ghosts",
                         "text": "<i>Seeing yourself as part of a creative lineage will\nhelp you feel less alone as you start making your\nown stuff</i>. I hang pictures of my favorite artists\nin my studio. They\u2019re like friendly ghosts. I can\nalmost feel them pushing me forward as I\u2019m\nhunched over my desk.",
                         "page": "04",
-                        "id": 180
+                        "id": 181
                     },
                     {
                         "name": "Remote masters",
                         "text": "<i>The great thing about dead or remote masters is\nthat they can\u2019t refuse you as an apprentice.</i> You\ncan learn whatever you want from them. They left\ntheir lesson plans in their work.",
                         "page": "05",
-                        "id": 181
+                        "id": 182
                     },
                     {
                         "name": "Get your education",
                         "text": "School is one thing. Education is another. The two\ndon\u2019t always overlap. <i>Whether you're in school\nor not, it\u2019s always your job to get yourself an\neducation.</i>",
                         "page": "06",
-                        "id": 182
+                        "id": 183
                     },
                     {
                         "name": "Go deeper",
                         "text": "You have to be curious about the world in which\nyou live. Look things up. <i>Chase down every\nreference. Go deeper than anybody else\u2014that\u2019s\nhow you'll get ahead.</i>",
                         "page": "07",
-                        "id": 183
+                        "id": 184
                     },
                     {
                         "name": "Google everything",
                         "text": "Google everything. I mean everything.\nGoogle your dreams. Google your problems.\n<i>Don\u2019t ask a question before you Google it.\nYou'll either find the answer or you'll come\nup with a better question.</i>",
                         "page": "08",
-                        "id": 184
+                        "id": 185
                     },
                     {
                         "name": "Start book",
                         "text": "Always be reading. Go to the library. <i>There\u2019s\nmagic in being surrounded by books. Get lost\nin the stacks. Read bibliographies. It\u2019s not the\nbook you start with, it\u2019s the book that book\nleads you to.</i>",
                         "page": "09",
-                        "id": 185
+                        "id": 186
                     },
                     {
                         "name": "Unread books",
                         "text": "Collect books, even if you don\u2019t plan on reading\nthem right away. <i>Filmmaker John Waters has said,\n\u201cNothing is more important than an unread library.\u201d</i>",
                         "page": "10",
-                        "id": 186
+                        "id": 187
                     },
                     {
                         "name": "Impostor syndrome",
                         "text": "About impostore syndrome. <i>The clinical definition is a \u201cpsychological\nphenomenon in which people are unable to\ninternalize their accomplishments</i>.\u201d It means that\nyou feel like a phony, like you're just winging it,\nthat you really don\u2019t have any idea what you're\ndoing.",
                         "page": "11",
-                        "id": 187
+                        "id": 188
                     },
                     {
                         "name": "Not plagiarism",
                         "text": "We're talking about practice here, not plagiarism.\n<i>Plagiarism is trying to pass someone else\u2019s\nwork off as your own. Copying is about reverse-\nengineering.</i>  It\u2019s like a mechanic taking apart a car\n\u2018to see how it works.",
                         "page": "12",
-                        "id": 188
+                        "id": 189
                     },
                     {
                         "name": "Research",
                         "text": "the people you want to be. The songwriter Nick\nLowe says, \u201cYou start out by rewriting your hero\u2019s\ncatalog.\u201d And you don\u2019t just steal from one of your\nheroes, you steal from all of them. <i>The writer\nWilson Mizner said if you copy from one author,\nit\u2019s plagiarism, but if you copy from many, it\u2019s\nresearch</i>.",
                         "page": "13",
-                        "id": 189
+                        "id": 190
                     },
                     {
                         "name": "Emulation",
                         "text": "At some point, you'll have to move from\nimitating your heroes to emulating them.\n<i>Imitation is about copying. Emulation\nis when imitation goes one step further,\nbreaking through into your own thing.</i>",
                         "page": "14",
-                        "id": 190
+                        "id": 191
                     },
                     {
                         "name": "Adapt the moves",
                         "text": "\u201cThere isn\u2019t a move that\u2019s a new move.\u201d <i>The\nbasketball star Kobe Bryant has admitted that\nall of his moves on the court were stolen from\nwatching tapes of his heroes.</i> He realized he\ncouldn\u2019t completely pull them off because he\ndidn\u2019t have the same body type as the guys he was\nthieving from. He had to adapt to make them his own.",
                         "page": "15",
-                        "id": 191
+                        "id": 192
                     },
                     {
                         "name": "Adding something",
                         "text": "In the end, <i>merely imitating your heroes is not\nflattering them. Transforming their work into\nsomething of your own is how you flatter them.</i>\nAdding something to the world that only you can\nadd.",
                         "page": "16",
-                        "id": 192
+                        "id": 193
                     },
                     {
                         "name": "Make stuff",
                         "text": "The manifesto is this: <i>Draw the art you want to\nsee, start the business you want to run, play the\nmusic you want to hear, write the books you want\nto read, build the products you want to use</i>\u2014do\nthe work you want to see done.",
                         "page": "17",
-                        "id": 193
+                        "id": 194
                     },
                     {
                         "name": "Body work",
                         "text": "Work that only comes from the head isn\u2019t any\ngood. Watch a great musician play a show. Watch\na great leader give a speech. You'll see what I mean.\n<i>You need to find a way to bring your body into\nyour work. Our nerves aren\u2019t a one-way street.\n\u2014our bodies</i> can tell our brains as much as our\nbrains tell our bodies</i>.",
                         "page": "18",
-                        "id": 194
+                        "id": 195
                     },
                     {
                         "name": "Side projects",
                         "text": "One thing I\u2019ve learned in my brief career: <i>It\u2019s the\nside projects that really take off. By side projects I\nmean the stuff that you thought was just messing\naround.</i> Stuff that\u2019s just play. That\u2019s actually the\ngood stuff. That\u2019s when the magic happens.",
                         "page": "19",
-                        "id": 195
+                        "id": 196
                     },
                     {
                         "name": "Lot of projects",
                         "text": "<i>I think it\u2019s good to have a lot of projects going\nat once so you can bounce between them.</i>\nWhen you get sick of one project, move over to\nanother, and when you're sick of that one, move\nback to the project you left. ",
                         "page": "20",
-                        "id": 196
+                        "id": 197
                     },
                     {
                         "name": "Get bored",
                         "text": "<i>Creative people need time to just sit around\nand do nothing. I get some of my best ideas when\nI\u2019m bored</i>, which is why I never take my shirts\nto the cleaners. I love ironing my shirts\u2014it\u2019s so\nboring. I almost always get good ideas.",
                         "page": "21",
-                        "id": 197
+                        "id": 198
                     },
                     {
                         "name": "Avoiding work",
                         "text": "I almost always get good ideas. <i>If you\u2019re out\nof ideas, wash the dishes. Take a really long walk.\nStare at a spot on the wall for as long as you can.</i> As\nthe artist Maira Kalman says, \u201cAvoiding work is the\nway to focus my mind.\u201d",
                         "page": "22",
-                        "id": 198
+                        "id": 199
                     },
                     {
                         "name": "Hobby",
                         "text": "<i>It\u2019s so important to have a hobby. A hobby is\nsomething creative that\u2019s just for you.</i> You\ndon\u2019t try to make money or get famous off\nit, you just do it because it makes you happy.\nAhobby is something that gives but doesn\u2019t\ntake.",
                         "page": "23",
-                        "id": 199
+                        "id": 200
                     },
                     {
                         "name": "Public image",
                         "text": "This is actually a good thing, because you want\nattention only after you're doing really good work.\n<i>There\u2019s no pressure when you're unknown. You\ncan do what you want. Experiment. Do things just\nfor the fun of it.</i> When you\u2019re unknown, there\u2019s\nnothing to distract you from getting better. No\npublic image to manage.",
                         "page": "24",
-                        "id": 200
+                        "id": 201
                     },
                     {
                         "name": "Stuff on internet",
                         "text": "It\u2019s a two-step process. <i>Step one, \u201cdo good work,\u201d is\nincredibly hard. There are no shortcuts. Make stuff every\nday. Know you're going to suck for a while. Fail. Get better.</i>\nStep two, \u201cshare it with people,\u201d was really hard up until\nabout ten years ago or so. Now, it's very simple: \u201cPut your\nstuff on the Internet.\u201d",
                         "page": "25",
-                        "id": 201
+                        "id": 202
                     },
                     {
                         "name": "Ideas incubator",
                         "text": "<i>You don\u2019t put yourself online only because you\nhave something to say\u2014you can put yourself\nonline to find something to say.</i> The Internet can\nbe more than just a resting place to publish your\nfinished ideas\u2014it can also be an incubator for\nideas that aren't fully formed.",
                         "page": "26",
-                        "id": 202
+                        "id": 203
                     },
                     {
                         "name": "Travel",
                         "text": "<i>Your brain gets too comfortable in your everyday\nsurroundings. You need to make it uncomfortable.\nYou need to spend some time in another land,</i>\namong people that do things differently than you.\nTravel makes the world look new, and when the\nworld looks new, our brains work harder.",
                         "page": "27",
-                        "id": 203
+                        "id": 204
                     },
                     {
                         "name": "Another room",
                         "text": "Harold Ramis, once laid out his rule for\nsuccess: \u201cFind the most talented person in the\nroom, and if it\u2019s not you, go stand next to him.\"\n<i>If you ever find that you're the most talented\nperson in the room, you need to find another room.</i>",
                         "page": "28",
-                        "id": 204
+                        "id": 205
                     },
                     {
                         "name": "Anger",
                         "text": "Anger is one of my favorite creative resources.\nSome mornings, when I can\u2019t wake up. I lie in bed\nand read e-mail and Twitter until my blood\nstarts boiling and I get fired up enough to spring\nout of bed. <i>But instead of wasting my anger on\ncomplaining or lashing out at people. I try to\nchannel it into my writing and my drawing.</i>",
                         "page": "29",
-                        "id": 205
+                        "id": 206
                     },
                     {
                         "name": "To busy doing",
                         "text": "Not everybody will get it. People will misinterpret\nyou and what you do. They might even call\nyou names. <i>So get comfortable with being\nmisunderstood, disparaged, or ignored\u2014the trick\nis to be too busy doing your work to care.</i>",
                         "page": "30",
-                        "id": 206
+                        "id": 207
                     },
                     {
                         "name": "Validation boost",
                         "text": "Life is a lonely business, often filled with\ndiscouragement and rejection. <i>Yes, validation is\nfor parking, but it\u2019s still a tremendous boost when\npeople say nice things about our work.</i>",
                         "page": "31",
-                        "id": 207
+                        "id": 208
                     }
                 ]
             }
@@ -1381,55 +1387,55 @@
                         "name": "Live script",
                         "text": "<i>When JavaScript was created, it initially \nhad another name: \u201cLiveScript\u201d.</i> \nBut Java was very popular at that time, \nso it was decided that positioning \na new language as a \u201cyounger brother\u201d of Java would help.",
                         "page": "01",
-                        "id": 208
+                        "id": 209
                     },
                     {
                         "name": "Js engine",
                         "text": "<i>Today, JavaScript can execute \nnot only in the browser, but also on the server, \nor actually on any device that has a special \nprogram called the JavaScript engine.</i> \nThe browser has an embedded engine sometimes \ncalled a JavaScript virtual machine.",
                         "page": "02",
-                        "id": 209
+                        "id": 210
                     },
                     {
                         "name": "Machine language",
                         "text": "<i>Engines are complicated. \nBut the basics are easy.\nThe engine parses the script then it \ncompiles to the machine language.</i>\nThe engine applies optimizations and runs the code.",
                         "page": "03",
-                        "id": 210
+                        "id": 211
                     },
                     {
                         "name": "Safe language",
                         "text": "<i>Modern JavaScript is a safe programming language. \nIt does not provide low-level access to memory or CPU,</i> \nbecause it was initially created for browsers</i> \nwhich do not require it.",
                         "page": "04",
-                        "id": 211
+                        "id": 212
                     },
                     {
                         "name": "Environment",
                         "text": "<i>JavaScript\u2019s capabilities greatly depend \non the environment it\u2019s running in.</i>\nFor instance, Node.js supports functions that \nallow JavaScript to read/write arbitrary files, \nperform network requests, etc.",
                         "page": "05",
-                        "id": 212
+                        "id": 213
                     },
                     {
                         "name": "In browser js",
                         "text": "<i>In-browser JavaScript can do everything \nrelated to webpage manipulation,</i> \ninteraction with the user, add new HTML to the page, \nchange the existing content, modify styles.",
                         "page": "06",
-                        "id": 213
+                        "id": 214
                     },
                     {
                         "name": "Unique",
                         "text": "<i>What makes JavaScript unique?\nIt has full integration with HTML/CSS, \nit is supported by all major browsers \nand it is enabled by default.</i>\nThat\u2019s why it\u2019s the most widespread tool \nfor creating browser interfaces.",
                         "page": "07",
-                        "id": 214
+                        "id": 215
                     },
                     {
                         "name": "Use strict",
                         "text": "For a long time, JavaScript evolved \nwithout compatibility issues. \nNew features were added to the language \nwhile old functionality didn\u2019t change.\n<i>That had the benefit of never breaking \nexisting code. But the downside was that \nany mistake or an imperfect decision \nmade by JavaScript\u2019s creators \ngot stuck in the language forever.</i>",
                         "page": "08",
-                        "id": 215
+                        "id": 216
                     },
                     {
                         "name": "Null",
                         "text": "<i>In Javascript the result of typeof null is object. \nThat\u2019s an officially recognized error in typeof, \ncoming from very early days of JavaScript \nand kept for compatibility.</i> It is not a \nreference to a non-existing object or a null pointer \nlike in some other languages. \nIt\u2019s just a special type which represents nothing.",
                         "page": "09",
-                        "id": 216
+                        "id": 217
                     }
                 ]
             }
@@ -1445,43 +1451,43 @@
                         "name": "Call stack",
                         "text": "<i>To understand recursion, you need to become familiar with a\nless obvious data structure, called the call stack, that controls the\nprogram's flow of execution.</i> Most programming beginners don\u2019t\nknow about stacks, because programming tutorials often don\u2019t even\nmention them when discussing function calls. ",
                         "page": "01",
-                        "id": 217
+                        "id": 218
                     },
                     {
                         "name": "Recursive definition",
                         "text": "<i>A recursive thing is something whose definition includes itself. \nIn a programming context, a recursive function is a function that\ncalls itself.</i> Programmers tend to take function calls for granted, \nbut even experienced programmers will find it worthwhile to review functions.",
                         "page": "02",
-                        "id": 218
+                        "id": 219
                     },
                     {
                         "name": "Recursion stacks",
                         "text": "<i>To really understand recursion, you must first understand stacks.\nA stack is one of the simplest data structures in computer science.</i>\nIt stores multiple values like a list does. But, unlike lists, it limits you\nto adding to or removing values from the \u201ctop\u201d of the stack only.",
                         "page": "03",
-                        "id": 219
+                        "id": 220
                     },
                     {
                         "name": "Frame objects",
                         "text": "<i>The program's call stack is a stack of frame objects.\nFrame objects contain information about a single function call, \nincluding which line of code called the function.</i>\nFrame objects are created and pushed onto the stack when a function is called. \nWhen the function returns, that frame object is popped off the stack.",
                         "page": "04",
-                        "id": 220
+                        "id": 221
                     },
                     {
                         "name": "Recursion tricky",
                         "text": "<i>Recursion can be tricky for both beginner and experienced programmers, \nand recursive code isn\u2019t automatically \u201cbetter\u201d or \u201cmore elegant\u201d \nthan iterative code.</i> Readable, easy-to-understand code is more important \nthan any supposed elegance that recursion provides.",
                         "page": "05",
-                        "id": 221
+                        "id": 222
                     },
                     {
                         "name": "Binary search bookshelf",
                         "text": "<i>Binary search is a technique for locating a target item in a sorted list\nby repeatedly determining which half of the list the item is in.</i> \nThe most impartial way to search the bookshelf is to start with a book in\nthe middle, and then ascertain if the target book you're looking for is\nin the left half or the right half.",
                         "page": "06",
-                        "id": 222
+                        "id": 223
                     },
                     {
                         "name": "Fractals",
                         "text": "<i>Recursion can produce elaborate fractal art using surprisingly \nfew lines of code. Fractals are shapes that repeat themselves.</i> \nFractals include many natural and artificial shapes. In nature, \nyou might see them in the shapes of trees, leaves, snowflakes.",
                         "page": "07",
-                        "id": 223
+                        "id": 224
                     }
                 ]
             }
@@ -1497,127 +1503,127 @@
                         "name": "Teaching java",
                         "text": "<i>In January 1999 I was preparing to teach an introductory\nprogramming class in Java, had taught it three times and I was\ngetting frustrated</i>. The failure rate in the class was too high and,\neven for students who succeeded, the overall level of achievement was too low.",
                         "page": "01",
-                        "id": 224
+                        "id": 225
                     },
                     {
                         "name": "Books problem",
                         "text": "<i>One of the problems I saw was the books. They were too big, with\ntoo much unnecessary detail about Java, and not enough high-level\nguidance about how to program.</i> And they all suffered from the\ntrapdoor effect: they would start out easy, proceed gradually, and\nthen somewhere around Chapter 5 the bottom would fall out.",
                         "page": "02",
-                        "id": 225
+                        "id": 226
                     },
                     {
                         "name": "Book title",
                         "text": "<i>I decided to write my own book. Ineeded a title, \nso on a whim I chose How to Think Like a Computer Scientist.</i>\nMy first version was rough, but it worked. Students did the reading,\nand they understood enough that I could spend class time on the\nhard topics, the interesting topics.\n",
                         "page": "03",
-                        "id": 226
+                        "id": 227
                     },
                     {
                         "name": "Gnu ptyhon",
                         "text": "<i>I released the book under the GNU Free Documentation License,\nwhich allows users to copy, modify, and distribute the book.\nWhat happened next is the cool part.</i> Jeff Elkner, a high school\nteacher in Virginia, adopted my book and translated it into\nPython. He sent me a copy of his translation, and I had the\nunusual experience of learning Python by reading my own\nbook.",
                         "page": "04",
-                        "id": 227
+                        "id": 228
                     },
                     {
                         "name": "Teaching python",
                         "text": "<i>In 2003 I started teaching at Olin College and I got to teach\nPython for the first time. The contrast with Java was striking.</i>\nStudents struggled less, learned more, worked on more\ninteresting projects, and generally had a lot more fun.",
                         "page": "05",
-                        "id": 228
+                        "id": 229
                     },
                     {
                         "name": "Formal languages",
                         "text": "<i>Natural languages are the languages people speak, such as English. \nThey were not designed by people, they evolved naturally.\nFormal languages are languages that are designed by people\nfor specific applications.</i> For example, the notation that\nmathematicians use is a formal language that is particularly\ngood at denoting relationships among numbers and symbols.",
                         "page": "06",
-                        "id": 229
+                        "id": 230
                     },
                     {
                         "name": "Longer reading",
                         "text": "<i>Formal languages are more dense than natural languages, so\nit takes longer to read them. Also, the structure is important,\nso it is not always best to read from top to bottom, left to right.</i>\nInstead, learn to parse the program in your head, identifying\nthe tokens and interpreting the structure. Finally, the details\nmatter. Small errors in spelling and punctuation, can make a big difference.",
                         "page": "07",
-                        "id": 230
+                        "id": 231
                     },
                     {
                         "name": "Make mistakes",
                         "text": "<i>Whenever you are experimenting with a new feature, you\nshould try to make mistakes.</i> For example, in the \u201cHello, world!\u201d\nprogram, what happens if you leave out one of the quotation\nmarks? What if you leave out both? What if you spell print\nwrong?",
                         "page": "08",
-                        "id": 231
+                        "id": 232
                     },
                     {
                         "name": "Mistakes help",
                         "text": "<i>Making mistakes on purpuse helps you remember what you read; it\nalso helps when you are programming, because you get to know\nwhat the error messages mean.</i> It is better to make mistakes\nnow and on purpose than later and accidentally.",
                         "page": "09",
-                        "id": 232
+                        "id": 233
                     },
                     {
                         "name": "Variable state",
                         "text": "<i>Acommon way to represent variables on paper is to write the\nname with an arrow pointing to its value.</i> This kind of figure\nis called a state diagram because it shows what state each of\nthe variables is in (think of it as the variable\u2019s state of mind).",
                         "page": "10",
-                        "id": 233
+                        "id": 234
                     },
                     {
                         "name": "Comments",
                         "text": "<i>Comments are most useful when they document non-obvious\nfeatures of the code.</i> It is reasonable to assume that the reader\ncan figure out what the code does; it is more useful to explain\nwhy.",
                         "page": "11",
-                        "id": 234
+                        "id": 235
                     },
                     {
                         "name": "Function sequence",
                         "text": "<i>In the context of programming, a function is a named sequence\nof statements that performs a computation.</i> When you define a\nfunction, you specify the name and the sequence of statements.\nLater, you can \u201ccall\u201d the function by name.",
                         "page": "12",
-                        "id": 235
+                        "id": 236
                     },
                     {
                         "name": "Flow execution",
                         "text": "<i>To ensure that a function is defined before its first use, you have\nto know the order statements run in, which is called the flow of\nexecution.</i>\nExecution always begins at the first statement of the program.\nStatements are run one at a time, in order from top to bottom.",
                         "page": "13",
-                        "id": 236
+                        "id": 237
                     },
                     {
                         "name": "Function call",
                         "text": "<i>A function call is like a detour in the flow of execution. Instead\nof going to the next statement</i>, the flow jumps to the body of the\nfunction, runs the statements there, and then comes back to pick up\nwhere it left off.",
                         "page": "14",
-                        "id": 237
+                        "id": 238
                     },
                     {
                         "name": "Incremental development",
                         "text": "<i>To deal with increasingly complex programs, you might want to try\na process called incremental development.</i> The goal of incremental\ndevelopment is to avoid long debugging sessions by adding and\ntesting only a small amount of code at a time.",
                         "page": "15",
-                        "id": 238
+                        "id": 239
                     },
                     {
                         "name": "Hashing",
                         "text": "<i>A hash is a function that takes a value (of any kind) and returns an\ninteger.</i> Dictionaries use these integers, called hash values, to store\nand look up key-value pairs.",
                         "page": "16",
-                        "id": 239
+                        "id": 240
                     },
                     {
                         "name": "Tuples dictionary",
                         "text": "<i>It is common to use tuples as keys in dictionaries (primarily because\nyou can\u2019t use lists).</i> For example, a telephone directory might map\nfrom last-name, first-name pairs to telephone numbers.",
                         "page": "17",
-                        "id": 240
+                        "id": 241
                     },
                     {
                         "name": "Database file",
                         "text": "<i>A database is a file that is organized for storing data. Many databases\nare organized like a dictionary in the sense that they map from keys\nto values.</i> The biggest difference between a database and a dictionary\nis that the database is on disk (or other permanent storage), so it\npersists after the program ends.",
                         "page": "18",
-                        "id": 241
+                        "id": 242
                     },
                     {
                         "name": "Pure functions",
                         "text": "<i>A pure function does not modify any of the objects passed to it as\narguments and it has no effect,</i> like displaying a value or getting user\ninput, other than returning a value.",
                         "page": "19",
-                        "id": 242
+                        "id": 243
                     },
                     {
                         "name": "List comprehension",
                         "text": "<i>The syntax of a list comprehension is a little awkward because the\nloop variable, s in this example, appears in the expression before we\nget to the definition.</i> List comprehensions can also be used for filtering.",
                         "page": "20",
-                        "id": 243
+                        "id": 244
                     },
                     {
                         "name": "Importing modules",
                         "text": "<i>If you are using import to read a module, remember that you have\nto restart the interpreter or use reload to read a modified file.</i> \nIf you are writing a module and using import, make sure you\ndon\u2019t give your module the same name as one of the standard\nPython modules.",
                         "page": "21",
-                        "id": 244
+                        "id": 245
                     }
                 ]
             }
