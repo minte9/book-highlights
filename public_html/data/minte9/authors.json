@@ -142,5 +142,14 @@
         "catg": "programming|python|",
         "bookId": 14,
         "id": 16  
+    },
+    {
+        "title": "Introduction to Statistics",
+        "name": "Jim Frost",
+        "tags": "Jim Frosttech book author",
+        "wiki": "https://statisticsbyjim.com/jim_frost/",
+        "catg": "programming|mlearning|",
+        "bookId": 15,
+        "id": 17  
     }
 ]

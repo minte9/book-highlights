@@ -96,5 +96,12 @@
         "link": "https://www.amazon.com/gp/product/B018UXJ9EQ",
         "img": "https://www.minte9.com/lib/images/references/book_think_python.jpg",
         "id": 14
+    },
+    {
+        "title": "Introduction to Statistics",
+        "subtitle": "An Intuitive Guide for Analyzing Data and Unlocking Discoveries",
+        "link": "https://www.amazon.com/gp/product/B08FXWH6V8/",
+        "img": "https://www.minte9.com/lib/images/references/book_think_python.jpg",
+        "id": 15
     }
 ]
