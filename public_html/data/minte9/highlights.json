@@ -587,7 +587,7 @@
                 "children": [
                     {
                         "name": "Anectodal evidence",
-                        "text": "<i>Anecdotal evidence is a story told by individuals. It comes in many forms that can range from product\ntestimonials to word of mouth.</i> It\u2019s often testimony, or a short account, about the truth or effectiveness of\naclaim. Typically, anecdotal evidence focuses on individual results, is driven by emotion, and presented by\nindividuals who are not subject area experts.",
+                        "text": "<i>Anecdotal evidence is a story told by individuals. It comes in many forms that can range from product\ntestimonials to word of mouth.</i> Typically, anecdotal evidence focuses on individual results, is driven by emotion, \nand presented by individuals who are not subject area experts.",
                         "page": "01",
                         "id": 91
                     }
