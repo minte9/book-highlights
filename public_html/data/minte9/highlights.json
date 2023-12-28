@@ -593,7 +593,7 @@
                     },
                     {
                         "name": "Anectodal evidence",
-                        "text": "T'm sure you've heard that you can't trust anecdotal evidence. However, we still ask our friends for\nrecommendations about restaurants, travel destinations, auto mechanics, and so on. <i>The tricky thing\nabout anecdotal evidence is that even when an individual story is true, it can still be entirely misleading</i>.\nHow does that work?",
+                        "text": "We still ask our friends for recommendations about restaurants, travel destinations, auto mechanics, and so on. \n<i>The tricky thing about anecdotal evidence is that even when an individual story is true, it can still be entirely \nmisleading</i>.",
                         "page": "02",
                         "id": 92
                     }
