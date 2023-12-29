@@ -27,10 +27,9 @@ observer = Observer()
 observer.schedule(event_handler, path=PATH, recursive=True)
 observer.start()
 
-print('Watching...')
-
 try:
     while True:
+        print('Watching...')
         time.sleep(1)
 except KeyboardInterrupt:
     observer.stop()
