@@ -635,7 +635,7 @@
                     },
                     {
                         "name": "Ordinal data",
-                        "text": "<i>Ordinal data have at least three categories, and the categories have a natural order.</i> Examples of ordinal\nvariables include overall status (poor to excellent), agreement (strongly disagree to strongly agree), and\nrank (such as sporting teams).",
+                        "text": "<i>Ordinal data have at least three categories, and the categories have a natural order. Examples of ordinal\nvariables include overall status (poor to excellent), agreement (strongly disagree to strongly agree).</i>  \nOrdinal variables have a combination of qualitative and quantitative properties. On the one hand,\nthese variables have a limited number of discrete values like categorical variables.",
                         "page": "09",
                         "id": 99
                     }
