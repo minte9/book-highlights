@@ -13,12 +13,7 @@ class MyHandler(FileSystemEventHandler):
     def update(self):
         subprocess.run(['python3', DIR / 'update.py'])
         Popen(['git', 'add ' + str(DIR)])
-        # Popen(['git', 'exportmdfcurl'])
-
-        # Suppressing output from git exportmdfcurl
-        with subprocess.Popen(['git', 'exportmdfcurl'], 
-                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) as proc:
-            proc.communicate()
+        Popen(['git', 'exportmdfcurl'])
 
     def on_created(self, event):
         print("File CREATED:", event.src_path)
