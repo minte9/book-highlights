@@ -1,0 +1,2 @@
+<i>Pie charts are great for highlighting the proportions that groups comprise of the whole.</i> You can use them
+with categorical, binary, and ordinal data that define groups in your sample.
