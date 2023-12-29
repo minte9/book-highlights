@@ -623,7 +623,7 @@
                     },
                     {
                         "name": "Continuous data",
-                        "text": "",
+                        "text": "As I mentioned in the section about continuous variables, notice how we learn much less from qualitative\ndata. I highlight this aspect in a later section about binary variables. <i>In cases where you have a choice\nabout recording a characteristic as a continuous or qualitative variable, the best practice is to record the\ncontinuous data because you can learn so much more.</i>",
                         "page": "07",
                         "id": 97
                     }
