@@ -1,0 +1,3 @@
+<i>Ordinal data have at least three categories, and the categories have a natural order.</i> Examples of ordinal
+variables include overall status (poor to excellent), agreement (strongly disagree to strongly agree), and
+rank (such as sporting teams).
