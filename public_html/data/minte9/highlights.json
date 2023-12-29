@@ -611,7 +611,7 @@
                     },
                     {
                         "name": "Histograms2",
-                        "text": "",
+                        "text": "<i>Use histograms when you have continuous measurements and want to understand the distribution of\nvalues and look for outliers.</i> They are fantastic exploratory tools because they reveal properties about your\nsample data in ways that summary statistics cannot.",
                         "page": "04",
                         "id": 95
                     },
