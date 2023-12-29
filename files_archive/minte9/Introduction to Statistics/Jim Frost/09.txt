@@ -1,6 +1,0 @@
-<i>Ordinal variables have a combination of qualitative and quantitative properties. On the one hand,
-these variables have a limited number of discrete values like categorical variables.</i> On the other hand,
-the differences between the values provides some information like qualitative variables.</i> However, the
-difference between adjacent values might not be consistent. For example, first, second, and third in a race
-are ordinal data. The difference in time between first and second place might not be the same as the
-difference between second and third place.
