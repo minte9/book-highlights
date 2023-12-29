@@ -13,7 +13,6 @@ class MyHandler(FileSystemEventHandler):
     def update(self):
         subprocess.run(['python3', DIR / 'update.py'])
         Popen([DIR / 'update_repo.sh']) # chmod +x update_repo.sh
-        print('Watching...')
 
     def on_created(self, event):
         print("File CREATED:", event.src_path)
@@ -29,6 +28,7 @@ observer.schedule(event_handler, path=PATH, recursive=True)
 observer.start()
 
 print('Watching...')
+
 try:
     while True:
         time.sleep(1)
