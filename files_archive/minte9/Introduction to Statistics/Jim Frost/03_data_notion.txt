@@ -1,0 +1,3 @@
+The term "data" carries strong preconceived notions with it. It almost becomes something separate from
+reality. <i>Throughout this book. I want you to think about data as information that you are gathering for an
+inquiry. Data are evidence you can use to answer questions.</i>

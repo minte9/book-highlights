@@ -19,6 +19,7 @@ DIR             = pathlib.Path(__file__).resolve().parent
 REWRITE         = config.ini['FLAG']['REWRITE'] # Overwrites .txt files
 DEBUG           = config.ini['FLAG']['DEBUG'] # Display logging messages
 FILES           = config.ini['DATA']['FILES']
+REMOVE         = config.ini['FLAG']['REMOVE'] # Remove image after .txt is generated
 
 logging.basicConfig(level=logging.DEBUG, 
     format='\x1b[6;30;42m' + '%(levelname)s - %(message)s' + '\x1b[0m' + '\n')
@@ -128,6 +129,10 @@ for root, dirs, files in os.walk(DIR / FILES):
                 n += 1
             else:
                 errors += 1
+
+            if REMOVE == 'True':
+                os.remove(root + "/" + file)
+                print('Removed: %s' % file)
 
         # time.sleep(1/5)
 

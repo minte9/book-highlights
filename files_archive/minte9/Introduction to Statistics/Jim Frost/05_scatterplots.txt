@@ -1,0 +1,4 @@
+<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great
+for displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y
+coordinate that corresponds to a pair of values. Each row in the data table contains measurements for one
+subject or item.
