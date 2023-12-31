@@ -1,3 +1,0 @@
-<i>Use histograms when you have continuous measurements and want to understand the distribution of
-values and look for outliers.</i> They are fantastic exploratory tools because they reveal properties about your
-sample data in ways that summary statistics cannot.
