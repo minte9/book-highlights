@@ -634,15 +634,15 @@
                         "id": 98
                     },
                     {
-                        "name": "Outliers",
-                        "text": "<i>Outliers are unusual values in your dataset. Histograms are a handy way to identify outliers. In an instant,\nyou'll see if there are any extreme values.</i> If you identify potential outliers, investigate them. Are they data\nentry errors, or do they represent observations that occurred under abnormal conditions?",
+                        "name": "Scatterplots",
+                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
                         "page": "09",
                         "id": 99
                     },
                     {
-                        "name": "Scatterplots",
-                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
-                        "page": "09",
+                        "name": "Outliers",
+                        "text": "<i>Outliers are unusual values in your dataset. Histograms are a handy way to identify outliers. In an instant,\nyou'll see if there are any extreme values.</i> If you identify potential outliers, investigate them. Are they data\nentry errors, or do they represent observations that occurred under abnormal conditions?",
+                        "page": "10",
                         "id": 100
                     }
                 ]
