@@ -616,14 +616,14 @@
                         "id": 95
                     },
                     {
-                        "name": "Scatterplots",
-                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
-                        "page": "05",
+                        "name": "Bar charts",
+                        "text": "<i>Bar charts are a standard way to graph discrete variables. Each bar represents a distinct value, and the\nheight represents its proportion in the entire sample</i>. Use bar charts to indicate which values occur are\nmore and less frequently.",
+                        "page": "06",
                         "id": 96
                     },
                     {
-                        "name": "Bar charts",
-                        "text": "<i>Bar charts are a standard way to graph discrete variables. Each bar represents a distinct value, and the\nheight represents its proportion in the entire sample</i>. Use bar charts to indicate which values occur are\nmore and less frequently.",
+                        "name": "Scatterplots",
+                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
                         "page": "06",
                         "id": 97
                     },
