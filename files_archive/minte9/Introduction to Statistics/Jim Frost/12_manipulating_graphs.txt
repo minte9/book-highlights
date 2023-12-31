@@ -1,0 +1,4 @@
+<i>Graphs are subject to manipulation. There might even be good motivations behind the manipulation, such
+as making it look more dramatic.</i> By changing aspects like the axes, or bin sizes on histograms, you can
+change the appearance of graphs substantially. The same data can look very different and seem to convey
+different interpretations.
