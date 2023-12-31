@@ -622,14 +622,14 @@
                         "id": 96
                     },
                     {
-                        "name": "Scatterplots",
-                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
-                        "page": "06",
+                        "name": "Continuous data",
+                        "text": "<i>In cases where you have a choice about recording a characteristic as a continuous or qualitative variable, \nthe best practice is to record the continuous data because you can learn so much more.</i> \nWe learn much less from qualitative.",
+                        "page": "07",
                         "id": 97
                     },
                     {
-                        "name": "Continuous data",
-                        "text": "<i>In cases where you have a choice about recording a characteristic as a continuous or qualitative variable, \nthe best practice is to record the continuous data because you can learn so much more.</i> \nWe learn much less from qualitative.",
+                        "name": "Scatterplots",
+                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
                         "page": "07",
                         "id": 98
                     },
