@@ -628,14 +628,14 @@
                         "id": 97
                     },
                     {
-                        "name": "Scatterplots",
-                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
-                        "page": "07",
+                        "name": "Pie charts",
+                        "text": "<i>Pie charts are great for highlighting the proportions that groups comprise of the whole.</i> You can use them\nwith categorical, binary, and ordinal data that define groups in your sample.",
+                        "page": "08",
                         "id": 98
                     },
                     {
-                        "name": "Pie charts",
-                        "text": "<i>Pie charts are great for highlighting the proportions that groups comprise of the whole.</i> You can use them\nwith categorical, binary, and ordinal data that define groups in your sample.",
+                        "name": "Scatterplots",
+                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
                         "page": "08",
                         "id": 99
                     },
