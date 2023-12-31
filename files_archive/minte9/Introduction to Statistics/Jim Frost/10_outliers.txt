@@ -1,4 +1,3 @@
 <i>Outliers are unusual values in your dataset. Histograms are a handy way to identify outliers. In an instant,
 you'll see if there are any extreme values.</i> If you identify potential outliers, investigate them. Are they data
-entry errors, or do they represent observations that occurred under abnormal conditions? On the other
-hand, they might be legitimate observations that accurately describe the variability in the study area.
+entry errors, or do they represent observations that occurred under abnormal conditions?

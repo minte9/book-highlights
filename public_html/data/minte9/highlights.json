@@ -647,7 +647,7 @@
                     },
                     {
                         "name": "Outliers",
-                        "text": "<i>Outliers are unusual values in your dataset. Histograms are a handy way to identify outliers. In an instant,\nyou'll see if there are any extreme values.</i> If you identify potential outliers, investigate them. Are they data\nentry errors, or do they represent observations that occurred under abnormal conditions? On the other\nhand, they might be legitimate observations that accurately describe the variability in the study area.",
+                        "text": "<i>Outliers are unusual values in your dataset. Histograms are a handy way to identify outliers. In an instant,\nyou'll see if there are any extreme values.</i> If you identify potential outliers, investigate them. Are they data\nentry errors, or do they represent observations that occurred under abnormal conditions?",
                         "page": "10",
                         "id": 101
                     }
