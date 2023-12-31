@@ -642,7 +642,7 @@
                     {
                         "name": "Scatterplots",
                         "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
-                        "page": "10",
+                        "page": "09",
                         "id": 100
                     }
                 ]
