@@ -634,14 +634,14 @@
                         "id": 98
                     },
                     {
-                        "name": "Scatterplots",
-                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
-                        "page": "08",
+                        "name": "Ordinal data",
+                        "text": "<i>Ordinal data have at least three categories, and the categories have a natural order. Examples of ordinal\nvariables include overall status (poor to excellent), agreement (strongly disagree to strongly agree).</i>  \nOrdinal variables have a combination of qualitative and quantitative properties. On the one hand,\nthese variables have a limited number of discrete values like categorical variables.",
+                        "page": "09",
                         "id": 99
                     },
                     {
-                        "name": "Ordinal data",
-                        "text": "<i>Ordinal data have at least three categories, and the categories have a natural order. Examples of ordinal\nvariables include overall status (poor to excellent), agreement (strongly disagree to strongly agree).</i>  \nOrdinal variables have a combination of qualitative and quantitative properties. On the one hand,\nthese variables have a limited number of discrete values like categorical variables.",
+                        "name": "Scatterplots",
+                        "text": "<i>When you have two continuous variables, you can graph them using a scatterplot. Scatterplots are great\nfor displaying the relationship between two continuous variables.</i> Each dot on the graph has an X and Y\ncoordinate that corresponds to a pair of values. Each row in the data table contains measurements for one\nsubject or item.",
                         "page": "09",
                         "id": 100
                     },
