@@ -1,0 +1,3 @@
+<i>A multimodal distribution has more than one peak. It’s easy to miss multimodal distributions when you
+focus on summary statistics, such as the mean and standard deviations</i>. Consequently, histograms are the
+best method for detecting multimodal distributions.
