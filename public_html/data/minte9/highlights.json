@@ -393,7 +393,7 @@
                 "children": [
                     {
                         "name": "Speed",
-                        "text": "<i>When we measure how \u201cfast\u201d an operation takes, we do not refer to how fast\nthe operation takes in terms of pure time, but instead in how many\nsteps it takes.</i>",
+                        "text": "<i>When we measure how \u201cfast\u201d an operation takes, we do not refer to how fast\nthe operation takes in terms of pure time</i>, but instead in how many\nsteps it takes.",
                         "page": "01",
                         "id": 62
                     },

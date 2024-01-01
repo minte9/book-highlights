@@ -1,3 +1,3 @@
 <i>When we measure how “fast” an operation takes, we do not refer to how fast
-the operation takes in terms of pure time, but instead in how many
-steps it takes.</i>
+the operation takes in terms of pure time</i>, but instead in how many
+steps it takes.
