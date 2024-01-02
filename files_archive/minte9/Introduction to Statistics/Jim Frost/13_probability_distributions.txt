@@ -1,0 +1,5 @@
+Suppose you draw a random sample and measure the heights of the subjects. As you measure heights,
+you'll notice that some heights are more common while others are rare. <i>Probability distributions are useful
+when you need to know which outcomes are most likely, the spread of potential values, and the likelihood
+of different results.</i> What is the probability that the next height measurement will be taller than two
+meters?
