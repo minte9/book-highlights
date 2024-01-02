@@ -653,7 +653,7 @@
                     },
                     {
                         "name": "Probability distributions",
-                        "text": "Suppose you draw a random sample and measure the heights of the subjects. As you measure heights,\nyou'll notice that some heights are more common while others are rare. <i>Probability distributions are useful\nwhen you need to know which outcomes are most likely, the spread of potential values, and the likelihood\nof different results.</i> What is the probability that the next height measurement will be taller than two\nmeters?",
+                        "text": "Suppose you draw a random sample and measure the heights of the subjects. As you measure heights,\nyou will notice that some heights are more common while others are rare. <i>Probability distributions are useful\nwhen you need to know which outcomes are most likely, the spread of potential values, and the likelihood\nof different results.</i> What is the probability that the next height measurement will be taller than two\nmeters?",
                         "page": "13",
                         "id": 102
                     }
