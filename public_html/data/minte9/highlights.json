@@ -1508,46 +1508,40 @@
                 "name": "Al Sweigart",
                 "children": [
                     {
-                        "name": "Call stack",
-                        "text": "<i>To understand recursion, you need to become familiar with a\nless obvious data structure, called the call stack, that controls the\nprogram's flow of execution.</i> Most programming beginners don\u2019t\nknow about stacks, because programming tutorials often don\u2019t even\nmention them when discussing function calls. ",
-                        "page": "01",
-                        "id": 228
-                    },
-                    {
                         "name": "Recursive definition",
                         "text": "<i>A recursive thing is something whose definition includes itself. \nIn a programming context, a recursive function is a function that\ncalls itself.</i> Programmers tend to take function calls for granted, \nbut even experienced programmers will find it worthwhile to review functions.",
                         "page": "02",
-                        "id": 229
+                        "id": 228
                     },
                     {
                         "name": "Recursion stacks",
                         "text": "<i>To really understand recursion, you must first understand stacks.\nA stack is one of the simplest data structures in computer science.</i>\nIt stores multiple values like a list does. But, unlike lists, it limits you\nto adding to or removing values from the \u201ctop\u201d of the stack only.",
                         "page": "03",
-                        "id": 230
+                        "id": 229
                     },
                     {
                         "name": "Frame objects",
                         "text": "<i>The program's call stack is a stack of frame objects.\nFrame objects contain information about a single function call, \nincluding which line of code called the function.</i>\nFrame objects are created and pushed onto the stack when a function is called. \nWhen the function returns, that frame object is popped off the stack.",
                         "page": "04",
-                        "id": 231
+                        "id": 230
                     },
                     {
                         "name": "Recursion tricky",
                         "text": "<i>Recursion can be tricky for both beginner and experienced programmers, \nand recursive code isn\u2019t automatically \u201cbetter\u201d or \u201cmore elegant\u201d \nthan iterative code.</i> Readable, easy-to-understand code is more important \nthan any supposed elegance that recursion provides.",
                         "page": "05",
-                        "id": 232
+                        "id": 231
                     },
                     {
                         "name": "Binary search bookshelf",
                         "text": "<i>Binary search is a technique for locating a target item in a sorted list\nby repeatedly determining which half of the list the item is in.</i> \nThe most impartial way to search the bookshelf is to start with a book in\nthe middle, and then ascertain if the target book you're looking for is\nin the left half or the right half.",
                         "page": "06",
-                        "id": 233
+                        "id": 232
                     },
                     {
                         "name": "Fractals",
                         "text": "<i>Recursion can produce elaborate fractal art using surprisingly \nfew lines of code. Fractals are shapes that repeat themselves.</i> \nFractals include many natural and artificial shapes. In nature, \nyou might see them in the shapes of trees, leaves, snowflakes.",
                         "page": "07",
-                        "id": 234
+                        "id": 233
                     }
                 ]
             }
@@ -1563,127 +1557,127 @@
                         "name": "Teaching java",
                         "text": "<i>In January 1999 I was preparing to teach an introductory\nprogramming class in Java, had taught it three times and I was\ngetting frustrated</i>. The failure rate in the class was too high and,\neven for students who succeeded, the overall level of achievement was too low.",
                         "page": "01",
-                        "id": 235
+                        "id": 234
                     },
                     {
                         "name": "Books problem",
                         "text": "<i>One of the problems I saw was the books. They were too big, with\ntoo much unnecessary detail about Java, and not enough high-level\nguidance about how to program.</i> And they all suffered from the\ntrapdoor effect: they would start out easy, proceed gradually, and\nthen somewhere around Chapter 5 the bottom would fall out.",
                         "page": "02",
-                        "id": 236
+                        "id": 235
                     },
                     {
                         "name": "Book title",
                         "text": "<i>I decided to write my own book. Ineeded a title, \nso on a whim I chose How to Think Like a Computer Scientist.</i>\nMy first version was rough, but it worked. Students did the reading,\nand they understood enough that I could spend class time on the\nhard topics, the interesting topics.\n",
                         "page": "03",
-                        "id": 237
+                        "id": 236
                     },
                     {
                         "name": "Gnu ptyhon",
                         "text": "<i>I released the book under the GNU Free Documentation License,\nwhich allows users to copy, modify, and distribute the book.\nWhat happened next is the cool part.</i> Jeff Elkner, a high school\nteacher in Virginia, adopted my book and translated it into\nPython. He sent me a copy of his translation, and I had the\nunusual experience of learning Python by reading my own\nbook.",
                         "page": "04",
-                        "id": 238
+                        "id": 237
                     },
                     {
                         "name": "Teaching python",
                         "text": "<i>In 2003 I started teaching at Olin College and I got to teach\nPython for the first time. The contrast with Java was striking.</i>\nStudents struggled less, learned more, worked on more\ninteresting projects, and generally had a lot more fun.",
                         "page": "05",
-                        "id": 239
+                        "id": 238
                     },
                     {
                         "name": "Formal languages",
                         "text": "<i>Natural languages are the languages people speak, such as English. \nThey were not designed by people, they evolved naturally.\nFormal languages are languages that are designed by people\nfor specific applications.</i> For example, the notation that\nmathematicians use is a formal language that is particularly\ngood at denoting relationships among numbers and symbols.",
                         "page": "06",
-                        "id": 240
+                        "id": 239
                     },
                     {
                         "name": "Longer reading",
                         "text": "<i>Formal languages are more dense than natural languages, so\nit takes longer to read them. Also, the structure is important,\nso it is not always best to read from top to bottom, left to right.</i>\nInstead, learn to parse the program in your head, identifying\nthe tokens and interpreting the structure. Finally, the details\nmatter. Small errors in spelling and punctuation, can make a big difference.",
                         "page": "07",
-                        "id": 241
+                        "id": 240
                     },
                     {
                         "name": "Make mistakes",
                         "text": "<i>Whenever you are experimenting with a new feature, you\nshould try to make mistakes.</i> For example, in the \u201cHello, world!\u201d\nprogram, what happens if you leave out one of the quotation\nmarks? What if you leave out both? What if you spell print\nwrong?",
                         "page": "08",
-                        "id": 242
+                        "id": 241
                     },
                     {
                         "name": "Mistakes help",
                         "text": "<i>Making mistakes on purpuse helps you remember what you read; it\nalso helps when you are programming, because you get to know\nwhat the error messages mean.</i> It is better to make mistakes\nnow and on purpose than later and accidentally.",
                         "page": "09",
-                        "id": 243
+                        "id": 242
                     },
                     {
                         "name": "Variable state",
                         "text": "<i>Acommon way to represent variables on paper is to write the\nname with an arrow pointing to its value.</i> This kind of figure\nis called a state diagram because it shows what state each of\nthe variables is in (think of it as the variable\u2019s state of mind).",
                         "page": "10",
-                        "id": 244
+                        "id": 243
                     },
                     {
                         "name": "Comments",
                         "text": "<i>Comments are most useful when they document non-obvious\nfeatures of the code.</i> It is reasonable to assume that the reader\ncan figure out what the code does; it is more useful to explain\nwhy.",
                         "page": "11",
-                        "id": 245
+                        "id": 244
                     },
                     {
                         "name": "Function sequence",
                         "text": "<i>In the context of programming, a function is a named sequence\nof statements that performs a computation.</i> When you define a\nfunction, you specify the name and the sequence of statements.\nLater, you can \u201ccall\u201d the function by name.",
                         "page": "12",
-                        "id": 246
+                        "id": 245
                     },
                     {
                         "name": "Flow execution",
                         "text": "<i>To ensure that a function is defined before its first use, you have\nto know the order statements run in, which is called the flow of\nexecution.</i>\nExecution always begins at the first statement of the program.\nStatements are run one at a time, in order from top to bottom.",
                         "page": "13",
-                        "id": 247
+                        "id": 246
                     },
                     {
                         "name": "Function call",
                         "text": "<i>A function call is like a detour in the flow of execution. Instead\nof going to the next statement</i>, the flow jumps to the body of the\nfunction, runs the statements there, and then comes back to pick up\nwhere it left off.",
                         "page": "14",
-                        "id": 248
+                        "id": 247
                     },
                     {
                         "name": "Incremental development",
                         "text": "<i>To deal with increasingly complex programs, you might want to try\na process called incremental development.</i> The goal of incremental\ndevelopment is to avoid long debugging sessions by adding and\ntesting only a small amount of code at a time.",
                         "page": "15",
-                        "id": 249
+                        "id": 248
                     },
                     {
                         "name": "Hashing",
                         "text": "<i>A hash is a function that takes a value (of any kind) and returns an\ninteger.</i> Dictionaries use these integers, called hash values, to store\nand look up key-value pairs.",
                         "page": "16",
-                        "id": 250
+                        "id": 249
                     },
                     {
                         "name": "Tuples dictionary",
                         "text": "<i>It is common to use tuples as keys in dictionaries (primarily because\nyou can\u2019t use lists).</i> For example, a telephone directory might map\nfrom last-name, first-name pairs to telephone numbers.",
                         "page": "17",
-                        "id": 251
+                        "id": 250
                     },
                     {
                         "name": "Database file",
                         "text": "<i>A database is a file that is organized for storing data. Many databases\nare organized like a dictionary in the sense that they map from keys\nto values.</i> The biggest difference between a database and a dictionary\nis that the database is on disk (or other permanent storage), so it\npersists after the program ends.",
                         "page": "18",
-                        "id": 252
+                        "id": 251
                     },
                     {
                         "name": "Pure functions",
                         "text": "<i>A pure function does not modify any of the objects passed to it as\narguments and it has no effect,</i> like displaying a value or getting user\ninput, other than returning a value.",
                         "page": "19",
-                        "id": 253
+                        "id": 252
                     },
                     {
                         "name": "List comprehension",
                         "text": "<i>The syntax of a list comprehension is a little awkward because the\nloop variable, s in this example, appears in the expression before we\nget to the definition.</i> List comprehensions can also be used for filtering.",
                         "page": "20",
-                        "id": 254
+                        "id": 253
                     },
                     {
                         "name": "Importing modules",
                         "text": "<i>If you are using import to read a module, remember that you have\nto restart the interpreter or use reload to read a modified file.</i> \nIf you are writing a module and using import, make sure you\ndon\u2019t give your module the same name as one of the standard\nPython modules.",
                         "page": "21",
-                        "id": 255
+                        "id": 254
                     }
                 ]
             }
