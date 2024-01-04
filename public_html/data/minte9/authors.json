@@ -11,7 +11,7 @@
     {
         "title": "Coders at work",
         "name": "Jamie Zawinski",
-        "tags": "Netscape, Mozilla",
+        "tags": "Netscape, Mozilla", 
         "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski",
         "catg": "programming|java|",
         "bookId": 2,
