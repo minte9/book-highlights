@@ -4,7 +4,7 @@
         "name": "Chad Fowler",
         "tags": "Ruby and Rails, Jazz performer",
         "wiki": "https://www.slush.org/person/chad-fowler/",
-        "catg": "programming|algorithms|",
+        "catg": "programming|inspiration|",
         "bookId": 1,
         "id": 1
     },
@@ -13,7 +13,7 @@
         "name": "Jamie Zawinski",
         "tags": "Netscape, Mozilla", 
         "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski",
-        "catg": "programming|java|",
+        "catg": "programming|inspiration|",
         "bookId": 2,
         "id": 2
     },
