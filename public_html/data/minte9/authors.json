@@ -4,7 +4,7 @@
         "name": "Chad Fowler",
         "tags": "Ruby and Rails, Jazz performer",
         "wiki": "https://www.slush.org/person/chad-fowler/",
-        "catg": "programming|",
+        "catg": "programming|algorithms",
         "bookId": 1,
         "id": 1
     },
@@ -22,7 +22,7 @@
         "name": "Brad Fitzpatrick",
         "tags": "LiveJournal, Memcached, Google",
         "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick",
-        "catg": "programming|",
+        "catg": "programming|algorithms",
         "bookId": 2,
         "id": 3
     },
