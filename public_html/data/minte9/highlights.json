@@ -523,13 +523,13 @@
                     },
                     {
                         "name": "Matplotlib",
-                        "text": "<i>When working inside the Jupyter Notebook, you can\nshow figures directly in the browser by using the %matplot1ib\nnotebook and %matplotlib inline commands.</i> We\nrecommend using %matplotlib notebook, which provides\nan interactive environment.",
+                        "text": "<i>When working inside the Jupyter Notebook, you can\nshow figures directly in the browser by using the %matplotlib\nnotebook and %matplotlib inline commands.</i> We\nrecommend using %matplotlib notebook, which provides\nan interactive environment.",
                         "page": "04",
                         "id": 82
                     },
                     {
                         "name": "Pandas",
-                        "text": "<i>>In contrast to NumPy, which requires that all entries in an array \nbe of the same type, pandas allows each column to have a separate type \n(for example, integers, dates, floating-point numbers, and strings).</i>  \nAnother valuable tool provided by pandas is its ability to ingest from \na great variety of file formats and databases, like SQL, Excel files, CSV files.",
+                        "text": "<i>In contrast to NumPy, which requires that all entries in an array \nbe of the same type, pandas allows each column to have a separate type \n(for example, integers, dates, floating-point numbers, and strings).</i>  \nAnother valuable tool provided by pandas is its ability to ingest from \na great variety of file formats and databases, like SQL, Excel files, CSV files.",
                         "page": "05",
                         "id": 83
                     },
