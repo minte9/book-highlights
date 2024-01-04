@@ -13,7 +13,7 @@
         "name": "Jamie Zawinski",
         "tags": "Netscape, Mozilla", 
         "wiki": "https://en.wikipedia.org/wiki/Jamie_Zawinski",
-        "catg": "programming|inspiration|",
+        "catg": "programming|java|",
         "bookId": 2,
         "id": 2
     },
@@ -22,7 +22,7 @@
         "name": "Brad Fitzpatrick",
         "tags": "LiveJournal, Memcached, Google",
         "wiki": "https://en.wikipedia.org/wiki/Brad_Fitzpatrick",
-        "catg": "programming|algorithms|",
+        "catg": "programming|inspiration|",
         "bookId": 2,
         "id": 3
     },
