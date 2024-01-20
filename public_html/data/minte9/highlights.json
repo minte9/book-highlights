@@ -1567,7 +1567,7 @@
                     },
                     {
                         "name": "Book title",
-                        "text": "<i>I decided to write my own book. Ineeded a title, \nso on a whim I chose How to Think Like a Computer Scientist.</i>\nMy first version was rough, but it worked. Students did the reading,\nand they understood enough that I could spend class time on the\nhard topics, the interesting topics.\n",
+                        "text": "<i>I decided to write my own book. I needed a title, \nso on a whim I chose How to Think Like a Computer Scientist.</i>\nMy first version was rough, but it worked. Students did the reading,\nand they understood enough that I could spend class time on the\nhard topics, the interesting topics.\n",
                         "page": "03",
                         "id": 236
                     },

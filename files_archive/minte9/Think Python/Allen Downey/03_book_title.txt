@@ -1,4 +1,4 @@
-<i>I decided to write my own book. Ineeded a title, 
+<i>I decided to write my own book. I needed a title, 
 so on a whim I chose How to Think Like a Computer Scientist.</i>
 My first version was rough, but it worked. Students did the reading,
 and they understood enough that I could spend class time on the
