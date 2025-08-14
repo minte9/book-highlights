@@ -1,6 +1,6 @@
 # Book Highlights
 
-Highlights archive from books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books/book1/author1)
+Highlights archive from books [screenshots](https://github.com/minte9/book-highlights/tree/main/files_archive/my_books/book1/author1) using Computer Vision.
 
 ## Browser Usage
 
